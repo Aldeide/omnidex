@@ -1,0 +1,15 @@
+# Sensitive session tokens & secrets (NEVER commit to GitHub)
+_updater/token.json
+_updater/aldeide_token.json
+*.token.json
+
+# Large binary catalogue cache (>75MB, kept locally for updater)
+_updater/catalogue_cards.json
+_updater/catalogue_cards_list.json
+_updater/aldeide_collection_raw.json
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*.log
+node_modules/

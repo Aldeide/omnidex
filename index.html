@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OmniDex - Collection de Aldeide</title>
+  <link rel="icon" href="https://omnidex.cards/vignettes/Q22686.webp">
+  <style>
+    :root {
+      --bg: #090a0d;
+      --card-bg: #14171d;
+      --card-hover: #1b1f27;
+      --border: #232731;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --primary: #3b82f6;
+      --primary-hover: #2563eb;
+      --accent: #f59e0b;
+      
+      /* Rarities */
+      --r0: #64748b; /* Méconnue */
+      --r1: #10b981; /* Connue */
+      --r2: #3b82f6; /* Célèbre */
+      --r3: #8b5cf6; /* Star */
+      --r4: #f59e0b; /* Iconique */
+      --r5: #ef4444; /* Mythique */
+      --r6: #ec4899; /* Ace */
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 24px 20px;
+      width: 100%;
+    }
+
+    /* Header & Hero */
+    header {
+      background: linear-gradient(180deg, #181c24 0%, #101217 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 32px 0 20px 0;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    .profile-hero {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      margin-bottom: 28px;
+      flex-wrap: wrap;
+    }
+    .avatar-wrap {
+      position: relative;
+      width: 104px;
+      height: 104px;
+      border-radius: 50%;
+      padding: 4px;
+      background: linear-gradient(135deg, #f59e0b, #ec4899, #3b82f6);
+      box-shadow: 0 0 25px rgba(245, 158, 11, 0.4);
+      flex-shrink: 0;
+    }
+    .avatar-img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      background: #090a0d;
+      display: block;
+    }
+    .profile-meta h1 {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: #fff;
+    }
+    .profile-badge {
+      font-size: 13px;
+      font-weight: 600;
+      background: rgba(59, 130, 246, 0.2);
+      color: #60a5fa;
+      padding: 4px 10px;
+      border-radius: 20px;
+      border: 1px solid rgba(59, 130, 246, 0.3);
+    }
+    .profile-desc {
+      color: var(--text-muted);
+      font-size: 15px;
+      margin-top: 4px;
+    }
+    
+    /* Stats Bar */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px 16px;
+      text-align: center;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .stat-card:hover {
+      transform: translateY(-2px);
+      border-color: #3b4252;
+    }
+    .stat-val {
+      font-size: 24px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .stat-label {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 2px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Rarity distribution chips */
+    .rarity-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .rarity-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: 12px;
+      font-size: 13px;
+      font-weight: 600;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    .rarity-chip:hover, .rarity-chip.active {
+      filter: brightness(1.2);
+      border-color: currentColor;
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    /* Tabs Navigation */
+    .tabs {
+      display: flex;
+      gap: 8px;
+      border-bottom: 1px solid var(--border);
+      margin-top: 8px;
+      overflow-x: auto;
+    }
+    .tab-btn {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 15px;
+      font-weight: 600;
+      padding: 12px 18px;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .tab-btn:hover {
+      color: #fff;
+    }
+    .tab-btn.active {
+      color: var(--primary);
+      border-bottom-color: var(--primary);
+    }
+
+    /* Controls Bar */
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      margin: 24px 0 20px 0;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      padding: 14px 18px;
+      border-radius: 16px;
+    }
+    .search-box {
+      flex: 1;
+      min-width: 240px;
+      position: relative;
+    }
+    .search-input {
+      width: 100%;
+      background: #0d0f14;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 14px 10px 38px;
+      color: #fff;
+      font-size: 14px;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .search-input:focus {
+      border-color: var(--primary);
+    }
+    .search-icon {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-dim);
+    }
+    .filter-group {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .select-box {
+      background: #0d0f14;
+      border: 1px solid var(--border);
+      color: #cbd5e1;
+      font-size: 13px;
+      border-radius: 10px;
+      padding: 8px 12px;
+      outline: none;
+      cursor: pointer;
+    }
+    .select-box:focus {
+      border-color: var(--primary);
+    }
+    .btn-export {
+      background: #1e293b;
+      color: #cbd5e1;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: 0.2s;
+    }
+    .btn-export:hover {
+      background: #334155;
+      color: #fff;
+    }
+
+    /* Cards Grid */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 18px;
+    }
+    .card-item {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-item:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+      border-color: #475569;
+    }
+    .card-thumb-wrap {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 63/88;
+      background: #0c0e12;
+      overflow: hidden;
+    }
+    .card-thumb {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s;
+    }
+    .card-item:hover .card-thumb {
+      transform: scale(1.05);
+    }
+    .holo-shimmer {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0) 60%);
+      pointer-events: none;
+    }
+    .badge-count {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(4px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 10px;
+    }
+    .badge-holo {
+      position: absolute;
+      bottom: 8px;
+      left: 8px;
+      background: linear-gradient(135deg, rgba(236,72,153,0.9), rgba(59,130,246,0.9));
+      color: #fff;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+    .badge-mark {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 6px;
+    }
+    .mark-keep { background: rgba(16, 185, 129, 0.9); color: #fff; }
+    .mark-trade { background: rgba(245, 158, 11, 0.9); color: #fff; }
+
+    .card-info {
+      padding: 12px 10px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    .card-name {
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .card-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 2px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 8px;
+      font-size: 11px;
+    }
+    .card-rarity-tag {
+      font-weight: 700;
+    }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(8px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      padding: 20px;
+    }
+    .modal-overlay.active {
+      display: flex;
+    }
+    .modal-card {
+      background: #14171d;
+      border: 1px solid #2d333f;
+      border-radius: 20px;
+      max-width: 820px;
+      width: 100%;
+      max-height: 90vh;
+      display: flex;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.8);
+      position: relative;
+    }
+    .modal-art {
+      width: 45%;
+      background: #090a0d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      border-right: 1px solid var(--border);
+    }
+    .modal-art img {
+      width: 100%;
+      max-height: 480px;
+      object-fit: contain;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+    }
+    .modal-details {
+      width: 55%;
+      padding: 28px 24px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .modal-close {
+      position: absolute;
+      top: 14px;
+      right: 16px;
+      background: rgba(255,255,255,0.1);
+      border: none;
+      color: #fff;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      font-size: 18px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.2s;
+    }
+    .modal-close:hover {
+      background: rgba(255,255,255,0.25);
+    }
+    .modal-header h2 {
+      font-size: 24px;
+      font-weight: 800;
+      color: #fff;
+    }
+    .modal-header p {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-top: 4px;
+    }
+    .modal-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .modal-tag {
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 8px;
+      background: #202632;
+      color: #cbd5e1;
+    }
+    .modal-row {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #1f242e;
+      padding-bottom: 8px;
+      font-size: 13px;
+    }
+    .modal-row span:first-child { color: var(--text-dim); }
+    .modal-row span:last-child { color: #fff; font-weight: 600; }
+    .modal-desc {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #cbd5e1;
+      background: #0d0f14;
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid #1a1e27;
+    }
+    .btn-wiki {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: #3b82f6;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 16px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      margin-top: auto;
+      transition: 0.2s;
+    }
+    .btn-wiki:hover {
+      background: #2563eb;
+    }
+
+    /* Binders View */
+    .binders-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+    .binder-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    .binder-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-2px);
+    }
+    .binder-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 4px;
+    }
+    .binder-count {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    /* Progress bars */
+    .editions-bars {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .edition-bar-wrap {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      padding: 14px 18px;
+      border-radius: 14px;
+    }
+    .edition-bar-info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .bar-bg {
+      background: #0d0f14;
+      height: 8px;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #3b82f6, #ec4899);
+      border-radius: 4px;
+    }
+
+    @media (max-width: 768px) {
+      .modal-card { flex-direction: column; max-height: 95vh; }
+      .modal-art { width: 100%; height: 260px; border-right: none; border-bottom: 1px solid var(--border); }
+      .modal-details { width: 100%; }
+      .cards-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
+      .controls { flex-direction: column; align-items: stretch; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="profile-hero">
+        <div class="avatar-wrap">
+          <img id="avatar-img" class="avatar-img" src="" alt="Aldeide">
+        </div>
+        <div class="profile-meta">
+          <h1>
+            <span id="profile-name">Aldeide</span>
+            <span class="profile-badge">Compte #<span id="profile-id">39</span></span>
+          </h1>
+          <p class="profile-desc">Collection officielle OmniDex &bull; Mise à jour en direct</p>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div id="stat-unique" class="stat-val">0</div>
+          <div class="stat-label">Cartes uniques</div>
+        </div>
+        <div class="stat-card">
+          <div id="stat-total" class="stat-val">0</div>
+          <div class="stat-label">Exemplaires</div>
+        </div>
+        <div class="stat-card">
+          <div id="stat-shards" class="stat-val">0</div>
+          <div class="stat-label">Éclats</div>
+        </div>
+        <div class="stat-card">
+          <div id="stat-binders" class="stat-val">0</div>
+          <div class="stat-label">Classeurs</div>
+        </div>
+        <div class="stat-card">
+          <div id="stat-friends" class="stat-val">0</div>
+          <div class="stat-label">Amis</div>
+        </div>
+      </div>
+
+      <div id="rarity-chips" class="rarity-chips"></div>
+
+      <nav class="tabs">
+        <button class="tab-btn active" data-tab="collection">Toute la collection (<span id="tab-count-all">0</span>)</button>
+        <button class="tab-btn" data-tab="binders">Classeurs (<span id="tab-count-binders">0</span>)</button>
+        <button class="tab-btn" data-tab="trades">À échanger / Doubles (<span id="tab-count-trades">0</span>)</button>
+        <button class="tab-btn" data-tab="stats">Statistiques & Éditions</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Controls Bar -->
+    <div class="controls" id="controls-bar">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="search-input" class="search-input" placeholder="Rechercher par nom, métier, pays, #QID...">
+      </div>
+
+      <div class="filter-group">
+        <select id="filter-edition" class="select-box">
+          <option value="">Toutes les éditions</option>
+        </select>
+
+        <select id="filter-rarity" class="select-box">
+          <option value="">Toutes les raretés</option>
+        </select>
+
+        <select id="filter-finish" class="select-box">
+          <option value="">Toutes les finitions</option>
+        </select>
+
+        <select id="filter-binder" class="select-box">
+          <option value="">Tous les classeurs</option>
+        </select>
+
+        <select id="sort-by" class="select-box">
+          <option value="rarity-desc">Rareté (Haute → Basse)</option>
+          <option value="rarity-asc">Rareté (Basse → Haute)</option>
+          <option value="copies-desc">Exemplaires (Décroissant)</option>
+          <option value="name-asc">Nom (A → Z)</option>
+          <option value="name-desc">Nom (Z → A)</option>
+        </select>
+
+        <button id="btn-export-csv" class="btn-export">📥 Export CSV</button>
+        <button id="btn-export-json" class="btn-export">📥 Export JSON</button>
+      </div>
+    </div>
+
+    <!-- Active Tab: Cards Grid -->
+    <section id="view-collection">
+      <div id="cards-grid" class="cards-grid"></div>
+    </section>
+
+    <!-- Active Tab: Binders Grid -->
+    <section id="view-binders" style="display: none;">
+      <div id="binders-list" class="binders-list"></div>
+    </section>
+
+    <!-- Active Tab: Stats View -->
+    <section id="view-stats" style="display: none;">
+      <h2 style="margin: 20px 0 10px 0; font-size: 20px;">Progression par Édition</h2>
+      <div id="editions-progress" class="editions-bars"></div>
+    </section>
+  </main>
+
+  <!-- Modal Detail -->
+  <div id="modal" class="modal-overlay">
+    <div class="modal-card">
+      <button id="modal-close" class="modal-close">&times;</button>
+      <div class="modal-art">
+        <img id="modal-img" src="" alt="Carte">
+      </div>
+      <div class="modal-details">
+        <div class="modal-header">
+          <h2 id="modal-name">George Washington</h2>
+          <p id="modal-sub">Q23 &bull; Édition avant 1900</p>
+        </div>
+
+        <div id="modal-tags" class="modal-tags"></div>
+
+        <div id="modal-desc" class="modal-desc"></div>
+
+        <div class="modal-row">
+          <span>Rareté</span>
+          <span id="modal-rarity">Iconique</span>
+        </div>
+        <div class="modal-row">
+          <span>Finition</span>
+          <span id="modal-finish">Standard</span>
+        </div>
+        <div class="modal-row">
+          <span>Exemplaires possédés</span>
+          <span id="modal-count">1</span>
+        </div>
+        <div class="modal-row">
+          <span>Classeurs</span>
+          <span id="modal-binders">Aucun</span>
+        </div>
+        <div class="modal-row">
+          <span>Statut</span>
+          <span id="modal-mark">Collection</span>
+        </div>
+
+        <a id="modal-wiki" class="btn-wiki" href="#" target="_blank" rel="noopener">
+          Ouvrir sur Wikidata ↗
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load Collection Data -->
+  <script src="collection_data.js"></script>
+  <script>
+    const RARITY_COLORS = {
+      0: '#64748b', // Méconnue
+      1: '#10b981', // Connue
+      2: '#3b82f6', // Célèbre
+      3: '#8b5cf6', // Star
+      4: '#f59e0b', // Iconique
+      5: '#ef4444', // Mythique
+      6: '#ec4899'  // Ace
+    };
+
+    const RARITY_NAMES = ['Méconnue', 'Connue', 'Célèbre', 'Star', 'Iconique', 'Mythique', 'Ace'];
+
+    let currentTab = 'collection';
+    let currentFilterRarity = null;
+    let currentCards = [];
+
+    // Init App
+    document.addEventListener('DOMContentLoaded', () => {
+      if (!window.OMNIDEX_DATA) {
+        alert("Impossible de charger les données de collection_data.js");
+        return;
+      }
+      const data = window.OMNIDEX_DATA;
+      currentCards = data.cards;
+
+      // Render profile
+      document.getElementById('avatar-img').src = data.profile.avatarUrl;
+      document.getElementById('profile-name').textContent = data.profile.pseudo;
+      document.getElementById('profile-id').textContent = data.profile.account;
+      document.getElementById('stat-unique').textContent = data.profile.totalUnique.toLocaleString();
+      document.getElementById('stat-total').textContent = data.profile.totalCopies.toLocaleString();
+      document.getElementById('stat-shards').textContent = data.profile.shards.toLocaleString();
+      document.getElementById('stat-binders').textContent = data.binders.length;
+      document.getElementById('stat-friends').textContent = data.profile.friendsCount;
+
+      document.getElementById('tab-count-all').textContent = data.cards.length;
+      document.getElementById('tab-count-binders').textContent = data.binders.length;
+      document.getElementById('tab-count-trades').textContent = data.cards.filter(c => c.isDouble || c.mark.includes('échanger')).length;
+
+      // Populate filters
+      const filterEdition = document.getElementById('filter-edition');
+      data.stats.editionsMetadata.forEach(ed => {
+        const opt = document.createElement('option');
+        opt.value = ed.edition;
+        opt.textContent = `Édition ${ed.label}`;
+        filterEdition.appendChild(opt);
+      });
+
+      const filterRarity = document.getElementById('filter-rarity');
+      RARITY_NAMES.forEach((name, idx) => {
+        const opt = document.createElement('option');
+        opt.value = idx;
+        opt.textContent = name;
+        filterRarity.appendChild(opt);
+      });
+
+      const filterFinish = document.getElementById('filter-finish');
+      Object.keys(data.stats.finishCounts).forEach(label => {
+        const opt = document.createElement('option');
+        opt.value = label;
+        opt.textContent = `${label} (${data.stats.finishCounts[label]})`;
+        filterFinish.appendChild(opt);
+      });
+
+      const filterBinder = document.getElementById('filter-binder');
+      data.binders.forEach(b => {
+        const opt = document.createElement('option');
+        opt.value = b.name;
+        opt.textContent = `${b.name} (${b.count})`;
+        filterBinder.appendChild(opt);
+      });
+
+      // Rarity Chips
+      const chipsContainer = document.getElementById('rarity-chips');
+      RARITY_NAMES.forEach((name, idx) => {
+        const count = data.stats.rarityCounts[name] || 0;
+        const chip = document.createElement('div');
+        chip.className = 'rarity-chip';
+        chip.style.color = RARITY_COLORS[idx];
+        chip.innerHTML = `<span class="dot" style="background:${RARITY_COLORS[idx]}"></span> ${name}: <strong>${count}</strong>`;
+        chip.onclick = () => {
+          if (filterRarity.value === String(idx)) {
+            filterRarity.value = '';
+            chip.classList.remove('active');
+          } else {
+            filterRarity.value = idx;
+            document.querySelectorAll('.rarity-chip').forEach(c => c.classList.remove('active'));
+            chip.classList.add('active');
+          }
+          applyFilters();
+        };
+        chipsContainer.appendChild(chip);
+      });
+
+      // Render Binders View
+      const bindersList = document.getElementById('binders-list');
+      data.binders.forEach(b => {
+        const el = document.createElement('div');
+        el.className = 'binder-card';
+        el.innerHTML = `
+          <div class="binder-title">${b.name}</div>
+          <div class="binder-count">${b.count} carte${b.count > 1 ? 's' : ''}</div>
+        `;
+        el.onclick = () => {
+          filterBinder.value = b.name;
+          switchTab('collection');
+          applyFilters();
+        };
+        bindersList.appendChild(el);
+      });
+
+      // Render Stats Progress Bars
+      const progressContainer = document.getElementById('editions-progress');
+      data.stats.editionsMetadata.forEach(ed => {
+        const owned = data.stats.editionCounts[ed.edition] || 0;
+        const total = ed.count || ed.size || 1000;
+        const pct = ((owned / total) * 100).toFixed(1);
+        const el = document.createElement('div');
+        el.className = 'edition-bar-wrap';
+        el.innerHTML = `
+          <div class="edition-bar-info">
+            <span>Édition ${ed.label}</span>
+            <span>${owned} / ${total} (${pct}%)</span>
+          </div>
+          <div class="bar-bg">
+            <div class="bar-fill" style="width: ${Math.min(100, pct)}%"></div>
+          </div>
+        `;
+        progressContainer.appendChild(el);
+      });
+
+      // Events
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.onclick = () => switchTab(btn.dataset.tab);
+      });
+
+      document.getElementById('search-input').oninput = debounce(applyFilters, 200);
+      filterEdition.onchange = applyFilters;
+      filterRarity.onchange = applyFilters;
+      filterFinish.onchange = applyFilters;
+      filterBinder.onchange = applyFilters;
+      document.getElementById('sort-by').onchange = applyFilters;
+
+      // Exports
+      document.getElementById('btn-export-json').onclick = () => {
+        window.open('aldeide_cards.json', '_blank');
+      };
+      document.getElementById('btn-export-csv').onclick = () => {
+        window.open('aldeide_cards.csv', '_blank');
+      };
+
+      // Modal Events
+      document.getElementById('modal-close').onclick = closeModal;
+      document.getElementById('modal').onclick = (e) => {
+        if (e.target.id === 'modal') closeModal();
+      };
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeModal();
+      });
+
+      // Initial Render
+      renderCards(currentCards);
+    });
+
+    function switchTab(tabId) {
+      currentTab = tabId;
+      document.querySelectorAll('.tab-btn').forEach(b => {
+        b.classList.toggle('active', b.dataset.tab === tabId);
+      });
+
+      const controls = document.getElementById('controls-bar');
+      const viewCollection = document.getElementById('view-collection');
+      const viewBinders = document.getElementById('view-binders');
+      const viewStats = document.getElementById('view-stats');
+
+      controls.style.display = (tabId === 'collection' || tabId === 'trades') ? 'flex' : 'none';
+      viewCollection.style.display = (tabId === 'collection' || tabId === 'trades') ? 'block' : 'none';
+      viewBinders.style.display = tabId === 'binders' ? 'block' : 'none';
+      viewStats.style.display = tabId === 'stats' ? 'block' : 'none';
+
+      applyFilters();
+    }
+
+    function applyFilters() {
+      const q = document.getElementById('search-input').value.trim().toLowerCase();
+      const ed = document.getElementById('filter-edition').value;
+      const rar = document.getElementById('filter-rarity').value;
+      const fin = document.getElementById('filter-finish').value;
+      const bin = document.getElementById('filter-binder').value;
+      const sort = document.getElementById('sort-by').value;
+
+      let filtered = window.OMNIDEX_DATA.cards.filter(c => {
+        if (currentTab === 'trades' && !c.isDouble && !c.mark.includes('échanger')) return false;
+        if (q && !c.name.toLowerCase().includes(q) && !c.description.toLowerCase().includes(q) && !c.qid.toLowerCase().includes(q)) return false;
+        if (ed !== '' && String(c.edition) !== ed) return false;
+        if (rar !== '' && String(c.rarity) !== rar) return false;
+        if (fin !== '' && c.finishLabel !== fin) return false;
+        if (bin !== '' && !c.binders.includes(bin)) return false;
+        return true;
+      });
+
+      // Sort
+      if (sort === 'rarity-desc') filtered.sort((a,b) => b.rarity - a.rarity || a.name.localeCompare(b.name));
+      else if (sort === 'rarity-asc') filtered.sort((a,b) => a.rarity - b.rarity || a.name.localeCompare(b.name));
+      else if (sort === 'copies-desc') filtered.sort((a,b) => b.count - a.count || b.rarity - a.rarity);
+      else if (sort === 'name-asc') filtered.sort((a,b) => a.name.localeCompare(b.name));
+      else if (sort === 'name-desc') filtered.sort((a,b) => b.name.localeCompare(a.name));
+
+      renderCards(filtered);
+    }
+
+    function renderCards(cards) {
+      const grid = document.getElementById('cards-grid');
+      grid.innerHTML = '';
+
+      if (cards.length === 0) {
+        grid.innerHTML = '<div style="grid-column: 1/-1; text-align: center; padding: 60px 0; color: var(--text-muted); font-size: 16px;">Aucune carte ne correspond à ces critères.</div>';
+        return;
+      }
+
+      const fragment = document.createDocumentFragment();
+      cards.forEach(card => {
+        const item = document.createElement('div');
+        item.className = 'card-item';
+        item.style.borderColor = card.finishId > 0 ? '#38bdf8' : RARITY_COLORS[card.rarity];
+
+        const isHolo = card.finishId > 0;
+        const markClass = card.isKept ? 'mark-keep' : (card.isDouble ? 'mark-trade' : '');
+
+        item.innerHTML = `
+          <div class="card-thumb-wrap">
+            <img class="card-thumb" loading="lazy" src="${card.vignetteUrl}" alt="${card.name}">
+            ${isHolo ? '<div class="holo-shimmer"></div>' : ''}
+            ${card.count > 1 ? `<div class="badge-count">x${card.count}</div>` : ''}
+            ${isHolo ? `<div class="badge-holo">${card.finishLabel}</div>` : ''}
+            ${card.isKept ? '<div class="badge-mark mark-keep">À garder</div>' : (card.isDouble ? '<div class="badge-mark mark-trade">Double</div>' : '')}
+          </div>
+          <div class="card-info">
+            <div class="card-name" title="${card.name}">${card.name}</div>
+            <div class="card-sub" title="${card.description}">${card.description || card.qid}</div>
+            <div class="card-footer">
+              <span class="card-rarity-tag" style="color: ${RARITY_COLORS[card.rarity]}">${card.rarityName}</span>
+              <span style="color: var(--text-dim); font-size: 10px;">${card.editionLabel}</span>
+            </div>
+          </div>
+        `;
+        item.onclick = () => openModal(card);
+        fragment.appendChild(item);
+      });
+
+      grid.appendChild(fragment);
+    }
+
+    function openModal(card) {
+      document.getElementById('modal-img').src = card.imageUrl;
+      document.getElementById('modal-name').textContent = card.name;
+      document.getElementById('modal-sub').textContent = `${card.qid} • Édition ${card.editionLabel} (#${card.number})`;
+      document.getElementById('modal-desc').textContent = card.description || "Aucune biographie disponible pour ce personnage historique.";
+      
+      const raritySpan = document.getElementById('modal-rarity');
+      raritySpan.textContent = card.rarityName;
+      raritySpan.style.color = RARITY_COLORS[card.rarity];
+
+      document.getElementById('modal-finish').textContent = card.finishLabel;
+      document.getElementById('modal-count').textContent = card.count;
+      document.getElementById('modal-binders').textContent = card.binders.length ? card.binders.join(', ') : 'Aucun';
+      document.getElementById('modal-mark').textContent = card.mark;
+      document.getElementById('modal-wiki').href = card.wikidataUrl;
+
+      const tagsContainer = document.getElementById('modal-tags');
+      tagsContainer.innerHTML = '';
+      card.categories.forEach(cat => {
+        const t = document.createElement('span');
+        t.className = 'modal-tag';
+        t.textContent = cat;
+        tagsContainer.appendChild(t);
+      });
+      card.countries.forEach(c => {
+        const t = document.createElement('span');
+        t.className = 'modal-tag';
+        t.style.background = '#1e3a5f';
+        t.textContent = '📍 ' + c;
+        tagsContainer.appendChild(t);
+      });
+
+      document.getElementById('modal').classList.add('active');
+    }
+
+    function closeModal() {
+      document.getElementById('modal').classList.remove('active');
+    }
+
+    function debounce(func, wait) {
+      let timeout;
+      return function(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), wait);
+      };
+    }
+  </script>
+</body>
+</html>

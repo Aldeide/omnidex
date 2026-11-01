@@ -1,0 +1,214 @@
+{
+  "totalCards": 47823,
+  "editions": [
+    {
+      "edition": 0,
+      "label": "avant 1900",
+      "count": 7827,
+      "size": 7827,
+      "file": "0-d8902aa9.bin"
+    },
+    {
+      "edition": 1900,
+      "label": "1900",
+      "count": 1139,
+      "size": 1139,
+      "file": "1900-6e279556.bin"
+    },
+    {
+      "edition": 1910,
+      "label": "1910",
+      "count": 1179,
+      "size": 1179,
+      "file": "1910-ebab6abb.bin"
+    },
+    {
+      "edition": 1920,
+      "label": "1920",
+      "count": 1833,
+      "size": 1835,
+      "file": "1920-4cf2b7d0.bin"
+    },
+    {
+      "edition": 1930,
+      "label": "1930",
+      "count": 2188,
+      "size": 2188,
+      "file": "1930-ad68b38e.bin"
+    },
+    {
+      "edition": 1940,
+      "label": "1940",
+      "count": 3783,
+      "size": 3784,
+      "file": "1940-f87325aa.bin"
+    },
+    {
+      "edition": 1950,
+      "label": "1950",
+      "count": 4339,
+      "size": 4340,
+      "file": "1950-eddc0075.bin"
+    },
+    {
+      "edition": 1960,
+      "label": "1960",
+      "count": 5638,
+      "size": 5641,
+      "file": "1960-f1752fbb.bin"
+    },
+    {
+      "edition": 1970,
+      "label": "1970",
+      "count": 6183,
+      "size": 6184,
+      "file": "1970-aa708828.bin"
+    },
+    {
+      "edition": 1980,
+      "label": "1980",
+      "count": 6189,
+      "size": 6191,
+      "file": "1980-12414d91.bin"
+    },
+    {
+      "edition": 1990,
+      "label": "1990",
+      "count": 5534,
+      "size": 5536,
+      "file": "1990-aa873e8f.bin"
+    },
+    {
+      "edition": 2000,
+      "label": "2000",
+      "count": 1991,
+      "size": 1992,
+      "file": "2000-791ac5ab.bin"
+    }
+  ],
+  "rarities": [
+    "Méconnue",
+    "Connue",
+    "Célèbre",
+    "Star",
+    "Iconique",
+    "Mythique",
+    "Ace"
+  ],
+  "finishes": [
+    {
+      "id": 0,
+      "code": "none",
+      "label": "Sans finition",
+      "short": "",
+      "zone": "none",
+      "effect": "none"
+    },
+    {
+      "id": 1,
+      "code": "normale-classic",
+      "label": "Holo",
+      "short": "H",
+      "zone": "normale",
+      "effect": "classic"
+    },
+    {
+      "id": 2,
+      "code": "normale-starlight",
+      "label": "Starlight",
+      "short": "S",
+      "zone": "normale",
+      "effect": "starlight"
+    },
+    {
+      "id": 3,
+      "code": "normale-fireworks",
+      "label": "Fireworks",
+      "short": "F",
+      "zone": "normale",
+      "effect": "fireworks"
+    },
+    {
+      "id": 4,
+      "code": "normale-negative",
+      "label": "Négative",
+      "short": "N",
+      "zone": "normale",
+      "effect": "negative"
+    },
+    {
+      "id": 5,
+      "code": "reverse-classic",
+      "label": "Holo inversée",
+      "short": "HI",
+      "zone": "reverse",
+      "effect": "classic"
+    },
+    {
+      "id": 6,
+      "code": "reverse-starlight",
+      "label": "Starlight inversée",
+      "short": "SI",
+      "zone": "reverse",
+      "effect": "starlight"
+    },
+    {
+      "id": 7,
+      "code": "reverse-fireworks",
+      "label": "Fireworks inversée",
+      "short": "FI",
+      "zone": "reverse",
+      "effect": "fireworks"
+    },
+    {
+      "id": 8,
+      "code": "reverse-negative",
+      "label": "Négative inversée",
+      "short": "NI",
+      "zone": "reverse",
+      "effect": "negative"
+    },
+    {
+      "id": 9,
+      "code": "full-classic",
+      "label": "Full Holo",
+      "short": "HF",
+      "zone": "full",
+      "effect": "classic"
+    },
+    {
+      "id": 10,
+      "code": "full-starlight",
+      "label": "Full Starlight",
+      "short": "SF",
+      "zone": "full",
+      "effect": "starlight"
+    },
+    {
+      "id": 11,
+      "code": "full-fireworks",
+      "label": "Full Fireworks",
+      "short": "FF",
+      "zone": "full",
+      "effect": "fireworks"
+    },
+    {
+      "id": 12,
+      "code": "full-negative",
+      "label": "Full Négative",
+      "short": "NF",
+      "zone": "full",
+      "effect": "negative"
+    }
+  ],
+  "imageUrlPatterns": {
+    "vignette": "https://omnidex.cards/vignettes/{qid}-{vignetteHash}.webp",
+    "vignetteWithFinish": "https://omnidex.cards/vignettes/{qid}-{vignetteHash}-{finishId}.webp (if generated)",
+    "cardImage": "https://omnidex.cards/cartes/{qid}-{artHash}.avif",
+    "cardMask": "https://omnidex.cards/cartes/{qid}-{artHash}-fond.webp",
+    "cardThumb": "https://omnidex.cards/cartes/{qid}-{artHash}-vignette.avif",
+    "cardThumbMask": "https://omnidex.cards/cartes/{qid}-{artHash}-fond-vignette.webp"
+  },
+  "categoriesCount": 334,
+  "countriesCount": 188
+}
