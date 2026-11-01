@@ -1,32 +1,43 @@
 @echo off
 chcp 65001 >nul
-title OmniDex - Mise à jour de la collection de Aldeide
 cd /d "%~dp0"
 
+set "NO_PAUSE_FLAG="
+if /i "%~1"=="--silent" set "NO_PAUSE_FLAG=1"
+if /i "%~1"=="--no-pause" set "NO_PAUSE_FLAG=1"
+if /i "%~2"=="--silent" set "NO_PAUSE_FLAG=1"
+if /i "%~2"=="--no-pause" set "NO_PAUSE_FLAG=1"
+if defined NO_PAUSE set "NO_PAUSE_FLAG=1"
+
 echo ====================================================
-echo      OmniDex - Mise à jour en direct de la collection
+echo      OmniDex - Mise a jour de la collection
 echo ====================================================
+echo [%date% %time%] Debut de la synchronisation...
 echo.
 
 where node >nul 2>nul
 if %ERRORLEVEL% NEQ 0 (
-    echo [ERREUR] Node.js n'est pas installe ou n'est pas dans le PATH.
-    echo Veuillez installer Node.js (https://nodejs.org) pour utiliser ce script.
-    echo.
-    pause
+    echo [ERREUR] Node.js n'est pas installe ou introuvable dans le PATH.
+    echo Veuillez installer Node.js - https://nodejs.org
+    if not defined NO_PAUSE_FLAG pause
     exit /b 1
 )
 
-node update_collection.mjs
+node update_collection.mjs %*
+set "EXITCODE=%ERRORLEVEL%"
 
-if %ERRORLEVEL% EQU 0 (
+if %EXITCODE% EQU 0 (
     echo.
-    echo [SUCCÈS] Données mises à jour avec succès !
-    echo Vous pouvez rafraîchir la page index.html dans votre navigateur.
+    echo [SUCCES] Donnees mises a jour et synchronisees avec succes !
+    echo Le site GitHub Pages est a jour : https://aldeide.github.io/omnidex/
 ) else (
     echo.
-    echo [ERREUR] La mise à jour a échoué.
+    echo [ERREUR] La mise a jour a echoue avec le code : %EXITCODE%
 )
 
 echo.
-pause
+echo [%date% %time%] Fin de la synchronisation.
+
+if not defined NO_PAUSE_FLAG pause
+
+exit /b %EXITCODE%

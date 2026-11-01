@@ -1,14 +1,27 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { execSync } from 'child_process';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const UPDATER_DIR = path.join(__dirname, '_updater');
 
-console.log('====================================================');
-console.log('       OmniDex - Mise à jour de la collection       ');
-console.log('====================================================\n');
+// CLI options
+const args = process.argv.slice(2);
+const NO_PUSH = args.includes('--no-push');
+const FORCE_PUSH = args.includes('--force-push');
+const SILENT = args.includes('--silent');
+
+function log(...msg) {
+  console.log(...msg);
+}
+
+if (!SILENT) {
+  console.log('====================================================');
+  console.log('       OmniDex - Mise à jour de la collection       ');
+  console.log('====================================================\n');
+}
 
 // 1. Shims for Node ESM
 globalThis.document = {
@@ -18,21 +31,60 @@ globalThis.document = {
 globalThis.window = globalThis;
 globalThis.location = { protocol: 'https:', host: 'omnidex.cards' };
 
-// 2. Load token
-const tokenPath = path.join(UPDATER_DIR, 'token.json');
-if (!fs.existsSync(tokenPath)) {
-  console.error('[-] Erreur : Fichier token.json introuvable dans _updater !');
-  process.exit(1);
+// 2. Load token from Environment Variable or Token Files
+let token = null;
+const envToken = process.env.OMNIDEX_TOKEN;
+
+if (envToken) {
+  try {
+    const trimmed = envToken.trim();
+    if (trimmed.startsWith('[')) {
+      token = new Uint8Array(JSON.parse(trimmed));
+    } else if (/^[0-9a-fA-F]{64}$/.test(trimmed)) {
+      token = new Uint8Array(Buffer.from(trimmed, 'hex'));
+    } else {
+      // base64 / base64url
+      token = new Uint8Array(Buffer.from(trimmed.replace(/-/g, '+').replace(/_/g, '/'), 'base64'));
+    }
+    log(`[+] Jeton chargé depuis la variable d'environnement OMNIDEX_TOKEN (${token.length} octets).`);
+  } catch (err) {
+    console.warn('[-] Erreur parsing OMNIDEX_TOKEN depuis l\'environnement :', err.message);
+  }
 }
 
-const tokenData = JSON.parse(fs.readFileSync(tokenPath, 'utf-8'));
-const token = new Uint8Array(tokenData.bytes);
-console.log(`[+] Jeton de session chargé (${token.length} octets).`);
+if (!token) {
+  const tokenPath = path.join(UPDATER_DIR, 'token.json');
+  const altTokenPath = path.join(UPDATER_DIR, 'aldeide_token.json');
+  const targetPath = fs.existsSync(tokenPath) ? tokenPath : (fs.existsSync(altTokenPath) ? altTokenPath : null);
 
-// 3. Import Omnidex protocol codec
+  if (!targetPath) {
+    console.error('[-] Erreur : Jeton introuvable ! Définissez OMNIDEX_TOKEN ou placez token.json dans _updater.');
+    process.exit(1);
+  }
+
+  const tokenData = JSON.parse(fs.readFileSync(targetPath, 'utf-8'));
+  token = new Uint8Array(tokenData.bytes || Buffer.from(tokenData.hex, 'hex'));
+  log(`[+] Jeton de session chargé depuis ${path.basename(targetPath)} (${token.length} octets).`);
+}
+
+// 3. Ensure Catalogue is available (auto-download via Python if missing)
+const catCardsPath = path.join(UPDATER_DIR, 'catalogue_cards.json');
+const catMetaPath = path.join(UPDATER_DIR, 'catalogue_metadata.json');
+
+if (!fs.existsSync(catCardsPath) || !fs.existsSync(catMetaPath) || fs.statSync(catCardsPath).size < 1000000) {
+  log('[+] Catalogue manquant ou incomplet. Décodage du catalogue OmniDex en cours...');
+  try {
+    execSync('python _updater/decode_catalogue.py', { cwd: __dirname, stdio: 'inherit' });
+  } catch (err) {
+    console.error('[-] Échec du décodage du catalogue avec decode_catalogue.py :', err.message);
+    process.exit(1);
+  }
+}
+
+// 4. Import Omnidex protocol codec
 const { L: be, F: ge } = await import('./_updater/avatar-QsIDJbSu.js');
 
-console.log('[+] Connexion au serveur WebSocket (wss://omnidex.cards/ws)...');
+log('[+] Connexion au serveur WebSocket (wss://omnidex.cards/ws)...');
 const ws = new WebSocket('wss://omnidex.cards/ws', {
   headers: {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0',
@@ -56,9 +108,14 @@ const collected = {
 };
 
 let syncTimer = null;
+const globalTimeout = setTimeout(() => {
+  console.error('[-] Délai d\'attente dépassé (timeout 25s) sans réponse du serveur.');
+  try { ws.close(); } catch {}
+  process.exit(1);
+}, 25000);
 
 ws.onopen = () => {
-  console.log('[+] WebSocket connecté ! Envoi de l\'authentification...');
+  log('[+] WebSocket connecté ! Envoi de l\'authentification...');
   ws.send(be({
     type: 'auth',
     protocol: 67,
@@ -75,44 +132,24 @@ ws.onmessage = (event) => {
     collected.messages.push(msg);
 
     if (msg.type === 'welcome') {
-      console.log(`[+] Authentification réussie ! Compte #${msg.account}`);
+      log(`[+] Authentification réussie ! Compte #${msg.account}`);
       collected.welcome = msg;
       collected.account = msg.account;
 
-      // Demande de synchronisation des cartes, classeurs et recherche du joueur
-      console.log('[+] Synchronisation de la collection et des classeurs...');
+      log('[+] Synchronisation de la collection et des classeurs...');
       ws.send(be({ type: 'sync', rid: ++rid, since: 0 }));
       ws.send(be({ type: 'binders', rid: ++rid, since: 0 }));
-      ws.send(be({ type: 'findPlayers', rid: ++rid, text: 'Aldeide' }));
-
       scheduleFinish();
     } else if (msg.type === 'home') {
       collected.home = msg;
-    } else if (msg.type === 'players') {
-      const aldeide = msg.players?.find(p => p.pseudo.toLowerCase() === 'aldeide');
-      if (aldeide) {
-        console.log(`[+] Profil joueur trouvé (Pseudo: ${aldeide.pseudo}).`);
-        ws.send(be({
-          type: 'marks',
-          rid: ++rid,
-          friend: 0,
-          handle: aldeide.handle,
-          known: new Uint8Array(8)
-        }));
-        ws.send(be({
-          type: 'playerCards',
-          rid: ++rid,
-          friend: 0,
-          handle: aldeide.handle,
-          known: []
-        }));
-      }
     } else if (msg.type === 'cards' && msg.entries) {
-      console.log(`[+] Cartes reçues : ${msg.entries.length} entrées, ${msg.shards} éclats.`);
+      log(`[+] Cartes reçues : ${msg.entries.length} entrées, ${msg.shards} éclats.`);
       collected.cards = msg.entries;
       collected.shards = msg.shards;
+      scheduleFinish();
     } else if (msg.type === 'binder') {
       collected.binders.push(msg.binder);
+      scheduleFinish();
     } else if (msg.type === 'table') {
       collected.tables.push(msg.table);
     } else if (msg.type === 'marketMine') {
@@ -133,20 +170,21 @@ ws.onclose = (e) => {
   if (e.code === 4029 || e.code === 4017) {
     console.warn(`[!] Déconnexion (${e.code}): Le jeton a expiré ou été révoqué.`);
   } else {
-    console.log(`[+] WebSocket fermé (${e.code}).`);
+    log(`[+] WebSocket fermé (${e.code}).`);
   }
 };
 
 function scheduleFinish() {
   if (syncTimer) clearTimeout(syncTimer);
   syncTimer = setTimeout(async () => {
+    clearTimeout(globalTimeout);
     try { ws.close(); } catch {}
     await processData();
-  }, 4000);
+  }, 3500);
 }
 
 async function processData() {
-  console.log('\n[+] Traitement et assemblage des données...');
+  log('\n[+] Traitement et assemblage des données...');
 
   // 1. Sauvegarde du fichier brut
   const rawPath = path.join(UPDATER_DIR, 'aldeide_collection_raw.json');
@@ -157,9 +195,9 @@ async function processData() {
   }, 2), 'utf-8');
 
   // 2. Chargement du catalogue
-  console.log('[+] Chargement du catalogue des cartes...');
-  const meta = JSON.parse(fs.readFileSync(path.join(UPDATER_DIR, 'catalogue_metadata.json'), 'utf-8'));
-  const catCards = JSON.parse(fs.readFileSync(path.join(UPDATER_DIR, 'catalogue_cards.json'), 'utf-8'));
+  log('[+] Chargement du catalogue des cartes...');
+  const meta = JSON.parse(fs.readFileSync(catMetaPath, 'utf-8'));
+  const catCards = JSON.parse(fs.readFileSync(catCardsPath, 'utf-8'));
 
   const finishesMap = {};
   for (const f of meta.finishes) {
@@ -242,6 +280,7 @@ async function processData() {
         description: cat.description || '',
         edition: cat.edition || 0,
         editionLabel: cat.editionLabel || String(cat.edition || 0),
+        number: cat.number || 0,
         rarity: rarityId,
         rarityName,
         finishId,
@@ -258,8 +297,10 @@ async function processData() {
         birth: cat.birth,
         death: cat.death,
         gender: cat.gender,
+        birthplace: cat.birthplace,
         score: cat.score || 0,
-        notoriety: cat.notoriety || 0
+        notoriety: cat.notoriety || 0,
+        face: cat.face
       });
     }
 
@@ -440,20 +481,65 @@ async function processData() {
   }
   fs.writeFileSync(path.join(__dirname, 'aldeide_cards.csv'), '\uFEFF' + csvRows.join('\r\n'), 'utf-8');
 
-  console.log('\n====================================================');
-  console.log('              MISE À JOUR RÉUSSIE !                 ');
-  console.log('====================================================');
-  console.log(`Cartes uniques : ${distinctQids.size}`);
-  console.log(`Exemplaires totaux : ${totalCopies}`);
-  console.log(`Éclats de cartes : ${collected.shards}`);
-  console.log(`Classeurs enrichis : ${binders.length}`);
+  log('\n====================================================');
+  log('              MISE À JOUR RÉUSSIE !                 ');
+  log('====================================================');
+  log(`Cartes uniques : ${distinctQids.size}`);
+  log(`Exemplaires totaux : ${totalCopies}`);
+  log(`Éclats de cartes : ${collected.shards}`);
+  log(`Classeurs enrichis : ${binders.length}`);
   for (const b of binders) {
-    console.log(`  - ${b.name}: ${b.ownedCount} / ${b.totalCount} possédées (${b.missingCount} manquantes, ${b.pct}%)`);
+    log(`  - ${b.name}: ${b.ownedCount} / ${b.totalCount} possédées (${b.missingCount} manquantes, ${b.pct}%)`);
   }
-  console.log('\nFichiers générés avec succès :');
-  console.log('  -> collection_data.js');
-  console.log('  -> aldeide_cards.json');
-  console.log('  -> aldeide_cards.csv');
-  console.log('====================================================\n');
+  log('\nFichiers générés avec succès :');
+  log('  -> collection_data.js');
+  log('  -> aldeide_cards.json');
+  log('  -> aldeide_cards.csv');
+  log('====================================================\n');
+
+  // 4. Git Synchronisation (Commit & Push to GitHub Pages)
+  syncGit({ forcePush: FORCE_PUSH, noPush: NO_PUSH });
+
   process.exit(0);
+}
+
+function syncGit({ forcePush = false, noPush = false } = {}) {
+  if (noPush) {
+    log('[+] Git sync désactivé via l\'option --no-push.');
+    return;
+  }
+
+  log('[+] Synchronisation Git vers GitHub Pages...');
+  try {
+    const filesToStage = ['collection_data.js', 'aldeide_cards.json', 'aldeide_cards.csv'];
+    execSync(`git add ${filesToStage.join(' ')}`, { cwd: __dirname, stdio: SILENT ? 'ignore' : 'inherit' });
+
+    let hasChanges = false;
+    try {
+      execSync('git diff --cached --quiet', { cwd: __dirname });
+      hasChanges = false;
+    } catch {
+      hasChanges = true;
+    }
+
+    if (!hasChanges && !forcePush) {
+      log('[+] Aucune modification détectée dans les fichiers de collection. Dépôt à jour !');
+      return;
+    }
+
+    const today = new Date().toISOString().split('T')[0];
+    const commitMsg = `chore: auto-update collection (${today})`;
+    log(`[+] Création du commit : "${commitMsg}"...`);
+
+    const commitCmd = (forcePush && !hasChanges)
+      ? `git commit --allow-empty -m "${commitMsg}"`
+      : `git commit -m "${commitMsg}"`;
+    execSync(commitCmd, { cwd: __dirname, stdio: SILENT ? 'ignore' : 'inherit' });
+
+    log('[+] Envoi des modifications vers origin main (git push)...');
+    execSync('git push origin main', { cwd: __dirname, stdio: SILENT ? 'ignore' : 'inherit' });
+    log('[+] GitHub Pages synchronisé avec succès ! (https://aldeide.github.io/omnidex/)');
+  } catch (err) {
+    console.error('[-] Erreur lors de la synchronisation Git :', err.message);
+  }
 }

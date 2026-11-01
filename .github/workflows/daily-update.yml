@@ -1,0 +1,58 @@
+name: Daily Collection Update
+
+on:
+  schedule:
+    # Runs daily at 06:00 UTC (07:00 / 08:00 Paris time)
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-collection:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Cache catalogue binary assets
+        uses: actions/cache@v4
+        with:
+          path: _updater/.cache
+          key: omnidex-catalogue-${{ runner.os }}-${{ hashFiles('_updater/catalogue_metadata.json') }}
+          restore-keys: |
+            omnidex-catalogue-${{ runner.os }}-
+
+      - name: Download and decode catalogue
+        run: |
+          python _updater/decode_catalogue.py
+
+      - name: Fetch latest collection from WebSocket
+        env:
+          OMNIDEX_TOKEN: ${{ secrets.OMNIDEX_TOKEN }}
+        run: |
+          node update_collection.mjs --no-push
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add collection_data.js aldeide_cards.json aldeide_cards.csv
+          if ! git diff --cached --quiet; then
+            DATE=$(date +'%Y-%m-%d')
+            git commit -m "chore: auto-update collection ($DATE) [skip ci]"
+            git push origin main
+          else
+            echo "Aucune modification détectée. La collection est à jour."
+          fi

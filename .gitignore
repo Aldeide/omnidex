@@ -7,6 +7,8 @@ _updater/aldeide_token.json
 _updater/catalogue_cards.json
 _updater/catalogue_cards_list.json
 _updater/aldeide_collection_raw.json
+_updater/.cache/
+_updater/*.log
 
 # OS and temporary files
 .DS_Store
