@@ -3,24 +3,24 @@ window.OMNIDEX_DATA = {
     "pseudo": "Aldeide",
     "account": 39,
     "avatarUrl": "https://omnidex.cards/vignettes/Q22686-783472d2.webp",
-    "totalUnique": 1094,
-    "totalCopies": 1096,
-    "shards": 14755,
+    "totalUnique": 1099,
+    "totalCopies": 1101,
+    "shards": 15550,
     "privacy": "tous",
     "friendsCount": 22
   },
   "stats": {
     "rarityCounts": {
-      "Méconnue": 505,
-      "Connue": 357,
+      "Méconnue": 507,
+      "Connue": 358,
       "Célèbre": 139,
-      "Star": 44,
+      "Star": 46,
       "Iconique": 28,
       "Mythique": 15,
       "Ace": 8
     },
     "finishCounts": {
-      "Sans finition": 957,
+      "Sans finition": 962,
       "Holo": 17,
       "Starlight inversée": 14,
       "Full Holo": 12,
@@ -37,16 +37,16 @@ window.OMNIDEX_DATA = {
     "editionCounts": {
       "0": 118,
       "1900": 26,
-      "1910": 27,
+      "1910": 28,
       "1920": 35,
-      "1930": 41,
+      "1930": 42,
       "1940": 83,
-      "1950": 156,
+      "1950": 157,
       "1960": 155,
       "1970": 157,
       "1980": 154,
-      "1990": 96,
-      "2000": 48
+      "1990": 97,
+      "2000": 49
     },
     "editionsMetadata": [
       {
@@ -15330,6 +15330,56 @@ window.OMNIDEX_DATA = {
       }
     },
     {
+      "qid": "Q231178",
+      "cid": 231178,
+      "name": "Gloria Steinem",
+      "description": "féministe américaine, journaliste et promotrice des droits des femmes",
+      "edition": 1930,
+      "editionLabel": "1930",
+      "number": 900,
+      "rarity": 3,
+      "rarityName": "Star",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793501700000,
+      "occupations": [
+        "journaliste",
+        "reporter"
+      ],
+      "categories": [
+        "Américains",
+        "Journalistes",
+        "Écrivains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1934-03-25",
+      "death": "2026-09-02",
+      "gender": "f",
+      "birthplace": "Toledo",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q231178-64b4971d.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q231178-9f57bd13.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q231178",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.7227,
+      "notoriety": 84,
+      "face": {
+        "x": 0.4941,
+        "y": 0.2706,
+        "d": 0.6824
+      }
+    },
+    {
       "qid": "Q3121553",
       "cid": 3121553,
       "name": "Guy Bedos",
@@ -15890,6 +15940,56 @@ window.OMNIDEX_DATA = {
         "x": 0.4667,
         "y": 0.2745,
         "d": 0.6941
+      }
+    },
+    {
+      "qid": "Q949196",
+      "cid": 949196,
+      "name": "Ken Miles",
+      "description": "pilote automobile britannique",
+      "edition": 1910,
+      "editionLabel": "1910",
+      "number": 1026,
+      "rarity": 3,
+      "rarityName": "Star",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793501700000,
+      "occupations": [
+        "pilote de course automobile",
+        "ingénieur en construction automobile"
+      ],
+      "categories": [
+        "Sports mécaniques",
+        "Formule 1",
+        "Britanniques"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "birth": "1918-11-01",
+      "death": "1966-08-17",
+      "gender": "m",
+      "birthplace": "Royal Sutton Coldfield",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q949196-15c58e11.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q949196-09a75efa.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q949196",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.72699,
+      "notoriety": 27,
+      "face": {
+        "x": 0.7333,
+        "y": 0.2863,
+        "d": 0.4
       }
     },
     {
@@ -24314,6 +24414,55 @@ window.OMNIDEX_DATA = {
       "face": {
         "x": 0.4902,
         "y": 0.2627,
+        "d": 0.6941
+      }
+    },
+    {
+      "qid": "Q52012798",
+      "cid": 52012798,
+      "name": "Alexis Lafrenière",
+      "description": "joueur canadien de hockey sur glace",
+      "edition": 2000,
+      "editionLabel": "2000",
+      "number": 774,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793501700000,
+      "occupations": [
+        "joueur de hockey sur glace"
+      ],
+      "categories": [
+        "Sports d'hiver",
+        "Québécois et Québécoises",
+        "Canadiens"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "birth": "2001-10-11",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Saint-Eustache",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q52012798-c060d7f1.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q52012798-adc0bac6.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q52012798",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.59537,
+      "notoriety": 13,
+      "face": {
+        "x": 0.4745,
+        "y": 0.2863,
         "d": 0.6941
       }
     },
@@ -50082,6 +50231,52 @@ window.OMNIDEX_DATA = {
       }
     },
     {
+      "qid": "Q29043184",
+      "cid": 29043184,
+      "name": "Gerson Rodrigues",
+      "description": "footballeur luxembourgeois et portugais",
+      "edition": 1990,
+      "editionLabel": "1990",
+      "number": 3200,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793501700000,
+      "occupations": [
+        "footballeur"
+      ],
+      "categories": [],
+      "countries": [
+        "Luxembourg",
+        "Portugal"
+      ],
+      "birth": "1995-06-20",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Freguesia do Pragal",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q29043184-206e8088.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q29043184-ef472b98.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q29043184",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.52524,
+      "notoriety": 38,
+      "face": {
+        "x": 0.4431,
+        "y": 0.2745,
+        "d": 0.6588
+      }
+    },
+    {
       "qid": "Q3104996",
       "cid": 3104996,
       "name": "Ghyslain Tremblay",
@@ -63911,6 +64106,54 @@ window.OMNIDEX_DATA = {
         "x": 0.4941,
         "y": 0.2745,
         "d": 0.6235
+      }
+    },
+    {
+      "qid": "Q19895564",
+      "cid": 19895564,
+      "name": "Sidiki Kaba",
+      "description": "homme d’État sénégalais",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 274,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793501700000,
+      "occupations": [
+        "diplomate",
+        "homme politique"
+      ],
+      "categories": [
+        "Ministres"
+      ],
+      "countries": [
+        "Sénégal"
+      ],
+      "birth": "1950-08-21",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Tambacounda",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q19895564-1c313193.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q19895564-be45c3aa.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q19895564",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.52322,
+      "notoriety": 14,
+      "face": {
+        "x": 0.4667,
+        "y": 0.2706,
+        "d": 0.6902
       }
     },
     {
