@@ -178,6 +178,7 @@ window.OMNIDEX_DATA = {
           "description": "militante identitaire française",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 4423,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -203,8 +204,14 @@ window.OMNIDEX_DATA = {
           "birth": "1997-08-27",
           "death": null,
           "gender": "f",
+          "birthplace": "Rennes",
           "score": 0.80092,
-          "notoriety": 2
+          "notoriety": 2,
+          "face": {
+            "x": 0.4824,
+            "y": 0.2627,
+            "d": 0.6471
+          }
         },
         {
           "qid": "Q352",
@@ -213,6 +220,7 @@ window.OMNIDEX_DATA = {
           "description": "dictateur et homme d’État allemand, chef du Parti nazi, Führer et chancelier du Troisième Reich",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 6935,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -237,8 +245,14 @@ window.OMNIDEX_DATA = {
           "birth": "1889-04-20",
           "death": "1945-04-30",
           "gender": "m",
+          "birthplace": "Braunau am Inn",
           "score": 0.9005,
-          "notoriety": 326
+          "notoriety": 326,
+          "face": {
+            "x": 0.4275,
+            "y": 0.3137,
+            "d": 0.7843
+          }
         },
         {
           "qid": "Q47906",
@@ -247,6 +261,7 @@ window.OMNIDEX_DATA = {
           "description": "homme politique nazi et militaire allemand",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 7217,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -274,8 +289,14 @@ window.OMNIDEX_DATA = {
           "birth": "1893-01-12",
           "death": "1946-10-15",
           "gender": "m",
+          "birthplace": "Rosenheim",
           "score": 0.84396,
-          "notoriety": 111
+          "notoriety": 111,
+          "face": {
+            "x": 0.4667,
+            "y": 0.3804,
+            "d": 0.8549
+          }
         },
         {
           "qid": "Q76367",
@@ -284,6 +305,7 @@ window.OMNIDEX_DATA = {
           "description": "homme politique allemand, chef de la chancellerie du parti nazi",
           "edition": 1900,
           "editionLabel": "1900",
+          "number": 52,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -306,8 +328,14 @@ window.OMNIDEX_DATA = {
           "birth": "1900-06-17",
           "death": "1945-05-02",
           "gender": "m",
+          "birthplace": "Halberstadt",
           "score": 0.80354,
-          "notoriety": 79
+          "notoriety": 79,
+          "face": {
+            "x": 0.5804,
+            "y": 0.3333,
+            "d": 0.8392
+          }
         },
         {
           "qid": "Q327009",
@@ -316,6 +344,7 @@ window.OMNIDEX_DATA = {
           "description": "homme politique et haut fonctionnaire français",
           "edition": 1910,
           "editionLabel": "1910",
+          "number": 90,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -341,8 +370,14 @@ window.OMNIDEX_DATA = {
           "birth": "1910-09-03",
           "death": "2007-02-17",
           "gender": "m",
+          "birthplace": "Gretz-Armainvilliers",
           "score": 0.76713,
-          "notoriety": 32
+          "notoriety": 32,
+          "face": {
+            "x": 0.5294,
+            "y": 0.4039,
+            "d": 0.8314
+          }
         },
         {
           "qid": "Q75866",
@@ -351,6 +386,7 @@ window.OMNIDEX_DATA = {
           "description": "homme politique allemand",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 7313,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 5,
@@ -377,8 +413,14 @@ window.OMNIDEX_DATA = {
           "birth": "1894-04-26",
           "death": "1987-08-17",
           "gender": "m",
+          "birthplace": "Alexandrie",
           "score": 0.77617,
-          "notoriety": 86
+          "notoriety": 86,
+          "face": {
+            "x": 0.5333,
+            "y": 0.3725,
+            "d": 0.9294
+          }
         },
         {
           "qid": "Q156916",
@@ -387,6 +429,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire et homme d’État français",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 6360,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 5,
@@ -413,8 +456,14 @@ window.OMNIDEX_DATA = {
           "birth": "1881-08-07",
           "death": "1942-12-24",
           "gender": "m",
+          "birthplace": "Nérac",
           "score": 0.7278,
-          "notoriety": 43
+          "notoriety": 43,
+          "face": {
+            "x": 0.5333,
+            "y": 0.2941,
+            "d": 0.7804
+          }
         },
         {
           "qid": "Q57641",
@@ -423,6 +472,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État hongrois",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 1800,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -447,8 +497,14 @@ window.OMNIDEX_DATA = {
           "birth": "1963-05-31",
           "death": null,
           "gender": "m",
+          "birthplace": "Székesfehérvár",
           "score": 0.76512,
-          "notoriety": 117
+          "notoriety": 117,
+          "face": {
+            "x": 0.4706,
+            "y": 0.3137,
+            "d": 0.8314
+          }
         },
         {
           "qid": "Q57889",
@@ -457,6 +513,7 @@ window.OMNIDEX_DATA = {
           "description": "SS-Standartenführer, commandant du camp de concentration de Mauthausen-Gusen (1905-1945)",
           "edition": 1900,
           "editionLabel": "1900",
+          "number": 607,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -479,8 +536,14 @@ window.OMNIDEX_DATA = {
           "birth": "1905-08-13",
           "death": "1945-05-24",
           "gender": "m",
+          "birthplace": "Munich",
           "score": 0.59995,
-          "notoriety": 30
+          "notoriety": 30,
+          "face": {
+            "x": 0.5216,
+            "y": 0.2706,
+            "d": 0.6863
+          }
         },
         {
           "qid": "Q84441",
@@ -489,6 +552,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire autrichien, chef de groupe SS et lieutenant général de la police, chef provisoire de l’Aktion Reinhardt (1904–1945)",
           "edition": 1900,
           "editionLabel": "1900",
+          "number": 467,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -513,8 +577,14 @@ window.OMNIDEX_DATA = {
           "birth": "1904-04-21",
           "death": "1945-05-31",
           "gender": "m",
+          "birthplace": "Trieste",
           "score": 0.60237,
-          "notoriety": 35
+          "notoriety": 35,
+          "face": {
+            "x": 0.4627,
+            "y": 0.3451,
+            "d": 0.9255
+          }
         },
         {
           "qid": "Q640292",
@@ -523,6 +593,7 @@ window.OMNIDEX_DATA = {
           "description": "producteur italien",
           "edition": 1910,
           "editionLabel": "1910",
+          "number": 797,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -549,8 +620,14 @@ window.OMNIDEX_DATA = {
           "birth": "1916-09-27",
           "death": "1997-06-12",
           "gender": "m",
+          "birthplace": "Milan",
           "score": 0.62091,
-          "notoriety": 17
+          "notoriety": 17,
+          "face": {
+            "x": 0.5098,
+            "y": 0.2824,
+            "d": 0.6863
+          }
         },
         {
           "qid": "Q76544",
@@ -559,6 +636,7 @@ window.OMNIDEX_DATA = {
           "description": "général allemand",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 7006,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 5,
@@ -582,8 +660,14 @@ window.OMNIDEX_DATA = {
           "birth": "1890-05-12",
           "death": "1978-07-01",
           "gender": "m",
+          "birthplace": "Birkholz",
           "score": 0.5711,
-          "notoriety": 42
+          "notoriety": 42,
+          "face": {
+            "x": 0.5373,
+            "y": 0.2745,
+            "d": 0.7373
+          }
         },
         {
           "qid": "Q68590",
@@ -592,6 +676,7 @@ window.OMNIDEX_DATA = {
           "description": "",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 6183,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -616,8 +701,14 @@ window.OMNIDEX_DATA = {
           "birth": "1878-06-16",
           "death": "1948-02-06",
           "gender": "m",
+          "birthplace": "Berlin",
           "score": 0.59689,
-          "notoriety": 17
+          "notoriety": 17,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         },
         {
           "qid": "Q78890",
@@ -626,6 +717,7 @@ window.OMNIDEX_DATA = {
           "description": "avocat autrichien, homme politique nazi et général SS",
           "edition": 1900,
           "editionLabel": "1900",
+          "number": 158,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -650,8 +742,14 @@ window.OMNIDEX_DATA = {
           "birth": "1901-07-08",
           "death": "1949-07-13",
           "gender": "m",
+          "birthplace": "Vienne",
           "score": 0.51903,
-          "notoriety": 19
+          "notoriety": 19,
+          "face": {
+            "x": 0.5569,
+            "y": 0.3882,
+            "d": 0.8824
+          }
         },
         {
           "qid": "Q68984",
@@ -660,6 +758,7 @@ window.OMNIDEX_DATA = {
           "description": "gardienne de camp de concentration",
           "edition": 1920,
           "editionLabel": "1920",
+          "number": 365,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -683,8 +782,14 @@ window.OMNIDEX_DATA = {
           "birth": "1922-03-06",
           "death": "1946-07-04",
           "gender": "f",
+          "birthplace": "Gdańsk",
           "score": 0.5864,
-          "notoriety": 19
+          "notoriety": 19,
+          "face": {
+            "x": 0.4941,
+            "y": 0.3804,
+            "d": 0.9882
+          }
         },
         {
           "qid": "Q70546",
@@ -693,6 +798,7 @@ window.OMNIDEX_DATA = {
           "description": "général allemand",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 6094,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -717,8 +823,14 @@ window.OMNIDEX_DATA = {
           "birth": "1876-09-05",
           "death": "1956-04-29",
           "gender": "m",
+          "birthplace": "Landsberg am Lech",
           "score": 0.57007,
-          "notoriety": 53
+          "notoriety": 53,
+          "face": {
+            "x": 0.4863,
+            "y": 0.2706,
+            "d": 0.6941
+          }
         },
         {
           "qid": "Q76433",
@@ -727,6 +839,7 @@ window.OMNIDEX_DATA = {
           "description": "photographe allemande, épouse d’Adolf Hitler",
           "edition": 1910,
           "editionLabel": "1910",
+          "number": 256,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -751,8 +864,14 @@ window.OMNIDEX_DATA = {
           "birth": "1912-02-06",
           "death": "1945-04-30",
           "gender": "f",
+          "birthplace": "Munich",
           "score": 0.83195,
-          "notoriety": 92
+          "notoriety": 92,
+          "face": {
+            "x": 0.4235,
+            "y": 0.2706,
+            "d": 0.6667
+          }
         },
         {
           "qid": "Q151820",
@@ -761,6 +880,7 @@ window.OMNIDEX_DATA = {
           "description": "écrivain et médecin français",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 7322,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -787,8 +907,14 @@ window.OMNIDEX_DATA = {
           "birth": "1894-05-27",
           "death": "1961-07-01",
           "gender": "m",
+          "birthplace": "Courbevoie",
           "score": 0.85578,
-          "notoriety": 95
+          "notoriety": 95,
+          "face": {
+            "x": 0.4549,
+            "y": 0.3843,
+            "d": 0.9059
+          }
         },
         {
           "qid": "Q5721",
@@ -797,6 +923,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire, diplomate et homme d’État français",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 5166,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -824,8 +951,14 @@ window.OMNIDEX_DATA = {
           "birth": "1856-04-24",
           "death": "1951-07-23",
           "gender": "m",
+          "birthplace": "Cauchy-à-la-Tour",
           "score": 0.83332,
-          "notoriety": 97
+          "notoriety": 97,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         },
         {
           "qid": "Q23559",
@@ -834,6 +967,7 @@ window.OMNIDEX_DATA = {
           "description": "dictateur et homme d’État italien",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 6513,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -861,8 +995,14 @@ window.OMNIDEX_DATA = {
           "birth": "1883-07-29",
           "death": "1945-04-28",
           "gender": "m",
+          "birthplace": "Predappio",
           "score": 0.84154,
-          "notoriety": 200
+          "notoriety": 200,
+          "face": {
+            "x": 0.5137,
+            "y": 0.2745,
+            "d": 0.6627
+          }
         },
         {
           "qid": "Q43067",
@@ -871,6 +1011,7 @@ window.OMNIDEX_DATA = {
           "description": "homme politique nazi et militaire allemand",
           "edition": 1900,
           "editionLabel": "1900",
+          "number": 81,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -894,8 +1035,14 @@ window.OMNIDEX_DATA = {
           "birth": "1900-10-07",
           "death": "1945-05-23",
           "gender": "m",
+          "birthplace": "Munich",
           "score": 0.88446,
-          "notoriety": 120
+          "notoriety": 120,
+          "face": {
+            "x": 0.5569,
+            "y": 0.3765,
+            "d": 0.8549
+          }
         },
         {
           "qid": "Q57109",
@@ -904,6 +1051,7 @@ window.OMNIDEX_DATA = {
           "description": "médecin allemand, criminel de guerre nazi",
           "edition": 1910,
           "editionLabel": "1910",
+          "number": 140,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -929,8 +1077,14 @@ window.OMNIDEX_DATA = {
           "birth": "1911-03-16",
           "death": "1979-02-07",
           "gender": "m",
+          "birthplace": "Guntzbourg",
           "score": 0.87061,
-          "notoriety": 78
+          "notoriety": 78,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         },
         {
           "qid": "Q41749",
@@ -939,6 +1093,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État allemand, ministre de la propagande nazie",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 7620,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -965,8 +1120,14 @@ window.OMNIDEX_DATA = {
           "birth": "1897-10-29",
           "death": "1945-05-01",
           "gender": "m",
+          "birthplace": "Rheydt",
           "score": 0.81641,
-          "notoriety": 139
+          "notoriety": 139,
+          "face": {
+            "x": 0.5451,
+            "y": 0.302,
+            "d": 0.7686
+          }
         },
         {
           "qid": "Q77088",
@@ -975,6 +1136,7 @@ window.OMNIDEX_DATA = {
           "description": "criminel de guerre allemand",
           "edition": 1910,
           "editionLabel": "1910",
+          "number": 471,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -1000,8 +1162,14 @@ window.OMNIDEX_DATA = {
           "birth": "1913-10-25",
           "death": "1991-09-25",
           "gender": "m",
+          "birthplace": "Bad Godesberg",
           "score": 0.82757,
-          "notoriety": 52
+          "notoriety": 52,
+          "face": {
+            "x": 0.498,
+            "y": 0.3843,
+            "d": 0.8902
+          }
         },
         {
           "qid": "Q57202",
@@ -1010,6 +1178,7 @@ window.OMNIDEX_DATA = {
           "description": "personnalité politique allemande, épouse de Joseph Goebbels",
           "edition": 1900,
           "editionLabel": "1900",
+          "number": 197,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -1035,8 +1204,14 @@ window.OMNIDEX_DATA = {
           "birth": "1901-11-11",
           "death": "1945-05-01",
           "gender": "f",
+          "birthplace": "Berlin",
           "score": 0.70127,
-          "notoriety": 52
+          "notoriety": 52,
+          "face": {
+            "x": 0.4431,
+            "y": 0.3059,
+            "d": 0.6588
+          }
         }
       ]
     },
@@ -1067,6 +1242,7 @@ window.OMNIDEX_DATA = {
           "description": "producteur de cinéma et criminel sexuel américain",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 880,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -1096,8 +1272,14 @@ window.OMNIDEX_DATA = {
           "birth": "1952-03-19",
           "death": null,
           "gender": "m",
+          "birthplace": "New York",
           "score": 0.82134,
-          "notoriety": 58
+          "notoriety": 58,
+          "face": {
+            "x": 0.4784,
+            "y": 0.3765,
+            "d": 0.9569
+          }
         },
         {
           "qid": "Q3343832",
@@ -1106,6 +1288,7 @@ window.OMNIDEX_DATA = {
           "description": "humoriste et vidéaste français",
           "edition": 1980,
           "editionLabel": "1980",
+          "number": 4571,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -1135,8 +1318,14 @@ window.OMNIDEX_DATA = {
           "birth": "1987-04-14",
           "death": null,
           "gender": "m",
+          "birthplace": "Arras",
           "score": 0.78442,
-          "notoriety": 14
+          "notoriety": 14,
+          "face": {
+            "x": 0.4863,
+            "y": 0.2745,
+            "d": 0.7333
+          }
         },
         {
           "qid": "Q24050455",
@@ -1145,6 +1334,7 @@ window.OMNIDEX_DATA = {
           "description": "vidéaste français",
           "edition": 1980,
           "editionLabel": "1980",
+          "number": 6053,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -1169,8 +1359,14 @@ window.OMNIDEX_DATA = {
           "birth": "1989-10-01",
           "death": null,
           "gender": "m",
+          "birthplace": "Saint-Priest-en-Jarez",
           "score": 0.75792,
-          "notoriety": 2
+          "notoriety": 2,
+          "face": {
+            "x": 0.4706,
+            "y": 0.3882,
+            "d": 0.8667
+          }
         },
         {
           "qid": "Q25144",
@@ -1179,6 +1375,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur, réalisateur et producteur de cinéma américain",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 4148,
           "rarity": 6,
           "rarityName": "Ace",
           "finishId": 0,
@@ -1209,8 +1406,14 @@ window.OMNIDEX_DATA = {
           "birth": "1959-07-26",
           "death": null,
           "gender": "m",
+          "birthplace": "South Orange",
           "score": 0.85204,
-          "notoriety": 91
+          "notoriety": 91,
+          "face": {
+            "x": 0.4863,
+            "y": 0.3765,
+            "d": 0.9176
+          }
         },
         {
           "qid": "Q25089",
@@ -1219,6 +1422,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur, cinéaste et clarinettiste américain",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 1234,
           "rarity": 6,
           "rarityName": "Ace",
           "finishId": 0,
@@ -1248,8 +1452,14 @@ window.OMNIDEX_DATA = {
           "birth": "1935-11-30",
           "death": null,
           "gender": "m",
+          "birthplace": "Bronx",
           "score": 0.84329,
-          "notoriety": 157
+          "notoriety": 157,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         },
         {
           "qid": "Q213512",
@@ -1258,6 +1468,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur américain",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 1599,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -1287,8 +1498,14 @@ window.OMNIDEX_DATA = {
           "birth": "1937-07-12",
           "death": null,
           "gender": "m",
+          "birthplace": "Philadelphie",
           "score": 0.78397,
-          "notoriety": 86
+          "notoriety": 86,
+          "face": {
+            "x": 0.4863,
+            "y": 0.2784,
+            "d": 0.7373
+          }
         },
         {
           "qid": "Q273055",
@@ -1297,6 +1514,7 @@ window.OMNIDEX_DATA = {
           "description": "chanteur auteur-compositeur-producteur de RnB et délinquant sexuel américain",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 3913,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -1323,8 +1541,14 @@ window.OMNIDEX_DATA = {
           "birth": "1967-01-08",
           "death": null,
           "gender": "m",
+          "birthplace": "Chicago",
           "score": 0.81096,
-          "notoriety": 90
+          "notoriety": 90,
+          "face": {
+            "x": 0.5294,
+            "y": 0.3765,
+            "d": 0.8039
+          }
         },
         {
           "qid": "Q15079",
@@ -1333,6 +1557,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur et humoriste américain",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 4232,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -1364,8 +1589,14 @@ window.OMNIDEX_DATA = {
           "birth": "1967-09-12",
           "death": null,
           "gender": "m",
+          "birthplace": "Washington",
           "score": 0.77025,
-          "notoriety": 54
+          "notoriety": 54,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         },
         {
           "qid": "Q715515",
@@ -1374,6 +1605,7 @@ window.OMNIDEX_DATA = {
           "description": "journaliste et présentateur de télévision américain",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 566,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -1404,8 +1636,14 @@ window.OMNIDEX_DATA = {
           "birth": "1942-01-05",
           "death": null,
           "gender": "m",
+          "birthplace": "Henderson",
           "score": 0.60305,
-          "notoriety": 24
+          "notoriety": 24,
+          "face": {
+            "x": 0.4863,
+            "y": 0.3137,
+            "d": 0.8314
+          }
         },
         {
           "qid": "Q47467705",
@@ -1414,6 +1652,7 @@ window.OMNIDEX_DATA = {
           "description": "médecin du sport américain",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 1939,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -1438,8 +1677,14 @@ window.OMNIDEX_DATA = {
           "birth": "1963-08-16",
           "death": null,
           "gender": "m",
+          "birthplace": "Farmington Hills",
           "score": 0.65821,
-          "notoriety": 23
+          "notoriety": 23,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         }
       ]
     },
@@ -1503,6 +1748,7 @@ window.OMNIDEX_DATA = {
           "description": "dictateur et homme d’État allemand, chef du Parti nazi, Führer et chancelier du Troisième Reich",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 6935,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -1527,8 +1773,14 @@ window.OMNIDEX_DATA = {
           "birth": "1889-04-20",
           "death": "1945-04-30",
           "gender": "m",
+          "birthplace": "Braunau am Inn",
           "score": 0.9005,
-          "notoriety": 326
+          "notoriety": 326,
+          "face": {
+            "x": 0.4275,
+            "y": 0.3137,
+            "d": 0.7843
+          }
         },
         {
           "qid": "Q855",
@@ -1537,6 +1789,7 @@ window.OMNIDEX_DATA = {
           "description": "chef d’État de l’Union des républiques socialistes soviétiques de 1924 à 1953",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 6208,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -1564,8 +1817,14 @@ window.OMNIDEX_DATA = {
           "birth": "1878-12-18",
           "death": "1953-03-05",
           "gender": "m",
+          "birthplace": "Gori",
           "score": 0.86377,
-          "notoriety": 279
+          "notoriety": 279,
+          "face": {
+            "x": 0.5294,
+            "y": 0.3725,
+            "d": 0.8275
+          }
         },
         {
           "qid": "Q57641",
@@ -1574,6 +1833,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État hongrois",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 1800,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -1598,8 +1858,14 @@ window.OMNIDEX_DATA = {
           "birth": "1963-05-31",
           "death": null,
           "gender": "m",
+          "birthplace": "Székesfehérvár",
           "score": 0.76512,
-          "notoriety": 117
+          "notoriety": 117,
+          "face": {
+            "x": 0.4706,
+            "y": 0.3137,
+            "d": 0.8314
+          }
         },
         {
           "qid": "Q310775",
@@ -1608,6 +1874,7 @@ window.OMNIDEX_DATA = {
           "description": "41e président de la république d’Haïti",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 582,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -1630,8 +1897,14 @@ window.OMNIDEX_DATA = {
           "birth": "1951-07-03",
           "death": "2014-10-04",
           "gender": "m",
+          "birthplace": "Port-au-Prince",
           "score": 0.69013,
-          "notoriety": 54
+          "notoriety": 54,
+          "face": {
+            "x": 0.4471,
+            "y": 0.2941,
+            "d": 0.749
+          }
         },
         {
           "qid": "Q210329",
@@ -1640,6 +1913,7 @@ window.OMNIDEX_DATA = {
           "description": "homme politique chinois (1859–1916)",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 5305,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -1665,8 +1939,14 @@ window.OMNIDEX_DATA = {
           "birth": "1859-09-16",
           "death": "1916-06-06",
           "gender": "m",
+          "birthplace": "Xiangcheng",
           "score": 0.63073,
-          "notoriety": 62
+          "notoriety": 62,
+          "face": {
+            "x": 0.5412,
+            "y": 0.3294,
+            "d": 0.8784
+          }
         },
         {
           "qid": "Q1048",
@@ -1675,6 +1955,7 @@ window.OMNIDEX_DATA = {
           "description": "général et homme d’État romain",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 191,
           "rarity": 6,
           "rarityName": "Ace",
           "finishId": 0,
@@ -1700,8 +1981,14 @@ window.OMNIDEX_DATA = {
           "birth": "-0100-07",
           "death": "-0044-03-15",
           "gender": "m",
+          "birthplace": "Rome",
           "score": 0.91903,
-          "notoriety": 281
+          "notoriety": 281,
+          "face": {
+            "x": 0.5255,
+            "y": 0.2667,
+            "d": 0.6941
+          }
         },
         {
           "qid": "Q517",
@@ -1710,6 +1997,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire, homme d’État et monarque français",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 3426,
           "rarity": 6,
           "rarityName": "Ace",
           "finishId": 0,
@@ -1735,8 +2023,14 @@ window.OMNIDEX_DATA = {
           "birth": "1769-08-15",
           "death": "1821-05-05",
           "gender": "m",
+          "birthplace": "Ajaccio",
           "score": 0.91091,
-          "notoriety": 287
+          "notoriety": 287,
+          "face": {
+            "x": 0.5255,
+            "y": 0.2667,
+            "d": 0.651
+          }
         },
         {
           "qid": "Q7747",
@@ -1745,6 +2039,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État russe",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 1109,
           "rarity": 6,
           "rarityName": "Ace",
           "finishId": 0,
@@ -1772,8 +2067,14 @@ window.OMNIDEX_DATA = {
           "birth": "1952-10-07",
           "death": null,
           "gender": "m",
+          "birthplace": null,
           "score": 0.89052,
-          "notoriety": 315
+          "notoriety": 315,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         },
         {
           "qid": "Q11256",
@@ -1782,6 +2083,7 @@ window.OMNIDEX_DATA = {
           "description": "chef d’État de Cuba de 1959 à 2008",
           "edition": 1920,
           "editionLabel": "1920",
+          "number": 1161,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -1809,8 +2111,14 @@ window.OMNIDEX_DATA = {
           "birth": "1926-08-13",
           "death": "2016-11-25",
           "gender": "m",
+          "birthplace": "Birán",
           "score": 0.811,
-          "notoriety": 206
+          "notoriety": 206,
+          "face": {
+            "x": 0.5137,
+            "y": 0.3922,
+            "d": 0.9725
+          }
         },
         {
           "qid": "Q57272",
@@ -1819,6 +2127,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État camerounais",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 656,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -1844,8 +2153,14 @@ window.OMNIDEX_DATA = {
           "birth": "1933-02-13",
           "death": null,
           "gender": "m",
+          "birthplace": "Mvomeka’a",
           "score": 0.82117,
-          "notoriety": 79
+          "notoriety": 79,
+          "face": {
+            "x": 0.5059,
+            "y": 0.2863,
+            "d": 0.7647
+          }
         },
         {
           "qid": "Q15031",
@@ -1854,6 +2169,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État chinois",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 1411,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -1878,8 +2194,14 @@ window.OMNIDEX_DATA = {
           "birth": "1953-06-15",
           "death": null,
           "gender": "m",
+          "birthplace": "Pékin",
           "score": 0.81777,
-          "notoriety": 190
+          "notoriety": 190,
+          "face": {
+            "x": 0.4863,
+            "y": 0.3451,
+            "d": 0.9255
+          }
         },
         {
           "qid": "Q368",
@@ -1888,6 +2210,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire et homme d’État chilien",
           "edition": 1910,
           "editionLabel": "1910",
+          "number": 714,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -1911,8 +2234,14 @@ window.OMNIDEX_DATA = {
           "birth": "1915-11-25",
           "death": "2006-12-10",
           "gender": "m",
+          "birthplace": "Valparaíso",
           "score": 0.76607,
-          "notoriety": 120
+          "notoriety": 120,
+          "face": {
+            "x": 0.5176,
+            "y": 0.2706,
+            "d": 0.6275
+          }
         },
         {
           "qid": "Q44329",
@@ -1921,6 +2250,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État syrien",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 3130,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -1946,8 +2276,14 @@ window.OMNIDEX_DATA = {
           "birth": "1965-09-11",
           "death": null,
           "gender": "m",
+          "birthplace": "Damas",
           "score": 0.81998,
-          "notoriety": 150
+          "notoriety": 150,
+          "face": {
+            "x": 0.4353,
+            "y": 0.3647,
+            "d": 0.7804
+          }
         },
         {
           "qid": "Q23559",
@@ -1956,6 +2292,7 @@ window.OMNIDEX_DATA = {
           "description": "dictateur et homme d’État italien",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 6513,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -1983,8 +2320,14 @@ window.OMNIDEX_DATA = {
           "birth": "1883-07-29",
           "death": "1945-04-28",
           "gender": "m",
+          "birthplace": "Predappio",
           "score": 0.84154,
-          "notoriety": 200
+          "notoriety": 200,
+          "face": {
+            "x": 0.5137,
+            "y": 0.2745,
+            "d": 0.6627
+          }
         },
         {
           "qid": "Q29179",
@@ -1993,6 +2336,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire et homme d’État espagnol",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 7210,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -2019,8 +2363,14 @@ window.OMNIDEX_DATA = {
           "birth": "1892-12-04",
           "death": "1975-11-20",
           "gender": "m",
+          "birthplace": "Ferrol",
           "score": 0.81046,
-          "notoriety": 134
+          "notoriety": 134,
+          "face": {
+            "x": 0.6157,
+            "y": 0.3294,
+            "d": 0.7686
+          }
         },
         {
           "qid": "Q39524",
@@ -2029,6 +2379,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État égyptien (1918-1970)",
           "edition": 1910,
           "editionLabel": "1910",
+          "number": 950,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -2053,8 +2404,14 @@ window.OMNIDEX_DATA = {
           "birth": "1918-01-15",
           "death": "1970-09-28",
           "gender": "m",
+          "birthplace": null,
           "score": 0.76756,
-          "notoriety": 128
+          "notoriety": 128,
+          "face": {
+            "x": 0.502,
+            "y": 0.2627,
+            "d": 0.6627
+          }
         },
         {
           "qid": "Q8440",
@@ -2063,6 +2420,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire et homme d’État vénézuélien",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 1906,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -2086,8 +2444,14 @@ window.OMNIDEX_DATA = {
           "birth": "1954-07-28",
           "death": "2013-03-05",
           "gender": "m",
+          "birthplace": "Sabaneta",
           "score": 0.77896,
-          "notoriety": 187
+          "notoriety": 187,
+          "face": {
+            "x": 0.451,
+            "y": 0.2863,
+            "d": 0.702
+          }
         },
         {
           "qid": "Q48231",
@@ -2096,6 +2460,7 @@ window.OMNIDEX_DATA = {
           "description": "président ougandais de 1971 à 1979",
           "edition": 1920,
           "editionLabel": "1920",
+          "number": 851,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -2122,8 +2487,14 @@ window.OMNIDEX_DATA = {
           "birth": "1925",
           "death": "2003-08-16",
           "gender": "m",
+          "birthplace": "Koboko",
           "score": 0.76607,
-          "notoriety": 113
+          "notoriety": 113,
+          "face": {
+            "x": 0.4392,
+            "y": 0.2706,
+            "d": 0.7255
+          }
         },
         {
           "qid": "Q56226",
@@ -2132,6 +2503,7 @@ window.OMNIDEX_DATA = {
           "description": "dirigeant suprême de la Corée du Nord depuis 2011",
           "edition": 1980,
           "editionLabel": "1980",
+          "number": 2488,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -2154,8 +2526,14 @@ window.OMNIDEX_DATA = {
           "birth": "1984-01-08",
           "death": null,
           "gender": "m",
+          "birthplace": "Wonsan",
           "score": 0.82428,
-          "notoriety": 176
+          "notoriety": 176,
+          "face": {
+            "x": 0.5216,
+            "y": 0.3255,
+            "d": 0.8706
+          }
         },
         {
           "qid": "Q5816",
@@ -2164,6 +2542,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État chinois et fondateur de la république populaire de Chine",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 7288,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -2191,8 +2570,14 @@ window.OMNIDEX_DATA = {
           "birth": "1893-12-26",
           "death": "1976-09-09",
           "gender": "m",
+          "birthplace": "Shaoshan",
           "score": 0.81954,
-          "notoriety": 232
+          "notoriety": 232,
+          "face": {
+            "x": 0.5412,
+            "y": 0.2706,
+            "d": 0.6118
+          }
         },
         {
           "qid": "Q164535",
@@ -2201,6 +2586,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État, militaire et dictateur zaïrois",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 184,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -2225,8 +2611,14 @@ window.OMNIDEX_DATA = {
           "birth": "1930-10-14",
           "death": "1997-09-07",
           "gender": "m",
+          "birthplace": "Lisala",
           "score": 0.8095,
-          "notoriety": 90
+          "notoriety": 90,
+          "face": {
+            "x": 0.451,
+            "y": 0.3216,
+            "d": 0.7373
+          }
         },
         {
           "qid": "Q1231345",
@@ -2235,6 +2627,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État rwandais",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 3303,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -2257,8 +2650,14 @@ window.OMNIDEX_DATA = {
           "birth": "1957-10-23",
           "death": null,
           "gender": "m",
+          "birthplace": "Ruhango",
           "score": 0.79221,
-          "notoriety": 94
+          "notoriety": 94,
+          "face": {
+            "x": 0.5333,
+            "y": 0.349,
+            "d": 0.9333
+          }
         },
         {
           "qid": "Q39464",
@@ -2267,6 +2666,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État cambodgien et secrétaire général du Parti communiste du Kampuchéa",
           "edition": 1920,
           "editionLabel": "1920",
+          "number": 916,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -2289,8 +2689,14 @@ window.OMNIDEX_DATA = {
           "birth": "1925-05-19",
           "death": "1998-04-15",
           "gender": "m",
+          "birthplace": "Prek Sbauv",
           "score": 0.78897,
-          "notoriety": 131
+          "notoriety": 131,
+          "face": {
+            "x": 0.4902,
+            "y": 0.2667,
+            "d": 0.6706
+          }
         },
         {
           "qid": "Q1316",
@@ -2299,6 +2705,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État irakien",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 1548,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -2321,8 +2728,14 @@ window.OMNIDEX_DATA = {
           "birth": "1937-04-28",
           "death": "2006-12-30",
           "gender": "m",
+          "birthplace": "Tikrit",
           "score": 0.82425,
-          "notoriety": 170
+          "notoriety": 170,
+          "face": {
+            "x": 0.4314,
+            "y": 0.3255,
+            "d": 0.8627
+          }
         },
         {
           "qid": "Q214407",
@@ -2331,6 +2744,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État ivoirien",
           "edition": 1900,
           "editionLabel": "1900",
+          "number": 623,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -2355,8 +2769,14 @@ window.OMNIDEX_DATA = {
           "birth": "1905-10-18",
           "death": "1993-12-07",
           "gender": "m",
+          "birthplace": "N’Gokro",
           "score": 0.74323,
-          "notoriety": 62
+          "notoriety": 62,
+          "face": {
+            "x": 0.4431,
+            "y": 0.3608,
+            "d": 0.8824
+          }
         },
         {
           "qid": "Q118725",
@@ -2365,6 +2785,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État syrien",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 179,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -2390,8 +2811,14 @@ window.OMNIDEX_DATA = {
           "birth": "1930-10-06",
           "death": "2000-06-10",
           "gender": "m",
+          "birthplace": "Qardaha",
           "score": 0.71171,
-          "notoriety": 96
+          "notoriety": 96,
+          "face": {
+            "x": 0.4431,
+            "y": 0.2941,
+            "d": 0.7843
+          }
         },
         {
           "qid": "Q41117",
@@ -2400,6 +2827,7 @@ window.OMNIDEX_DATA = {
           "description": "fondateur et premier dirigeant suprême de la Corée du Nord de 1948 à 1994",
           "edition": 1910,
           "editionLabel": "1910",
+          "number": 280,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -2423,8 +2851,14 @@ window.OMNIDEX_DATA = {
           "birth": "1912-04-15",
           "death": "1994-07-08",
           "gender": "m",
+          "birthplace": "kuyok Mangyongdae",
           "score": 0.74063,
-          "notoriety": 160
+          "notoriety": 160,
+          "face": {
+            "x": 0.5176,
+            "y": 0.4,
+            "d": 0.9647
+          }
         },
         {
           "qid": "Q10665",
@@ -2433,6 +2867,7 @@ window.OMNIDEX_DATA = {
           "description": "dirigeant suprême de la Corée du Nord de 1994 à 2011",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 317,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -2458,8 +2893,14 @@ window.OMNIDEX_DATA = {
           "birth": "1941-02-16",
           "death": "2011-12-17",
           "gender": "m",
+          "birthplace": "Viatskoïe",
           "score": 0.73624,
-          "notoriety": 136
+          "notoriety": 136,
+          "face": {
+            "x": 0.498,
+            "y": 0.3294,
+            "d": 0.8824
+          }
         },
         {
           "qid": "Q135547",
@@ -2468,6 +2909,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État congolais",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 2176,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -2490,8 +2932,14 @@ window.OMNIDEX_DATA = {
           "birth": "1939-11-27",
           "death": "2001-01-16",
           "gender": "m",
+          "birthplace": "Moba",
           "score": 0.72568,
-          "notoriety": 64
+          "notoriety": 64,
+          "face": {
+            "x": 0.4941,
+            "y": 0.2627,
+            "d": 0.702
+          }
         },
         {
           "qid": "Q44279",
@@ -2500,6 +2948,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire et homme d’État anglais",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 2233,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -2524,8 +2973,14 @@ window.OMNIDEX_DATA = {
           "birth": "1599-04-25",
           "death": "1658-09-03",
           "gender": "m",
+          "birthplace": "Huntingdon",
           "score": 0.76202,
-          "notoriety": 125
+          "notoriety": 125,
+          "face": {
+            "x": 0.4588,
+            "y": 0.2745,
+            "d": 0.6627
+          }
         },
         {
           "qid": "Q8605",
@@ -2534,6 +2989,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire et homme d’État vénézuélien",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 3634,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -2560,8 +3016,14 @@ window.OMNIDEX_DATA = {
           "birth": "1783-07-24",
           "death": "1830-12-17",
           "gender": "m",
+          "birthplace": "Caracas",
           "score": 0.74557,
-          "notoriety": 175
+          "notoriety": 175,
+          "face": {
+            "x": 0.5294,
+            "y": 0.2667,
+            "d": 0.7137
+          }
         },
         {
           "qid": "Q155402",
@@ -2570,6 +3032,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État guinéen",
           "edition": 1920,
           "editionLabel": "1920",
+          "number": 340,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -2594,8 +3057,14 @@ window.OMNIDEX_DATA = {
           "birth": "1922-01-09",
           "death": "1984-03-26",
           "gender": "m",
+          "birthplace": "Faranah",
           "score": 0.71166,
-          "notoriety": 68
+          "notoriety": 68,
+          "face": {
+            "x": 0.4667,
+            "y": 0.2745,
+            "d": 0.7294
+          }
         },
         {
           "qid": "Q11270",
@@ -2604,6 +3073,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire et homme d’État cubain (1901-1973)",
           "edition": 1900,
           "editionLabel": "1900",
+          "number": 102,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -2627,8 +3097,14 @@ window.OMNIDEX_DATA = {
           "birth": "1901-01-16",
           "death": "1973-08-06",
           "gender": "m",
+          "birthplace": "Banes",
           "score": 0.6868,
-          "notoriety": 88
+          "notoriety": 88,
+          "face": {
+            "x": 0.5059,
+            "y": 0.2745,
+            "d": 0.6627
+          }
         },
         {
           "qid": "Q212068",
@@ -2637,6 +3113,7 @@ window.OMNIDEX_DATA = {
           "description": "esclave affranchi, militaire français et empereur d’Haïti (1758-1806)",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 3250,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -2657,8 +3134,14 @@ window.OMNIDEX_DATA = {
           "birth": "1758-09-20",
           "death": "1806-10-17",
           "gender": "m",
+          "birthplace": "Grande-Rivière-du-Nord",
           "score": 0.7151,
-          "notoriety": 60
+          "notoriety": 60,
+          "face": {
+            "x": 0.5137,
+            "y": 0.2824,
+            "d": 0.7059
+          }
         },
         {
           "qid": "Q192667",
@@ -2667,6 +3150,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire et homme politique panaméen",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 866,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -2691,8 +3175,14 @@ window.OMNIDEX_DATA = {
           "birth": "1934-02-11",
           "death": "2017-05-29",
           "gender": "m",
+          "birthplace": "Panama",
           "score": 0.67536,
-          "notoriety": 66
+          "notoriety": 66,
+          "face": {
+            "x": 0.4941,
+            "y": 0.2745,
+            "d": 0.651
+          }
         },
         {
           "qid": "Q189145",
@@ -2701,6 +3191,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire et président du Mexique de 1833 à 1855 (1794-1876)",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 3759,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -2725,8 +3216,14 @@ window.OMNIDEX_DATA = {
           "birth": "1794-02-21",
           "death": "1876-06-21",
           "gender": "m",
+          "birthplace": "Xalapa",
           "score": 0.60955,
-          "notoriety": 63
+          "notoriety": 63,
+          "face": {
+            "x": 0.4471,
+            "y": 0.2706,
+            "d": 0.7176
+          }
         },
         {
           "qid": "Q14362",
@@ -2735,6 +3232,7 @@ window.OMNIDEX_DATA = {
           "description": "général et homme d’État sud-coréen",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 242,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -2758,8 +3256,14 @@ window.OMNIDEX_DATA = {
           "birth": "1931-01-18",
           "death": "2021-11-23",
           "gender": "m",
+          "birthplace": "district de Hapcheon",
           "score": 0.60358,
-          "notoriety": 65
+          "notoriety": 65,
+          "face": {
+            "x": 0.4745,
+            "y": 0.3059,
+            "d": 0.8118
+          }
         },
         {
           "qid": "Q310860",
@@ -2768,6 +3272,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État centrafricain",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 48,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -2791,8 +3296,14 @@ window.OMNIDEX_DATA = {
           "birth": "1930-03-24",
           "death": "2003-11-20",
           "gender": "m",
+          "birthplace": null,
           "score": 0.61734,
-          "notoriety": 47
+          "notoriety": 47,
+          "face": {
+            "x": 0.5098,
+            "y": 0.302,
+            "d": 0.8078
+          }
         },
         {
           "qid": "Q297812",
@@ -2801,6 +3312,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État tchadien",
           "edition": 1910,
           "editionLabel": "1910",
+          "number": 990,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -2824,8 +3336,14 @@ window.OMNIDEX_DATA = {
           "birth": "1918-06-15",
           "death": "1975-04-13",
           "gender": "m",
+          "birthplace": null,
           "score": 0.61284,
-          "notoriety": 42
+          "notoriety": 42,
+          "face": {
+            "x": 0.502,
+            "y": 0.2706,
+            "d": 0.7216
+          }
         },
         {
           "qid": "Q210069",
@@ -2834,6 +3352,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État ougandais",
           "edition": 1920,
           "editionLabel": "1920",
+          "number": 1041,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -2857,8 +3376,14 @@ window.OMNIDEX_DATA = {
           "birth": "1925-12-28",
           "death": "2005-10-10",
           "gender": "m",
+          "birthplace": "Apac",
           "score": 0.64019,
-          "notoriety": 66
+          "notoriety": 66,
+          "face": {
+            "x": 0.502,
+            "y": 0.3098,
+            "d": 0.8235
+          }
         },
         {
           "qid": "Q313240",
@@ -2867,6 +3392,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État malien",
           "edition": 1910,
           "editionLabel": "1910",
+          "number": 680,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -2891,8 +3417,14 @@ window.OMNIDEX_DATA = {
           "birth": "1915-06-04",
           "death": "1977-05-16",
           "gender": "m",
+          "birthplace": "Bamako",
           "score": 0.65814,
-          "notoriety": 51
+          "notoriety": 51,
+          "face": {
+            "x": 0.4902,
+            "y": 0.3059,
+            "d": 0.8196
+          }
         },
         {
           "qid": "Q150688",
@@ -2901,6 +3433,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire et homme d’État mexicain",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 4442,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -2927,8 +3460,14 @@ window.OMNIDEX_DATA = {
           "birth": "1830-09-15",
           "death": "1915-07-02",
           "gender": "m",
+          "birthplace": "Oaxaca",
           "score": 0.62632,
-          "notoriety": 80
+          "notoriety": 80,
+          "face": {
+            "x": 0.4588,
+            "y": 0.2784,
+            "d": 0.6392
+          }
         },
         {
           "qid": "Q133808",
@@ -2937,6 +3476,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État et empereur du Mexique",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 3636,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -2962,8 +3502,14 @@ window.OMNIDEX_DATA = {
           "birth": "1783-09-27",
           "death": "1824-07-19",
           "gender": "m",
+          "birthplace": "Morelia",
           "score": 0.59443,
-          "notoriety": 56
+          "notoriety": 56,
+          "face": {
+            "x": 0.5216,
+            "y": 0.2745,
+            "d": 0.6353
+          }
         }
       ]
     },
@@ -3013,6 +3559,7 @@ window.OMNIDEX_DATA = {
           "description": "fils de la reine britannique Élisabeth II",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 76,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -3038,8 +3585,14 @@ window.OMNIDEX_DATA = {
           "birth": "1960-02-19",
           "death": null,
           "gender": "m",
+          "birthplace": "palais de Buckingham",
           "score": 0.83258,
-          "notoriety": 75
+          "notoriety": 75,
+          "face": {
+            "x": 0.4353,
+            "y": 0.3882,
+            "d": 0.7961
+          }
         },
         {
           "qid": "Q3343832",
@@ -3048,6 +3601,7 @@ window.OMNIDEX_DATA = {
           "description": "humoriste et vidéaste français",
           "edition": 1980,
           "editionLabel": "1980",
+          "number": 4571,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -3077,8 +3631,14 @@ window.OMNIDEX_DATA = {
           "birth": "1987-04-14",
           "death": null,
           "gender": "m",
+          "birthplace": "Arras",
           "score": 0.78442,
-          "notoriety": 14
+          "notoriety": 14,
+          "face": {
+            "x": 0.4863,
+            "y": 0.2745,
+            "d": 0.7333
+          }
         },
         {
           "qid": "Q90588905",
@@ -3087,6 +3647,7 @@ window.OMNIDEX_DATA = {
           "description": "streameur français",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 2106,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -3109,8 +3670,14 @@ window.OMNIDEX_DATA = {
           "birth": "1993-06-28",
           "death": null,
           "gender": "m",
+          "birthplace": null,
           "score": 0.75648,
-          "notoriety": 2
+          "notoriety": 2,
+          "face": {
+            "x": 0.5137,
+            "y": 0.2824,
+            "d": 0.6157
+          }
         },
         {
           "qid": "Q711554",
@@ -3119,6 +3686,7 @@ window.OMNIDEX_DATA = {
           "description": "prélat catholique français",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 324,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -3142,8 +3710,14 @@ window.OMNIDEX_DATA = {
           "birth": "1950-10-17",
           "death": null,
           "gender": "m",
+          "birthplace": "Rabat",
           "score": 0.70431,
-          "notoriety": 30
+          "notoriety": 30,
+          "face": {
+            "x": 0.4627,
+            "y": 0.2784,
+            "d": 0.6196
+          }
         },
         {
           "qid": "Q1904657",
@@ -3152,6 +3726,7 @@ window.OMNIDEX_DATA = {
           "description": "Tueur en série allemand",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 596,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -3175,8 +3750,14 @@ window.OMNIDEX_DATA = {
           "birth": "1970-12-12",
           "death": null,
           "gender": "m",
+          "birthplace": "Brême",
           "score": 0.63745,
-          "notoriety": 4
+          "notoriety": 4,
+          "face": {
+            "x": 0.5373,
+            "y": 0.3098,
+            "d": 0.8235
+          }
         },
         {
           "qid": "Q7176146",
@@ -3185,6 +3766,7 @@ window.OMNIDEX_DATA = {
           "description": "dirigeant de mode finno-canadien et délinquant sexuel condamné",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 419,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -3209,8 +3791,14 @@ window.OMNIDEX_DATA = {
           "birth": "1941-07-24",
           "death": null,
           "gender": "m",
+          "birthplace": "Helsinki",
           "score": 0.64277,
-          "notoriety": 8
+          "notoriety": 8,
+          "face": {
+            "x": 0.5373,
+            "y": 0.3804,
+            "d": 0.9294
+          }
         },
         {
           "qid": "Q461408",
@@ -3219,6 +3807,7 @@ window.OMNIDEX_DATA = {
           "description": "otaku pédophile et tueur en série japonais",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 1391,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -3242,8 +3831,14 @@ window.OMNIDEX_DATA = {
           "birth": "1962-08-21",
           "death": "2008-06-17",
           "gender": "m",
+          "birthplace": "Itsukaichi",
           "score": 0.62361,
-          "notoriety": 26
+          "notoriety": 26,
+          "face": {
+            "x": 0.5294,
+            "y": 0.2784,
+            "d": 0.502
+          }
         },
         {
           "qid": "Q3093872",
@@ -3252,6 +3847,7 @@ window.OMNIDEX_DATA = {
           "description": "écrivain français",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 1385,
           "rarity": 6,
           "rarityName": "Ace",
           "finishId": 0,
@@ -3274,8 +3870,14 @@ window.OMNIDEX_DATA = {
           "birth": "1936-08-12",
           "death": null,
           "gender": "m",
+          "birthplace": "Neuilly-sur-Seine",
           "score": 0.84491,
-          "notoriety": 27
+          "notoriety": 27,
+          "face": {
+            "x": 0.5137,
+            "y": 0.298,
+            "d": 0.7922
+          }
         },
         {
           "qid": "Q2831",
@@ -3284,6 +3886,7 @@ window.OMNIDEX_DATA = {
           "description": "auteur-compositeur-interprète et danseur américain",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 3700,
           "rarity": 6,
           "rarityName": "Ace",
           "finishId": 0,
@@ -3314,8 +3917,14 @@ window.OMNIDEX_DATA = {
           "birth": "1958-08-29",
           "death": "2009-06-25",
           "gender": "m",
+          "birthplace": null,
           "score": 0.97621,
-          "notoriety": 322
+          "notoriety": 322,
+          "face": {
+            "x": 0.498,
+            "y": 0.2667,
+            "d": 0.6392
+          }
         },
         {
           "qid": "Q51552",
@@ -3324,6 +3933,7 @@ window.OMNIDEX_DATA = {
           "description": "réalisateur, producteur et scénariste franco-polonais",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 768,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -3354,8 +3964,14 @@ window.OMNIDEX_DATA = {
           "birth": "1933-08-18",
           "death": null,
           "gender": "m",
+          "birthplace": "Paris",
           "score": 0.83128,
-          "notoriety": 111
+          "notoriety": 111,
+          "face": {
+            "x": 0.4745,
+            "y": 0.3765,
+            "d": 0.9529
+          }
         },
         {
           "qid": "Q127677",
@@ -3364,6 +3980,7 @@ window.OMNIDEX_DATA = {
           "description": "photographe et réalisateur britannique",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 695,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -3390,8 +4007,14 @@ window.OMNIDEX_DATA = {
           "birth": "1933-04-15",
           "death": "2016-11-25",
           "gender": "m",
+          "birthplace": "Londres",
           "score": 0.77162,
-          "notoriety": 24
+          "notoriety": 24,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         },
         {
           "qid": "Q5556756",
@@ -3400,6 +4023,7 @@ window.OMNIDEX_DATA = {
           "description": "femme d’affaires et pédocriminelle franco-britannique naturalisée américaine",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 1030,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -3427,8 +4051,14 @@ window.OMNIDEX_DATA = {
           "birth": "1961-12-25",
           "death": null,
           "gender": "f",
+          "birthplace": "Maisons-Laffitte",
           "score": 0.8222,
-          "notoriety": 45
+          "notoriety": 45,
+          "face": {
+            "x": 0.4471,
+            "y": 0.3765,
+            "d": 0.8863
+          }
         },
         {
           "qid": "Q455421",
@@ -3437,6 +4067,7 @@ window.OMNIDEX_DATA = {
           "description": "essayiste et journaliste libéral français",
           "edition": 1920,
           "editionLabel": "1920",
+          "number": 700,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -3464,8 +4095,14 @@ window.OMNIDEX_DATA = {
           "birth": "1924-01-19",
           "death": "2006-04-30",
           "gender": "m",
+          "birthplace": "Marseille",
           "score": 0.77635,
-          "notoriety": 31
+          "notoriety": 31,
+          "face": {
+            "x": 0.502,
+            "y": 0.2745,
+            "d": 0.7294
+          }
         },
         {
           "qid": "Q2904131",
@@ -3474,6 +4111,7 @@ window.OMNIDEX_DATA = {
           "description": "criminel et financier américain",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 1231,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -3499,8 +4137,14 @@ window.OMNIDEX_DATA = {
           "birth": "1953-01-20",
           "death": "2019-08-10",
           "gender": "m",
+          "birthplace": "Brooklyn",
           "score": 0.90124,
-          "notoriety": 90
+          "notoriety": 90,
+          "face": {
+            "x": 0.5137,
+            "y": 0.3804,
+            "d": 0.9451
+          }
         },
         {
           "qid": "Q32484",
@@ -3509,6 +4153,7 @@ window.OMNIDEX_DATA = {
           "description": "pédocriminel, tueur en série, trafiquant, kidnappeur belge.",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 2858,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -3532,8 +4177,14 @@ window.OMNIDEX_DATA = {
           "birth": "1956-11-06",
           "death": null,
           "gender": "m",
+          "birthplace": "Ixelles",
           "score": 0.81155,
-          "notoriety": 30
+          "notoriety": 30,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         },
         {
           "qid": "Q507748",
@@ -3542,6 +4193,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain (1870-1936)",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 5786,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -3567,8 +4219,14 @@ window.OMNIDEX_DATA = {
           "birth": "1870-05-19",
           "death": "1936-01-16",
           "gender": "m",
+          "birthplace": "Washington",
           "score": 0.7253,
-          "notoriety": 49
+          "notoriety": 49,
+          "face": {
+            "x": 0.4824,
+            "y": 0.3059,
+            "d": 0.8157
+          }
         },
         {
           "qid": "Q186561",
@@ -3577,6 +4235,7 @@ window.OMNIDEX_DATA = {
           "description": "professeur d’entomologie et de zoologie et pionnier de la sexologie",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 7329,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -3602,8 +4261,14 @@ window.OMNIDEX_DATA = {
           "birth": "1894-06-23",
           "death": "1956-08-25",
           "gender": "m",
+          "birthplace": "Hoboken",
           "score": 0.70156,
-          "notoriety": 62
+          "notoriety": 62,
+          "face": {
+            "x": 0.5137,
+            "y": 0.251,
+            "d": 0.6588
+          }
         },
         {
           "qid": "Q3084721",
@@ -3612,6 +4277,7 @@ window.OMNIDEX_DATA = {
           "description": "avocat et écrivain français",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 515,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -3637,8 +4303,14 @@ window.OMNIDEX_DATA = {
           "birth": "1932-05-21",
           "death": null,
           "gender": "m",
+          "birthplace": "7e arrondissement de Paris",
           "score": 0.68838,
-          "notoriety": 5
+          "notoriety": 5,
+          "face": {
+            "x": 0.5216,
+            "y": 0.3255,
+            "d": 0.8667
+          }
         },
         {
           "qid": "Q2386801",
@@ -3647,6 +4319,7 @@ window.OMNIDEX_DATA = {
           "description": "musicien et pédocriminel britannique",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 4668,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -3674,8 +4347,14 @@ window.OMNIDEX_DATA = {
           "birth": "1977-07-30",
           "death": "2025-10-11",
           "gender": "m",
+          "birthplace": "Merthyr Tudful",
           "score": 0.67096,
-          "notoriety": 24
+          "notoriety": 24,
+          "face": {
+            "x": 0.5333,
+            "y": 0.3137,
+            "d": 0.7922
+          }
         },
         {
           "qid": "Q547953",
@@ -3684,6 +4363,7 @@ window.OMNIDEX_DATA = {
           "description": "criminelle belge, condamnée avec son mari Marc Dutroux pour enlèvement et viol",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 37,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -3708,8 +4388,14 @@ window.OMNIDEX_DATA = {
           "birth": "1960-01-15",
           "death": null,
           "gender": "f",
+          "birthplace": "Bruxelles",
           "score": 0.71116,
-          "notoriety": 3
+          "notoriety": 3,
+          "face": {
+            "x": 0.5333,
+            "y": 0.2863,
+            "d": 0.7137
+          }
         },
         {
           "qid": "Q2966264",
@@ -3718,6 +4404,7 @@ window.OMNIDEX_DATA = {
           "description": "homme politique français",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 2567,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -3741,8 +4428,14 @@ window.OMNIDEX_DATA = {
           "birth": "1956-02-09",
           "death": null,
           "gender": "m",
+          "birthplace": "Saumur",
           "score": 0.60058,
-          "notoriety": 6
+          "notoriety": 6,
+          "face": {
+            "x": 0.4941,
+            "y": 0.2627,
+            "d": 0.6627
+          }
         },
         {
           "qid": "Q2977738",
@@ -3751,6 +4444,7 @@ window.OMNIDEX_DATA = {
           "description": "artiste plasticien français",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 1285,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -3771,8 +4465,14 @@ window.OMNIDEX_DATA = {
           "birth": "1953-02-27",
           "death": null,
           "gender": "m",
+          "birthplace": "Nevers",
           "score": 0.62038,
-          "notoriety": 5
+          "notoriety": 5,
+          "face": {
+            "x": 0.5333,
+            "y": 0.3098,
+            "d": 0.8275
+          }
         },
         {
           "qid": "Q355384",
@@ -3781,6 +4481,7 @@ window.OMNIDEX_DATA = {
           "description": "chanteur britannique",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 1374,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -3805,8 +4506,14 @@ window.OMNIDEX_DATA = {
           "birth": "1944-05-08",
           "death": null,
           "gender": "m",
+          "birthplace": "Banbury",
           "score": 0.62921,
-          "notoriety": 27
+          "notoriety": 27,
+          "face": {
+            "x": 0.4941,
+            "y": 0.2745,
+            "d": 0.6784
+          }
         },
         {
           "qid": "Q6159960",
@@ -3815,6 +4522,7 @@ window.OMNIDEX_DATA = {
           "description": "",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 4706,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -3840,8 +4548,14 @@ window.OMNIDEX_DATA = {
           "birth": "1977-08-23",
           "death": null,
           "gender": "m",
+          "birthplace": "Indianapolis",
           "score": 0.65483,
-          "notoriety": 57
+          "notoriety": 57,
+          "face": {
+            "x": 0.4941,
+            "y": 0.3412,
+            "d": 0.9059
+          }
         },
         {
           "qid": "Q713479",
@@ -3850,6 +4564,7 @@ window.OMNIDEX_DATA = {
           "description": "prédateur sexuel et pédocriminel (1926–2011)",
           "edition": 1920,
           "editionLabel": "1920",
+          "number": 1208,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -3877,8 +4592,14 @@ window.OMNIDEX_DATA = {
           "birth": "1926-10-31",
           "death": "2011-10-29",
           "gender": "m",
+          "birthplace": "Leeds",
           "score": 0.64955,
-          "notoriety": 29
+          "notoriety": 29,
+          "face": {
+            "x": 0.4118,
+            "y": 0.2706,
+            "d": 0.6627
+          }
         },
         {
           "qid": "Q21995345",
@@ -3887,6 +4608,7 @@ window.OMNIDEX_DATA = {
           "description": "femme d’État hongroise",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 4729,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -3913,8 +4635,14 @@ window.OMNIDEX_DATA = {
           "birth": "1977-09-06",
           "death": null,
           "gender": "f",
+          "birthplace": "Szeged",
           "score": 0.60722,
-          "notoriety": 72
+          "notoriety": 72,
+          "face": {
+            "x": 0.5373,
+            "y": 0.2627,
+            "d": 0.6549
+          }
         },
         {
           "qid": "Q47467705",
@@ -3923,6 +4651,7 @@ window.OMNIDEX_DATA = {
           "description": "médecin du sport américain",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 1939,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -3947,8 +4676,14 @@ window.OMNIDEX_DATA = {
           "birth": "1963-08-16",
           "death": null,
           "gender": "m",
+          "birthplace": "Farmington Hills",
           "score": 0.65821,
-          "notoriety": 23
+          "notoriety": 23,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         },
         {
           "qid": "Q1375013",
@@ -3957,6 +4692,7 @@ window.OMNIDEX_DATA = {
           "description": "écrivain anarchiste et libre-penseur français",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 5225,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -3982,8 +4718,14 @@ window.OMNIDEX_DATA = {
           "birth": "1858-01-06",
           "death": "1942-07-14",
           "gender": "m",
+          "birthplace": "Saint-Étienne",
           "score": 0.62334,
-          "notoriety": 23
+          "notoriety": 23,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         },
         {
           "qid": "Q719825",
@@ -3992,6 +4734,7 @@ window.OMNIDEX_DATA = {
           "description": "prêtre et pédocriminel mexicain, fondateur de la Légion du Christ",
           "edition": 1920,
           "editionLabel": "1920",
+          "number": 34,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -4013,8 +4756,14 @@ window.OMNIDEX_DATA = {
           "birth": "1920-03-10",
           "death": "2008-01-30",
           "gender": "m",
+          "birthplace": "Michoacán",
           "score": 0.57603,
-          "notoriety": 18
+          "notoriety": 18,
+          "face": {
+            "x": 0.5333,
+            "y": 0.3804,
+            "d": 0.9294
+          }
         }
       ]
     },
@@ -4101,6 +4850,7 @@ window.OMNIDEX_DATA = {
           "description": "tueuse en série américaine",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 2583,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -4125,8 +4875,14 @@ window.OMNIDEX_DATA = {
           "birth": "1956-02-29",
           "death": "2002-10-09",
           "gender": "f",
+          "birthplace": "Rochester",
           "score": 0.78686,
-          "notoriety": 43
+          "notoriety": 43,
+          "face": {
+            "x": 0.4902,
+            "y": 0.3843,
+            "d": 0.8784
+          }
         },
         {
           "qid": "Q44220",
@@ -4135,6 +4891,7 @@ window.OMNIDEX_DATA = {
           "description": "terroriste norvégien néonazi",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 5661,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -4159,8 +4916,14 @@ window.OMNIDEX_DATA = {
           "birth": "1979-02-13",
           "death": null,
           "gender": "m",
+          "birthplace": "Oslo",
           "score": 0.78433,
-          "notoriety": 90
+          "notoriety": 90,
+          "face": {
+            "x": 0.4706,
+            "y": 0.3882,
+            "d": 0.8627
+          }
         },
         {
           "qid": "Q382035",
@@ -4169,6 +4932,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 95,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -4191,8 +4955,14 @@ window.OMNIDEX_DATA = {
           "birth": "1960-02-29",
           "death": "2013-06-07",
           "gender": "m",
+          "birthplace": "El Paso",
           "score": 0.76049,
-          "notoriety": 39
+          "notoriety": 39,
+          "face": {
+            "x": 0.5098,
+            "y": 0.2824,
+            "d": 0.6706
+          }
         },
         {
           "qid": "Q1352339",
@@ -4201,6 +4971,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 1840,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -4223,8 +4994,14 @@ window.OMNIDEX_DATA = {
           "birth": "1954-05-26",
           "death": "2006-10-25",
           "gender": "m",
+          "birthplace": "Shreveport",
           "score": 0.69509,
-          "notoriety": 16
+          "notoriety": 16,
+          "face": {
+            "x": 0.4863,
+            "y": 0.3451,
+            "d": 0.9216
+          }
         },
         {
           "qid": "Q310260",
@@ -4233,6 +5010,7 @@ window.OMNIDEX_DATA = {
           "description": "médecin et tueur en série britannique",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 2009,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -4257,8 +5035,14 @@ window.OMNIDEX_DATA = {
           "birth": "1946-01-14",
           "death": "2004-01-13",
           "gender": "m",
+          "birthplace": "Nottingham",
           "score": 0.70946,
-          "notoriety": 37
+          "notoriety": 37,
+          "face": {
+            "x": 0.502,
+            "y": 0.3255,
+            "d": 0.6039
+          }
         },
         {
           "qid": "Q463389",
@@ -4267,6 +5051,7 @@ window.OMNIDEX_DATA = {
           "description": "meurtrière américaine",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 2869,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -4290,8 +5075,14 @@ window.OMNIDEX_DATA = {
           "birth": "1947-12-03",
           "death": null,
           "gender": "f",
+          "birthplace": "Los Angeles",
           "score": 0.66764,
-          "notoriety": 20
+          "notoriety": 20,
+          "face": {
+            "x": 0.4902,
+            "y": 0.2667,
+            "d": 0.6588
+          }
         },
         {
           "qid": "Q730962",
@@ -4300,6 +5091,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 1977,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 10,
@@ -4323,8 +5115,14 @@ window.OMNIDEX_DATA = {
           "birth": "1939-02-15",
           "death": "2014-08-21",
           "gender": "m",
+          "birthplace": "Estherville",
           "score": 0.67128,
-          "notoriety": 24
+          "notoriety": 24,
+          "face": {
+            "x": 0.4824,
+            "y": 0.2627,
+            "d": 0.698
+          }
         },
         {
           "qid": "Q44496",
@@ -4333,6 +5131,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série soviétique (1936—1994)",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 1426,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4357,8 +5156,14 @@ window.OMNIDEX_DATA = {
           "birth": "1936-10-16",
           "death": "1994-02-14",
           "gender": "m",
+          "birthplace": null,
           "score": 0.6576,
-          "notoriety": 49
+          "notoriety": 49,
+          "face": {
+            "x": 0.498,
+            "y": 0.2941,
+            "d": 0.7843
+          }
         },
         {
           "qid": "Q63984",
@@ -4367,6 +5172,7 @@ window.OMNIDEX_DATA = {
           "description": "criminel américain",
           "edition": 1900,
           "editionLabel": "1900",
+          "number": 1013,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4390,8 +5196,14 @@ window.OMNIDEX_DATA = {
           "birth": "1908-12-06",
           "death": "1934-11-27",
           "gender": "m",
+          "birthplace": "Chicago",
           "score": 0.65812,
-          "notoriety": 18
+          "notoriety": 18,
+          "face": {
+            "x": 0.5725,
+            "y": 0.3216,
+            "d": 0.8549
+          }
         },
         {
           "qid": "Q2157710",
@@ -4400,6 +5212,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série et violeur américain (1953-2019)",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 1558,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4422,8 +5235,14 @@ window.OMNIDEX_DATA = {
           "birth": "1953-10-14",
           "death": "2019-05-23",
           "gender": null,
+          "birthplace": "Kenova",
           "score": 0.62745,
-          "notoriety": 16
+          "notoriety": 16,
+          "face": {
+            "x": 0.5176,
+            "y": 0.3804,
+            "d": 0.9608
+          }
         },
         {
           "qid": "Q722082",
@@ -4432,6 +5251,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 851,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4454,8 +5274,14 @@ window.OMNIDEX_DATA = {
           "birth": "1961-08-13",
           "death": null,
           "gender": "m",
+          "birthplace": "Merced",
           "score": 0.62417,
-          "notoriety": 12
+          "notoriety": 12,
+          "face": {
+            "x": 0.5098,
+            "y": 0.3804,
+            "d": 0.9843
+          }
         },
         {
           "qid": "Q2977655",
@@ -4464,6 +5290,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série français",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 681,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4486,8 +5313,14 @@ window.OMNIDEX_DATA = {
           "birth": "1971-01-19",
           "death": "2023-12-19",
           "gender": "m",
+          "birthplace": "Brest",
           "score": 0.63701,
-          "notoriety": 2
+          "notoriety": 2,
+          "face": {
+            "x": 0.4941,
+            "y": 0.3843,
+            "d": 0.9137
+          }
         },
         {
           "qid": "Q944611",
@@ -4496,6 +5329,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 2185,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 10,
@@ -4519,8 +5353,14 @@ window.OMNIDEX_DATA = {
           "birth": "1939-12-24",
           "death": "1973-08-08",
           "gender": "m",
+          "birthplace": "Fort Wayne",
           "score": 0.60936,
-          "notoriety": 24
+          "notoriety": 24,
+          "face": {
+            "x": 0.498,
+            "y": 0.3412,
+            "d": 0.7412
+          }
         },
         {
           "qid": "Q1546808",
@@ -4529,6 +5369,7 @@ window.OMNIDEX_DATA = {
           "description": "criminel américain",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 1075,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4552,8 +5393,14 @@ window.OMNIDEX_DATA = {
           "birth": "1952-08-30",
           "death": "2020-03-28",
           "gender": "m",
+          "birthplace": "Los Angeles",
           "score": 0.60037,
-          "notoriety": 16
+          "notoriety": 16,
+          "face": {
+            "x": 0.4863,
+            "y": 0.3412,
+            "d": 0.9098
+          }
         },
         {
           "qid": "Q3158938",
@@ -4562,6 +5409,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série français",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 4197,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4582,8 +5430,14 @@ window.OMNIDEX_DATA = {
           "birth": "1959-09-04",
           "death": "2014-06-07",
           "gender": "m",
+          "birthplace": "Évaux-et-Ménil",
           "score": 0.65338,
-          "notoriety": 3
+          "notoriety": 3,
+          "face": {
+            "x": 0.498,
+            "y": 0.3725,
+            "d": 0.9922
+          }
         },
         {
           "qid": "Q1385111",
@@ -4592,6 +5446,7 @@ window.OMNIDEX_DATA = {
           "description": "un des premiers tueurs en série français (1869-1898)",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 5767,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4615,8 +5470,14 @@ window.OMNIDEX_DATA = {
           "birth": "1869-11-16",
           "death": "1898-12-31",
           "gender": "m",
+          "birthplace": "Beaufort",
           "score": 0.64878,
-          "notoriety": 12
+          "notoriety": 12,
+          "face": {
+            "x": 0.5451,
+            "y": 0.3608,
+            "d": 0.9059
+          }
         },
         {
           "qid": "Q548992",
@@ -4625,6 +5486,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série colombien",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 2957,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4646,8 +5508,14 @@ window.OMNIDEX_DATA = {
           "birth": "1957-01-25",
           "death": "2023-10-12",
           "gender": "m",
+          "birthplace": "Génova",
           "score": 0.64829,
-          "notoriety": 33
+          "notoriety": 33,
+          "face": {
+            "x": 0.4941,
+            "y": 0.3961,
+            "d": 0.8588
+          }
         },
         {
           "qid": "Q3295411",
@@ -4656,6 +5524,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série français",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 4028,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4678,8 +5547,14 @@ window.OMNIDEX_DATA = {
           "birth": "1810-04-21",
           "death": "1862-03-08",
           "gender": "m",
+          "birthplace": "Tramoyes",
           "score": 0.62752,
-          "notoriety": 5
+          "notoriety": 5,
+          "face": {
+            "x": 0.502,
+            "y": 0.3922,
+            "d": 1
+          }
         },
         {
           "qid": "Q1904657",
@@ -4688,6 +5563,7 @@ window.OMNIDEX_DATA = {
           "description": "Tueur en série allemand",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 596,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4711,8 +5587,14 @@ window.OMNIDEX_DATA = {
           "birth": "1970-12-12",
           "death": null,
           "gender": "m",
+          "birthplace": "Brême",
           "score": 0.63745,
-          "notoriety": 4
+          "notoriety": 4,
+          "face": {
+            "x": 0.5373,
+            "y": 0.3098,
+            "d": 0.8235
+          }
         },
         {
           "qid": "Q2706794",
@@ -4721,6 +5603,7 @@ window.OMNIDEX_DATA = {
           "description": "criminel italien",
           "edition": 1920,
           "editionLabel": "1920",
+          "number": 741,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4744,8 +5627,14 @@ window.OMNIDEX_DATA = {
           "birth": "1924-05-12",
           "death": "2008-02-13",
           "gender": "m",
+          "birthplace": "Ciaculli",
           "score": 0.60067,
-          "notoriety": 12
+          "notoriety": 12,
+          "face": {
+            "x": 0.4902,
+            "y": 0.2784,
+            "d": 0.6941
+          }
         },
         {
           "qid": "Q3334966",
@@ -4754,6 +5643,7 @@ window.OMNIDEX_DATA = {
           "description": "artiste tueur en série français",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 1695,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4774,8 +5664,14 @@ window.OMNIDEX_DATA = {
           "birth": "1938",
           "death": null,
           "gender": "m",
+          "birthplace": null,
           "score": 0.60672,
-          "notoriety": 2
+          "notoriety": 2,
+          "face": {
+            "x": 0.4902,
+            "y": 0.3216,
+            "d": 0.8549
+          }
         },
         {
           "qid": "Q723693",
@@ -4784,6 +5680,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 2517,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4807,8 +5704,14 @@ window.OMNIDEX_DATA = {
           "birth": "1947-03-05",
           "death": "1996-09-15",
           "gender": "m",
+          "birthplace": null,
           "score": 0.65265,
-          "notoriety": 17
+          "notoriety": 17,
+          "face": {
+            "x": 0.4784,
+            "y": 0.3804,
+            "d": 0.9608
+          }
         },
         {
           "qid": "Q60291",
@@ -4817,6 +5720,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série allemand",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 6501,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4840,8 +5744,14 @@ window.OMNIDEX_DATA = {
           "birth": "1883-05-26",
           "death": "1931-07-02",
           "gender": "m",
+          "birthplace": "Mülheim",
           "score": 0.65488,
-          "notoriety": 27
+          "notoriety": 27,
+          "face": {
+            "x": 0.5176,
+            "y": 0.2902,
+            "d": 0.7804
+          }
         },
         {
           "qid": "Q2364408",
@@ -4850,6 +5760,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 2373,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4873,8 +5784,14 @@ window.OMNIDEX_DATA = {
           "birth": "1946-11-25",
           "death": null,
           "gender": "m",
+          "birthplace": "Bronx",
           "score": 0.65935,
-          "notoriety": 12
+          "notoriety": 12,
+          "face": {
+            "x": 0.4706,
+            "y": 0.302,
+            "d": 0.8078
+          }
         },
         {
           "qid": "Q1651998",
@@ -4883,6 +5800,7 @@ window.OMNIDEX_DATA = {
           "description": "",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 838,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4906,8 +5824,14 @@ window.OMNIDEX_DATA = {
           "birth": "1952-02-04",
           "death": "2019-05-11",
           "gender": "m",
+          "birthplace": "Long Beach",
           "score": 0.60519,
-          "notoriety": 9
+          "notoriety": 9,
+          "face": {
+            "x": 0.5059,
+            "y": 0.3765,
+            "d": 0.8627
+          }
         },
         {
           "qid": "Q461408",
@@ -4916,6 +5840,7 @@ window.OMNIDEX_DATA = {
           "description": "otaku pédophile et tueur en série japonais",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 1391,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -4939,8 +5864,14 @@ window.OMNIDEX_DATA = {
           "birth": "1962-08-21",
           "death": "2008-06-17",
           "gender": "m",
+          "birthplace": "Itsukaichi",
           "score": 0.62361,
-          "notoriety": 26
+          "notoriety": 26,
+          "face": {
+            "x": 0.5294,
+            "y": 0.2784,
+            "d": 0.502
+          }
         },
         {
           "qid": "Q16219137",
@@ -4949,6 +5880,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série et criminel français",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 4972,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -4971,8 +5903,14 @@ window.OMNIDEX_DATA = {
           "birth": "1849-06-12",
           "death": "1924-06-09",
           "gender": "m",
+          "birthplace": "Aigueblanche",
           "score": 0.56015,
-          "notoriety": 4
+          "notoriety": 4,
+          "face": {
+            "x": 0.5451,
+            "y": 0.3765,
+            "d": 0.8
+          }
         },
         {
           "qid": "Q10266537",
@@ -4981,6 +5919,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série portugais d’origine espagnole (1810-1841)",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 4019,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -5004,8 +5943,14 @@ window.OMNIDEX_DATA = {
           "birth": "1810",
           "death": "1841-02-19",
           "gender": "m",
+          "birthplace": null,
           "score": 0.59712,
-          "notoriety": 11
+          "notoriety": 11,
+          "face": {
+            "x": 0.4588,
+            "y": 0.2902,
+            "d": 0.6314
+          }
         },
         {
           "qid": "Q841843",
@@ -5014,6 +5959,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 216,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -5037,8 +5983,14 @@ window.OMNIDEX_DATA = {
           "birth": "1940-09-27",
           "death": "2019-12-13",
           "gender": "m",
+          "birthplace": "Pittsburgh",
           "score": 0.58416,
-          "notoriety": 3
+          "notoriety": 3,
+          "face": {
+            "x": 0.5451,
+            "y": 0.3804,
+            "d": 0.9059
+          }
         },
         {
           "qid": "Q2463622",
@@ -5047,6 +5999,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série espagnol",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 4015,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -5072,8 +6025,14 @@ window.OMNIDEX_DATA = {
           "birth": "1809-11-18",
           "death": "1863-12-14",
           "gender": null,
+          "birthplace": "Esgos",
           "score": 0.55192,
-          "notoriety": 10
+          "notoriety": 10,
+          "face": {
+            "x": 0.5059,
+            "y": 0.3059,
+            "d": 0.8157
+          }
         },
         {
           "qid": "Q1368838",
@@ -5082,6 +6041,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 1710,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -5106,8 +6066,14 @@ window.OMNIDEX_DATA = {
           "birth": "1945-03-19",
           "death": null,
           "gender": "m",
+          "birthplace": "Long Beach",
           "score": 0.54496,
-          "notoriety": 14
+          "notoriety": 14,
+          "face": {
+            "x": 0.5137,
+            "y": 0.2745,
+            "d": 0.7333
+          }
         },
         {
           "qid": "Q2915508",
@@ -5116,6 +6082,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série français",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 1344,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -5136,8 +6103,14 @@ window.OMNIDEX_DATA = {
           "birth": "1944-04-06",
           "death": null,
           "gender": "m",
+          "birthplace": "Hô Chi Minh-Ville",
           "score": 0.77647,
-          "notoriety": 26
+          "notoriety": 26,
+          "face": {
+            "x": 0.5176,
+            "y": 0.2941,
+            "d": 0.6235
+          }
         },
         {
           "qid": "Q365456",
@@ -5146,6 +6119,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 1700,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -5168,8 +6142,14 @@ window.OMNIDEX_DATA = {
           "birth": "1945-03-09",
           "death": null,
           "gender": "m",
+          "birthplace": "Pittsburg",
           "score": 0.78537,
-          "notoriety": 33
+          "notoriety": 33,
+          "face": {
+            "x": 0.5725,
+            "y": 0.3176,
+            "d": 0.8431
+          }
         },
         {
           "qid": "Q309643",
@@ -5178,6 +6158,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain (1906–1984)",
           "edition": 1900,
           "editionLabel": "1900",
+          "number": 723,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -5202,8 +6183,14 @@ window.OMNIDEX_DATA = {
           "birth": "1906-08-27",
           "death": "1984-07-26",
           "gender": "m",
+          "birthplace": "La Crosse",
           "score": 0.84745,
-          "notoriety": 46
+          "notoriety": 46,
+          "face": {
+            "x": 0.5373,
+            "y": 0.2745,
+            "d": 0.6314
+          }
         },
         {
           "qid": "Q549242",
@@ -5212,6 +6199,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain condamné",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 3324,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -5235,8 +6223,14 @@ window.OMNIDEX_DATA = {
           "birth": "1948-12-18",
           "death": null,
           "gender": "m",
+          "birthplace": "Burbank",
           "score": 0.78428,
-          "notoriety": 36
+          "notoriety": 36,
+          "face": {
+            "x": 0.4863,
+            "y": 0.3608,
+            "d": 0.9647
+          }
         },
         {
           "qid": "Q3588630",
@@ -5245,6 +6239,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série français",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 857,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -5266,8 +6261,14 @@ window.OMNIDEX_DATA = {
           "birth": "1934-01-26",
           "death": "2013-10-20",
           "gender": "m",
+          "birthplace": "Auxerre",
           "score": 0.78413,
-          "notoriety": 6
+          "notoriety": 6,
+          "face": {
+            "x": 0.5137,
+            "y": 0.3804,
+            "d": 0.8824
+          }
         },
         {
           "qid": "Q3081486",
@@ -5276,6 +6277,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série français",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 3934,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -5297,8 +6299,14 @@ window.OMNIDEX_DATA = {
           "birth": "1959-02-25",
           "death": null,
           "gender": null,
+          "birthplace": "Metz",
           "score": 0.79187,
-          "notoriety": 7
+          "notoriety": 7,
+          "face": {
+            "x": 0.5882,
+            "y": 0.3255,
+            "d": 0.8078
+          }
         },
         {
           "qid": "Q371704",
@@ -5307,6 +6315,7 @@ window.OMNIDEX_DATA = {
           "description": "criminel français",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 1478,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -5328,8 +6337,14 @@ window.OMNIDEX_DATA = {
           "birth": "1962-10-15",
           "death": null,
           "gender": "m",
+          "birthplace": "Vitry-le-François",
           "score": 0.83568,
-          "notoriety": 8
+          "notoriety": 8,
+          "face": {
+            "x": 0.5137,
+            "y": 0.3843,
+            "d": 0.9725
+          }
         },
         {
           "qid": "Q534708",
@@ -5338,6 +6353,7 @@ window.OMNIDEX_DATA = {
           "description": "assassin condamné à mort en France (1869-1922)",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 5737,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -5362,8 +6378,14 @@ window.OMNIDEX_DATA = {
           "birth": "1869-04-12",
           "death": "1922-02-25",
           "gender": "m",
+          "birthplace": "19e arrondissement de Paris",
           "score": 0.7769,
-          "notoriety": 26
+          "notoriety": 26,
+          "face": {
+            "x": 0.4902,
+            "y": 0.3922,
+            "d": 0.8667
+          }
         },
         {
           "qid": "Q298364",
@@ -5372,6 +6394,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain (1960–1994)",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 206,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -5396,8 +6419,14 @@ window.OMNIDEX_DATA = {
           "birth": "1960-05-21",
           "death": "1994-11-28",
           "gender": "m",
+          "birthplace": "Milwaukee",
           "score": 0.85859,
-          "notoriety": 70
+          "notoriety": 70,
+          "face": {
+            "x": 0.4784,
+            "y": 0.349,
+            "d": 0.7098
+          }
         },
         {
           "qid": "Q298252",
@@ -5406,6 +6435,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain (1942–1994)",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 638,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -5431,8 +6461,14 @@ window.OMNIDEX_DATA = {
           "birth": "1942-03-17",
           "death": "1994-05-10",
           "gender": "m",
+          "birthplace": "Edgewater",
           "score": 0.78446,
-          "notoriety": 46
+          "notoriety": 46,
+          "face": {
+            "x": 0.4549,
+            "y": 0.3255,
+            "d": 0.8667
+          }
         },
         {
           "qid": "Q2331681",
@@ -5441,6 +6477,7 @@ window.OMNIDEX_DATA = {
           "description": "terroriste islamiste franco-algérien",
           "edition": 1980,
           "editionLabel": "1980",
+          "number": 5433,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -5462,8 +6499,14 @@ window.OMNIDEX_DATA = {
           "birth": "1988-10-10",
           "death": "2012-03-22",
           "gender": "m",
+          "birthplace": "Toulouse",
           "score": 0.77971,
-          "notoriety": 12
+          "notoriety": 12,
+          "face": {
+            "x": 0.4863,
+            "y": 0.3725,
+            "d": 0.8275
+          }
         },
         {
           "qid": "Q312308",
@@ -5472,6 +6515,7 @@ window.OMNIDEX_DATA = {
           "description": "un des parrains les plus influents et redoutés de la mafia sicilienne « Cosa nostra » (1930-2017)",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 205,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -5495,8 +6539,14 @@ window.OMNIDEX_DATA = {
           "birth": "1930-11-16",
           "death": "2017-11-17",
           "gender": "m",
+          "birthplace": "Corleone",
           "score": 0.78665,
-          "notoriety": 47
+          "notoriety": 47,
+          "face": {
+            "x": 0.5765,
+            "y": 0.2745,
+            "d": 0.7294
+          }
         },
         {
           "qid": "Q192218",
@@ -5505,6 +6555,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain (1946–1989)",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 2371,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -5529,8 +6580,14 @@ window.OMNIDEX_DATA = {
           "birth": "1946-11-24",
           "death": "1989-01-24",
           "gender": "m",
+          "birthplace": "Burlington",
           "score": 0.86716,
-          "notoriety": 81
+          "notoriety": 81,
+          "face": {
+            "x": 0.5608,
+            "y": 0.3843,
+            "d": 0.8824
+          }
         },
         {
           "qid": "Q507748",
@@ -5539,6 +6596,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain (1870-1936)",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 5786,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -5564,8 +6622,14 @@ window.OMNIDEX_DATA = {
           "birth": "1870-05-19",
           "death": "1936-01-16",
           "gender": "m",
+          "birthplace": "Washington",
           "score": 0.7253,
-          "notoriety": 49
+          "notoriety": 49,
+          "face": {
+            "x": 0.4824,
+            "y": 0.3059,
+            "d": 0.8157
+          }
         },
         {
           "qid": "Q2357346",
@@ -5574,6 +6638,7 @@ window.OMNIDEX_DATA = {
           "description": "meurtrier américain, connu pour son meurtre en prison du tueur en série Jeffrey Dahmer",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 5331,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -5598,8 +6663,14 @@ window.OMNIDEX_DATA = {
           "birth": "1969-07-06",
           "death": null,
           "gender": "m",
+          "birthplace": "Milwaukee",
           "score": 0.72212,
-          "notoriety": 23
+          "notoriety": 23,
+          "face": {
+            "x": 0.4588,
+            "y": 0.3804,
+            "d": 0.8745
+          }
         },
         {
           "qid": "Q108760741",
@@ -5608,6 +6679,7 @@ window.OMNIDEX_DATA = {
           "description": "violeur et tueur en série français",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 1071,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -5629,8 +6701,14 @@ window.OMNIDEX_DATA = {
           "birth": "1962-01-22",
           "death": "2021-09-29",
           "gender": "m",
+          "birthplace": "Gravelines",
           "score": 0.74489,
-          "notoriety": 7
+          "notoriety": 7,
+          "face": {
+            "x": 0.498,
+            "y": 0.3804,
+            "d": 0.9216
+          }
         },
         {
           "qid": "Q360680",
@@ -5639,6 +6717,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 5385,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -5664,8 +6743,14 @@ window.OMNIDEX_DATA = {
           "birth": "1861-05-16",
           "death": "1896-05-07",
           "gender": "m",
+          "birthplace": "Gilmanton",
           "score": 0.74636,
-          "notoriety": 38
+          "notoriety": 38,
+          "face": {
+            "x": 0.451,
+            "y": 0.3098,
+            "d": 0.7529
+          }
         },
         {
           "qid": "Q2825730",
@@ -5674,6 +6759,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série français",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 4686,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -5694,8 +6780,14 @@ window.OMNIDEX_DATA = {
           "birth": "1968-06-20",
           "death": null,
           "gender": "m",
+          "birthplace": "Toulouse",
           "score": 0.74123,
-          "notoriety": 2
+          "notoriety": 2,
+          "face": {
+            "x": 0.4941,
+            "y": 0.3843,
+            "d": 0.9922
+          }
         },
         {
           "qid": "Q2658592",
@@ -5704,6 +6796,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 1120,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -5726,8 +6819,14 @@ window.OMNIDEX_DATA = {
           "birth": "1943-08-23",
           "death": "2021-07-24",
           "gender": "m",
+          "birthplace": "San Antonio",
           "score": 0.73953,
-          "notoriety": 25
+          "notoriety": 25,
+          "face": {
+            "x": 0.4039,
+            "y": 0.2863,
+            "d": 0.7294
+          }
         },
         {
           "qid": "Q1066396",
@@ -5736,6 +6835,7 @@ window.OMNIDEX_DATA = {
           "description": "meurtrier nord-américain",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 1957,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -5758,8 +6858,14 @@ window.OMNIDEX_DATA = {
           "birth": "1945-12-02",
           "death": null,
           "gender": "m",
+          "birthplace": "Dallas",
           "score": 0.67788,
-          "notoriety": 17
+          "notoriety": 17,
+          "face": {
+            "x": 0.498,
+            "y": 0.3725,
+            "d": 0.7725
+          }
         },
         {
           "qid": "Q352717",
@@ -5768,6 +6874,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 1395,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -5790,8 +6897,14 @@ window.OMNIDEX_DATA = {
           "birth": "1953-06-01",
           "death": null,
           "gender": "m",
+          "birthplace": "Brooklyn",
           "score": 0.71276,
-          "notoriety": 31
+          "notoriety": 31,
+          "face": {
+            "x": 0.5686,
+            "y": 0.3725,
+            "d": 0.8667
+          }
         },
         {
           "qid": "Q63443",
@@ -5800,6 +6913,7 @@ window.OMNIDEX_DATA = {
           "description": "dernier condamné à mort exécuté en place publique en France",
           "edition": 1900,
           "editionLabel": "1900",
+          "number": 903,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -5820,8 +6934,14 @@ window.OMNIDEX_DATA = {
           "birth": "1908-02-05",
           "death": "1939-06-17",
           "gender": "m",
+          "birthplace": "Francfort-sur-le-Main",
           "score": 0.70589,
-          "notoriety": 18
+          "notoriety": 18,
+          "face": {
+            "x": 0.5098,
+            "y": 0.3373,
+            "d": 0.6745
+          }
         },
         {
           "qid": "Q357498",
@@ -5830,6 +6950,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 3409,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -5854,8 +6975,14 @@ window.OMNIDEX_DATA = {
           "birth": "1949-02-18",
           "death": null,
           "gender": "m",
+          "birthplace": "Salt Lake City",
           "score": 0.69824,
-          "notoriety": 34
+          "notoriety": 34,
+          "face": {
+            "x": 0.4431,
+            "y": 0.349,
+            "d": 0.8549
+          }
         },
         {
           "qid": "Q4045981",
@@ -5864,6 +6991,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 1930,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -5887,8 +7015,14 @@ window.OMNIDEX_DATA = {
           "birth": "1945-11-08",
           "death": null,
           "gender": "m",
+          "birthplace": "Bath",
           "score": 0.67256,
-          "notoriety": 28
+          "notoriety": 28,
+          "face": {
+            "x": 0.4941,
+            "y": 0.3647,
+            "d": 0.8627
+          }
         },
         {
           "qid": "Q6087028",
@@ -5897,6 +7031,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain (1978-2012)",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 4956,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -5920,8 +7055,14 @@ window.OMNIDEX_DATA = {
           "birth": "1978-01-07",
           "death": "2012-12-02",
           "gender": "m",
+          "birthplace": "Richmond",
           "score": 0.67525,
-          "notoriety": 16
+          "notoriety": 16,
+          "face": {
+            "x": 0.5059,
+            "y": 0.3725,
+            "d": 0.8157
+          }
         },
         {
           "qid": "Q1385693",
@@ -5930,6 +7071,7 @@ window.OMNIDEX_DATA = {
           "description": "",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 1963,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -5953,8 +7095,14 @@ window.OMNIDEX_DATA = {
           "birth": "1939-01-31",
           "death": "2006-03-28",
           "gender": "m",
+          "birthplace": "Webster",
           "score": 0.66995,
-          "notoriety": 23
+          "notoriety": 23,
+          "face": {
+            "x": 0.5176,
+            "y": 0.2941,
+            "d": 0.7882
+          }
         },
         {
           "qid": "Q3369891",
@@ -5963,6 +7111,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série français",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 1068,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -5984,8 +7133,14 @@ window.OMNIDEX_DATA = {
           "birth": "1952-08-24",
           "death": null,
           "gender": "m",
+          "birthplace": "Bourges",
           "score": 0.69755,
-          "notoriety": 2
+          "notoriety": 2,
+          "face": {
+            "x": 0.4902,
+            "y": 0.3843,
+            "d": 0.8745
+          }
         },
         {
           "qid": "Q1999429",
@@ -5994,6 +7149,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série brésilien",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 1862,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -6019,8 +7175,14 @@ window.OMNIDEX_DATA = {
           "birth": "1954-06-17",
           "death": "2023-03-05",
           "gender": "m",
+          "birthplace": "Santa Rita do Sapucaí",
           "score": 0.69148,
-          "notoriety": 18
+          "notoriety": 18,
+          "face": {
+            "x": 0.4353,
+            "y": 0.3569,
+            "d": 0.8431
+          }
         },
         {
           "qid": "Q3384043",
@@ -6029,6 +7191,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série français",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 2897,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -6050,8 +7213,14 @@ window.OMNIDEX_DATA = {
           "birth": "1947-12-30",
           "death": null,
           "gender": "m",
+          "birthplace": "Obernai",
           "score": 0.71517,
-          "notoriety": 2
+          "notoriety": 2,
+          "face": {
+            "x": 0.5529,
+            "y": 0.3765,
+            "d": 0.8941
+          }
         },
         {
           "qid": "Q331530",
@@ -6060,6 +7229,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire français (1946-2003), meurtrier en série",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 2367,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -6081,8 +7251,14 @@ window.OMNIDEX_DATA = {
           "birth": "1946-11-18",
           "death": "2003-10-15",
           "gender": "m",
+          "birthplace": "Saint-Étienne",
           "score": 0.6711,
-          "notoriety": 6
+          "notoriety": 6,
+          "face": {
+            "x": 0.4863,
+            "y": 0.3647,
+            "d": 0.8588
+          }
         },
         {
           "qid": "Q1389384",
@@ -6091,6 +7267,7 @@ window.OMNIDEX_DATA = {
           "description": "criminel italien",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 1187,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -6113,8 +7290,14 @@ window.OMNIDEX_DATA = {
           "birth": "1962-04-03",
           "death": "1988-05-23",
           "gender": "m",
+          "birthplace": "Venise",
           "score": 0.6702,
-          "notoriety": 12
+          "notoriety": 12,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         },
         {
           "qid": "Q25390527",
@@ -6123,6 +7306,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 139,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -6145,8 +7329,14 @@ window.OMNIDEX_DATA = {
           "birth": "1940-06-07",
           "death": "2020-12-30",
           "gender": "m",
+          "birthplace": "Reynolds",
           "score": 0.71455,
-          "notoriety": 24
+          "notoriety": 24,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         },
         {
           "qid": "Q3524468",
@@ -6155,6 +7345,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série français",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 2111,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -6178,8 +7369,14 @@ window.OMNIDEX_DATA = {
           "birth": "1963-11-28",
           "death": "1989-04-16",
           "gender": "m",
+          "birthplace": "Fort-de-France",
           "score": 0.71455,
-          "notoriety": 5
+          "notoriety": 5,
+          "face": {
+            "x": 0.4314,
+            "y": 0.3882,
+            "d": 0.8392
+          }
         },
         {
           "qid": "Q3531345",
@@ -6188,6 +7385,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série français",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 917,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -6210,8 +7408,14 @@ window.OMNIDEX_DATA = {
           "birth": "1934-05-10",
           "death": "2025-11-20",
           "gender": "m",
+          "birthplace": "Propriano",
           "score": 0.69312,
-          "notoriety": 3
+          "notoriety": 3,
+          "face": {
+            "x": 0.5647,
+            "y": 0.3804,
+            "d": 0.8667
+          }
         },
         {
           "qid": "Q3566872",
@@ -6220,6 +7424,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 3575,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -6242,8 +7447,14 @@ window.OMNIDEX_DATA = {
           "birth": "1958-05-27",
           "death": null,
           "gender": "m",
+          "birthplace": "Atlanta",
           "score": 0.6916,
-          "notoriety": 14
+          "notoriety": 14,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         }
       ]
     },
@@ -6307,6 +7518,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État australien",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 1673,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -6331,8 +7543,14 @@ window.OMNIDEX_DATA = {
           "birth": "1963-03-02",
           "death": null,
           "gender": "m",
+          "birthplace": "Darlinghurst",
           "score": 0.68858,
-          "notoriety": 86
+          "notoriety": 86,
+          "face": {
+            "x": 0.4863,
+            "y": 0.2588,
+            "d": 0.6863
+          }
         },
         {
           "qid": "Q217619",
@@ -6341,6 +7559,7 @@ window.OMNIDEX_DATA = {
           "description": "écrivain britannique (1917–1993)",
           "edition": 1910,
           "editionLabel": "1910",
+          "number": 831,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -6368,8 +7587,14 @@ window.OMNIDEX_DATA = {
           "birth": "1917-02-25",
           "death": "1993-11-22",
           "gender": "m",
+          "birthplace": "Hapurhey",
           "score": 0.66127,
-          "notoriety": 77
+          "notoriety": 77,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         },
         {
           "qid": "Q65932",
@@ -6378,6 +7603,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur, compositeur, scénariste, réalisateur et producteur de cinéma britannique naturalisé américain",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 1688,
           "rarity": 6,
           "rarityName": "Ace",
           "finishId": 0,
@@ -6409,8 +7635,14 @@ window.OMNIDEX_DATA = {
           "birth": "1937-12-31",
           "death": null,
           "gender": "m",
+          "birthplace": null,
           "score": 0.87454,
-          "notoriety": 120
+          "notoriety": 120,
+          "face": {
+            "x": 0.5216,
+            "y": 0.3608,
+            "d": 0.9569
+          }
         },
         {
           "qid": "Q426582",
@@ -6419,6 +7651,7 @@ window.OMNIDEX_DATA = {
           "description": "chef américain, écrivain culinaire et animateur de télévision",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 2708,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -6448,8 +7681,14 @@ window.OMNIDEX_DATA = {
           "birth": "1956-06-25",
           "death": "2018-06-08",
           "gender": "m",
+          "birthplace": "New York",
           "score": 0.82223,
-          "notoriety": 96
+          "notoriety": 96,
+          "face": {
+            "x": 0.4706,
+            "y": 0.3529,
+            "d": 0.9412
+          }
         },
         {
           "qid": "Q317008",
@@ -6458,6 +7697,7 @@ window.OMNIDEX_DATA = {
           "description": "joueur de basket-ball américain",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 1973,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -6487,8 +7727,14 @@ window.OMNIDEX_DATA = {
           "birth": "1993-03-11",
           "death": null,
           "gender": "m",
+          "birthplace": "Chicago",
           "score": 0.77916,
-          "notoriety": 50
+          "notoriety": 50,
+          "face": {
+            "x": 0.4627,
+            "y": 0.2902,
+            "d": 0.6549
+          }
         },
         {
           "qid": "Q573463",
@@ -6497,6 +7743,7 @@ window.OMNIDEX_DATA = {
           "description": "boxeur britannique",
           "edition": 1980,
           "editionLabel": "1980",
+          "number": 6076,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -6522,8 +7769,14 @@ window.OMNIDEX_DATA = {
           "birth": "1989-10-15",
           "death": null,
           "gender": "m",
+          "birthplace": "Watford",
           "score": 0.82405,
-          "notoriety": 47
+          "notoriety": 47,
+          "face": {
+            "x": 0.5569,
+            "y": 0.2941,
+            "d": 0.7843
+          }
         },
         {
           "qid": "Q60951627",
@@ -6532,6 +7785,7 @@ window.OMNIDEX_DATA = {
           "description": "joueur de basket-ball américain",
           "edition": 2000,
           "editionLabel": "2000",
+          "number": 708,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -6556,8 +7810,14 @@ window.OMNIDEX_DATA = {
           "birth": "2001-08-05",
           "death": null,
           "gender": "m",
+          "birthplace": "Atlanta",
           "score": 0.74739,
-          "notoriety": 29
+          "notoriety": 29,
+          "face": {
+            "x": 0.5098,
+            "y": 0.3529,
+            "d": 0.9412
+          }
         },
         {
           "qid": "Q2091463",
@@ -6566,6 +7826,7 @@ window.OMNIDEX_DATA = {
           "description": "footballeur français",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 3427,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -6588,8 +7849,14 @@ window.OMNIDEX_DATA = {
           "birth": "1995-12-05",
           "death": null,
           "gender": "m",
+          "birthplace": "Massy",
           "score": 0.75463,
-          "notoriety": 59
+          "notoriety": 59,
+          "face": {
+            "x": 0.5137,
+            "y": 0.2902,
+            "d": 0.7725
+          }
         },
         {
           "qid": "Q193146",
@@ -6598,6 +7865,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur et réalisateur américain",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 486,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -6624,8 +7892,14 @@ window.OMNIDEX_DATA = {
           "birth": "1932-04-04",
           "death": "1992-09-12",
           "gender": "m",
+          "birthplace": "New York",
           "score": 0.77681,
-          "notoriety": 66
+          "notoriety": 66,
+          "face": {
+            "x": 0.4667,
+            "y": 0.2627,
+            "d": 0.6588
+          }
         },
         {
           "qid": "Q83484",
@@ -6634,6 +7908,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur américain",
           "edition": 1910,
           "editionLabel": "1910",
+          "number": 667,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -6662,8 +7937,14 @@ window.OMNIDEX_DATA = {
           "birth": "1915-04-21",
           "death": "2001-06-03",
           "gender": "m",
+          "birthplace": "Chihuahua",
           "score": 0.75408,
-          "notoriety": 84
+          "notoriety": 84,
+          "face": {
+            "x": 0.4941,
+            "y": 0.3765,
+            "d": 0.8824
+          }
         },
         {
           "qid": "Q110188420",
@@ -6672,6 +7953,7 @@ window.OMNIDEX_DATA = {
           "description": "entrepreneur français",
           "edition": 1980,
           "editionLabel": "1980",
+          "number": 5205,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -6695,8 +7977,14 @@ window.OMNIDEX_DATA = {
           "birth": "1988-05-22",
           "death": null,
           "gender": "m",
+          "birthplace": "Bordeaux",
           "score": 0.73381,
-          "notoriety": 2
+          "notoriety": 2,
+          "face": {
+            "x": 0.5333,
+            "y": 0.2863,
+            "d": 0.7686
+          }
         },
         {
           "qid": "Q314924",
@@ -6705,6 +7993,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur américain",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 1336,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -6733,8 +8022,14 @@ window.OMNIDEX_DATA = {
           "birth": "1962-07-19",
           "death": null,
           "gender": "m",
+          "birthplace": "Santa Barbara",
           "score": 0.76898,
-          "notoriety": 35
+          "notoriety": 35,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         },
         {
           "qid": "Q2852885",
@@ -6743,6 +8038,7 @@ window.OMNIDEX_DATA = {
           "description": "chanteur, acteur et humoriste canado-haïtien",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 5479,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -6770,8 +8066,14 @@ window.OMNIDEX_DATA = {
           "birth": "1969-09-26",
           "death": null,
           "gender": "m",
+          "birthplace": "Greenfield Park",
           "score": 0.72841,
-          "notoriety": 9
+          "notoriety": 9,
+          "face": {
+            "x": 0.549,
+            "y": 0.3804,
+            "d": 0.902
+          }
         },
         {
           "qid": "Q204751",
@@ -6780,6 +8082,7 @@ window.OMNIDEX_DATA = {
           "description": "chanteur américain",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 1508,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -6808,8 +8111,14 @@ window.OMNIDEX_DATA = {
           "birth": "1962-11-01",
           "death": null,
           "gender": "m",
+          "birthplace": "Grand Rapids",
           "score": 0.74019,
-          "notoriety": 61
+          "notoriety": 61,
+          "face": {
+            "x": 0.5294,
+            "y": 0.2902,
+            "d": 0.6431
+          }
         },
         {
           "qid": "Q511554",
@@ -6818,6 +8127,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur américain",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 5401,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -6846,8 +8156,14 @@ window.OMNIDEX_DATA = {
           "birth": "1978-09-23",
           "death": null,
           "gender": "m",
+          "birthplace": "La Nouvelle-Orléans",
           "score": 0.75484,
-          "notoriety": 55
+          "notoriety": 55,
+          "face": {
+            "x": 0.5725,
+            "y": 0.3843,
+            "d": 0.8549
+          }
         },
         {
           "qid": "Q26625",
@@ -6856,6 +8172,7 @@ window.OMNIDEX_DATA = {
           "description": "chanteur américano-portoricain",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 4825,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -6886,8 +8203,14 @@ window.OMNIDEX_DATA = {
           "birth": "1968-09-16",
           "death": null,
           "gender": "m",
+          "birthplace": "New York",
           "score": 0.76177,
-          "notoriety": 56
+          "notoriety": 56,
+          "face": {
+            "x": 0.4157,
+            "y": 0.2784,
+            "d": 0.7451
+          }
         },
         {
           "qid": "Q313918",
@@ -6896,6 +8219,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur américain",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 402,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -6923,8 +8247,14 @@ window.OMNIDEX_DATA = {
           "birth": "1970-08-15",
           "death": null,
           "gender": "m",
+          "birthplace": "Compton",
           "score": 0.70889,
-          "notoriety": 46
+          "notoriety": 46,
+          "face": {
+            "x": 0.5176,
+            "y": 0.3765,
+            "d": 0.9686
+          }
         },
         {
           "qid": "Q50091728",
@@ -6933,6 +8263,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur français",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 2528,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -6959,8 +8290,14 @@ window.OMNIDEX_DATA = {
           "birth": "1994-04-07",
           "death": null,
           "gender": "m",
+          "birthplace": "Villeneuve-Saint-Georges",
           "score": 0.69281,
-          "notoriety": 13
+          "notoriety": 13,
+          "face": {
+            "x": 0.5451,
+            "y": 0.3725,
+            "d": 0.9098
+          }
         },
         {
           "qid": "Q4772101",
@@ -6969,6 +8306,7 @@ window.OMNIDEX_DATA = {
           "description": "joueur canadien de basket-ball",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 1977,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -6993,8 +8331,14 @@ window.OMNIDEX_DATA = {
           "birth": "1993-03-14",
           "death": null,
           "gender": "m",
+          "birthplace": "Brampton",
           "score": 0.67651,
-          "notoriety": 31
+          "notoriety": 31,
+          "face": {
+            "x": 0.502,
+            "y": 0.3843,
+            "d": 0.8667
+          }
         },
         {
           "qid": "Q49150651",
@@ -7003,6 +8347,7 @@ window.OMNIDEX_DATA = {
           "description": "joueur français de rugby à XV",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 1521,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -7026,8 +8371,14 @@ window.OMNIDEX_DATA = {
           "birth": "1992-06-19",
           "death": null,
           "gender": "m",
+          "birthplace": "Pouillon",
           "score": 0.66304,
-          "notoriety": 4
+          "notoriety": 4,
+          "face": {
+            "x": 0.5765,
+            "y": 0.2902,
+            "d": 0.7725
+          }
         },
         {
           "qid": "Q67755219",
@@ -7036,6 +8387,7 @@ window.OMNIDEX_DATA = {
           "description": "danseur et chorégraphe français",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 2982,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -7059,8 +8411,14 @@ window.OMNIDEX_DATA = {
           "birth": "1995-02-01",
           "death": null,
           "gender": "m",
+          "birthplace": "Avignon",
           "score": 0.69742,
-          "notoriety": 2
+          "notoriety": 2,
+          "face": {
+            "x": 0.5412,
+            "y": 0.2588,
+            "d": 0.6902
+          }
         },
         {
           "qid": "Q573147",
@@ -7069,6 +8427,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur français",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 2599,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -7099,8 +8458,14 @@ window.OMNIDEX_DATA = {
           "birth": "1964-09-30",
           "death": null,
           "gender": "m",
+          "birthplace": "Los Angeles",
           "score": 0.71753,
-          "notoriety": 22
+          "notoriety": 22,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 0.9059
+          }
         },
         {
           "qid": "Q128995",
@@ -7109,6 +8474,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État britannique",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 7584,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -7136,8 +8502,14 @@ window.OMNIDEX_DATA = {
           "birth": "1897-06-12",
           "death": "1977-01-14",
           "gender": "m",
+          "birthplace": "Durham",
           "score": 0.71195,
-          "notoriety": 97
+          "notoriety": 97,
+          "face": {
+            "x": 0.4235,
+            "y": 0.3059,
+            "d": 0.7922
+          }
         },
         {
           "qid": "Q573246",
@@ -7146,6 +8518,7 @@ window.OMNIDEX_DATA = {
           "description": "immunologiste américain",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 273,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -7170,8 +8543,14 @@ window.OMNIDEX_DATA = {
           "birth": "1940-12-24",
           "death": null,
           "gender": "m",
+          "birthplace": "Brooklyn",
           "score": 0.69038,
-          "notoriety": 63
+          "notoriety": 63,
+          "face": {
+            "x": 0.498,
+            "y": 0.3137,
+            "d": 0.8314
+          }
         },
         {
           "qid": "Q30729256",
@@ -7180,6 +8559,7 @@ window.OMNIDEX_DATA = {
           "description": "joueur français de rugby à XV",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 3783,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -7203,8 +8583,14 @@ window.OMNIDEX_DATA = {
           "birth": "1996-07-28",
           "death": null,
           "gender": "m",
+          "birthplace": "Vic-Fezensac",
           "score": 0.67934,
-          "notoriety": 7
+          "notoriety": 7,
+          "face": {
+            "x": 0.502,
+            "y": 0.3882,
+            "d": 1
+          }
         },
         {
           "qid": "Q1392235",
@@ -7213,6 +8599,7 @@ window.OMNIDEX_DATA = {
           "description": "footballeur international portugais",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 490,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -7239,8 +8626,14 @@ window.OMNIDEX_DATA = {
           "birth": "1990-10-01",
           "death": null,
           "gender": "m",
+          "birthplace": "Givors",
           "score": 0.6686,
-          "notoriety": 41
+          "notoriety": 41,
+          "face": {
+            "x": 0.4941,
+            "y": 0.3059,
+            "d": 0.8118
+          }
         },
         {
           "qid": "Q20973952",
@@ -7249,6 +8642,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur américain",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 1116,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -7276,8 +8670,14 @@ window.OMNIDEX_DATA = {
           "birth": "1991-11-01",
           "death": null,
           "gender": "m",
+          "birthplace": "Brooklyn",
           "score": 0.69856,
-          "notoriety": 29
+          "notoriety": 29,
+          "face": {
+            "x": 0.5176,
+            "y": 0.3255,
+            "d": 0.8627
+          }
         },
         {
           "qid": "Q39983",
@@ -7286,6 +8686,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur américain",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 1141,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -7313,8 +8714,14 @@ window.OMNIDEX_DATA = {
           "birth": "1971-10-26",
           "death": null,
           "gender": "m",
+          "birthplace": "Chicago",
           "score": 0.66775,
-          "notoriety": 30
+          "notoriety": 30,
+          "face": {
+            "x": 0.4784,
+            "y": 0.2745,
+            "d": 0.702
+          }
         },
         {
           "qid": "Q380429",
@@ -7323,6 +8730,7 @@ window.OMNIDEX_DATA = {
           "description": "auteur d’ouvrages sur la réalisation de soi, conférencier",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 92,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -7345,8 +8753,14 @@ window.OMNIDEX_DATA = {
           "birth": "1960-02-29",
           "death": null,
           "gender": "m",
+          "birthplace": "North Hollywood",
           "score": 0.71956,
-          "notoriety": 54
+          "notoriety": 54,
+          "face": {
+            "x": 0.5412,
+            "y": 0.3451,
+            "d": 0.9176
+          }
         },
         {
           "qid": "Q342962",
@@ -7355,6 +8769,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur et chanteur britannique",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 1722,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -7381,8 +8796,14 @@ window.OMNIDEX_DATA = {
           "birth": "1954-02-20",
           "death": "2026-06-01",
           "gender": "m",
+          "birthplace": "Camden Town",
           "score": 0.71716,
-          "notoriety": 39
+          "notoriety": 39,
+          "face": {
+            "x": 0.5529,
+            "y": 0.3843,
+            "d": 0.8941
+          }
         },
         {
           "qid": "Q30118260",
@@ -7391,6 +8812,7 @@ window.OMNIDEX_DATA = {
           "description": "joueur français de rugby à XV",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 3619,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -7414,8 +8836,14 @@ window.OMNIDEX_DATA = {
           "birth": "1996-04-08",
           "death": null,
           "gender": "m",
+          "birthplace": "Monflanquin",
           "score": 0.64072,
-          "notoriety": 5
+          "notoriety": 5,
+          "face": {
+            "x": 0.5412,
+            "y": 0.3333,
+            "d": 0.8902
+          }
         },
         {
           "qid": "Q2250963",
@@ -7424,6 +8852,7 @@ window.OMNIDEX_DATA = {
           "description": "pilote automobile français",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 976,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -7446,8 +8875,14 @@ window.OMNIDEX_DATA = {
           "birth": "1971-07-21",
           "death": null,
           "gender": "m",
+          "birthplace": "Neuilly-sur-Seine",
           "score": 0.64041,
-          "notoriety": 7
+          "notoriety": 7,
+          "face": {
+            "x": 0.5098,
+            "y": 0.3882,
+            "d": 0.8863
+          }
         },
         {
           "qid": "Q27300087",
@@ -7456,6 +8891,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur nord-irlandais",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 2632,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -7478,8 +8914,14 @@ window.OMNIDEX_DATA = {
           "birth": "1994-06-08",
           "death": null,
           "gender": "m",
+          "birthplace": "Belfast",
           "score": 0.63878,
-          "notoriety": 13
+          "notoriety": 13,
+          "face": {
+            "x": 0.5882,
+            "y": 0.3216,
+            "d": 0.8078
+          }
         },
         {
           "qid": "Q441685",
@@ -7488,6 +8930,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur britannique",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 2059,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -7513,8 +8956,14 @@ window.OMNIDEX_DATA = {
           "birth": "1946-02-21",
           "death": null,
           "gender": "m",
+          "birthplace": "Salisbury",
           "score": 0.64677,
-          "notoriety": 46
+          "notoriety": 46,
+          "face": {
+            "x": 0.4863,
+            "y": 0.2902,
+            "d": 0.6588
+          }
         },
         {
           "qid": "Q106805131",
@@ -7523,6 +8972,7 @@ window.OMNIDEX_DATA = {
           "description": "footballeur suédois",
           "edition": 2000,
           "editionLabel": "2000",
+          "number": 980,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -7545,8 +8995,14 @@ window.OMNIDEX_DATA = {
           "birth": "2002-04-27",
           "death": null,
           "gender": "m",
+          "birthplace": null,
           "score": 0.65108,
-          "notoriety": 38
+          "notoriety": 38,
+          "face": {
+            "x": 0.5137,
+            "y": 0.2745,
+            "d": 0.6471
+          }
         },
         {
           "qid": "Q45179405",
@@ -7555,6 +9011,7 @@ window.OMNIDEX_DATA = {
           "description": "footballeur anglais",
           "edition": 2000,
           "editionLabel": "2000",
+          "number": 539,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -7579,8 +9036,14 @@ window.OMNIDEX_DATA = {
           "birth": "2001-02-24",
           "death": null,
           "gender": "m",
+          "birthplace": "Liverpool",
           "score": 0.63994,
-          "notoriety": 52
+          "notoriety": 52,
+          "face": {
+            "x": 0.4706,
+            "y": 0.2784,
+            "d": 0.6863
+          }
         },
         {
           "qid": "Q279305",
@@ -7589,6 +9052,7 @@ window.OMNIDEX_DATA = {
           "description": "auteur d’ouvrages pour la jeunesse et scénariste",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 2193,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -7613,8 +9077,14 @@ window.OMNIDEX_DATA = {
           "birth": "1955-04-05",
           "death": null,
           "gender": "m",
+          "birthplace": "Stanmore",
           "score": 0.656,
-          "notoriety": 37
+          "notoriety": 37,
+          "face": {
+            "x": 0.502,
+            "y": 0.3843,
+            "d": 1
+          }
         },
         {
           "qid": "Q576548",
@@ -7623,6 +9093,7 @@ window.OMNIDEX_DATA = {
           "description": "pratiquant américain d’arts martiaux",
           "edition": 1980,
           "editionLabel": "1980",
+          "number": 2576,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -7649,8 +9120,14 @@ window.OMNIDEX_DATA = {
           "birth": "1984-03-06",
           "death": "2022-11-13",
           "gender": "m",
+          "birthplace": "Dublin",
           "score": 0.6555,
-          "notoriety": 17
+          "notoriety": 17,
+          "face": {
+            "x": 0.5255,
+            "y": 0.2745,
+            "d": 0.6078
+          }
         },
         {
           "qid": "Q128895",
@@ -7659,6 +9136,7 @@ window.OMNIDEX_DATA = {
           "description": "footballeur français",
           "edition": 1980,
           "editionLabel": "1980",
+          "number": 2904,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -7686,8 +9164,14 @@ window.OMNIDEX_DATA = {
           "birth": "1984-10-03",
           "death": null,
           "gender": "m",
+          "birthplace": "Hennebont",
           "score": 0.63858,
-          "notoriety": 27
+          "notoriety": 27,
+          "face": {
+            "x": 0.5451,
+            "y": 0.2627,
+            "d": 0.6941
+          }
         },
         {
           "qid": "Q361215",
@@ -7696,6 +9180,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur américain",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 4577,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -7720,8 +9205,14 @@ window.OMNIDEX_DATA = {
           "birth": "1968-04-14",
           "death": null,
           "gender": "m",
+          "birthplace": "West Roxbury",
           "score": 0.6655,
-          "notoriety": 32
+          "notoriety": 32,
+          "face": {
+            "x": 0.5059,
+            "y": 0.3725,
+            "d": 0.9882
+          }
         },
         {
           "qid": "Q2057232",
@@ -7730,6 +9221,7 @@ window.OMNIDEX_DATA = {
           "description": "pratiquant américain d’arts martiaux",
           "edition": 1980,
           "editionLabel": "1980",
+          "number": 4425,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -7755,8 +9247,14 @@ window.OMNIDEX_DATA = {
           "birth": "1987-01-27",
           "death": null,
           "gender": "m",
+          "birthplace": "Milwaukee",
           "score": 0.65571,
-          "notoriety": 20
+          "notoriety": 20,
+          "face": {
+            "x": 0.5569,
+            "y": 0.2745,
+            "d": 0.6824
+          }
         },
         {
           "qid": "Q574013",
@@ -7765,6 +9263,7 @@ window.OMNIDEX_DATA = {
           "description": "criminel américain",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 1783,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -7787,8 +9286,14 @@ window.OMNIDEX_DATA = {
           "birth": "1938-05-19",
           "death": "1986-06-14",
           "gender": "m",
+          "birthplace": "Chicago",
           "score": 0.65232,
-          "notoriety": 9
+          "notoriety": 9,
+          "face": {
+            "x": 0.4941,
+            "y": 0.2745,
+            "d": 0.6353
+          }
         },
         {
           "qid": "Q2852985",
@@ -7797,6 +9302,7 @@ window.OMNIDEX_DATA = {
           "description": "coureur cycliste français",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 2595,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -7820,8 +9326,14 @@ window.OMNIDEX_DATA = {
           "birth": "1994-05-16",
           "death": null,
           "gender": "m",
+          "birthplace": "Bourg-la-Reine",
           "score": 0.62811,
-          "notoriety": 21
+          "notoriety": 21,
+          "face": {
+            "x": 0.5451,
+            "y": 0.3686,
+            "d": 0.7843
+          }
         }
       ]
     },
@@ -7850,6 +9362,7 @@ window.OMNIDEX_DATA = {
           "description": "escrimeur et homme politique français",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 2561,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -7876,8 +9389,14 @@ window.OMNIDEX_DATA = {
           "birth": "1956-02-02",
           "death": null,
           "gender": "m",
+          "birthplace": "Paris",
           "score": 0.61448,
-          "notoriety": 25
+          "notoriety": 25,
+          "face": {
+            "x": 0.5529,
+            "y": 0.3333,
+            "d": 0.8902
+          }
         },
         {
           "qid": "Q1303301",
@@ -7886,6 +9405,7 @@ window.OMNIDEX_DATA = {
           "description": "physicien français",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 442,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 2,
@@ -7910,8 +9430,14 @@ window.OMNIDEX_DATA = {
           "birth": "1951-02-07",
           "death": null,
           "gender": "m",
+          "birthplace": "6e arrondissement de Lyon",
           "score": 0.60178,
-          "notoriety": 17
+          "notoriety": 17,
+          "face": {
+            "x": 0.5294,
+            "y": 0.3294,
+            "d": 0.8824
+          }
         },
         {
           "qid": "Q3080696",
@@ -7920,6 +9446,7 @@ window.OMNIDEX_DATA = {
           "description": "chanteuse de variétés",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 2330,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -7945,8 +9472,14 @@ window.OMNIDEX_DATA = {
           "birth": "1964-03-30",
           "death": null,
           "gender": "f",
+          "birthplace": "Mont-Rolland",
           "score": 0.63298,
-          "notoriety": 6
+          "notoriety": 6,
+          "face": {
+            "x": 0.5059,
+            "y": 0.302,
+            "d": 0.6706
+          }
         },
         {
           "qid": "Q166420",
@@ -7955,6 +9488,7 @@ window.OMNIDEX_DATA = {
           "description": "actrice américaine",
           "edition": 1910,
           "editionLabel": "1910",
+          "number": 624,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -7983,8 +9517,14 @@ window.OMNIDEX_DATA = {
           "birth": "1914-12-10",
           "death": "1996-09-22",
           "gender": "f",
+          "birthplace": "La Nouvelle-Orléans",
           "score": 0.57844,
-          "notoriety": 41
+          "notoriety": 41,
+          "face": {
+            "x": 0.5137,
+            "y": 0.2667,
+            "d": 0.6392
+          }
         },
         {
           "qid": "Q3290711",
@@ -7993,6 +9533,7 @@ window.OMNIDEX_DATA = {
           "description": "personnalité politique française",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 2697,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -8019,8 +9560,14 @@ window.OMNIDEX_DATA = {
           "birth": "1956-06-12",
           "death": "2026-03-05",
           "gender": "f",
+          "birthplace": "Ploudalmézeau",
           "score": 0.46697,
-          "notoriety": 4
+          "notoriety": 4,
+          "face": {
+            "x": 0.5059,
+            "y": 0.2627,
+            "d": 0.6941
+          }
         },
         {
           "qid": "Q3343859",
@@ -8029,6 +9576,7 @@ window.OMNIDEX_DATA = {
           "description": "auteur-compositeur-interprète canadien",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 155,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -8053,8 +9601,14 @@ window.OMNIDEX_DATA = {
           "birth": "1930-09-06",
           "death": "2015-11-03",
           "gender": "m",
+          "birthplace": "Saint-Joseph-de-Sorel",
           "score": 0.54126,
-          "notoriety": 4
+          "notoriety": 4,
+          "face": {
+            "x": 0.4902,
+            "y": 0.2706,
+            "d": 0.6941
+          }
         },
         {
           "qid": "Q3380137",
@@ -8063,6 +9617,7 @@ window.OMNIDEX_DATA = {
           "description": "avocat et haut fonctionnaire français",
           "edition": 1900,
           "editionLabel": "1900",
+          "number": 342,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -8087,8 +9642,14 @@ window.OMNIDEX_DATA = {
           "birth": "1903-02-12",
           "death": "1992-07-25",
           "gender": "m",
+          "birthplace": "Landrecies",
           "score": 0.51949,
-          "notoriety": 2
+          "notoriety": 2,
+          "face": {
+            "x": 0.4784,
+            "y": 0.2627,
+            "d": 0.6471
+          }
         },
         {
           "qid": "Q949869",
@@ -8097,6 +9658,7 @@ window.OMNIDEX_DATA = {
           "description": "joueur et entraîneur de hockey sur glace canadien",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 393,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -8122,8 +9684,14 @@ window.OMNIDEX_DATA = {
           "birth": "1970-08-09",
           "death": null,
           "gender": "m",
+          "birthplace": "Ottawa",
           "score": 0.58534,
-          "notoriety": 21
+          "notoriety": 21,
+          "face": {
+            "x": 0.4745,
+            "y": 0.2863,
+            "d": 0.6392
+          }
         }
       ]
     },
@@ -8149,6 +9717,7 @@ window.OMNIDEX_DATA = {
           "description": "entrepreneur britannique en intelligence artificielle",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 4087,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 3,
@@ -8174,8 +9743,14 @@ window.OMNIDEX_DATA = {
           "birth": "1976-07-27",
           "death": null,
           "gender": "m",
+          "birthplace": "Londres",
           "score": 0.78884,
-          "notoriety": 59
+          "notoriety": 59,
+          "face": {
+            "x": 0.4667,
+            "y": 0.3765,
+            "d": 0.9373
+          }
         },
         {
           "qid": "Q4934",
@@ -8184,6 +9759,7 @@ window.OMNIDEX_DATA = {
           "description": "informaticien et entrepreneur américain",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 2033,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -8208,8 +9784,14 @@ window.OMNIDEX_DATA = {
           "birth": "1973-03-26",
           "death": null,
           "gender": "m",
+          "birthplace": "East Lansing",
           "score": 0.75838,
-          "notoriety": 103
+          "notoriety": 103,
+          "face": {
+            "x": 0.5216,
+            "y": 0.2863,
+            "d": 0.6
+          }
         },
         {
           "qid": "Q55183",
@@ -8218,6 +9800,7 @@ window.OMNIDEX_DATA = {
           "description": "femme d’affaire états-unienne",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 4716,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -8242,8 +9825,14 @@ window.OMNIDEX_DATA = {
           "birth": "1968-07-05",
           "death": "2024-08-09",
           "gender": "f",
+          "birthplace": "Santa Clara",
           "score": 0.63264,
-          "notoriety": 60
+          "notoriety": 60,
+          "face": {
+            "x": 0.5176,
+            "y": 0.2941,
+            "d": 0.7647
+          }
         },
         {
           "qid": "Q92764",
@@ -8252,6 +9841,7 @@ window.OMNIDEX_DATA = {
           "description": "entrepreneur américain d’origine russe",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 2282,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -8277,8 +9867,14 @@ window.OMNIDEX_DATA = {
           "birth": "1973-08-21",
           "death": null,
           "gender": "m",
+          "birthplace": "Moscou",
           "score": 0.7361,
-          "notoriety": 98
+          "notoriety": 98,
+          "face": {
+            "x": 0.4157,
+            "y": 0.3569,
+            "d": 0.7608
+          }
         },
         {
           "qid": "Q92743",
@@ -8287,6 +9883,7 @@ window.OMNIDEX_DATA = {
           "description": "informaticien américain",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 1071,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -8311,8 +9908,14 @@ window.OMNIDEX_DATA = {
           "birth": "1943-06-23",
           "death": null,
           "gender": "m",
+          "birthplace": "New Haven",
           "score": 0.68506,
-          "notoriety": 57
+          "notoriety": 57,
+          "face": {
+            "x": 0.5333,
+            "y": 0.2784,
+            "d": 0.7412
+          }
         }
       ]
     },
@@ -8376,6 +9979,7 @@ window.OMNIDEX_DATA = {
           "description": "écrivain et dramaturge français, père de l’écrivain et dramaturge homonyme",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 3871,
           "rarity": 6,
           "rarityName": "Ace",
           "finishId": 0,
@@ -8402,8 +10006,14 @@ window.OMNIDEX_DATA = {
           "birth": "1802-07-24",
           "death": "1870-12-05",
           "gender": "m",
+          "birthplace": "Villers-Cotterêts",
           "score": 0.89168,
-          "notoriety": 174
+          "notoriety": 174,
+          "face": {
+            "x": 0.5098,
+            "y": 0.2667,
+            "d": 0.6784
+          }
         },
         {
           "qid": "Q42786",
@@ -8412,6 +10022,7 @@ window.OMNIDEX_DATA = {
           "description": "actrice et mannequin britannique",
           "edition": 1920,
           "editionLabel": "1920",
+          "number": 1700,
           "rarity": 6,
           "rarityName": "Ace",
           "finishId": 0,
@@ -8441,8 +10052,14 @@ window.OMNIDEX_DATA = {
           "birth": "1929-05-04",
           "death": "1993-01-20",
           "gender": "f",
+          "birthplace": "rue Keyenveld",
           "score": 0.86459,
-          "notoriety": 148
+          "notoriety": 148,
+          "face": {
+            "x": 0.5294,
+            "y": 0.2667,
+            "d": 0.6157
+          }
         },
         {
           "qid": "Q173399",
@@ -8451,6 +10068,7 @@ window.OMNIDEX_DATA = {
           "description": "personnalité canadienne du cinéma",
           "edition": 1980,
           "editionLabel": "1980",
+          "number": 4477,
           "rarity": 6,
           "rarityName": "Ace",
           "finishId": 0,
@@ -8474,8 +10092,14 @@ window.OMNIDEX_DATA = {
           "birth": "1987-02-21",
           "death": null,
           "gender": null,
+          "birthplace": "Halifax",
           "score": 0.85768,
-          "notoriety": 83
+          "notoriety": 83,
+          "face": {
+            "x": 0.5608,
+            "y": 0.3647,
+            "d": 0.8314
+          }
         },
         {
           "qid": "Q106255",
@@ -8484,6 +10108,7 @@ window.OMNIDEX_DATA = {
           "description": "acteur, producteur et cascadeur français",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 691,
           "rarity": 6,
           "rarityName": "Ace",
           "finishId": 0,
@@ -8512,8 +10137,14 @@ window.OMNIDEX_DATA = {
           "birth": "1933-04-09",
           "death": "2021-09-06",
           "gender": "m",
+          "birthplace": "Neuilly-sur-Seine",
           "score": 0.85335,
-          "notoriety": 108
+          "notoriety": 108,
+          "face": {
+            "x": 0.6078,
+            "y": 0.3725,
+            "d": 0.7569
+          }
         },
         {
           "qid": "Q26707663",
@@ -8522,6 +10153,7 @@ window.OMNIDEX_DATA = {
           "description": "rappeuse, chanteuse, danseuse et modèle thaïlandaise",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 4178,
           "rarity": 6,
           "rarityName": "Ace",
           "finishId": 0,
@@ -8553,8 +10185,14 @@ window.OMNIDEX_DATA = {
           "birth": "1997-03-27",
           "death": null,
           "gender": "f",
+          "birthplace": "Buriram",
           "score": 0.83843,
-          "notoriety": 80
+          "notoriety": 80,
+          "face": {
+            "x": 0.5451,
+            "y": 0.3412,
+            "d": 0.9098
+          }
         },
         {
           "qid": "Q5812",
@@ -8563,6 +10201,7 @@ window.OMNIDEX_DATA = {
           "description": "joueur de tennis serbe",
           "edition": 1980,
           "editionLabel": "1980",
+          "number": 4641,
           "rarity": 6,
           "rarityName": "Ace",
           "finishId": 0,
@@ -8586,8 +10225,14 @@ window.OMNIDEX_DATA = {
           "birth": "1987-05-22",
           "death": null,
           "gender": "m",
+          "birthplace": "Belgrade",
           "score": 0.94068,
-          "notoriety": 152
+          "notoriety": 152,
+          "face": {
+            "x": 0.5647,
+            "y": 0.3098,
+            "d": 0.8235
+          }
         },
         {
           "qid": "Q120073678",
@@ -8596,6 +10241,7 @@ window.OMNIDEX_DATA = {
           "description": "militante identitaire française",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 4423,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -8621,8 +10267,14 @@ window.OMNIDEX_DATA = {
           "birth": "1997-08-27",
           "death": null,
           "gender": "f",
+          "birthplace": "Rennes",
           "score": 0.80092,
-          "notoriety": 2
+          "notoriety": 2,
+          "face": {
+            "x": 0.4824,
+            "y": 0.2627,
+            "d": 0.6471
+          }
         },
         {
           "qid": "Q153330",
@@ -8631,6 +10283,7 @@ window.OMNIDEX_DATA = {
           "description": "fils de la reine britannique Élisabeth II",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 76,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -8656,8 +10309,14 @@ window.OMNIDEX_DATA = {
           "birth": "1960-02-19",
           "death": null,
           "gender": "m",
+          "birthplace": "palais de Buckingham",
           "score": 0.83258,
-          "notoriety": 75
+          "notoriety": 75,
+          "face": {
+            "x": 0.4353,
+            "y": 0.3882,
+            "d": 0.7961
+          }
         },
         {
           "qid": "Q180453",
@@ -8666,6 +10325,7 @@ window.OMNIDEX_DATA = {
           "description": "chanteuse de musique country, parolière et actrice américaine",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 2016,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -8696,8 +10356,14 @@ window.OMNIDEX_DATA = {
           "birth": "1946-01-19",
           "death": "2026-08-25",
           "gender": "f",
+          "birthplace": "Pittman Center",
           "score": 0.82198,
-          "notoriety": 120
+          "notoriety": 120,
+          "face": {
+            "x": 0.5529,
+            "y": 0.298,
+            "d": 0.7647
+          }
         },
         {
           "qid": "Q27655344",
@@ -8706,6 +10372,7 @@ window.OMNIDEX_DATA = {
           "description": "chanteuse, parolière et danseuse coréo-néo-zélandaise",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 4113,
           "rarity": 5,
           "rarityName": "Mythique",
           "finishId": 0,
@@ -8737,8 +10404,14 @@ window.OMNIDEX_DATA = {
           "birth": "1997-02-11",
           "death": null,
           "gender": "f",
+          "birthplace": "Auckland",
           "score": 0.81889,
-          "notoriety": 86
+          "notoriety": 86,
+          "face": {
+            "x": 0.5373,
+            "y": 0.2667,
+            "d": 0.7137
+          }
         },
         {
           "qid": "Q352",
@@ -8747,6 +10420,7 @@ window.OMNIDEX_DATA = {
           "description": "dictateur et homme d’État allemand, chef du Parti nazi, Führer et chancelier du Troisième Reich",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 6935,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -8771,8 +10445,14 @@ window.OMNIDEX_DATA = {
           "birth": "1889-04-20",
           "death": "1945-04-30",
           "gender": "m",
+          "birthplace": "Braunau am Inn",
           "score": 0.9005,
-          "notoriety": 326
+          "notoriety": 326,
+          "face": {
+            "x": 0.4275,
+            "y": 0.3137,
+            "d": 0.7843
+          }
         },
         {
           "qid": "Q264849",
@@ -8781,6 +10461,7 @@ window.OMNIDEX_DATA = {
           "description": "tueuse en série américaine",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 2583,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -8805,8 +10486,14 @@ window.OMNIDEX_DATA = {
           "birth": "1956-02-29",
           "death": "2002-10-09",
           "gender": "f",
+          "birthplace": "Rochester",
           "score": 0.78686,
-          "notoriety": 43
+          "notoriety": 43,
+          "face": {
+            "x": 0.4902,
+            "y": 0.3843,
+            "d": 0.8784
+          }
         },
         {
           "qid": "Q44220",
@@ -8815,6 +10502,7 @@ window.OMNIDEX_DATA = {
           "description": "terroriste norvégien néonazi",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 5661,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -8839,8 +10527,14 @@ window.OMNIDEX_DATA = {
           "birth": "1979-02-13",
           "death": null,
           "gender": "m",
+          "birthplace": "Oslo",
           "score": 0.78433,
-          "notoriety": 90
+          "notoriety": 90,
+          "face": {
+            "x": 0.4706,
+            "y": 0.3882,
+            "d": 0.8627
+          }
         },
         {
           "qid": "Q3022141",
@@ -8849,6 +10543,7 @@ window.OMNIDEX_DATA = {
           "description": "entrepreneur britannique en intelligence artificielle",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 4087,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 3,
@@ -8874,8 +10569,14 @@ window.OMNIDEX_DATA = {
           "birth": "1976-07-27",
           "death": null,
           "gender": "m",
+          "birthplace": "Londres",
           "score": 0.78884,
-          "notoriety": 59
+          "notoriety": 59,
+          "face": {
+            "x": 0.4667,
+            "y": 0.3765,
+            "d": 0.9373
+          }
         },
         {
           "qid": "Q531599",
@@ -8884,6 +10585,7 @@ window.OMNIDEX_DATA = {
           "description": "producteur de cinéma et criminel sexuel américain",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 880,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -8913,8 +10615,14 @@ window.OMNIDEX_DATA = {
           "birth": "1952-03-19",
           "death": null,
           "gender": "m",
+          "birthplace": "New York",
           "score": 0.82134,
-          "notoriety": 58
+          "notoriety": 58,
+          "face": {
+            "x": 0.4784,
+            "y": 0.3765,
+            "d": 0.9569
+          }
         },
         {
           "qid": "Q47906",
@@ -8923,6 +10631,7 @@ window.OMNIDEX_DATA = {
           "description": "homme politique nazi et militaire allemand",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 7217,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -8950,8 +10659,14 @@ window.OMNIDEX_DATA = {
           "birth": "1893-01-12",
           "death": "1946-10-15",
           "gender": "m",
+          "birthplace": "Rosenheim",
           "score": 0.84396,
-          "notoriety": 111
+          "notoriety": 111,
+          "face": {
+            "x": 0.4667,
+            "y": 0.3804,
+            "d": 0.8549
+          }
         },
         {
           "qid": "Q855",
@@ -8960,6 +10675,7 @@ window.OMNIDEX_DATA = {
           "description": "chef d’État de l’Union des républiques socialistes soviétiques de 1924 à 1953",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 6208,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -8987,8 +10703,14 @@ window.OMNIDEX_DATA = {
           "birth": "1878-12-18",
           "death": "1953-03-05",
           "gender": "m",
+          "birthplace": "Gori",
           "score": 0.86377,
-          "notoriety": 279
+          "notoriety": 279,
+          "face": {
+            "x": 0.5294,
+            "y": 0.3725,
+            "d": 0.8275
+          }
         },
         {
           "qid": "Q48745",
@@ -8997,6 +10719,7 @@ window.OMNIDEX_DATA = {
           "description": "suspect dans l’assassinat du président J.F. Kennedy",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 2150,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -9019,8 +10742,14 @@ window.OMNIDEX_DATA = {
           "birth": "1939-10-18",
           "death": "1963-11-24",
           "gender": "m",
+          "birthplace": "La Nouvelle-Orléans",
           "score": 0.78122,
-          "notoriety": 75
+          "notoriety": 75,
+          "face": {
+            "x": 0.4902,
+            "y": 0.2627,
+            "d": 0.6353
+          }
         },
         {
           "qid": "Q76367",
@@ -9029,6 +10758,7 @@ window.OMNIDEX_DATA = {
           "description": "homme politique allemand, chef de la chancellerie du parti nazi",
           "edition": 1900,
           "editionLabel": "1900",
+          "number": 52,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -9051,8 +10781,14 @@ window.OMNIDEX_DATA = {
           "birth": "1900-06-17",
           "death": "1945-05-02",
           "gender": "m",
+          "birthplace": "Halberstadt",
           "score": 0.80354,
-          "notoriety": 79
+          "notoriety": 79,
+          "face": {
+            "x": 0.5804,
+            "y": 0.3333,
+            "d": 0.8392
+          }
         },
         {
           "qid": "Q327009",
@@ -9061,6 +10797,7 @@ window.OMNIDEX_DATA = {
           "description": "homme politique et haut fonctionnaire français",
           "edition": 1910,
           "editionLabel": "1910",
+          "number": 90,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -9086,8 +10823,14 @@ window.OMNIDEX_DATA = {
           "birth": "1910-09-03",
           "death": "2007-02-17",
           "gender": "m",
+          "birthplace": "Gretz-Armainvilliers",
           "score": 0.76713,
-          "notoriety": 32
+          "notoriety": 32,
+          "face": {
+            "x": 0.5294,
+            "y": 0.4039,
+            "d": 0.8314
+          }
         },
         {
           "qid": "Q3343832",
@@ -9096,6 +10839,7 @@ window.OMNIDEX_DATA = {
           "description": "humoriste et vidéaste français",
           "edition": 1980,
           "editionLabel": "1980",
+          "number": 4571,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -9125,8 +10869,14 @@ window.OMNIDEX_DATA = {
           "birth": "1987-04-14",
           "death": null,
           "gender": "m",
+          "birthplace": "Arras",
           "score": 0.78442,
-          "notoriety": 14
+          "notoriety": 14,
+          "face": {
+            "x": 0.4863,
+            "y": 0.2745,
+            "d": 0.7333
+          }
         },
         {
           "qid": "Q75866",
@@ -9135,6 +10885,7 @@ window.OMNIDEX_DATA = {
           "description": "homme politique allemand",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 7313,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 5,
@@ -9161,8 +10912,14 @@ window.OMNIDEX_DATA = {
           "birth": "1894-04-26",
           "death": "1987-08-17",
           "gender": "m",
+          "birthplace": "Alexandrie",
           "score": 0.77617,
-          "notoriety": 86
+          "notoriety": 86,
+          "face": {
+            "x": 0.5333,
+            "y": 0.3725,
+            "d": 0.9294
+          }
         },
         {
           "qid": "Q90588905",
@@ -9171,6 +10928,7 @@ window.OMNIDEX_DATA = {
           "description": "streameur français",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 2106,
           "rarity": 4,
           "rarityName": "Iconique",
           "finishId": 0,
@@ -9193,8 +10951,14 @@ window.OMNIDEX_DATA = {
           "birth": "1993-06-28",
           "death": null,
           "gender": "m",
+          "birthplace": null,
           "score": 0.75648,
-          "notoriety": 2
+          "notoriety": 2,
+          "face": {
+            "x": 0.5137,
+            "y": 0.2824,
+            "d": 0.6157
+          }
         },
         {
           "qid": "Q156916",
@@ -9203,6 +10967,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire et homme d’État français",
           "edition": 0,
           "editionLabel": "avant 1900",
+          "number": 6360,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 5,
@@ -9229,8 +10994,14 @@ window.OMNIDEX_DATA = {
           "birth": "1881-08-07",
           "death": "1942-12-24",
           "gender": "m",
+          "birthplace": "Nérac",
           "score": 0.7278,
-          "notoriety": 43
+          "notoriety": 43,
+          "face": {
+            "x": 0.5333,
+            "y": 0.2941,
+            "d": 0.7804
+          }
         },
         {
           "qid": "Q4934",
@@ -9239,6 +11010,7 @@ window.OMNIDEX_DATA = {
           "description": "informaticien et entrepreneur américain",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 2033,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -9263,8 +11035,14 @@ window.OMNIDEX_DATA = {
           "birth": "1973-03-26",
           "death": null,
           "gender": "m",
+          "birthplace": "East Lansing",
           "score": 0.75838,
-          "notoriety": 103
+          "notoriety": 103,
+          "face": {
+            "x": 0.5216,
+            "y": 0.2863,
+            "d": 0.6
+          }
         },
         {
           "qid": "Q133730",
@@ -9273,6 +11051,7 @@ window.OMNIDEX_DATA = {
           "description": "réalisateur danois",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 2638,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -9300,8 +11079,14 @@ window.OMNIDEX_DATA = {
           "birth": "1956-04-30",
           "death": null,
           "gender": "m",
+          "birthplace": "Kongens Lyngby",
           "score": 0.75637,
-          "notoriety": 82
+          "notoriety": 82,
+          "face": {
+            "x": 0.502,
+            "y": 0.3765,
+            "d": 1
+          }
         },
         {
           "qid": "Q24050455",
@@ -9310,6 +11095,7 @@ window.OMNIDEX_DATA = {
           "description": "vidéaste français",
           "edition": 1980,
           "editionLabel": "1980",
+          "number": 6053,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -9334,8 +11120,14 @@ window.OMNIDEX_DATA = {
           "birth": "1989-10-01",
           "death": null,
           "gender": "m",
+          "birthplace": "Saint-Priest-en-Jarez",
           "score": 0.75792,
-          "notoriety": 2
+          "notoriety": 2,
+          "face": {
+            "x": 0.4706,
+            "y": 0.3882,
+            "d": 0.8667
+          }
         },
         {
           "qid": "Q382035",
@@ -9344,6 +11136,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 95,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -9366,8 +11159,14 @@ window.OMNIDEX_DATA = {
           "birth": "1960-02-29",
           "death": "2013-06-07",
           "gender": "m",
+          "birthplace": "El Paso",
           "score": 0.76049,
-          "notoriety": 39
+          "notoriety": 39,
+          "face": {
+            "x": 0.5098,
+            "y": 0.2824,
+            "d": 0.6706
+          }
         },
         {
           "qid": "Q57641",
@@ -9376,6 +11175,7 @@ window.OMNIDEX_DATA = {
           "description": "homme d’État hongrois",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 1800,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -9400,8 +11200,14 @@ window.OMNIDEX_DATA = {
           "birth": "1963-05-31",
           "death": null,
           "gender": "m",
+          "birthplace": "Székesfehérvár",
           "score": 0.76512,
-          "notoriety": 117
+          "notoriety": 117,
+          "face": {
+            "x": 0.4706,
+            "y": 0.3137,
+            "d": 0.8314
+          }
         },
         {
           "qid": "Q1352339",
@@ -9410,6 +11216,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 1840,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -9432,8 +11239,14 @@ window.OMNIDEX_DATA = {
           "birth": "1954-05-26",
           "death": "2006-10-25",
           "gender": "m",
+          "birthplace": "Shreveport",
           "score": 0.69509,
-          "notoriety": 16
+          "notoriety": 16,
+          "face": {
+            "x": 0.4863,
+            "y": 0.3451,
+            "d": 0.9216
+          }
         },
         {
           "qid": "Q310260",
@@ -9442,6 +11255,7 @@ window.OMNIDEX_DATA = {
           "description": "médecin et tueur en série britannique",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 2009,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -9466,8 +11280,14 @@ window.OMNIDEX_DATA = {
           "birth": "1946-01-14",
           "death": "2004-01-13",
           "gender": "m",
+          "birthplace": "Nottingham",
           "score": 0.70946,
-          "notoriety": 37
+          "notoriety": 37,
+          "face": {
+            "x": 0.502,
+            "y": 0.3255,
+            "d": 0.6039
+          }
         },
         {
           "qid": "Q295162",
@@ -9476,6 +11296,7 @@ window.OMNIDEX_DATA = {
           "description": "militaire japonais, « soldat restant » (reddition en 1974)",
           "edition": 1920,
           "editionLabel": "1920",
+          "number": 371,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -9499,8 +11320,14 @@ window.OMNIDEX_DATA = {
           "birth": "1922-03-19",
           "death": "2014-01-16",
           "gender": "m",
+          "birthplace": "Kainan",
           "score": 0.67847,
-          "notoriety": 60
+          "notoriety": 60,
+          "face": {
+            "x": 0.4824,
+            "y": 0.302,
+            "d": 0.749
+          }
         },
         {
           "qid": "Q310775",
@@ -9509,6 +11336,7 @@ window.OMNIDEX_DATA = {
           "description": "41e président de la république d’Haïti",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 582,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -9531,8 +11359,14 @@ window.OMNIDEX_DATA = {
           "birth": "1951-07-03",
           "death": "2014-10-04",
           "gender": "m",
+          "birthplace": "Port-au-Prince",
           "score": 0.69013,
-          "notoriety": 54
+          "notoriety": 54,
+          "face": {
+            "x": 0.4471,
+            "y": 0.2941,
+            "d": 0.749
+          }
         },
         {
           "qid": "Q463389",
@@ -9541,6 +11375,7 @@ window.OMNIDEX_DATA = {
           "description": "meurtrière américaine",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 2869,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -9564,8 +11399,14 @@ window.OMNIDEX_DATA = {
           "birth": "1947-12-03",
           "death": null,
           "gender": "f",
+          "birthplace": "Los Angeles",
           "score": 0.66764,
-          "notoriety": 20
+          "notoriety": 20,
+          "face": {
+            "x": 0.4902,
+            "y": 0.2667,
+            "d": 0.6588
+          }
         },
         {
           "qid": "Q711554",
@@ -9574,6 +11415,7 @@ window.OMNIDEX_DATA = {
           "description": "prélat catholique français",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 324,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 0,
@@ -9597,8 +11439,14 @@ window.OMNIDEX_DATA = {
           "birth": "1950-10-17",
           "death": null,
           "gender": "m",
+          "birthplace": "Rabat",
           "score": 0.70431,
-          "notoriety": 30
+          "notoriety": 30,
+          "face": {
+            "x": 0.4627,
+            "y": 0.2784,
+            "d": 0.6196
+          }
         },
         {
           "qid": "Q730962",
@@ -9607,6 +11455,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 1977,
           "rarity": 2,
           "rarityName": "Célèbre",
           "finishId": 10,
@@ -9630,8 +11479,14 @@ window.OMNIDEX_DATA = {
           "birth": "1939-02-15",
           "death": "2014-08-21",
           "gender": "m",
+          "birthplace": "Estherville",
           "score": 0.67128,
-          "notoriety": 24
+          "notoriety": 24,
+          "face": {
+            "x": 0.4824,
+            "y": 0.2627,
+            "d": 0.698
+          }
         },
         {
           "qid": "Q2977655",
@@ -9640,6 +11495,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série français",
           "edition": 1970,
           "editionLabel": "1970",
+          "number": 681,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -9662,8 +11518,14 @@ window.OMNIDEX_DATA = {
           "birth": "1971-01-19",
           "death": "2023-12-19",
           "gender": "m",
+          "birthplace": "Brest",
           "score": 0.63701,
-          "notoriety": 2
+          "notoriety": 2,
+          "face": {
+            "x": 0.4941,
+            "y": 0.3843,
+            "d": 0.9137
+          }
         },
         {
           "qid": "Q944611",
@@ -9672,6 +11534,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1930,
           "editionLabel": "1930",
+          "number": 2185,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 10,
@@ -9695,8 +11558,14 @@ window.OMNIDEX_DATA = {
           "birth": "1939-12-24",
           "death": "1973-08-08",
           "gender": "m",
+          "birthplace": "Fort Wayne",
           "score": 0.60936,
-          "notoriety": 24
+          "notoriety": 24,
+          "face": {
+            "x": 0.498,
+            "y": 0.3412,
+            "d": 0.7412
+          }
         },
         {
           "qid": "Q18804",
@@ -9705,6 +11574,7 @@ window.OMNIDEX_DATA = {
           "description": "chanteuse américaine",
           "edition": 1990,
           "editionLabel": "1990",
+          "number": 4322,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -9735,8 +11605,14 @@ window.OMNIDEX_DATA = {
           "birth": "1997-06-21",
           "death": null,
           "gender": "f",
+          "birthplace": "Irvine",
           "score": 0.61458,
-          "notoriety": 48
+          "notoriety": 48,
+          "face": {
+            "x": 0.4588,
+            "y": 0.2706,
+            "d": 0.698
+          }
         },
         {
           "qid": "Q55183",
@@ -9745,6 +11621,7 @@ window.OMNIDEX_DATA = {
           "description": "femme d’affaire états-unienne",
           "edition": 1960,
           "editionLabel": "1960",
+          "number": 4716,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -9769,8 +11646,14 @@ window.OMNIDEX_DATA = {
           "birth": "1968-07-05",
           "death": "2024-08-09",
           "gender": "f",
+          "birthplace": "Santa Clara",
           "score": 0.63264,
-          "notoriety": 60
+          "notoriety": 60,
+          "face": {
+            "x": 0.5176,
+            "y": 0.2941,
+            "d": 0.7647
+          }
         },
         {
           "qid": "Q1651998",
@@ -9779,6 +11662,7 @@ window.OMNIDEX_DATA = {
           "description": "",
           "edition": 1950,
           "editionLabel": "1950",
+          "number": 838,
           "rarity": 1,
           "rarityName": "Connue",
           "finishId": 0,
@@ -9802,8 +11686,14 @@ window.OMNIDEX_DATA = {
           "birth": "1952-02-04",
           "death": "2019-05-11",
           "gender": "m",
+          "birthplace": "Long Beach",
           "score": 0.60519,
-          "notoriety": 9
+          "notoriety": 9,
+          "face": {
+            "x": 0.5059,
+            "y": 0.3765,
+            "d": 0.8627
+          }
         },
         {
           "qid": "Q841843",
@@ -9812,6 +11702,7 @@ window.OMNIDEX_DATA = {
           "description": "tueur en série américain",
           "edition": 1940,
           "editionLabel": "1940",
+          "number": 216,
           "rarity": 0,
           "rarityName": "Méconnue",
           "finishId": 0,
@@ -9835,8 +11726,14 @@ window.OMNIDEX_DATA = {
           "birth": "1940-09-27",
           "death": "2019-12-13",
           "gender": "m",
+          "birthplace": "Pittsburgh",
           "score": 0.58416,
-          "notoriety": 3
+          "notoriety": 3,
+          "face": {
+            "x": 0.5451,
+            "y": 0.3804,
+            "d": 0.9059
+          }
         },
         {
           "qid": "Q153670",
@@ -9845,6 +11742,7 @@ window.OMNIDEX_DATA = {
           "description": "écrivain et chimiste italien",
           "edition": 1910,
           "editionLabel": "1910",
+          "number": 1129,
           "rarity": 3,
           "rarityName": "Star",
           "finishId": 0,
@@ -9871,8 +11769,14 @@ window.OMNIDEX_DATA = {
           "birth": "1919-07-31",
           "death": "1987-04-11",
           "gender": "m",
+          "birthplace": "Turin",
           "score": 0.72313,
-          "notoriety": 92
+          "notoriety": 92,
+          "face": {
+            "x": 0.4902,
+            "y": 0.3451,
+            "d": 0.9176
+          }
         }
       ]
     }
