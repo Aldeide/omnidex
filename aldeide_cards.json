@@ -3,25 +3,25 @@
     "pseudo": "Aldeide",
     "account": 39,
     "avatarUrl": "https://omnidex.cards/vignettes/Q22686-783472d2.webp",
-    "totalUnique": 1089,
-    "totalCopies": 1091,
-    "shards": 14754,
+    "totalUnique": 1094,
+    "totalCopies": 1096,
+    "shards": 14755,
     "privacy": "tous",
     "friendsCount": 22
   },
   "stats": {
     "rarityCounts": {
-      "Méconnue": 503,
-      "Connue": 356,
+      "Méconnue": 505,
+      "Connue": 357,
       "Célèbre": 139,
-      "Star": 42,
+      "Star": 44,
       "Iconique": 28,
       "Mythique": 15,
       "Ace": 8
     },
     "finishCounts": {
-      "Sans finition": 953,
-      "Holo": 16,
+      "Sans finition": 957,
+      "Holo": 17,
       "Starlight inversée": 14,
       "Full Holo": 12,
       "Fireworks inversée": 10,
@@ -39,7 +39,7 @@
       "1900": 26,
       "1910": 27,
       "1920": 35,
-      "1930": 36,
+      "1930": 41,
       "1940": 83,
       "1950": 156,
       "1960": 155,
@@ -15330,6 +15330,109 @@
       }
     },
     {
+      "qid": "Q3121553",
+      "cid": 3121553,
+      "name": "Guy Bedos",
+      "description": "humoriste, artiste de music-hall et acteur français",
+      "edition": 1930,
+      "editionLabel": "1930",
+      "number": 935,
+      "rarity": 3,
+      "rarityName": "Star",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793501640000,
+      "occupations": [
+        "acteur",
+        "humoriste"
+      ],
+      "categories": [
+        "Cinéma",
+        "Humoristes",
+        "Acteurs français",
+        "Légion d'honneur"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1934-06-15",
+      "death": "2020-05-28",
+      "gender": "m",
+      "birthplace": "Alger",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q3121553-b3d2c2ed.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q3121553-0d935465.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q3121553",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.74719,
+      "notoriety": 18,
+      "face": {
+        "x": 0.4863,
+        "y": 0.2706,
+        "d": 0.6627
+      }
+    },
+    {
+      "qid": "Q298075",
+      "cid": 298075,
+      "name": "Guy Debord",
+      "description": "écrivain, essayiste, cinéaste et révolutionnaire français",
+      "edition": 1930,
+      "editionLabel": "1930",
+      "number": 428,
+      "rarity": 3,
+      "rarityName": "Star",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793501640000,
+      "occupations": [
+        "cinéaste",
+        "philosophe"
+      ],
+      "categories": [
+        "Cinéma",
+        "Réalisateurs et réalisatrices",
+        "Parisiens et Parisiennes",
+        "Philosophes",
+        "Photographes"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1931-12-28",
+      "death": "1994-11-30",
+      "gender": "m",
+      "birthplace": "Paris",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q298075-4df9e720.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q298075-769da0ce.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q298075",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.75263,
+      "notoriety": 56,
+      "face": {
+        "x": 0.502,
+        "y": 0.3765,
+        "d": 1
+      }
+    },
+    {
       "qid": "Q121160",
       "cid": 121160,
       "name": "Guy Parmelin",
@@ -24112,6 +24215,54 @@
         "x": 0.5098,
         "y": 0.3255,
         "d": 0.8667
+      }
+    },
+    {
+      "qid": "Q170191",
+      "cid": 170191,
+      "name": "Alexandra de Kent",
+      "description": "membre de la famille royale britannique",
+      "edition": 1930,
+      "editionLabel": "1930",
+      "number": 1470,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 1,
+      "finishLabel": "Holo",
+      "finishCode": "normale-classic",
+      "finishZone": "normale",
+      "finishEffect": "classic",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793501640000,
+      "occupations": [
+        "aristocrate",
+        "mécène"
+      ],
+      "categories": [
+        "Britanniques"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "birth": "1936-12-25",
+      "death": null,
+      "gender": "f",
+      "birthplace": "Belgrave Square",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q170191-60fd5e18.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q170191-d01c2c35.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q170191",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.65208,
+      "notoriety": 37,
+      "face": {
+        "x": 0.4353,
+        "y": 0.2706,
+        "d": 0.7176
       }
     },
     {
@@ -58707,6 +58858,55 @@
       }
     },
     {
+      "qid": "Q437502",
+      "cid": 437502,
+      "name": "Milena Vukotic",
+      "description": "actrice italienne",
+      "edition": 1930,
+      "editionLabel": "1930",
+      "number": 1105,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793501640000,
+      "occupations": [
+        "actrice",
+        "actrice de cinéma"
+      ],
+      "categories": [
+        "Cinéma",
+        "Italiens"
+      ],
+      "countries": [
+        "Italie"
+      ],
+      "birth": "1935-04-23",
+      "death": null,
+      "gender": "f",
+      "birthplace": "Rome",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q437502-21768c7f.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q437502-cd34c093.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q437502",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.56992,
+      "notoriety": 24,
+      "face": {
+        "x": 0.4902,
+        "y": 0.3255,
+        "d": 0.7294
+      }
+    },
+    {
       "qid": "Q313797",
       "cid": 313797,
       "name": "Mohamed Abdelaziz",
@@ -61828,6 +62028,56 @@
         "x": 0.4353,
         "y": 0.2706,
         "d": 0.6667
+      }
+    },
+    {
+      "qid": "Q229520",
+      "cid": 229520,
+      "name": "Raïssa Gorbatcheva",
+      "description": "personnalité russe",
+      "edition": 1930,
+      "editionLabel": "1930",
+      "number": 436,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793501640000,
+      "occupations": [
+        "sociologue",
+        "femme politique"
+      ],
+      "categories": [
+        "Russes",
+        "Philosophes",
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "Russie"
+      ],
+      "birth": "1932-01-05",
+      "death": "1999-09-20",
+      "gender": "f",
+      "birthplace": "Roubtsovsk",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q229520-e32375bd.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q229520-67ed4a1d.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q229520",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.58135,
+      "notoriety": 57,
+      "face": {
+        "x": 0.4667,
+        "y": 0.349,
+        "d": 0.9294
       }
     },
     {
