@@ -2,7 +2,7 @@ window.OMNIDEX_DATA = {
   "profile": {
     "pseudo": "Aldeide",
     "account": 39,
-    "avatarUrl": "https://omnidex.cards/vignettes/Q22686.webp",
+    "avatarUrl": "https://omnidex.cards/vignettes/Q22686-783472d2.webp",
     "totalUnique": 1089,
     "totalCopies": 1091,
     "shards": 14754,
@@ -139,7 +139,10 @@ window.OMNIDEX_DATA = {
     {
       "id": 2,
       "name": "Nazis and Friends",
-      "count": 25,
+      "totalCount": 25,
+      "ownedCount": 16,
+      "missingCount": 9,
+      "pct": "64.0",
       "cardIds": [
         "Q70546",
         "Q352",
@@ -166,12 +169,884 @@ window.OMNIDEX_DATA = {
         "Q156916",
         "Q120073678",
         "Q57641"
+      ],
+      "cards": [
+        {
+          "qid": "Q120073678",
+          "cid": 120073678,
+          "name": "Alice Cordier",
+          "description": "militante identitaire française",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q120073678-592437f3.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q120073678-a3948d7b.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q120073678",
+          "occupations": [
+            "militante",
+            "journaliste d’opinion"
+          ],
+          "categories": [
+            "Bretons et Bretonnes",
+            "Journalistes",
+            "Femmes politiques"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1997-08-27",
+          "death": null,
+          "gender": "f",
+          "score": 0.80092,
+          "notoriety": 2
+        },
+        {
+          "qid": "Q352",
+          "cid": 352,
+          "name": "Adolf Hitler",
+          "description": "dictateur et homme d’État allemand, chef du Parti nazi, Führer et chancelier du Troisième Reich",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q352-abd7c910.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q352-1bc23dca.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q352",
+          "occupations": [
+            "homme politique",
+            "auteur de la Shoah"
+          ],
+          "categories": [
+            "XIXe siècle",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Autriche"
+          ],
+          "birth": "1889-04-20",
+          "death": "1945-04-30",
+          "gender": "m",
+          "score": 0.9005,
+          "notoriety": 326
+        },
+        {
+          "qid": "Q47906",
+          "cid": 47906,
+          "name": "Hermann Göring",
+          "description": "homme politique nazi et militaire allemand",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q47906-01e5feee.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q47906-cbfc0111.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q47906",
+          "occupations": [
+            "homme politique",
+            "aviateur"
+          ],
+          "categories": [
+            "Ministres",
+            "Allemands",
+            "XIXe siècle",
+            "Aviateurs et aviatrices",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1893-01-12",
+          "death": "1946-10-15",
+          "gender": "m",
+          "score": 0.84396,
+          "notoriety": 111
+        },
+        {
+          "qid": "Q76367",
+          "cid": 76367,
+          "name": "Martin Bormann",
+          "description": "homme politique allemand, chef de la chancellerie du parti nazi",
+          "edition": 1900,
+          "editionLabel": "1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q76367-37b0ed88.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q76367-2b52c4c8.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q76367",
+          "occupations": [
+            "auteur de la Shoah"
+          ],
+          "categories": [
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1900-06-17",
+          "death": "1945-05-02",
+          "gender": "m",
+          "score": 0.80354,
+          "notoriety": 79
+        },
+        {
+          "qid": "Q327009",
+          "cid": 327009,
+          "name": "Maurice Papon",
+          "description": "homme politique et haut fonctionnaire français",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q327009-74bbda4c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q327009-d2d2d95d.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q327009",
+          "occupations": [
+            "homme politique",
+            "fonctionnaire"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1910-09-03",
+          "death": "2007-02-17",
+          "gender": "m",
+          "score": 0.76713,
+          "notoriety": 32
+        },
+        {
+          "qid": "Q75866",
+          "cid": 75866,
+          "name": "Rudolf Hess",
+          "description": "homme politique allemand",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 5,
+          "finishLabel": "Holo inversée",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q75866-6a512017.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q75866-70980c69.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q75866",
+          "occupations": [
+            "homme politique",
+            "aviateur"
+          ],
+          "categories": [
+            "Ministres",
+            "XIXe siècle",
+            "Aviateurs et aviatrices",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1894-04-26",
+          "death": "1987-08-17",
+          "gender": "m",
+          "score": 0.77617,
+          "notoriety": 86
+        },
+        {
+          "qid": "Q156916",
+          "cid": 156916,
+          "name": "François Darlan",
+          "description": "militaire et homme d’État français",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 5,
+          "finishLabel": "Holo inversée",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q156916-12ad8ade.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q156916-d138997e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q156916",
+          "occupations": [
+            "homme politique",
+            "officier de marine"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Ministres",
+            "XIXe siècle",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1881-08-07",
+          "death": "1942-12-24",
+          "gender": "m",
+          "score": 0.7278,
+          "notoriety": 43
+        },
+        {
+          "qid": "Q57641",
+          "cid": 57641,
+          "name": "Viktor Orbán",
+          "description": "homme d’État hongrois",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q57641-2808766c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q57641-4b42542e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q57641",
+          "occupations": [
+            "homme politique",
+            "juriste"
+          ],
+          "categories": [
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Hongrie"
+          ],
+          "birth": "1963-05-31",
+          "death": null,
+          "gender": "m",
+          "score": 0.76512,
+          "notoriety": 117
+        },
+        {
+          "qid": "Q57889",
+          "cid": 57889,
+          "name": "Franz Ziereis",
+          "description": "SS-Standartenführer, commandant du camp de concentration de Mauthausen-Gusen (1905-1945)",
+          "edition": 1900,
+          "editionLabel": "1900",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q57889-af1760cf.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q57889-6ad7af7c.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q57889",
+          "occupations": [
+            "gardien de camp de concentration"
+          ],
+          "categories": [
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1905-08-13",
+          "death": "1945-05-24",
+          "gender": "m",
+          "score": 0.59995,
+          "notoriety": 30
+        },
+        {
+          "qid": "Q84441",
+          "cid": 84441,
+          "name": "Odilo Globocnik",
+          "description": "militaire autrichien, chef de groupe SS et lieutenant général de la police, chef provisoire de l’Aktion Reinhardt (1904–1945)",
+          "edition": 1900,
+          "editionLabel": "1900",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q84441-a25446af.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q84441-22cfc41a.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q84441",
+          "occupations": [
+            "homme politique",
+            "fonctionnaire de police"
+          ],
+          "categories": [
+            "Architectes",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Autriche"
+          ],
+          "birth": "1904-04-21",
+          "death": "1945-05-31",
+          "gender": "m",
+          "score": 0.60237,
+          "notoriety": 35
+        },
+        {
+          "qid": "Q640292",
+          "cid": 640292,
+          "name": "Vittorio Mussolini",
+          "description": "producteur italien",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q640292-503f93b8.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q640292-33b95c6c.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q640292",
+          "occupations": [
+            "scénariste",
+            "producteur de cinéma"
+          ],
+          "categories": [
+            "Cinéma",
+            "Sports mécaniques",
+            "Italiens",
+            "Journalistes"
+          ],
+          "countries": [
+            "Italie"
+          ],
+          "birth": "1916-09-27",
+          "death": "1997-06-12",
+          "gender": "m",
+          "score": 0.62091,
+          "notoriety": 17
+        },
+        {
+          "qid": "Q76544",
+          "cid": 76544,
+          "name": "Kurt Student",
+          "description": "général allemand",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 5,
+          "finishLabel": "Holo inversée",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q76544-00806c9d.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q76544-3a63e1e4.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q76544",
+          "occupations": [
+            "officier"
+          ],
+          "categories": [
+            "Allemands",
+            "XIXe siècle"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1890-05-12",
+          "death": "1978-07-01",
+          "gender": "m",
+          "score": 0.5711,
+          "notoriety": 42
+        },
+        {
+          "qid": "Q68590",
+          "cid": 68590,
+          "name": "Otto von Stülpnagel",
+          "description": "",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q68590-6bf27f2a.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q68590-d24131ba.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q68590",
+          "occupations": [
+            "officier",
+            "militaire"
+          ],
+          "categories": [
+            "Allemands",
+            "XIXe siècle"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1878-06-16",
+          "death": "1948-02-06",
+          "gender": "m",
+          "score": 0.59689,
+          "notoriety": 17
+        },
+        {
+          "qid": "Q78890",
+          "cid": 78890,
+          "name": "Otto Wächter",
+          "description": "avocat autrichien, homme politique nazi et général SS",
+          "edition": 1900,
+          "editionLabel": "1900",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q78890-1099d34f.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q78890-bf24122b.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q78890",
+          "occupations": [
+            "homme politique",
+            "juriste"
+          ],
+          "categories": [
+            "Avocats",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Autriche"
+          ],
+          "birth": "1901-07-08",
+          "death": "1949-07-13",
+          "gender": "m",
+          "score": 0.51903,
+          "notoriety": 19
+        },
+        {
+          "qid": "Q68984",
+          "cid": 68984,
+          "name": "Wanda Klaff",
+          "description": "gardienne de camp de concentration",
+          "edition": 1920,
+          "editionLabel": "1920",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q68984-cc183af2.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q68984-259f72db.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q68984",
+          "occupations": [
+            "tortionnaire"
+          ],
+          "categories": [
+            "Allemands"
+          ],
+          "countries": [
+            "Pologne",
+            "Allemagne"
+          ],
+          "birth": "1922-03-06",
+          "death": "1946-07-04",
+          "gender": "f",
+          "score": 0.5864,
+          "notoriety": 19
+        },
+        {
+          "qid": "Q70546",
+          "cid": 70546,
+          "name": "Wilhelm von Leeb",
+          "description": "général allemand",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q70546-b0dd3d77.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q70546-89b38967.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q70546",
+          "occupations": [
+            "militaire",
+            "officier"
+          ],
+          "categories": [
+            "Allemands",
+            "XIXe siècle"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1876-09-05",
+          "death": "1956-04-29",
+          "gender": "m",
+          "score": 0.57007,
+          "notoriety": 53
+        },
+        {
+          "qid": "Q76433",
+          "cid": 76433,
+          "name": "Eva Braun",
+          "description": "photographe allemande, épouse d’Adolf Hitler",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q76433-d5683686.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q76433-9260cefe.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q76433",
+          "occupations": [
+            "photographe",
+            "mannequin"
+          ],
+          "categories": [
+            "Mannequins",
+            "Photographes"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1912-02-06",
+          "death": "1945-04-30",
+          "gender": "f",
+          "score": 0.83195,
+          "notoriety": 92
+        },
+        {
+          "qid": "Q151820",
+          "cid": 151820,
+          "name": "Louis-Ferdinand Céline",
+          "description": "écrivain et médecin français",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q151820-168d6e7d.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q151820-05a82872.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q151820",
+          "occupations": [
+            "médecin écrivain",
+            "romancier"
+          ],
+          "categories": [
+            "XIXe siècle",
+            "Écrivains",
+            "Poètes",
+            "Médecins"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1894-05-27",
+          "death": "1961-07-01",
+          "gender": "m",
+          "score": 0.85578,
+          "notoriety": 95
+        },
+        {
+          "qid": "Q5721",
+          "cid": 5721,
+          "name": "Philippe Pétain",
+          "description": "militaire, diplomate et homme d’État français",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q5721-b7025740.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q5721-6346d999.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q5721",
+          "occupations": [
+            "homme politique",
+            "diplomate"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Ministres",
+            "Académie française",
+            "XIXe siècle",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1856-04-24",
+          "death": "1951-07-23",
+          "gender": "m",
+          "score": 0.83332,
+          "notoriety": 97
+        },
+        {
+          "qid": "Q23559",
+          "cid": 23559,
+          "name": "Benito Mussolini",
+          "description": "dictateur et homme d’État italien",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q23559-60a8f530.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q23559-526530ea.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q23559",
+          "occupations": [
+            "journaliste",
+            "enseignant"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Ministres",
+            "XIXe siècle",
+            "Journalistes",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Italie"
+          ],
+          "birth": "1883-07-29",
+          "death": "1945-04-28",
+          "gender": "m",
+          "score": 0.84154,
+          "notoriety": 200
+        },
+        {
+          "qid": "Q43067",
+          "cid": 43067,
+          "name": "Heinrich Himmler",
+          "description": "homme politique nazi et militaire allemand",
+          "edition": 1900,
+          "editionLabel": "1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q43067-f12c30a6.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q43067-ba53cc60.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q43067",
+          "occupations": [
+            "auteur de la Shoah"
+          ],
+          "categories": [
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1900-10-07",
+          "death": "1945-05-23",
+          "gender": "m",
+          "score": 0.88446,
+          "notoriety": 120
+        },
+        {
+          "qid": "Q57109",
+          "cid": 57109,
+          "name": "Josef Mengele",
+          "description": "médecin allemand, criminel de guerre nazi",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q57109-3b180b7e.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q57109-ca5db104.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q57109",
+          "occupations": [
+            "anthropologue",
+            "médecin militaire"
+          ],
+          "categories": [
+            "Poètes",
+            "Médecins",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1911-03-16",
+          "death": "1979-02-07",
+          "gender": "m",
+          "score": 0.87061,
+          "notoriety": 78
+        },
+        {
+          "qid": "Q41749",
+          "cid": 41749,
+          "name": "Joseph Goebbels",
+          "description": "homme d’État allemand, ministre de la propagande nazie",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q41749-b8e1b86b.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q41749-da993576.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q41749",
+          "occupations": [
+            "homme politique",
+            "propagandiste"
+          ],
+          "categories": [
+            "Ministres",
+            "Allemands",
+            "XIXe siècle",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1897-10-29",
+          "death": "1945-05-01",
+          "gender": "m",
+          "score": 0.81641,
+          "notoriety": 139
+        },
+        {
+          "qid": "Q77088",
+          "cid": 77088,
+          "name": "Klaus Barbie",
+          "description": "criminel de guerre allemand",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q77088-414bcc0b.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q77088-e9e486a1.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q77088",
+          "occupations": [
+            "officier",
+            "criminel de guerre"
+          ],
+          "categories": [
+            "Allemands",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne",
+            "Bolivie"
+          ],
+          "birth": "1913-10-25",
+          "death": "1991-09-25",
+          "gender": "m",
+          "score": 0.82757,
+          "notoriety": 52
+        },
+        {
+          "qid": "Q57202",
+          "cid": 57202,
+          "name": "Magda Goebbels",
+          "description": "personnalité politique allemande, épouse de Joseph Goebbels",
+          "edition": 1900,
+          "editionLabel": "1900",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q57202-410e6828.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q57202-4c60d01d.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q57202",
+          "occupations": [
+            "femme politique",
+            "propagandiste"
+          ],
+          "categories": [
+            "Allemands",
+            "Femmes politiques",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1901-11-11",
+          "death": "1945-05-01",
+          "gender": "f",
+          "score": 0.70127,
+          "notoriety": 52
+        }
       ]
     },
     {
       "id": 3,
       "name": "#metoo",
-      "count": 10,
+      "totalCount": 10,
+      "ownedCount": 3,
+      "missingCount": 7,
+      "pct": "30.0",
       "cardIds": [
         "Q25144",
         "Q25089",
@@ -183,12 +1058,398 @@ window.OMNIDEX_DATA = {
         "Q47467705",
         "Q24050455",
         "Q3343832"
+      ],
+      "cards": [
+        {
+          "qid": "Q531599",
+          "cid": 531599,
+          "name": "Harvey Weinstein",
+          "description": "producteur de cinéma et criminel sexuel américain",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q531599-8ba25799.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q531599-ec07777c.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q531599",
+          "occupations": [
+            "producteur de cinéma",
+            "producteur délégué"
+          ],
+          "categories": [
+            "Cinéma",
+            "Réalisateurs et réalisatrices",
+            "Hollywood",
+            "Oscars",
+            "Légion d'honneur",
+            "Américains",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1952-03-19",
+          "death": null,
+          "gender": "m",
+          "score": 0.82134,
+          "notoriety": 58
+        },
+        {
+          "qid": "Q3343832",
+          "cid": 3343832,
+          "name": "Norman Thavaud",
+          "description": "humoriste et vidéaste français",
+          "edition": 1980,
+          "editionLabel": "1980",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3343832-729d0660.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3343832-d7fcc757.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3343832",
+          "occupations": [
+            "acteur",
+            "youtubeur"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Humoristes",
+            "Acteurs français",
+            "Animateurs et animatrices télé",
+            "YouTubeurs",
+            "Influenceurs"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1987-04-14",
+          "death": null,
+          "gender": "m",
+          "score": 0.78442,
+          "notoriety": 14
+        },
+        {
+          "qid": "Q24050455",
+          "cid": 24050455,
+          "name": "Léo Grasset",
+          "description": "vidéaste français",
+          "edition": 1980,
+          "editionLabel": "1980",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q24050455-70dd5f0d.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q24050455-6663334a.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q24050455",
+          "occupations": [
+            "vulgarisateur scientifique",
+            "youtubeur"
+          ],
+          "categories": [
+            "YouTubeurs",
+            "Influenceurs"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1989-10-01",
+          "death": null,
+          "gender": "m",
+          "score": 0.75792,
+          "notoriety": 2
+        },
+        {
+          "qid": "Q25144",
+          "cid": 25144,
+          "name": "Kevin Spacey",
+          "description": "acteur, réalisateur et producteur de cinéma américain",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 6,
+          "rarityName": "Ace",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q25144-19b1fbcc.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q25144-03a043e8.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q25144",
+          "occupations": [
+            "acteur de cinéma",
+            "metteur en scène"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Théâtre",
+            "Réalisateurs et réalisatrices",
+            "Hollywood",
+            "Oscars",
+            "Américains",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1959-07-26",
+          "death": null,
+          "gender": "m",
+          "score": 0.85204,
+          "notoriety": 91
+        },
+        {
+          "qid": "Q25089",
+          "cid": 25089,
+          "name": "Woody Allen",
+          "description": "acteur, cinéaste et clarinettiste américain",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 6,
+          "rarityName": "Ace",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q25089-11509468.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q25089-7013f3e5.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q25089",
+          "occupations": [
+            "réalisateur de cinéma",
+            "humoriste"
+          ],
+          "categories": [
+            "Cinéma",
+            "Humoristes",
+            "Réalisateurs et réalisatrices",
+            "Hollywood",
+            "Oscars",
+            "Césars",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1935-11-30",
+          "death": null,
+          "gender": "m",
+          "score": 0.84329,
+          "notoriety": 157
+        },
+        {
+          "qid": "Q213512",
+          "cid": 213512,
+          "name": "Bill Cosby",
+          "description": "acteur américain",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q213512-c2835224.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q213512-8bad4f00.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q213512",
+          "occupations": [
+            "acteur de télévision",
+            "humoriste"
+          ],
+          "categories": [
+            "Télévision",
+            "Humoristes",
+            "Doublage",
+            "Hollywood",
+            "Emmy Awards",
+            "Américains",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1937-07-12",
+          "death": null,
+          "gender": "m",
+          "score": 0.78397,
+          "notoriety": 86
+        },
+        {
+          "qid": "Q273055",
+          "cid": 273055,
+          "name": "R. Kelly",
+          "description": "chanteur auteur-compositeur-producteur de RnB et délinquant sexuel américain",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q273055-0dfff1d0.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q273055-d2e3cef5.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q273055",
+          "occupations": [
+            "chanteur",
+            "auteur-compositeur"
+          ],
+          "categories": [
+            "Pop",
+            "Basket",
+            "Grammy Awards",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1967-01-08",
+          "death": null,
+          "gender": "m",
+          "score": 0.81096,
+          "notoriety": 90
+        },
+        {
+          "qid": "Q15079",
+          "cid": 15079,
+          "name": "Louis C.K.",
+          "description": "acteur et humoriste américain",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q15079-41eeb3a4.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q15079-66d11a02.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q15079",
+          "occupations": [
+            "humoriste de scène",
+            "acteur"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Humoristes",
+            "Réalisateurs et réalisatrices",
+            "Hollywood",
+            "Animateurs et animatrices télé",
+            "Emmy Awards",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis",
+            "Mexique"
+          ],
+          "birth": "1967-09-12",
+          "death": null,
+          "gender": "m",
+          "score": 0.77025,
+          "notoriety": 54
+        },
+        {
+          "qid": "Q715515",
+          "cid": 715515,
+          "name": "Charlie Rose",
+          "description": "journaliste et présentateur de télévision américain",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q715515-6c7e74a9.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q715515-8f1ddae9.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q715515",
+          "occupations": [
+            "animateur de télévision",
+            "journaliste"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Hollywood",
+            "Animateurs et animatrices télé",
+            "Américains",
+            "Journalistes",
+            "Écrivains",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1942-01-05",
+          "death": null,
+          "gender": "m",
+          "score": 0.60305,
+          "notoriety": 24
+        },
+        {
+          "qid": "Q47467705",
+          "cid": 47467705,
+          "name": "Larry Nassar",
+          "description": "médecin du sport américain",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q47467705-07a6f46c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q47467705-0e4e97d9.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q47467705",
+          "occupations": [
+            "ostéopathe",
+            "médecin du sport"
+          ],
+          "categories": [
+            "Américains",
+            "Médecins"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1963-08-16",
+          "death": null,
+          "gender": "m",
+          "score": 0.65821,
+          "notoriety": 23
+        }
       ]
     },
     {
       "id": 5,
       "name": "Dictateurs",
-      "count": 43,
+      "totalCount": 43,
+      "ownedCount": 5,
+      "missingCount": 38,
+      "pct": "11.6",
       "cardIds": [
         "Q352",
         "Q164535",
@@ -233,12 +1494,1486 @@ window.OMNIDEX_DATA = {
         "Q517",
         "Q210329",
         "Q57641"
+      ],
+      "cards": [
+        {
+          "qid": "Q352",
+          "cid": 352,
+          "name": "Adolf Hitler",
+          "description": "dictateur et homme d’État allemand, chef du Parti nazi, Führer et chancelier du Troisième Reich",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q352-abd7c910.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q352-1bc23dca.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q352",
+          "occupations": [
+            "homme politique",
+            "auteur de la Shoah"
+          ],
+          "categories": [
+            "XIXe siècle",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Autriche"
+          ],
+          "birth": "1889-04-20",
+          "death": "1945-04-30",
+          "gender": "m",
+          "score": 0.9005,
+          "notoriety": 326
+        },
+        {
+          "qid": "Q855",
+          "cid": 855,
+          "name": "Joseph Staline",
+          "description": "chef d’État de l’Union des républiques socialistes soviétiques de 1924 à 1953",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q855-8874000c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q855-e72e6133.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q855",
+          "occupations": [
+            "homme politique",
+            "révolutionnaire"
+          ],
+          "categories": [
+            "Ministres",
+            "Russes",
+            "XIXe siècle",
+            "Journalistes",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Géorgie"
+          ],
+          "birth": "1878-12-18",
+          "death": "1953-03-05",
+          "gender": "m",
+          "score": 0.86377,
+          "notoriety": 279
+        },
+        {
+          "qid": "Q57641",
+          "cid": 57641,
+          "name": "Viktor Orbán",
+          "description": "homme d’État hongrois",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q57641-2808766c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q57641-4b42542e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q57641",
+          "occupations": [
+            "homme politique",
+            "juriste"
+          ],
+          "categories": [
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Hongrie"
+          ],
+          "birth": "1963-05-31",
+          "death": null,
+          "gender": "m",
+          "score": 0.76512,
+          "notoriety": 117
+        },
+        {
+          "qid": "Q310775",
+          "cid": 310775,
+          "name": "Jean-Claude Duvalier",
+          "description": "41e président de la république d’Haïti",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q310775-0ac7614e.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q310775-e1506f3b.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q310775",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Haïti"
+          ],
+          "birth": "1951-07-03",
+          "death": "2014-10-04",
+          "gender": "m",
+          "score": 0.69013,
+          "notoriety": 54
+        },
+        {
+          "qid": "Q210329",
+          "cid": 210329,
+          "name": "Yuan Shikai",
+          "description": "homme politique chinois (1859–1916)",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q210329-0ecff948.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q210329-2fd4e12c.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q210329",
+          "occupations": [
+            "homme politique",
+            "militaire"
+          ],
+          "categories": [
+            "Chinois",
+            "XIXe siècle",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Chine"
+          ],
+          "birth": "1859-09-16",
+          "death": "1916-06-06",
+          "gender": "m",
+          "score": 0.63073,
+          "notoriety": 62
+        },
+        {
+          "qid": "Q1048",
+          "cid": 1048,
+          "name": "Jules César",
+          "description": "général et homme d’État romain",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 6,
+          "rarityName": "Ace",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1048-2db79658.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1048-74837598.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1048",
+          "occupations": [
+            "orateur",
+            "mémorialiste"
+          ],
+          "categories": [
+            "Antiquité",
+            "Poètes",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Italie"
+          ],
+          "birth": "-0100-07",
+          "death": "-0044-03-15",
+          "gender": "m",
+          "score": 0.91903,
+          "notoriety": 281
+        },
+        {
+          "qid": "Q517",
+          "cid": 517,
+          "name": "Napoléon Ier",
+          "description": "militaire, homme d’État et monarque français",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 6,
+          "rarityName": "Ace",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q517-a9671dd8.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q517-e93286e7.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q517",
+          "occupations": [
+            "homme politique",
+            "collectionneur d’œuvres d’art"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Corses",
+            "Siècle des Lumières"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1769-08-15",
+          "death": "1821-05-05",
+          "gender": "m",
+          "score": 0.91091,
+          "notoriety": 287
+        },
+        {
+          "qid": "Q7747",
+          "cid": 7747,
+          "name": "Vladimir Poutine",
+          "description": "homme d’État russe",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 6,
+          "rarityName": "Ace",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q7747-3fb0f9bb.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q7747-2dfe735e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q7747",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Sports de combat",
+            "Judo",
+            "Jeux olympiques",
+            "Légion d'honneur",
+            "Russes",
+            "Paralympiens et paralympiennes"
+          ],
+          "countries": [
+            "Russie"
+          ],
+          "birth": "1952-10-07",
+          "death": null,
+          "gender": "m",
+          "score": 0.89052,
+          "notoriety": 315
+        },
+        {
+          "qid": "Q11256",
+          "cid": 11256,
+          "name": "Fidel Castro",
+          "description": "chef d’État de Cuba de 1959 à 2008",
+          "edition": 1920,
+          "editionLabel": "1920",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q11256-2cb32207.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q11256-16d09b5e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q11256",
+          "occupations": [
+            "homme politique",
+            "avocat"
+          ],
+          "categories": [
+            "Ministres",
+            "Journalistes",
+            "Avocats",
+            "Résistants et résistantes",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Cuba"
+          ],
+          "birth": "1926-08-13",
+          "death": "2016-11-25",
+          "gender": "m",
+          "score": 0.811,
+          "notoriety": 206
+        },
+        {
+          "qid": "Q57272",
+          "cid": 57272,
+          "name": "Paul Biya",
+          "description": "homme d’État camerounais",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q57272-f7c901b6.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q57272-7c097c6f.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q57272",
+          "occupations": [
+            "homme politique",
+            "ministre"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Cameroun"
+          ],
+          "birth": "1933-02-13",
+          "death": null,
+          "gender": "m",
+          "score": 0.82117,
+          "notoriety": 79
+        },
+        {
+          "qid": "Q15031",
+          "cid": 15031,
+          "name": "Xi Jinping",
+          "description": "homme d’État chinois",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q15031-f680a967.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q15031-1e3de6d3.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q15031",
+          "occupations": [
+            "homme d’État",
+            "homme politique"
+          ],
+          "categories": [
+            "Chinois",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Chine"
+          ],
+          "birth": "1953-06-15",
+          "death": null,
+          "gender": "m",
+          "score": 0.81777,
+          "notoriety": 190
+        },
+        {
+          "qid": "Q368",
+          "cid": 368,
+          "name": "Augusto Pinochet",
+          "description": "militaire et homme d’État chilien",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q368-6f793867.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q368-d713af3c.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q368",
+          "occupations": [
+            "militaire",
+            "homme politique"
+          ],
+          "categories": [
+            "Sports de combat"
+          ],
+          "countries": [
+            "Chili"
+          ],
+          "birth": "1915-11-25",
+          "death": "2006-12-10",
+          "gender": "m",
+          "score": 0.76607,
+          "notoriety": 120
+        },
+        {
+          "qid": "Q44329",
+          "cid": 44329,
+          "name": "Bachar el-Assad",
+          "description": "homme d’État syrien",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q44329-d6fc2025.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q44329-3a4896d7.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q44329",
+          "occupations": [
+            "homme d’État",
+            "ophtalmologiste"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Médecins",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Syrie"
+          ],
+          "birth": "1965-09-11",
+          "death": null,
+          "gender": "m",
+          "score": 0.81998,
+          "notoriety": 150
+        },
+        {
+          "qid": "Q23559",
+          "cid": 23559,
+          "name": "Benito Mussolini",
+          "description": "dictateur et homme d’État italien",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q23559-60a8f530.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q23559-526530ea.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q23559",
+          "occupations": [
+            "journaliste",
+            "enseignant"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Ministres",
+            "XIXe siècle",
+            "Journalistes",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Italie"
+          ],
+          "birth": "1883-07-29",
+          "death": "1945-04-28",
+          "gender": "m",
+          "score": 0.84154,
+          "notoriety": 200
+        },
+        {
+          "qid": "Q29179",
+          "cid": 29179,
+          "name": "Francisco Franco",
+          "description": "militaire et homme d’État espagnol",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q29179-efc49b78.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q29179-d8d2c10e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q29179",
+          "occupations": [
+            "officier",
+            "légionnaire espagnol"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Espagnols",
+            "XIXe siècle",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Espagne"
+          ],
+          "birth": "1892-12-04",
+          "death": "1975-11-20",
+          "gender": "m",
+          "score": 0.81046,
+          "notoriety": 134
+        },
+        {
+          "qid": "Q39524",
+          "cid": 39524,
+          "name": "Gamal Abdel Nasser",
+          "description": "homme d’État égyptien (1918-1970)",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q39524-080ad775.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q39524-7e51f73f.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q39524",
+          "occupations": [
+            "homme politique",
+            "chef militaire"
+          ],
+          "categories": [
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Égypte"
+          ],
+          "birth": "1918-01-15",
+          "death": "1970-09-28",
+          "gender": "m",
+          "score": 0.76756,
+          "notoriety": 128
+        },
+        {
+          "qid": "Q8440",
+          "cid": 8440,
+          "name": "Hugo Chávez",
+          "description": "militaire et homme d’État vénézuélien",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q8440-aca4bd1c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q8440-5de10de1.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q8440",
+          "occupations": [
+            "homme politique",
+            "officier"
+          ],
+          "categories": [
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Venezuela"
+          ],
+          "birth": "1954-07-28",
+          "death": "2013-03-05",
+          "gender": "m",
+          "score": 0.77896,
+          "notoriety": 187
+        },
+        {
+          "qid": "Q48231",
+          "cid": 48231,
+          "name": "Idi Amin Dada",
+          "description": "président ougandais de 1971 à 1979",
+          "edition": 1920,
+          "editionLabel": "1920",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q48231-04b13b96.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q48231-58812563.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q48231",
+          "occupations": [
+            "homme politique",
+            "officier"
+          ],
+          "categories": [
+            "Sports de combat",
+            "Boxe",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Arabie saoudite",
+            "Ouganda"
+          ],
+          "birth": "1925",
+          "death": "2003-08-16",
+          "gender": "m",
+          "score": 0.76607,
+          "notoriety": 113
+        },
+        {
+          "qid": "Q56226",
+          "cid": 56226,
+          "name": "Kim Jong-un",
+          "description": "dirigeant suprême de la Corée du Nord depuis 2011",
+          "edition": 1980,
+          "editionLabel": "1980",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q56226-cf4f6fc3.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q56226-78b5e9b3.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q56226",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Corée du Nord"
+          ],
+          "birth": "1984-01-08",
+          "death": null,
+          "gender": "m",
+          "score": 0.82428,
+          "notoriety": 176
+        },
+        {
+          "qid": "Q5816",
+          "cid": 5816,
+          "name": "Mao Zedong",
+          "description": "homme d’État chinois et fondateur de la république populaire de Chine",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q5816-e9b9786f.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q5816-dc1fb32e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q5816",
+          "occupations": [
+            "homme politique",
+            "poète"
+          ],
+          "categories": [
+            "Chinois",
+            "XIXe siècle",
+            "Philosophes",
+            "Poètes",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Chine"
+          ],
+          "birth": "1893-12-26",
+          "death": "1976-09-09",
+          "gender": "m",
+          "score": 0.81954,
+          "notoriety": 232
+        },
+        {
+          "qid": "Q164535",
+          "cid": 164535,
+          "name": "Mobutu Sese Seko",
+          "description": "homme d’État, militaire et dictateur zaïrois",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q164535-4f03d09d.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q164535-1a9b50b2.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q164535",
+          "occupations": [
+            "homme politique",
+            "journaliste"
+          ],
+          "categories": [
+            "Journalistes",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "République démocratique du Congo"
+          ],
+          "birth": "1930-10-14",
+          "death": "1997-09-07",
+          "gender": "m",
+          "score": 0.8095,
+          "notoriety": 90
+        },
+        {
+          "qid": "Q1231345",
+          "cid": 1231345,
+          "name": "Paul Kagame",
+          "description": "homme d’État rwandais",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1231345-c743a245.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1231345-29d88f80.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1231345",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Rwanda"
+          ],
+          "birth": "1957-10-23",
+          "death": null,
+          "gender": "m",
+          "score": 0.79221,
+          "notoriety": 94
+        },
+        {
+          "qid": "Q39464",
+          "cid": 39464,
+          "name": "Pol Pot",
+          "description": "homme d’État cambodgien et secrétaire général du Parti communiste du Kampuchéa",
+          "edition": 1920,
+          "editionLabel": "1920",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q39464-78c58919.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q39464-de8f93d3.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q39464",
+          "occupations": [
+            "homme politique",
+            "officier"
+          ],
+          "categories": [
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [],
+          "birth": "1925-05-19",
+          "death": "1998-04-15",
+          "gender": "m",
+          "score": 0.78897,
+          "notoriety": 131
+        },
+        {
+          "qid": "Q1316",
+          "cid": 1316,
+          "name": "Saddam Hussein",
+          "description": "homme d’État irakien",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1316-abe52f60.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1316-ff98f1ee.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1316",
+          "occupations": [
+            "militaire",
+            "écrivain"
+          ],
+          "categories": [
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [],
+          "birth": "1937-04-28",
+          "death": "2006-12-30",
+          "gender": "m",
+          "score": 0.82425,
+          "notoriety": 170
+        },
+        {
+          "qid": "Q214407",
+          "cid": 214407,
+          "name": "Félix Houphouët-Boigny",
+          "description": "homme d’État ivoirien",
+          "edition": 1900,
+          "editionLabel": "1900",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q214407-24686500.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q214407-2121bb56.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q214407",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "France",
+            "Côte d'Ivoire"
+          ],
+          "birth": "1905-10-18",
+          "death": "1993-12-07",
+          "gender": "m",
+          "score": 0.74323,
+          "notoriety": 62
+        },
+        {
+          "qid": "Q118725",
+          "cid": 118725,
+          "name": "Hafez el-Assad",
+          "description": "homme d’État syrien",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q118725-c9cece81.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q118725-6d168ae0.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q118725",
+          "occupations": [
+            "pilote de chasse",
+            "homme politique"
+          ],
+          "categories": [
+            "Ministres",
+            "Aviateurs et aviatrices",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Syrie"
+          ],
+          "birth": "1930-10-06",
+          "death": "2000-06-10",
+          "gender": "m",
+          "score": 0.71171,
+          "notoriety": 96
+        },
+        {
+          "qid": "Q41117",
+          "cid": 41117,
+          "name": "Kim Il-sung",
+          "description": "fondateur et premier dirigeant suprême de la Corée du Nord de 1948 à 1994",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q41117-396f0318.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q41117-96612b7b.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q41117",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Russes",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Corée du Nord"
+          ],
+          "birth": "1912-04-15",
+          "death": "1994-07-08",
+          "gender": "m",
+          "score": 0.74063,
+          "notoriety": 160
+        },
+        {
+          "qid": "Q10665",
+          "cid": 10665,
+          "name": "Kim Jong-il",
+          "description": "dirigeant suprême de la Corée du Nord de 1994 à 2011",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q10665-68bb92cc.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q10665-30a6a54f.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q10665",
+          "occupations": [
+            "homme politique",
+            "militaire"
+          ],
+          "categories": [
+            "Cinéma",
+            "Doublage",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Corée du Nord"
+          ],
+          "birth": "1941-02-16",
+          "death": "2011-12-17",
+          "gender": "m",
+          "score": 0.73624,
+          "notoriety": 136
+        },
+        {
+          "qid": "Q135547",
+          "cid": 135547,
+          "name": "Laurent-Désiré Kabila",
+          "description": "homme d’État congolais",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q135547-dbccecde.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q135547-b68ca200.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q135547",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "République démocratique du Congo"
+          ],
+          "birth": "1939-11-27",
+          "death": "2001-01-16",
+          "gender": "m",
+          "score": 0.72568,
+          "notoriety": 64
+        },
+        {
+          "qid": "Q44279",
+          "cid": 44279,
+          "name": "Oliver Cromwell",
+          "description": "militaire et homme d’État anglais",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q44279-26727dad.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q44279-75f50fae.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q44279",
+          "occupations": [
+            "chef militaire",
+            "homme politique"
+          ],
+          "categories": [
+            "Renaissance et Grand Siècle",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1599-04-25",
+          "death": "1658-09-03",
+          "gender": "m",
+          "score": 0.76202,
+          "notoriety": 125
+        },
+        {
+          "qid": "Q8605",
+          "cid": 8605,
+          "name": "Simón Bolívar",
+          "description": "militaire et homme d’État vénézuélien",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q8605-228d7808.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q8605-0b4e5676.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q8605",
+          "occupations": [
+            "homme politique",
+            "officier"
+          ],
+          "categories": [
+            "Espagnols",
+            "Siècle des Lumières"
+          ],
+          "countries": [
+            "Espagne",
+            "Venezuela",
+            "Équateur"
+          ],
+          "birth": "1783-07-24",
+          "death": "1830-12-17",
+          "gender": "m",
+          "score": 0.74557,
+          "notoriety": 175
+        },
+        {
+          "qid": "Q155402",
+          "cid": 155402,
+          "name": "Ahmed Sékou Touré",
+          "description": "homme d’État guinéen",
+          "edition": 1920,
+          "editionLabel": "1920",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q155402-da0e3588.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q155402-5879a65d.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q155402",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "France",
+            "Guinée"
+          ],
+          "birth": "1922-01-09",
+          "death": "1984-03-26",
+          "gender": "m",
+          "score": 0.71166,
+          "notoriety": 68
+        },
+        {
+          "qid": "Q11270",
+          "cid": 11270,
+          "name": "Fulgencio Batista",
+          "description": "militaire et homme d’État cubain (1901-1973)",
+          "edition": 1900,
+          "editionLabel": "1900",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q11270-7bdf98be.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q11270-a8198591.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q11270",
+          "occupations": [
+            "homme politique",
+            "militaire"
+          ],
+          "categories": [
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Cuba"
+          ],
+          "birth": "1901-01-16",
+          "death": "1973-08-06",
+          "gender": "m",
+          "score": 0.6868,
+          "notoriety": 88
+        },
+        {
+          "qid": "Q212068",
+          "cid": 212068,
+          "name": "Jean-Jacques Dessalines",
+          "description": "esclave affranchi, militaire français et empereur d’Haïti (1758-1806)",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q212068-64d98627.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q212068-f41a5f5e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q212068",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Siècle des Lumières"
+          ],
+          "countries": [],
+          "birth": "1758-09-20",
+          "death": "1806-10-17",
+          "gender": "m",
+          "score": 0.7151,
+          "notoriety": 60
+        },
+        {
+          "qid": "Q192667",
+          "cid": 192667,
+          "name": "Manuel Noriega",
+          "description": "militaire et homme politique panaméen",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q192667-28e82866.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q192667-cc39c614.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q192667",
+          "occupations": [
+            "homme politique",
+            "militaire"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Panama"
+          ],
+          "birth": "1934-02-11",
+          "death": "2017-05-29",
+          "gender": "m",
+          "score": 0.67536,
+          "notoriety": 66
+        },
+        {
+          "qid": "Q189145",
+          "cid": 189145,
+          "name": "Antonio López de Santa Anna",
+          "description": "militaire et président du Mexique de 1833 à 1855 (1794-1876)",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q189145-9ecc7533.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q189145-990879ae.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q189145",
+          "occupations": [
+            "homme politique",
+            "officier"
+          ],
+          "categories": [
+            "XIXe siècle",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Mexique"
+          ],
+          "birth": "1794-02-21",
+          "death": "1876-06-21",
+          "gender": "m",
+          "score": 0.60955,
+          "notoriety": 63
+        },
+        {
+          "qid": "Q14362",
+          "cid": 14362,
+          "name": "Chun Doo-hwan",
+          "description": "général et homme d’État sud-coréen",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q14362-eaecae52.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q14362-5ba447f6.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q14362",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Sud-Coréens",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Corée du Sud"
+          ],
+          "birth": "1931-01-18",
+          "death": "2021-11-23",
+          "gender": "m",
+          "score": 0.60358,
+          "notoriety": 65
+        },
+        {
+          "qid": "Q310860",
+          "cid": 310860,
+          "name": "David Dacko",
+          "description": "homme d’État centrafricain",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q310860-62fe5b09.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q310860-afacbfc4.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q310860",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "République centrafricaine"
+          ],
+          "birth": "1930-03-24",
+          "death": "2003-11-20",
+          "gender": "m",
+          "score": 0.61734,
+          "notoriety": 47
+        },
+        {
+          "qid": "Q297812",
+          "cid": 297812,
+          "name": "François Tombalbaye",
+          "description": "homme d’État tchadien",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q297812-6c56120b.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q297812-e5b1aa3f.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q297812",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Tchad"
+          ],
+          "birth": "1918-06-15",
+          "death": "1975-04-13",
+          "gender": "m",
+          "score": 0.61284,
+          "notoriety": 42
+        },
+        {
+          "qid": "Q210069",
+          "cid": 210069,
+          "name": "Milton Obote",
+          "description": "homme d’État ougandais",
+          "edition": 1920,
+          "editionLabel": "1920",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q210069-ee04db79.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q210069-b8e4b3e4.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q210069",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Ouganda"
+          ],
+          "birth": "1925-12-28",
+          "death": "2005-10-10",
+          "gender": "m",
+          "score": 0.64019,
+          "notoriety": 66
+        },
+        {
+          "qid": "Q313240",
+          "cid": 313240,
+          "name": "Modibo Keïta",
+          "description": "homme d’État malien",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q313240-3772cfb8.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q313240-76af9cc5.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q313240",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "France",
+            "Mali"
+          ],
+          "birth": "1915-06-04",
+          "death": "1977-05-16",
+          "gender": "m",
+          "score": 0.65814,
+          "notoriety": 51
+        },
+        {
+          "qid": "Q150688",
+          "cid": 150688,
+          "name": "Porfirio Díaz",
+          "description": "militaire et homme d’État mexicain",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q150688-b8d52145.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q150688-4377180d.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q150688",
+          "occupations": [
+            "homme politique",
+            "militaire"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Ministres",
+            "XIXe siècle",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Mexique"
+          ],
+          "birth": "1830-09-15",
+          "death": "1915-07-02",
+          "gender": "m",
+          "score": 0.62632,
+          "notoriety": 80
+        },
+        {
+          "qid": "Q133808",
+          "cid": 133808,
+          "name": "Agustín de Iturbide",
+          "description": "homme d’État et empereur du Mexique",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q133808-6767e05d.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q133808-ac866525.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q133808",
+          "occupations": [
+            "homme politique",
+            "militaire"
+          ],
+          "categories": [
+            "Espagnols",
+            "Siècle des Lumières"
+          ],
+          "countries": [
+            "Espagne",
+            "Mexique"
+          ],
+          "birth": "1783-09-27",
+          "death": "1824-07-19",
+          "gender": "m",
+          "score": 0.59443,
+          "notoriety": 56
+        }
       ]
     },
     {
       "id": 6,
       "name": "Pédophiles",
-      "count": 29,
+      "totalCount": 29,
+      "ownedCount": 7,
+      "missingCount": 22,
+      "pct": "24.1",
       "cardIds": [
         "Q153330",
         "Q90588905",
@@ -269,12 +3004,1027 @@ window.OMNIDEX_DATA = {
         "Q2831",
         "Q461408",
         "Q3343832"
+      ],
+      "cards": [
+        {
+          "qid": "Q153330",
+          "cid": 153330,
+          "name": "Andrew Mountbatten-Windsor",
+          "description": "fils de la reine britannique Élisabeth II",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q153330-b5b90e4d.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q153330-14ead441.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q153330",
+          "occupations": [
+            "pilote d’hélicoptère",
+            "officier de marine"
+          ],
+          "categories": [
+            "Golf",
+            "Britanniques",
+            "Aviateurs et aviatrices"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1960-02-19",
+          "death": null,
+          "gender": "m",
+          "score": 0.83258,
+          "notoriety": 75
+        },
+        {
+          "qid": "Q3343832",
+          "cid": 3343832,
+          "name": "Norman Thavaud",
+          "description": "humoriste et vidéaste français",
+          "edition": 1980,
+          "editionLabel": "1980",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3343832-729d0660.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3343832-d7fcc757.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3343832",
+          "occupations": [
+            "acteur",
+            "youtubeur"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Humoristes",
+            "Acteurs français",
+            "Animateurs et animatrices télé",
+            "YouTubeurs",
+            "Influenceurs"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1987-04-14",
+          "death": null,
+          "gender": "m",
+          "score": 0.78442,
+          "notoriety": 14
+        },
+        {
+          "qid": "Q90588905",
+          "cid": 90588905,
+          "name": "Sardoche",
+          "description": "streameur français",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q90588905-a691cbf4.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q90588905-20abf8d7.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q90588905",
+          "occupations": [
+            "joueur-animateur en direct"
+          ],
+          "categories": [
+            "Streamers"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1993-06-28",
+          "death": null,
+          "gender": "m",
+          "score": 0.75648,
+          "notoriety": 2
+        },
+        {
+          "qid": "Q711554",
+          "cid": 711554,
+          "name": "Philippe Barbarin",
+          "description": "prélat catholique français",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q711554-19962a87.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q711554-b4ddaca3.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q711554",
+          "occupations": [
+            "prêtre catholique",
+            "diacre catholique"
+          ],
+          "categories": [
+            "Légion d'honneur"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1950-10-17",
+          "death": null,
+          "gender": "m",
+          "score": 0.70431,
+          "notoriety": 30
+        },
+        {
+          "qid": "Q1904657",
+          "cid": 1904657,
+          "name": "Martin Ney",
+          "description": "Tueur en série allemand",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1904657-fdcc73f6.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1904657-87b95477.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1904657",
+          "occupations": [
+            "tueur en série",
+            "pédocriminalité"
+          ],
+          "categories": [
+            "Allemands"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1970-12-12",
+          "death": null,
+          "gender": "m",
+          "score": 0.63745,
+          "notoriety": 4
+        },
+        {
+          "qid": "Q7176146",
+          "cid": 7176146,
+          "name": "Peter Nygård",
+          "description": "dirigeant de mode finno-canadien et délinquant sexuel condamné",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q7176146-768a7dde.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q7176146-9d01aa57.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q7176146",
+          "occupations": [
+            "homme d’affaires"
+          ],
+          "categories": [
+            "Canadiens",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "Canada",
+            "Finlande"
+          ],
+          "birth": "1941-07-24",
+          "death": null,
+          "gender": "m",
+          "score": 0.64277,
+          "notoriety": 8
+        },
+        {
+          "qid": "Q461408",
+          "cid": 461408,
+          "name": "Tsutomu Miyazaki",
+          "description": "otaku pédophile et tueur en série japonais",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q461408-12f54380.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q461408-384d4f66.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q461408",
+          "occupations": [
+            "tueur en série",
+            "employé d’imprimerie"
+          ],
+          "categories": [
+            "Japonais"
+          ],
+          "countries": [
+            "Japon"
+          ],
+          "birth": "1962-08-21",
+          "death": "2008-06-17",
+          "gender": "m",
+          "score": 0.62361,
+          "notoriety": 26
+        },
+        {
+          "qid": "Q3093872",
+          "cid": 3093872,
+          "name": "Gabriel Matzneff",
+          "description": "écrivain français",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 6,
+          "rarityName": "Ace",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3093872-40e71596.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3093872-76c82872.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3093872",
+          "occupations": [
+            "écrivain"
+          ],
+          "categories": [
+            "Écrivains"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1936-08-12",
+          "death": null,
+          "gender": "m",
+          "score": 0.84491,
+          "notoriety": 27
+        },
+        {
+          "qid": "Q2831",
+          "cid": 2831,
+          "name": "Michael Jackson",
+          "description": "auteur-compositeur-interprète et danseur américain",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 6,
+          "rarityName": "Ace",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2831-ff3c1d8b.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2831-71241b0a.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2831",
+          "occupations": [
+            "auteur-compositeur",
+            "musicien"
+          ],
+          "categories": [
+            "Danse",
+            "Rock",
+            "Pop",
+            "Guitaristes",
+            "Pianistes",
+            "Membres d'un groupe",
+            "Grammy Awards",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1958-08-29",
+          "death": "2009-06-25",
+          "gender": "m",
+          "score": 0.97621,
+          "notoriety": 322
+        },
+        {
+          "qid": "Q51552",
+          "cid": 51552,
+          "name": "Roman Polanski",
+          "description": "réalisateur, producteur et scénariste franco-polonais",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q51552-b9f5fd8b.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q51552-f9253945.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q51552",
+          "occupations": [
+            "réalisateur de cinéma",
+            "acteur"
+          ],
+          "categories": [
+            "Cinéma",
+            "Réalisateurs et réalisatrices",
+            "Acteurs français",
+            "Oscars",
+            "Césars",
+            "Légion d'honneur",
+            "Parisiens et Parisiennes"
+          ],
+          "countries": [
+            "Pologne",
+            "France"
+          ],
+          "birth": "1933-08-18",
+          "death": null,
+          "gender": "m",
+          "score": 0.83128,
+          "notoriety": 111
+        },
+        {
+          "qid": "Q127677",
+          "cid": 127677,
+          "name": "David Hamilton",
+          "description": "photographe et réalisateur britannique",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q127677-9469328f.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q127677-ed4bde5d.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q127677",
+          "occupations": [
+            "réalisateur de cinéma",
+            "photographe"
+          ],
+          "categories": [
+            "Cinéma",
+            "Réalisateurs et réalisatrices",
+            "Britanniques",
+            "Photographes"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1933-04-15",
+          "death": "2016-11-25",
+          "gender": "m",
+          "score": 0.77162,
+          "notoriety": 24
+        },
+        {
+          "qid": "Q5556756",
+          "cid": 5556756,
+          "name": "Ghislaine Maxwell",
+          "description": "femme d’affaires et pédocriminelle franco-britannique naturalisée américaine",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q5556756-3adc0e33.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q5556756-8b72647e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q5556756",
+          "occupations": [
+            "mondaine",
+            "femme d’affaires"
+          ],
+          "categories": [
+            "Américains",
+            "Britanniques",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "États-Unis",
+            "France",
+            "Royaume-Uni"
+          ],
+          "birth": "1961-12-25",
+          "death": null,
+          "gender": "f",
+          "score": 0.8222,
+          "notoriety": 45
+        },
+        {
+          "qid": "Q455421",
+          "cid": 455421,
+          "name": "Jean-François Revel",
+          "description": "essayiste et journaliste libéral français",
+          "edition": 1920,
+          "editionLabel": "1920",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q455421-2792e2ae.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q455421-578e78ee.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q455421",
+          "occupations": [
+            "journaliste"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Académie française",
+            "Marseillais et Marseillaises",
+            "Journalistes",
+            "Écrivains",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1924-01-19",
+          "death": "2006-04-30",
+          "gender": "m",
+          "score": 0.77635,
+          "notoriety": 31
+        },
+        {
+          "qid": "Q2904131",
+          "cid": 2904131,
+          "name": "Jeffrey Epstein",
+          "description": "criminel et financier américain",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2904131-13b5b244.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2904131-49b87b28.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2904131",
+          "occupations": [
+            "enseignant",
+            "banquier d’affaires"
+          ],
+          "categories": [
+            "Pianistes",
+            "Américains",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1953-01-20",
+          "death": "2019-08-10",
+          "gender": "m",
+          "score": 0.90124,
+          "notoriety": 90
+        },
+        {
+          "qid": "Q32484",
+          "cid": 32484,
+          "name": "Marc Dutroux",
+          "description": "pédocriminel, tueur en série, trafiquant, kidnappeur belge.",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q32484-aa8e2b45.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q32484-9c56eb10.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q32484",
+          "occupations": [
+            "électricien"
+          ],
+          "categories": [
+            "Belges",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "Belgique"
+          ],
+          "birth": "1956-11-06",
+          "death": null,
+          "gender": "m",
+          "score": 0.81155,
+          "notoriety": 30
+        },
+        {
+          "qid": "Q507748",
+          "cid": 507748,
+          "name": "Albert Fish",
+          "description": "tueur en série américain (1870-1936)",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q507748-977c3fed.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q507748-583d4777.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q507748",
+          "occupations": [
+            "tueur en série",
+            "prostitué"
+          ],
+          "categories": [
+            "Américains",
+            "XIXe siècle",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1870-05-19",
+          "death": "1936-01-16",
+          "gender": "m",
+          "score": 0.7253,
+          "notoriety": 49
+        },
+        {
+          "qid": "Q186561",
+          "cid": 186561,
+          "name": "Alfred Kinsey",
+          "description": "professeur d’entomologie et de zoologie et pionnier de la sexologie",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q186561-cff3abe8.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q186561-586db383.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q186561",
+          "occupations": [
+            "entomologiste",
+            "zoologiste"
+          ],
+          "categories": [
+            "Américains",
+            "XIXe siècle",
+            "Médecins"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1894-06-23",
+          "death": "1956-08-25",
+          "gender": "m",
+          "score": 0.70156,
+          "notoriety": 62
+        },
+        {
+          "qid": "Q3084721",
+          "cid": 3084721,
+          "name": "François Gibault",
+          "description": "avocat et écrivain français",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3084721-8a1cef69.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3084721-d15df601.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3084721",
+          "occupations": [
+            "avocat",
+            "auteur"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Parisiens et Parisiennes",
+            "Avocats"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1932-05-21",
+          "death": null,
+          "gender": "m",
+          "score": 0.68838,
+          "notoriety": 5
+        },
+        {
+          "qid": "Q2386801",
+          "cid": 2386801,
+          "name": "Ian Watkins",
+          "description": "musicien et pédocriminel britannique",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2386801-7b70a427.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2386801-bca75f16.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2386801",
+          "occupations": [
+            "chanteur",
+            "auteur-compositeur"
+          ],
+          "categories": [
+            "Rock",
+            "Punk",
+            "Pop",
+            "Membres d'un groupe",
+            "Britanniques"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1977-07-30",
+          "death": "2025-10-11",
+          "gender": "m",
+          "score": 0.67096,
+          "notoriety": 24
+        },
+        {
+          "qid": "Q547953",
+          "cid": 547953,
+          "name": "Michelle Martin",
+          "description": "criminelle belge, condamnée avec son mari Marc Dutroux pour enlèvement et viol",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q547953-72c65696.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q547953-282f2342.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q547953",
+          "occupations": [
+            "institutrice",
+            "criminelle"
+          ],
+          "categories": [
+            "Belges",
+            "Femmes de sciences"
+          ],
+          "countries": [
+            "Belgique"
+          ],
+          "birth": "1960-01-15",
+          "death": null,
+          "gender": "f",
+          "score": 0.71116,
+          "notoriety": 3
+        },
+        {
+          "qid": "Q2966264",
+          "cid": 2966264,
+          "name": "Christophe Girard",
+          "description": "homme politique français",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2966264-e041c616.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2966264-c0827ec7.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2966264",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1956-02-09",
+          "death": null,
+          "gender": "m",
+          "score": 0.60058,
+          "notoriety": 6
+        },
+        {
+          "qid": "Q2977738",
+          "cid": 2977738,
+          "name": "Claude Lévêque",
+          "description": "artiste plasticien français",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2977738-aa268bcd.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2977738-ae060cc7.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2977738",
+          "occupations": [
+            "artiste visuel"
+          ],
+          "categories": [],
+          "countries": [
+            "France"
+          ],
+          "birth": "1953-02-27",
+          "death": null,
+          "gender": "m",
+          "score": 0.62038,
+          "notoriety": 5
+        },
+        {
+          "qid": "Q355384",
+          "cid": 355384,
+          "name": "Gary Glitter",
+          "description": "chanteur britannique",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q355384-87ec1b79.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q355384-5f995e7e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q355384",
+          "occupations": [
+            "chanteur",
+            "auteur-compositeur-interprète"
+          ],
+          "categories": [
+            "Rock",
+            "Britanniques"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1944-05-08",
+          "death": null,
+          "gender": "m",
+          "score": 0.62921,
+          "notoriety": 27
+        },
+        {
+          "qid": "Q6159960",
+          "cid": 6159960,
+          "name": "Jared Fogle",
+          "description": "",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q6159960-d4174c76.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q6159960-b601f2fd.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q6159960",
+          "occupations": [
+            "porte-parole",
+            "acteur"
+          ],
+          "categories": [
+            "Cinéma",
+            "Hollywood",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1977-08-23",
+          "death": null,
+          "gender": "m",
+          "score": 0.65483,
+          "notoriety": 57
+        },
+        {
+          "qid": "Q713479",
+          "cid": 713479,
+          "name": "Jimmy Savile",
+          "description": "prédateur sexuel et pédocriminel (1926–2011)",
+          "edition": 1920,
+          "editionLabel": "1920",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q713479-dcd18f37.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q713479-b8dd63d8.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q713479",
+          "occupations": [
+            "disc jockey",
+            "animateur de télévision"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Animateurs et animatrices télé",
+            "Électro et DJ",
+            "Britanniques"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1926-10-31",
+          "death": "2011-10-29",
+          "gender": "m",
+          "score": 0.64955,
+          "notoriety": 29
+        },
+        {
+          "qid": "Q21995345",
+          "cid": 21995345,
+          "name": "Katalin Novák",
+          "description": "femme d’État hongroise",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q21995345-1ba6e66b.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q21995345-03950b39.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q21995345",
+          "occupations": [
+            "femme politique",
+            "économiste"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Ministres",
+            "Femmes politiques",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Hongrie"
+          ],
+          "birth": "1977-09-06",
+          "death": null,
+          "gender": "f",
+          "score": 0.60722,
+          "notoriety": 72
+        },
+        {
+          "qid": "Q47467705",
+          "cid": 47467705,
+          "name": "Larry Nassar",
+          "description": "médecin du sport américain",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q47467705-07a6f46c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q47467705-0e4e97d9.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q47467705",
+          "occupations": [
+            "ostéopathe",
+            "médecin du sport"
+          ],
+          "categories": [
+            "Américains",
+            "Médecins"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1963-08-16",
+          "death": null,
+          "gender": "m",
+          "score": 0.65821,
+          "notoriety": 23
+        },
+        {
+          "qid": "Q1375013",
+          "cid": 1375013,
+          "name": "Sébastien Faure",
+          "description": "écrivain anarchiste et libre-penseur français",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1375013-1b72d1f3.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1375013-94e09593.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1375013",
+          "occupations": [
+            "pédagogue",
+            "encyclopédiste"
+          ],
+          "categories": [
+            "XIXe siècle",
+            "Journalistes",
+            "Écrivains"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1858-01-06",
+          "death": "1942-07-14",
+          "gender": "m",
+          "score": 0.62334,
+          "notoriety": 23
+        },
+        {
+          "qid": "Q719825",
+          "cid": 719825,
+          "name": "Marcial Maciel Degollado",
+          "description": "prêtre et pédocriminel mexicain, fondateur de la Légion du Christ",
+          "edition": 1920,
+          "editionLabel": "1920",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q719825-050fc0a6.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q719825-2acde248.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q719825",
+          "occupations": [
+            "prêtre catholique",
+            "Légionnaire du Christ"
+          ],
+          "categories": [],
+          "countries": [
+            "Mexique"
+          ],
+          "birth": "1920-03-10",
+          "death": "2008-01-30",
+          "gender": "m",
+          "score": 0.57603,
+          "notoriety": 18
+        }
       ]
     },
     {
       "id": 7,
       "name": "Tueurs en Série",
-      "count": 66,
+      "totalCount": 66,
+      "ownedCount": 31,
+      "missingCount": 35,
+      "pct": "47.0",
       "cardIds": [
         "Q192218",
         "Q548992",
@@ -342,12 +4092,2168 @@ window.OMNIDEX_DATA = {
         "Q463389",
         "Q264849",
         "Q841843"
+      ],
+      "cards": [
+        {
+          "qid": "Q264849",
+          "cid": 264849,
+          "name": "Aileen Wuornos",
+          "description": "tueuse en série américaine",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q264849-1e2cc17a.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q264849-cbf46ee6.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q264849",
+          "occupations": [
+            "prostituée",
+            "récidive"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis",
+            "Jamaïque"
+          ],
+          "birth": "1956-02-29",
+          "death": "2002-10-09",
+          "gender": "f",
+          "score": 0.78686,
+          "notoriety": 43
+        },
+        {
+          "qid": "Q44220",
+          "cid": 44220,
+          "name": "Anders Behring Breivik",
+          "description": "terroriste norvégien néonazi",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q44220-59d08286.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q44220-2bf939d7.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q44220",
+          "occupations": [
+            "opérateur de marchés financiers",
+            "vendeur"
+          ],
+          "categories": [
+            "Entrepreneurs",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Norvège"
+          ],
+          "birth": "1979-02-13",
+          "death": null,
+          "gender": "m",
+          "score": 0.78433,
+          "notoriety": 90
+        },
+        {
+          "qid": "Q382035",
+          "cid": 382035,
+          "name": "Richard Ramirez",
+          "description": "tueur en série américain",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q382035-15da096e.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q382035-bb06dcf8.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q382035",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1960-02-29",
+          "death": "2013-06-07",
+          "gender": "m",
+          "score": 0.76049,
+          "notoriety": 39
+        },
+        {
+          "qid": "Q1352339",
+          "cid": 1352339,
+          "name": "Danny Rolling",
+          "description": "tueur en série américain",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1352339-05fe8b96.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1352339-a967ae06.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1352339",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1954-05-26",
+          "death": "2006-10-25",
+          "gender": "m",
+          "score": 0.69509,
+          "notoriety": 16
+        },
+        {
+          "qid": "Q310260",
+          "cid": 310260,
+          "name": "Harold Shipman",
+          "description": "médecin et tueur en série britannique",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q310260-3cf5a443.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q310260-259167eb.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q310260",
+          "occupations": [
+            "médecin",
+            "tueur en série"
+          ],
+          "categories": [
+            "Britanniques",
+            "Médecins"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1946-01-14",
+          "death": "2004-01-13",
+          "gender": "m",
+          "score": 0.70946,
+          "notoriety": 37
+        },
+        {
+          "qid": "Q463389",
+          "cid": 463389,
+          "name": "Patricia Krenwinkel",
+          "description": "meurtrière américaine",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q463389-fc4dc61c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q463389-25fa285d.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q463389",
+          "occupations": [
+            "meurtrière",
+            "tueur à la chaîne"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1947-12-03",
+          "death": null,
+          "gender": "f",
+          "score": 0.66764,
+          "notoriety": 20
+        },
+        {
+          "qid": "Q730962",
+          "cid": 730962,
+          "name": "Robert Hansen",
+          "description": "tueur en série américain",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 10,
+          "finishLabel": "Full Starlight",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q730962-18be5c42.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q730962-3abb8728.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q730962",
+          "occupations": [
+            "boulanger",
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1939-02-15",
+          "death": "2014-08-21",
+          "gender": "m",
+          "score": 0.67128,
+          "notoriety": 24
+        },
+        {
+          "qid": "Q44496",
+          "cid": 44496,
+          "name": "Andreï Tchikatilo",
+          "description": "tueur en série soviétique (1936—1994)",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q44496-b3831003.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q44496-2823a53b.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q44496",
+          "occupations": [
+            "tueur en série",
+            "militaire"
+          ],
+          "categories": [
+            "Russes",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Russie"
+          ],
+          "birth": "1936-10-16",
+          "death": "1994-02-14",
+          "gender": "m",
+          "score": 0.6576,
+          "notoriety": 49
+        },
+        {
+          "qid": "Q63984",
+          "cid": 63984,
+          "name": "Baby Face Nelson",
+          "description": "criminel américain",
+          "edition": 1900,
+          "editionLabel": "1900",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q63984-53fbf19f.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q63984-cd668867.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q63984",
+          "occupations": [
+            "criminel",
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1908-12-06",
+          "death": "1934-11-27",
+          "gender": "m",
+          "score": 0.65812,
+          "notoriety": 18
+        },
+        {
+          "qid": "Q2157710",
+          "cid": 2157710,
+          "name": "Bobby Joe Long",
+          "description": "tueur en série et violeur américain (1953-2019)",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2157710-846985dc.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2157710-2c7a31a7.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2157710",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1953-10-14",
+          "death": "2019-05-23",
+          "gender": null,
+          "score": 0.62745,
+          "notoriety": 16
+        },
+        {
+          "qid": "Q722082",
+          "cid": 722082,
+          "name": "Cary Stayner",
+          "description": "tueur en série américain",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q722082-d5212af5.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q722082-c08ada29.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q722082",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1961-08-13",
+          "death": null,
+          "gender": "m",
+          "score": 0.62417,
+          "notoriety": 12
+        },
+        {
+          "qid": "Q2977655",
+          "cid": 2977655,
+          "name": "Claude Lastennet",
+          "description": "tueur en série français",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2977655-eb52d630.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2977655-5db64067.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2977655",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Bretons et Bretonnes"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1971-01-19",
+          "death": "2023-12-19",
+          "gender": "m",
+          "score": 0.63701,
+          "notoriety": 2
+        },
+        {
+          "qid": "Q944611",
+          "cid": 944611,
+          "name": "Dean Corll",
+          "description": "tueur en série américain",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 10,
+          "finishLabel": "Full Starlight",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q944611-dfb13b8c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q944611-a798792e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q944611",
+          "occupations": [
+            "tueur en série",
+            "soldat"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1939-12-24",
+          "death": "1973-08-08",
+          "gender": "m",
+          "score": 0.60936,
+          "notoriety": 24
+        },
+        {
+          "qid": "Q1546808",
+          "cid": 1546808,
+          "name": "Grim Sleeper",
+          "description": "criminel américain",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1546808-5997f59e.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1546808-21370e7a.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1546808",
+          "occupations": [
+            "tueur en série",
+            "mécanicien"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1952-08-30",
+          "death": "2020-03-28",
+          "gender": "m",
+          "score": 0.60037,
+          "notoriety": 16
+        },
+        {
+          "qid": "Q3158938",
+          "cid": 3158938,
+          "name": "Jacques Fruminet",
+          "description": "tueur en série français",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3158938-8e78a1e5.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3158938-e3b65b89.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3158938",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [],
+          "countries": [
+            "France"
+          ],
+          "birth": "1959-09-04",
+          "death": "2014-06-07",
+          "gender": "m",
+          "score": 0.65338,
+          "notoriety": 3
+        },
+        {
+          "qid": "Q1385111",
+          "cid": 1385111,
+          "name": "Joseph Vacher",
+          "description": "un des premiers tueurs en série français (1869-1898)",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1385111-ee3cab0a.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1385111-661fdb96.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1385111",
+          "occupations": [
+            "meurtrier",
+            "tueur en série"
+          ],
+          "categories": [
+            "XIXe siècle"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1869-11-16",
+          "death": "1898-12-31",
+          "gender": "m",
+          "score": 0.64878,
+          "notoriety": 12
+        },
+        {
+          "qid": "Q548992",
+          "cid": 548992,
+          "name": "Luis Garavito",
+          "description": "tueur en série colombien",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q548992-2090b154.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q548992-db3b2d84.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q548992",
+          "occupations": [
+            "tueur en série",
+            "violeur en série"
+          ],
+          "categories": [],
+          "countries": [
+            "Colombie"
+          ],
+          "birth": "1957-01-25",
+          "death": "2023-10-12",
+          "gender": "m",
+          "score": 0.64829,
+          "notoriety": 33
+        },
+        {
+          "qid": "Q3295411",
+          "cid": 3295411,
+          "name": "Martin Dumollard",
+          "description": "tueur en série français",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3295411-8853d94a.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3295411-2a23c2df.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3295411",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "XIXe siècle"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1810-04-21",
+          "death": "1862-03-08",
+          "gender": "m",
+          "score": 0.62752,
+          "notoriety": 5
+        },
+        {
+          "qid": "Q1904657",
+          "cid": 1904657,
+          "name": "Martin Ney",
+          "description": "Tueur en série allemand",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1904657-fdcc73f6.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1904657-87b95477.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1904657",
+          "occupations": [
+            "tueur en série",
+            "pédocriminalité"
+          ],
+          "categories": [
+            "Allemands"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1970-12-12",
+          "death": null,
+          "gender": "m",
+          "score": 0.63745,
+          "notoriety": 4
+        },
+        {
+          "qid": "Q2706794",
+          "cid": 2706794,
+          "name": "Michele Greco",
+          "description": "criminel italien",
+          "edition": 1920,
+          "editionLabel": "1920",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2706794-8770fc5b.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2706794-049792e6.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2706794",
+          "occupations": [
+            "trafiquant de drogue",
+            "tueur en série"
+          ],
+          "categories": [
+            "Italiens"
+          ],
+          "countries": [
+            "Italie"
+          ],
+          "birth": "1924-05-12",
+          "death": "2008-02-13",
+          "gender": "m",
+          "score": 0.60067,
+          "notoriety": 12
+        },
+        {
+          "qid": "Q3334966",
+          "cid": 3334966,
+          "name": "Nadir Sedrati",
+          "description": "artiste tueur en série français",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3334966-6c1d1c8c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3334966-611457dd.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3334966",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [],
+          "countries": [
+            "France"
+          ],
+          "birth": "1938",
+          "death": null,
+          "gender": "m",
+          "score": 0.60672,
+          "notoriety": 2
+        },
+        {
+          "qid": "Q723693",
+          "cid": 723693,
+          "name": "Ottis Toole",
+          "description": "tueur en série américain",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q723693-6ccf4941.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q723693-3c39873a.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q723693",
+          "occupations": [
+            "criminel",
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1947-03-05",
+          "death": "1996-09-15",
+          "gender": "m",
+          "score": 0.65265,
+          "notoriety": 17
+        },
+        {
+          "qid": "Q60291",
+          "cid": 60291,
+          "name": "Peter Kürten",
+          "description": "tueur en série allemand",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q60291-88764db1.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q60291-db89ff98.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q60291",
+          "occupations": [
+            "criminel",
+            "tueur en série"
+          ],
+          "categories": [
+            "XIXe siècle"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1883-05-26",
+          "death": "1931-07-02",
+          "gender": "m",
+          "score": 0.65488,
+          "notoriety": 27
+        },
+        {
+          "qid": "Q2364408",
+          "cid": 2364408,
+          "name": "Richard Cottingham",
+          "description": "tueur en série américain",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2364408-83815c7e.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2364408-9f775e36.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2364408",
+          "occupations": [
+            "criminel",
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1946-11-25",
+          "death": null,
+          "gender": "m",
+          "score": 0.65935,
+          "notoriety": 12
+        },
+        {
+          "qid": "Q1651998",
+          "cid": 1651998,
+          "name": "Thomas Silverstein",
+          "description": "",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1651998-1474d5fc.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1651998-2a88d332.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1651998",
+          "occupations": [
+            "criminel",
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1952-02-04",
+          "death": "2019-05-11",
+          "gender": "m",
+          "score": 0.60519,
+          "notoriety": 9
+        },
+        {
+          "qid": "Q461408",
+          "cid": 461408,
+          "name": "Tsutomu Miyazaki",
+          "description": "otaku pédophile et tueur en série japonais",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q461408-12f54380.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q461408-384d4f66.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q461408",
+          "occupations": [
+            "tueur en série",
+            "employé d’imprimerie"
+          ],
+          "categories": [
+            "Japonais"
+          ],
+          "countries": [
+            "Japon"
+          ],
+          "birth": "1962-08-21",
+          "death": "2008-06-17",
+          "gender": "m",
+          "score": 0.62361,
+          "notoriety": 26
+        },
+        {
+          "qid": "Q16219137",
+          "cid": 16219137,
+          "name": "Albert Pel",
+          "description": "tueur en série et criminel français",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q16219137-18903123.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q16219137-dbed3726.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q16219137",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "XIXe siècle"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1849-06-12",
+          "death": "1924-06-09",
+          "gender": "m",
+          "score": 0.56015,
+          "notoriety": 4
+        },
+        {
+          "qid": "Q10266537",
+          "cid": 10266537,
+          "name": "Diogo Alves",
+          "description": "tueur en série portugais d’origine espagnole (1810-1841)",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q10266537-120a2cc6.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q10266537-037f1095.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q10266537",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Espagnols",
+            "XIXe siècle"
+          ],
+          "countries": [
+            "Espagne"
+          ],
+          "birth": "1810",
+          "death": "1841-02-19",
+          "gender": "m",
+          "score": 0.59712,
+          "notoriety": 11
+        },
+        {
+          "qid": "Q841843",
+          "cid": 841843,
+          "name": "Lawrence Bittaker",
+          "description": "tueur en série américain",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q841843-b08d5a24.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q841843-b8681b08.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q841843",
+          "occupations": [
+            "tueur en série",
+            "usineur"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1940-09-27",
+          "death": "2019-12-13",
+          "gender": "m",
+          "score": 0.58416,
+          "notoriety": 3
+        },
+        {
+          "qid": "Q2463622",
+          "cid": 2463622,
+          "name": "Manuel Blanco Romasanta",
+          "description": "tueur en série espagnol",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2463622-d022444f.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2463622-5ade49c2.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2463622",
+          "occupations": [
+            "tueur en série",
+            "tailleur ou tailleuse"
+          ],
+          "categories": [
+            "Espagnols",
+            "XIXe siècle",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "Espagne"
+          ],
+          "birth": "1809-11-18",
+          "death": "1863-12-14",
+          "gender": null,
+          "score": 0.55192,
+          "notoriety": 10
+        },
+        {
+          "qid": "Q1368838",
+          "cid": 1368838,
+          "name": "Randy Kraft",
+          "description": "tueur en série américain",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1368838-afb0bbc4.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1368838-f2c8183f.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1368838",
+          "occupations": [
+            "tueur en série",
+            "prisonnier"
+          ],
+          "categories": [
+            "Américains",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1945-03-19",
+          "death": null,
+          "gender": "m",
+          "score": 0.54496,
+          "notoriety": 14
+        },
+        {
+          "qid": "Q2915508",
+          "cid": 2915508,
+          "name": "Charles Sobhraj",
+          "description": "tueur en série français",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2915508-407d3a99.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2915508-0e299b1b.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2915508",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [],
+          "countries": [
+            "France"
+          ],
+          "birth": "1944-04-06",
+          "death": null,
+          "gender": "m",
+          "score": 0.77647,
+          "notoriety": 26
+        },
+        {
+          "qid": "Q365456",
+          "cid": 365456,
+          "name": "Dennis Rader",
+          "description": "tueur en série américain",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q365456-24070762.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q365456-0479a1e1.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q365456",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1945-03-09",
+          "death": null,
+          "gender": "m",
+          "score": 0.78537,
+          "notoriety": 33
+        },
+        {
+          "qid": "Q309643",
+          "cid": 309643,
+          "name": "Ed Gein",
+          "description": "tueur en série américain (1906–1984)",
+          "edition": 1900,
+          "editionLabel": "1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q309643-158ce81c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q309643-397aead2.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q309643",
+          "occupations": [
+            "tueur en série",
+            "artisan"
+          ],
+          "categories": [
+            "Américains",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1906-08-27",
+          "death": "1984-07-26",
+          "gender": "m",
+          "score": 0.84745,
+          "notoriety": 46
+        },
+        {
+          "qid": "Q549242",
+          "cid": 549242,
+          "name": "Edmund Kemper",
+          "description": "tueur en série américain condamné",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q549242-5a675807.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q549242-58dff8ed.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q549242",
+          "occupations": [
+            "tueur en série",
+            "prisonnier"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1948-12-18",
+          "death": null,
+          "gender": "m",
+          "score": 0.78428,
+          "notoriety": 36
+        },
+        {
+          "qid": "Q3588630",
+          "cid": 3588630,
+          "name": "Émile Louis",
+          "description": "tueur en série français",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3588630-63729eca.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3588630-7b04397c.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3588630",
+          "occupations": [
+            "tueur en série",
+            "conducteur de bus"
+          ],
+          "categories": [],
+          "countries": [
+            "France"
+          ],
+          "birth": "1934-01-26",
+          "death": "2013-10-20",
+          "gender": "m",
+          "score": 0.78413,
+          "notoriety": 6
+        },
+        {
+          "qid": "Q3081486",
+          "cid": 3081486,
+          "name": "Francis Heaulme",
+          "description": "tueur en série français",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3081486-0f575a44.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3081486-60401e23.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3081486",
+          "occupations": [
+            "tueur en série",
+            "vagabond"
+          ],
+          "categories": [],
+          "countries": [
+            "France"
+          ],
+          "birth": "1959-02-25",
+          "death": null,
+          "gender": null,
+          "score": 0.79187,
+          "notoriety": 7
+        },
+        {
+          "qid": "Q371704",
+          "cid": 371704,
+          "name": "Guy Georges",
+          "description": "criminel français",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q371704-a683a0b8.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q371704-c9b4a075.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q371704",
+          "occupations": [
+            "tueur en série",
+            "violeur"
+          ],
+          "categories": [],
+          "countries": [
+            "France"
+          ],
+          "birth": "1962-10-15",
+          "death": null,
+          "gender": "m",
+          "score": 0.83568,
+          "notoriety": 8
+        },
+        {
+          "qid": "Q534708",
+          "cid": 534708,
+          "name": "Henri Désiré Landru",
+          "description": "assassin condamné à mort en France (1869-1922)",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q534708-617ae607.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q534708-263dbbbe.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q534708",
+          "occupations": [
+            "tueur en série",
+            "sous-diacre"
+          ],
+          "categories": [
+            "Parisiens et Parisiennes",
+            "XIXe siècle"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1869-04-12",
+          "death": "1922-02-25",
+          "gender": "m",
+          "score": 0.7769,
+          "notoriety": 26
+        },
+        {
+          "qid": "Q298364",
+          "cid": 298364,
+          "name": "Jeffrey Dahmer",
+          "description": "tueur en série américain (1960–1994)",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q298364-6657453d.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q298364-9e36758e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q298364",
+          "occupations": [
+            "confiseur",
+            "soldat"
+          ],
+          "categories": [
+            "Américains",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1960-05-21",
+          "death": "1994-11-28",
+          "gender": "m",
+          "score": 0.85859,
+          "notoriety": 70
+        },
+        {
+          "qid": "Q298252",
+          "cid": 298252,
+          "name": "John Wayne Gacy",
+          "description": "tueur en série américain (1942–1994)",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q298252-606535e2.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q298252-e3a0841a.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q298252",
+          "occupations": [
+            "clown",
+            "peintre"
+          ],
+          "categories": [
+            "Américains",
+            "Peintres",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1942-03-17",
+          "death": "1994-05-10",
+          "gender": "m",
+          "score": 0.78446,
+          "notoriety": 46
+        },
+        {
+          "qid": "Q2331681",
+          "cid": 2331681,
+          "name": "Mohammed Merah",
+          "description": "terroriste islamiste franco-algérien",
+          "edition": 1980,
+          "editionLabel": "1980",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2331681-fafb724a.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2331681-7ec1c7f9.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2331681",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [],
+          "countries": [
+            "France",
+            "Algérie"
+          ],
+          "birth": "1988-10-10",
+          "death": "2012-03-22",
+          "gender": "m",
+          "score": 0.77971,
+          "notoriety": 12
+        },
+        {
+          "qid": "Q312308",
+          "cid": 312308,
+          "name": "Salvatore Riina",
+          "description": "un des parrains les plus influents et redoutés de la mafia sicilienne « Cosa nostra » (1930-2017)",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q312308-fb85145c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q312308-f09075dd.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q312308",
+          "occupations": [
+            "criminel",
+            "tueur en série"
+          ],
+          "categories": [
+            "Italiens"
+          ],
+          "countries": [
+            "Italie"
+          ],
+          "birth": "1930-11-16",
+          "death": "2017-11-17",
+          "gender": "m",
+          "score": 0.78665,
+          "notoriety": 47
+        },
+        {
+          "qid": "Q192218",
+          "cid": 192218,
+          "name": "Ted Bundy",
+          "description": "tueur en série américain (1946–1989)",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q192218-b2a159d5.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q192218-8a9d68c2.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q192218",
+          "occupations": [
+            "psychologue",
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1946-11-24",
+          "death": "1989-01-24",
+          "gender": "m",
+          "score": 0.86716,
+          "notoriety": 81
+        },
+        {
+          "qid": "Q507748",
+          "cid": 507748,
+          "name": "Albert Fish",
+          "description": "tueur en série américain (1870-1936)",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q507748-977c3fed.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q507748-583d4777.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q507748",
+          "occupations": [
+            "tueur en série",
+            "prostitué"
+          ],
+          "categories": [
+            "Américains",
+            "XIXe siècle",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1870-05-19",
+          "death": "1936-01-16",
+          "gender": "m",
+          "score": 0.7253,
+          "notoriety": 49
+        },
+        {
+          "qid": "Q2357346",
+          "cid": 2357346,
+          "name": "Christopher Scarver",
+          "description": "meurtrier américain, connu pour son meurtre en prison du tueur en série Jeffrey Dahmer",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2357346-5ebf9a65.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2357346-61ec0ab8.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2357346",
+          "occupations": [
+            "charpentier",
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1969-07-06",
+          "death": null,
+          "gender": "m",
+          "score": 0.72212,
+          "notoriety": 23
+        },
+        {
+          "qid": "Q108760741",
+          "cid": 108760741,
+          "name": "François Vérove",
+          "description": "violeur et tueur en série français",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q108760741-d91295ae.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q108760741-9bd3c0c9.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q108760741",
+          "occupations": [
+            "tueur en série",
+            "violeur"
+          ],
+          "categories": [],
+          "countries": [
+            "France"
+          ],
+          "birth": "1962-01-22",
+          "death": "2021-09-29",
+          "gender": "m",
+          "score": 0.74489,
+          "notoriety": 7
+        },
+        {
+          "qid": "Q360680",
+          "cid": 360680,
+          "name": "H. H. Holmes",
+          "description": "tueur en série américain",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q360680-8f2a9665.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q360680-bdc0845f.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q360680",
+          "occupations": [
+            "tueur en série",
+            "escroc"
+          ],
+          "categories": [
+            "Américains",
+            "XIXe siècle",
+            "Médecins"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1861-05-16",
+          "death": "1896-05-07",
+          "gender": "m",
+          "score": 0.74636,
+          "notoriety": 38
+        },
+        {
+          "qid": "Q2825730",
+          "cid": 2825730,
+          "name": "Patrice Alègre",
+          "description": "tueur en série français",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2825730-12002621.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2825730-e5e3b4b3.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2825730",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [],
+          "countries": [
+            "France"
+          ],
+          "birth": "1968-06-20",
+          "death": null,
+          "gender": "m",
+          "score": 0.74123,
+          "notoriety": 2
+        },
+        {
+          "qid": "Q2658592",
+          "cid": 2658592,
+          "name": "Rodney Alcala",
+          "description": "tueur en série américain",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2658592-a93e7eb2.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2658592-c26551ce.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2658592",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1943-08-23",
+          "death": "2021-07-24",
+          "gender": "m",
+          "score": 0.73953,
+          "notoriety": 25
+        },
+        {
+          "qid": "Q1066396",
+          "cid": 1066396,
+          "name": "Charles Watson",
+          "description": "meurtrier nord-américain",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1066396-41ca999e.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1066396-7cf96328.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1066396",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1945-12-02",
+          "death": null,
+          "gender": "m",
+          "score": 0.67788,
+          "notoriety": 17
+        },
+        {
+          "qid": "Q352717",
+          "cid": 352717,
+          "name": "David Berkowitz",
+          "description": "tueur en série américain",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q352717-bc27c724.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q352717-0069f887.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q352717",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1953-06-01",
+          "death": null,
+          "gender": "m",
+          "score": 0.71276,
+          "notoriety": 31
+        },
+        {
+          "qid": "Q63443",
+          "cid": 63443,
+          "name": "Eugène Weidmann",
+          "description": "dernier condamné à mort exécuté en place publique en France",
+          "edition": 1900,
+          "editionLabel": "1900",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q63443-640dc99a.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q63443-dd6f2392.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q63443",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1908-02-05",
+          "death": "1939-06-17",
+          "gender": "m",
+          "score": 0.70589,
+          "notoriety": 18
+        },
+        {
+          "qid": "Q357498",
+          "cid": 357498,
+          "name": "Gary Ridgway",
+          "description": "tueur en série américain",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q357498-1a8e287c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q357498-64e8e694.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q357498",
+          "occupations": [
+            "tueur en série",
+            "militaire"
+          ],
+          "categories": [
+            "Américains",
+            "Peintres"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1949-02-18",
+          "death": null,
+          "gender": "m",
+          "score": 0.69824,
+          "notoriety": 34
+        },
+        {
+          "qid": "Q4045981",
+          "cid": 4045981,
+          "name": "Golden State Killer",
+          "description": "tueur en série américain",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q4045981-e44fdf85.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q4045981-95d73823.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q4045981",
+          "occupations": [
+            "militaire",
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1945-11-08",
+          "death": null,
+          "gender": "m",
+          "score": 0.67256,
+          "notoriety": 28
+        },
+        {
+          "qid": "Q6087028",
+          "cid": 6087028,
+          "name": "Israel Keyes",
+          "description": "tueur en série américain (1978-2012)",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q6087028-111d201b.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q6087028-353185b6.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q6087028",
+          "occupations": [
+            "criminel",
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1978-01-07",
+          "death": "2012-12-02",
+          "gender": "m",
+          "score": 0.67525,
+          "notoriety": 16
+        },
+        {
+          "qid": "Q1385693",
+          "cid": 1385693,
+          "name": "Jerry Brudos",
+          "description": "",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1385693-2cab1c53.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1385693-022a6196.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1385693",
+          "occupations": [
+            "criminel",
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1939-01-31",
+          "death": "2006-03-28",
+          "gender": "m",
+          "score": 0.66995,
+          "notoriety": 23
+        },
+        {
+          "qid": "Q3369891",
+          "cid": 3369891,
+          "name": "Patrick Tissier",
+          "description": "tueur en série français",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3369891-02b2db0e.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3369891-afe3390a.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3369891",
+          "occupations": [
+            "tueur en série",
+            "violeur"
+          ],
+          "categories": [],
+          "countries": [
+            "France"
+          ],
+          "birth": "1952-08-24",
+          "death": null,
+          "gender": "m",
+          "score": 0.69755,
+          "notoriety": 2
+        },
+        {
+          "qid": "Q1999429",
+          "cid": 1999429,
+          "name": "Pedro Rodrigues Filho",
+          "description": "tueur en série brésilien",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1999429-8873bfd6.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1999429-29bb97c9.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1999429",
+          "occupations": [
+            "tueur en série",
+            "agent de sécurité"
+          ],
+          "categories": [
+            "Brésiliens",
+            "YouTubeurs",
+            "Influenceurs"
+          ],
+          "countries": [
+            "Brésil"
+          ],
+          "birth": "1954-06-17",
+          "death": "2023-03-05",
+          "gender": "m",
+          "score": 0.69148,
+          "notoriety": 18
+        },
+        {
+          "qid": "Q3384043",
+          "cid": 3384043,
+          "name": "Pierre Bodein",
+          "description": "tueur en série français",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3384043-70a86ed7.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3384043-60173088.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3384043",
+          "occupations": [
+            "criminel",
+            "tueur en série"
+          ],
+          "categories": [],
+          "countries": [
+            "France"
+          ],
+          "birth": "1947-12-30",
+          "death": null,
+          "gender": "m",
+          "score": 0.71517,
+          "notoriety": 2
+        },
+        {
+          "qid": "Q331530",
+          "cid": 331530,
+          "name": "Pierre Chanal",
+          "description": "militaire français (1946-2003), meurtrier en série",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q331530-884f1bea.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q331530-cf4d0f55.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q331530",
+          "occupations": [
+            "tueur en série",
+            "militaire"
+          ],
+          "categories": [],
+          "countries": [
+            "France"
+          ],
+          "birth": "1946-11-18",
+          "death": "2003-10-15",
+          "gender": "m",
+          "score": 0.6711,
+          "notoriety": 6
+        },
+        {
+          "qid": "Q1389384",
+          "cid": 1389384,
+          "name": "Roberto Succo",
+          "description": "criminel italien",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1389384-c36e1ed0.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1389384-93b84623.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1389384",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Italiens"
+          ],
+          "countries": [
+            "Italie"
+          ],
+          "birth": "1962-04-03",
+          "death": "1988-05-23",
+          "gender": "m",
+          "score": 0.6702,
+          "notoriety": 12
+        },
+        {
+          "qid": "Q25390527",
+          "cid": 25390527,
+          "name": "Samuel Little",
+          "description": "tueur en série américain",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q25390527-ce0c2cc2.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q25390527-2040b11c.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q25390527",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1940-06-07",
+          "death": "2020-12-30",
+          "gender": "m",
+          "score": 0.71455,
+          "notoriety": 24
+        },
+        {
+          "qid": "Q3524468",
+          "cid": 3524468,
+          "name": "Thierry Paulin",
+          "description": "tueur en série français",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3524468-accc600f.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3524468-1d210507.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3524468",
+          "occupations": [
+            "tueur en série",
+            "serveur"
+          ],
+          "categories": [
+            "Nés en outre-mer"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1963-11-28",
+          "death": "1989-04-16",
+          "gender": "m",
+          "score": 0.71455,
+          "notoriety": 5
+        },
+        {
+          "qid": "Q3531345",
+          "cid": 3531345,
+          "name": "Tommy Recco",
+          "description": "tueur en série français",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3531345-34c14b0c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3531345-d78fda87.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3531345",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Corses"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1934-05-10",
+          "death": "2025-11-20",
+          "gender": "m",
+          "score": 0.69312,
+          "notoriety": 3
+        },
+        {
+          "qid": "Q3566872",
+          "cid": 3566872,
+          "name": "Wayne Williams",
+          "description": "tueur en série",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3566872-0ba41cd7.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3566872-21c3ccbc.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3566872",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1958-05-27",
+          "death": null,
+          "gender": "m",
+          "score": 0.6916,
+          "notoriety": 14
+        }
       ]
     },
     {
       "id": 8,
       "name": "Anthonys",
-      "count": 43,
+      "totalCount": 43,
+      "ownedCount": 2,
+      "missingCount": 41,
+      "pct": "4.7",
       "cardIds": [
         "Q65932",
         "Q573463",
@@ -392,12 +6298,1540 @@ window.OMNIDEX_DATA = {
         "Q27300087",
         "Q128895",
         "Q2852985"
+      ],
+      "cards": [
+        {
+          "qid": "Q335697",
+          "cid": 335697,
+          "name": "Anthony Albanese",
+          "description": "homme d’État australien",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q335697-9b387160.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q335697-b6cee2dc.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q335697",
+          "occupations": [
+            "homme politique",
+            "dirigeant de parti politique"
+          ],
+          "categories": [
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Australie"
+          ],
+          "birth": "1963-03-02",
+          "death": null,
+          "gender": "m",
+          "score": 0.68858,
+          "notoriety": 86
+        },
+        {
+          "qid": "Q217619",
+          "cid": 217619,
+          "name": "Anthony Burgess",
+          "description": "écrivain britannique (1917–1993)",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q217619-9a71d14f.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q217619-f0ba5598.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q217619",
+          "occupations": [
+            "écrivain",
+            "journaliste"
+          ],
+          "categories": [
+            "Cinéma",
+            "Britanniques",
+            "Journalistes",
+            "Écrivains",
+            "Poètes"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1917-02-25",
+          "death": "1993-11-22",
+          "gender": "m",
+          "score": 0.66127,
+          "notoriety": 77
+        },
+        {
+          "qid": "Q65932",
+          "cid": 65932,
+          "name": "Anthony Hopkins",
+          "description": "acteur, compositeur, scénariste, réalisateur et producteur de cinéma britannique naturalisé américain",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 6,
+          "rarityName": "Ace",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q65932-f2a99e7a.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q65932-4ea6bcac.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q65932",
+          "occupations": [
+            "réalisateur de cinéma",
+            "scénariste"
+          ],
+          "categories": [
+            "Cinéma",
+            "Théâtre",
+            "Réalisateurs et réalisatrices",
+            "Hollywood",
+            "Oscars",
+            "Emmy Awards",
+            "Américains",
+            "Britanniques"
+          ],
+          "countries": [
+            "États-Unis",
+            "Royaume-Uni"
+          ],
+          "birth": "1937-12-31",
+          "death": null,
+          "gender": "m",
+          "score": 0.87454,
+          "notoriety": 120
+        },
+        {
+          "qid": "Q426582",
+          "cid": 426582,
+          "name": "Anthony Bourdain",
+          "description": "chef américain, écrivain culinaire et animateur de télévision",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q426582-057bb3b7.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q426582-50b08efa.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q426582",
+          "occupations": [
+            "cuisinier",
+            "écrivain"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Hollywood",
+            "Animateurs et animatrices télé",
+            "Américains",
+            "Chefs cuisiniers",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1956-06-25",
+          "death": "2018-06-08",
+          "gender": "m",
+          "score": 0.82223,
+          "notoriety": 96
+        },
+        {
+          "qid": "Q317008",
+          "cid": 317008,
+          "name": "Anthony Davis",
+          "description": "joueur de basket-ball américain",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q317008-91b78cda.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q317008-9906b507.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q317008",
+          "occupations": [
+            "joueur de basket-ball",
+            "acteur"
+          ],
+          "categories": [
+            "Cinéma",
+            "Doublage",
+            "Hollywood",
+            "NBA",
+            "Basket",
+            "Jeux olympiques",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1993-03-11",
+          "death": null,
+          "gender": "m",
+          "score": 0.77916,
+          "notoriety": 50
+        },
+        {
+          "qid": "Q573463",
+          "cid": 573463,
+          "name": "Anthony Joshua",
+          "description": "boxeur britannique",
+          "edition": 1980,
+          "editionLabel": "1980",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q573463-5fce60e7.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q573463-4c5ac2f4.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q573463",
+          "occupations": [
+            "boxeur"
+          ],
+          "categories": [
+            "Sports de combat",
+            "Boxe",
+            "Jeux olympiques",
+            "Britanniques"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1989-10-15",
+          "death": null,
+          "gender": "m",
+          "score": 0.82405,
+          "notoriety": 47
+        },
+        {
+          "qid": "Q60951627",
+          "cid": 60951627,
+          "name": "Anthony Edwards",
+          "description": "joueur de basket-ball américain",
+          "edition": 2000,
+          "editionLabel": "2000",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q60951627-9b6c0318.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q60951627-ff45bbe4.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q60951627",
+          "occupations": [
+            "joueur de basket-ball"
+          ],
+          "categories": [
+            "NBA",
+            "Basket",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "2001-08-05",
+          "death": null,
+          "gender": "m",
+          "score": 0.74739,
+          "notoriety": 29
+        },
+        {
+          "qid": "Q2091463",
+          "cid": 2091463,
+          "name": "Anthony Martial",
+          "description": "footballeur français",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2091463-2acf6db1.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2091463-9fd88404.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2091463",
+          "occupations": [
+            "footballeur"
+          ],
+          "categories": [
+            "Coupe du monde de football"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1995-12-05",
+          "death": null,
+          "gender": "m",
+          "score": 0.75463,
+          "notoriety": 59
+        },
+        {
+          "qid": "Q193146",
+          "cid": 193146,
+          "name": "Anthony Perkins",
+          "description": "acteur et réalisateur américain",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q193146-9696bdd2.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q193146-83bac6bc.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q193146",
+          "occupations": [
+            "acteur",
+            "réalisateur de cinéma"
+          ],
+          "categories": [
+            "Cinéma",
+            "Réalisateurs et réalisatrices",
+            "Hollywood",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1932-04-04",
+          "death": "1992-09-12",
+          "gender": "m",
+          "score": 0.77681,
+          "notoriety": 66
+        },
+        {
+          "qid": "Q83484",
+          "cid": 83484,
+          "name": "Anthony Quinn",
+          "description": "acteur américain",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q83484-879f7081.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q83484-f4896f4b.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q83484",
+          "occupations": [
+            "acteur de cinéma",
+            "sculpteur"
+          ],
+          "categories": [
+            "Cinéma",
+            "Réalisateurs et réalisatrices",
+            "Hollywood",
+            "Oscars",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis",
+            "Mexique"
+          ],
+          "birth": "1915-04-21",
+          "death": "2001-06-03",
+          "gender": "m",
+          "score": 0.75408,
+          "notoriety": 84
+        },
+        {
+          "qid": "Q110188420",
+          "cid": 110188420,
+          "name": "Anthony Bourbon",
+          "description": "entrepreneur français",
+          "edition": 1980,
+          "editionLabel": "1980",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q110188420-7bf98efe.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q110188420-67e2716b.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q110188420",
+          "occupations": [
+            "entrepreneur",
+            "chef d’entreprise"
+          ],
+          "categories": [
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1988-05-22",
+          "death": null,
+          "gender": "m",
+          "score": 0.73381,
+          "notoriety": 2
+        },
+        {
+          "qid": "Q314924",
+          "cid": 314924,
+          "name": "Anthony Edwards",
+          "description": "acteur américain",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q314924-b030192c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q314924-e3cdd62f.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q314924",
+          "occupations": [
+            "acteur de télévision",
+            "acteur de cinéma"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Doublage",
+            "Hollywood",
+            "Emmy Awards",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1962-07-19",
+          "death": null,
+          "gender": "m",
+          "score": 0.76898,
+          "notoriety": 35
+        },
+        {
+          "qid": "Q2852885",
+          "cid": 2852885,
+          "name": "Anthony Kavanagh",
+          "description": "chanteur, acteur et humoriste canado-haïtien",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2852885-cd9cb67e.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2852885-bde14d39.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2852885",
+          "occupations": [
+            "acteur",
+            "animateur de télévision"
+          ],
+          "categories": [
+            "Télévision",
+            "Humoristes",
+            "Animateurs et animatrices télé",
+            "Québécois et Québécoises",
+            "Canadiens"
+          ],
+          "countries": [
+            "Canada"
+          ],
+          "birth": "1969-09-26",
+          "death": null,
+          "gender": "m",
+          "score": 0.72841,
+          "notoriety": 9
+        },
+        {
+          "qid": "Q204751",
+          "cid": 204751,
+          "name": "Anthony Kiedis",
+          "description": "chanteur américain",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q204751-ae779496.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q204751-db5a5cec.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q204751",
+          "occupations": [
+            "chanteur",
+            "rappeur"
+          ],
+          "categories": [
+            "Rap et hip-hop",
+            "Rock",
+            "Metal",
+            "Jazz",
+            "Membres d'un groupe",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1962-11-01",
+          "death": null,
+          "gender": "m",
+          "score": 0.74019,
+          "notoriety": 61
+        },
+        {
+          "qid": "Q511554",
+          "cid": 511554,
+          "name": "Anthony Mackie",
+          "description": "acteur américain",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q511554-31b52617.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q511554-9fb34d1c.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q511554",
+          "occupations": [
+            "acteur de cinéma",
+            "acteur de théâtre"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Théâtre",
+            "Hollywood",
+            "Américains",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1978-09-23",
+          "death": null,
+          "gender": "m",
+          "score": 0.75484,
+          "notoriety": 55
+        },
+        {
+          "qid": "Q26625",
+          "cid": 26625,
+          "name": "Marc Anthony",
+          "description": "chanteur américano-portoricain",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q26625-4901208c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q26625-552d7606.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q26625",
+          "occupations": [
+            "acteur",
+            "chanteur"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Hollywood",
+            "Pop",
+            "Membres d'un groupe",
+            "Grammy Awards",
+            "Américains",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1968-09-16",
+          "death": null,
+          "gender": "m",
+          "score": 0.76177,
+          "notoriety": 56
+        },
+        {
+          "qid": "Q313918",
+          "cid": 313918,
+          "name": "Anthony Anderson",
+          "description": "acteur américain",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q313918-b0519c6c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q313918-dc935775.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q313918",
+          "occupations": [
+            "humoriste",
+            "acteur de cinéma"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Humoristes",
+            "Hollywood",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1970-08-15",
+          "death": null,
+          "gender": "m",
+          "score": 0.70889,
+          "notoriety": 46
+        },
+        {
+          "qid": "Q50091728",
+          "cid": 50091728,
+          "name": "Anthony Bajon",
+          "description": "acteur français",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q50091728-73e173ce.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q50091728-6cb4667e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q50091728",
+          "occupations": [
+            "acteur de cinéma",
+            "acteur de télévision"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Théâtre",
+            "Acteurs français"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1994-04-07",
+          "death": null,
+          "gender": "m",
+          "score": 0.69281,
+          "notoriety": 13
+        },
+        {
+          "qid": "Q4772101",
+          "cid": 4772101,
+          "name": "Anthony Bennett",
+          "description": "joueur canadien de basket-ball",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q4772101-edf190f9.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q4772101-1f6c24e6.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q4772101",
+          "occupations": [
+            "joueur de basket-ball"
+          ],
+          "categories": [
+            "NBA",
+            "Basket",
+            "Canadiens"
+          ],
+          "countries": [
+            "Canada"
+          ],
+          "birth": "1993-03-14",
+          "death": null,
+          "gender": "m",
+          "score": 0.67651,
+          "notoriety": 31
+        },
+        {
+          "qid": "Q49150651",
+          "cid": 49150651,
+          "name": "Anthony Bouthier",
+          "description": "joueur français de rugby à XV",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q49150651-ac06889f.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q49150651-bd33487d.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q49150651",
+          "occupations": [
+            "joueur de rugby à XV"
+          ],
+          "categories": [
+            "Équipes de France (tous sports)",
+            "Rugby"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1992-06-19",
+          "death": null,
+          "gender": "m",
+          "score": 0.66304,
+          "notoriety": 4
+        },
+        {
+          "qid": "Q67755219",
+          "cid": 67755219,
+          "name": "Anthony Colette",
+          "description": "danseur et chorégraphe français",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q67755219-479e9847.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q67755219-b512b84c.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q67755219",
+          "occupations": [
+            "danseur",
+            "chorégraphe"
+          ],
+          "categories": [
+            "Danse"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1995-02-01",
+          "death": null,
+          "gender": "m",
+          "score": 0.69742,
+          "notoriety": 2
+        },
+        {
+          "qid": "Q573147",
+          "cid": 573147,
+          "name": "Anthony Delon",
+          "description": "acteur français",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q573147-390ff17a.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q573147-80723020.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q573147",
+          "occupations": [
+            "acteur de théâtre",
+            "acteur de cinéma"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Théâtre",
+            "Mannequins",
+            "Acteurs français",
+            "Hollywood",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis",
+            "France"
+          ],
+          "birth": "1964-09-30",
+          "death": null,
+          "gender": "m",
+          "score": 0.71753,
+          "notoriety": 22
+        },
+        {
+          "qid": "Q128995",
+          "cid": 128995,
+          "name": "Anthony Eden",
+          "description": "homme d’État britannique",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q128995-fd9b0251.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q128995-63b115b3.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q128995",
+          "occupations": [
+            "homme politique",
+            "diplomate"
+          ],
+          "categories": [
+            "Premiers ministres britanniques",
+            "Ministres",
+            "Britanniques",
+            "XIXe siècle",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1897-06-12",
+          "death": "1977-01-14",
+          "gender": "m",
+          "score": 0.71195,
+          "notoriety": 97
+        },
+        {
+          "qid": "Q573246",
+          "cid": 573246,
+          "name": "Anthony Fauci",
+          "description": "immunologiste américain",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q573246-7a656827.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q573246-f36cbf51.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q573246",
+          "occupations": [
+            "immunologiste",
+            "médecin"
+          ],
+          "categories": [
+            "Américains",
+            "Médecins"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1940-12-24",
+          "death": null,
+          "gender": "m",
+          "score": 0.69038,
+          "notoriety": 63
+        },
+        {
+          "qid": "Q30729256",
+          "cid": 30729256,
+          "name": "Anthony Jelonch",
+          "description": "joueur français de rugby à XV",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q30729256-3dd676ef.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q30729256-df56d341.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q30729256",
+          "occupations": [
+            "joueur de rugby à XV"
+          ],
+          "categories": [
+            "Équipes de France (tous sports)",
+            "Rugby"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1996-07-28",
+          "death": null,
+          "gender": "m",
+          "score": 0.67934,
+          "notoriety": 7
+        },
+        {
+          "qid": "Q1392235",
+          "cid": 1392235,
+          "name": "Anthony Lopes",
+          "description": "footballeur international portugais",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1392235-51dd74ba.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1392235-5c1d63d1.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1392235",
+          "occupations": [
+            "footballeur"
+          ],
+          "categories": [
+            "Olympique lyonnais",
+            "Ligue 1",
+            "Gardiens de but",
+            "Coupe du monde de football",
+            "Ligue des champions"
+          ],
+          "countries": [
+            "Portugal"
+          ],
+          "birth": "1990-10-01",
+          "death": null,
+          "gender": "m",
+          "score": 0.6686,
+          "notoriety": 41
+        },
+        {
+          "qid": "Q20973952",
+          "cid": 20973952,
+          "name": "Anthony Ramos",
+          "description": "acteur américain",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q20973952-a3ba5c43.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q20973952-aefe2c6d.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q20973952",
+          "occupations": [
+            "acteur",
+            "chanteur"
+          ],
+          "categories": [
+            "Télévision",
+            "Doublage",
+            "Hollywood",
+            "Grammy Awards",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1991-11-01",
+          "death": null,
+          "gender": "m",
+          "score": 0.69856,
+          "notoriety": 29
+        },
+        {
+          "qid": "Q39983",
+          "cid": 39983,
+          "name": "Anthony Rapp",
+          "description": "acteur américain",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q39983-1a0bf3df.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q39983-4d2c2249.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q39983",
+          "occupations": [
+            "chanteur",
+            "acteur de théâtre"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Théâtre",
+            "Hollywood",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1971-10-26",
+          "death": null,
+          "gender": "m",
+          "score": 0.66775,
+          "notoriety": 30
+        },
+        {
+          "qid": "Q380429",
+          "cid": 380429,
+          "name": "Anthony Robbins",
+          "description": "auteur d’ouvrages sur la réalisation de soi, conférencier",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q380429-e3a6219e.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q380429-4da15892.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q380429",
+          "occupations": [
+            "motivateur"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1960-02-29",
+          "death": null,
+          "gender": "m",
+          "score": 0.71956,
+          "notoriety": 54
+        },
+        {
+          "qid": "Q342962",
+          "cid": 342962,
+          "name": "Anthony Stewart Head",
+          "description": "acteur et chanteur britannique",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q342962-fd479651.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q342962-5a570925.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q342962",
+          "occupations": [
+            "acteur",
+            "acteur de télévision"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Théâtre",
+            "Britanniques"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1954-02-20",
+          "death": "2026-06-01",
+          "gender": "m",
+          "score": 0.71716,
+          "notoriety": 39
+        },
+        {
+          "qid": "Q30118260",
+          "cid": 30118260,
+          "name": "Anthony Belleau",
+          "description": "joueur français de rugby à XV",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q30118260-8c0f684d.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q30118260-c00f6093.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q30118260",
+          "occupations": [
+            "joueur de rugby à XV"
+          ],
+          "categories": [
+            "Équipes de France (tous sports)",
+            "Rugby"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1996-04-08",
+          "death": null,
+          "gender": "m",
+          "score": 0.64072,
+          "notoriety": 5
+        },
+        {
+          "qid": "Q2250963",
+          "cid": 2250963,
+          "name": "Anthony Beltoise",
+          "description": "pilote automobile français",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2250963-7bb18734.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2250963-1ca0898c.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2250963",
+          "occupations": [
+            "pilote de course automobile"
+          ],
+          "categories": [
+            "Sports mécaniques"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1971-07-21",
+          "death": null,
+          "gender": "m",
+          "score": 0.64041,
+          "notoriety": 7
+        },
+        {
+          "qid": "Q27300087",
+          "cid": 27300087,
+          "name": "Anthony Boyle",
+          "description": "acteur nord-irlandais",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q27300087-e3fbffd3.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q27300087-55d3ae10.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q27300087",
+          "occupations": [
+            "acteur",
+            "acteur de théâtre"
+          ],
+          "categories": [
+            "Télévision",
+            "Théâtre"
+          ],
+          "countries": [],
+          "birth": "1994-06-08",
+          "death": null,
+          "gender": "m",
+          "score": 0.63878,
+          "notoriety": 13
+        },
+        {
+          "qid": "Q441685",
+          "cid": 441685,
+          "name": "Anthony Daniels",
+          "description": "acteur britannique",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q441685-636ac670.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q441685-10935e03.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q441685",
+          "occupations": [
+            "acteur",
+            "acteur de cinéma"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Britanniques"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1946-02-21",
+          "death": null,
+          "gender": "m",
+          "score": 0.64677,
+          "notoriety": 46
+        },
+        {
+          "qid": "Q106805131",
+          "cid": 106805131,
+          "name": "Anthony Elanga",
+          "description": "footballeur suédois",
+          "edition": 2000,
+          "editionLabel": "2000",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q106805131-9f0ee1c1.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q106805131-c7a419ed.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q106805131",
+          "occupations": [
+            "footballeur"
+          ],
+          "categories": [
+            "Coupe du monde de football"
+          ],
+          "countries": [
+            "Suède"
+          ],
+          "birth": "2002-04-27",
+          "death": null,
+          "gender": "m",
+          "score": 0.65108,
+          "notoriety": 38
+        },
+        {
+          "qid": "Q45179405",
+          "cid": 45179405,
+          "name": "Anthony Gordon",
+          "description": "footballeur anglais",
+          "edition": 2000,
+          "editionLabel": "2000",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q45179405-8542a627.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q45179405-5d489263.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q45179405",
+          "occupations": [
+            "footballeur"
+          ],
+          "categories": [
+            "FC Barcelone",
+            "Coupe du monde de football",
+            "Britanniques"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "2001-02-24",
+          "death": null,
+          "gender": "m",
+          "score": 0.63994,
+          "notoriety": 52
+        },
+        {
+          "qid": "Q279305",
+          "cid": 279305,
+          "name": "Anthony Horowitz",
+          "description": "auteur d’ouvrages pour la jeunesse et scénariste",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q279305-1d41a374.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q279305-6e67dab8.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q279305",
+          "occupations": [
+            "scénariste",
+            "écrivain"
+          ],
+          "categories": [
+            "Cinéma",
+            "Britanniques"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1955-04-05",
+          "death": null,
+          "gender": "m",
+          "score": 0.656,
+          "notoriety": 37
+        },
+        {
+          "qid": "Q576548",
+          "cid": 576548,
+          "name": "Anthony Johnson",
+          "description": "pratiquant américain d’arts martiaux",
+          "edition": 1980,
+          "editionLabel": "1980",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q576548-f97297da.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q576548-697c47a0.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q576548",
+          "occupations": [
+            "pratiquant d’arts martiaux mixtes",
+            "kick-boxeur"
+          ],
+          "categories": [
+            "Sports de combat",
+            "Boxe",
+            "MMA",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1984-03-06",
+          "death": "2022-11-13",
+          "gender": "m",
+          "score": 0.6555,
+          "notoriety": 17
+        },
+        {
+          "qid": "Q128895",
+          "cid": 128895,
+          "name": "Anthony Le Tallec",
+          "description": "footballeur français",
+          "edition": 1980,
+          "editionLabel": "1980",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q128895-d076a9bc.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q128895-9b13c899.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q128895",
+          "occupations": [
+            "footballeur",
+            "entraîneur de football"
+          ],
+          "categories": [
+            "Équipes de France (tous sports)",
+            "AS Saint-Étienne",
+            "Liverpool",
+            "Ligue 1",
+            "Bretons et Bretonnes"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1984-10-03",
+          "death": null,
+          "gender": "m",
+          "score": 0.63858,
+          "notoriety": 27
+        },
+        {
+          "qid": "Q361215",
+          "cid": 361215,
+          "name": "Anthony Michael Hall",
+          "description": "acteur américain",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q361215-9c42c760.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q361215-f4ea1f02.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q361215",
+          "occupations": [
+            "acteur"
+          ],
+          "categories": [
+            "Cinéma",
+            "Hollywood",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1968-04-14",
+          "death": null,
+          "gender": "m",
+          "score": 0.6655,
+          "notoriety": 32
+        },
+        {
+          "qid": "Q2057232",
+          "cid": 2057232,
+          "name": "Anthony Pettis",
+          "description": "pratiquant américain d’arts martiaux",
+          "edition": 1980,
+          "editionLabel": "1980",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2057232-07a385cc.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2057232-1ab3164f.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2057232",
+          "occupations": [
+            "pratiquant d’arts martiaux mixtes",
+            "taekwondoïste"
+          ],
+          "categories": [
+            "Sports de combat",
+            "MMA",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1987-01-27",
+          "death": null,
+          "gender": "m",
+          "score": 0.65571,
+          "notoriety": 20
+        },
+        {
+          "qid": "Q574013",
+          "cid": 574013,
+          "name": "Anthony Spilotro",
+          "description": "criminel américain",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q574013-c9d74400.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q574013-17b43fe7.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q574013",
+          "occupations": [
+            "gangster"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1938-05-19",
+          "death": "1986-06-14",
+          "gender": "m",
+          "score": 0.65232,
+          "notoriety": 9
+        },
+        {
+          "qid": "Q2852985",
+          "cid": 2852985,
+          "name": "Anthony Turgis",
+          "description": "coureur cycliste français",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2852985-3b68397c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2852985-e57c7208.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2852985",
+          "occupations": [
+            "coureur cycliste"
+          ],
+          "categories": [
+            "Cyclisme",
+            "Tour de France"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1994-05-16",
+          "death": null,
+          "gender": "m",
+          "score": 0.62811,
+          "notoriety": 21
+        }
       ]
     },
     {
       "id": 13,
       "name": "Amours",
-      "count": 8,
+      "totalCount": 8,
+      "ownedCount": 2,
+      "missingCount": 6,
+      "pct": "25.0",
       "cardIds": [
         "Q3343859",
         "Q949869",
@@ -407,24 +7841,488 @@ window.OMNIDEX_DATA = {
         "Q3380137",
         "Q3290711",
         "Q1303301"
+      ],
+      "cards": [
+        {
+          "qid": "Q956428",
+          "cid": 956428,
+          "name": "Jean-François Lamour",
+          "description": "escrimeur et homme politique français",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q956428-b20e9c3d.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q956428-da06b128.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q956428",
+          "occupations": [
+            "homme politique",
+            "escrimeur"
+          ],
+          "categories": [
+            "Sports de combat",
+            "Jeux olympiques",
+            "Parisiens et Parisiennes",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1956-02-02",
+          "death": null,
+          "gender": "m",
+          "score": 0.61448,
+          "notoriety": 25
+        },
+        {
+          "qid": "Q1303301",
+          "cid": 1303301,
+          "name": "Thibault Damour",
+          "description": "physicien français",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 2,
+          "finishLabel": "Starlight",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1303301-cf591bbe.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1303301-539a4ae1.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1303301",
+          "occupations": [
+            "physicien"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Lyonnais et Lyonnaises",
+            "Physiciens"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1951-02-07",
+          "death": null,
+          "gender": "m",
+          "score": 0.60178,
+          "notoriety": 17
+        },
+        {
+          "qid": "Q3080696",
+          "cid": 3080696,
+          "name": "France D’Amour",
+          "description": "chanteuse de variétés",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3080696-51a25929.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3080696-b8ac3ea1.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3080696",
+          "occupations": [
+            "auteur-compositeur-interprète",
+            "actrice"
+          ],
+          "categories": [
+            "Cinéma",
+            "Québécois et Québécoises",
+            "Canadiens"
+          ],
+          "countries": [
+            "Canada"
+          ],
+          "birth": "1964-03-30",
+          "death": null,
+          "gender": "f",
+          "score": 0.63298,
+          "notoriety": 6
+        },
+        {
+          "qid": "Q166420",
+          "cid": 166420,
+          "name": "Dorothy Lamour",
+          "description": "actrice américaine",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q166420-500297dd.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q166420-09fd2073.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q166420",
+          "occupations": [
+            "actrice",
+            "chanteuse"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Théâtre",
+            "Hollywood",
+            "Américains",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1914-12-10",
+          "death": "1996-09-22",
+          "gender": "f",
+          "score": 0.57844,
+          "notoriety": 41
+        },
+        {
+          "qid": "Q3290711",
+          "cid": 3290711,
+          "name": "Marguerite Lamour",
+          "description": "personnalité politique française",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3290711-4238a34a.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3290711-b196e821.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3290711",
+          "occupations": [
+            "femme politique",
+            "employée du secteur privé"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Bretons et Bretonnes",
+            "Femmes politiques",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1956-06-12",
+          "death": "2026-03-05",
+          "gender": "f",
+          "score": 0.46697,
+          "notoriety": 4
+        },
+        {
+          "qid": "Q3343859",
+          "cid": 3343859,
+          "name": "Normand L’Amour",
+          "description": "auteur-compositeur-interprète canadien",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3343859-1b6ec8b8.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3343859-fb91b2ac.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3343859",
+          "occupations": [
+            "auteur-compositeur-interprète"
+          ],
+          "categories": [
+            "Pop",
+            "Québécois et Québécoises",
+            "Canadiens"
+          ],
+          "countries": [
+            "Canada"
+          ],
+          "birth": "1930-09-06",
+          "death": "2015-11-03",
+          "gender": "m",
+          "score": 0.54126,
+          "notoriety": 4
+        },
+        {
+          "qid": "Q3380137",
+          "cid": 3380137,
+          "name": "Philippe Lamour",
+          "description": "avocat et haut fonctionnaire français",
+          "edition": 1900,
+          "editionLabel": "1900",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3380137-5c538357.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3380137-60b49e97.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3380137",
+          "occupations": [
+            "avocat",
+            "fonctionnaire"
+          ],
+          "categories": [
+            "Avocats",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1903-02-12",
+          "death": "1992-07-25",
+          "gender": "m",
+          "score": 0.51949,
+          "notoriety": 2
+        },
+        {
+          "qid": "Q949869",
+          "cid": 949869,
+          "name": "Roderick Brind’Amour",
+          "description": "joueur et entraîneur de hockey sur glace canadien",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q949869-2f675de6.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q949869-c6be4b63.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q949869",
+          "occupations": [
+            "joueur de hockey sur glace",
+            "entraîneur de hockey sur glace"
+          ],
+          "categories": [
+            "Sports d'hiver",
+            "Jeux olympiques",
+            "Canadiens"
+          ],
+          "countries": [
+            "Canada"
+          ],
+          "birth": "1970-08-09",
+          "death": null,
+          "gender": "m",
+          "score": 0.58534,
+          "notoriety": 21
+        }
       ]
     },
     {
       "id": 14,
       "name": "Googlers",
-      "count": 5,
+      "totalCount": 5,
+      "ownedCount": 3,
+      "missingCount": 2,
+      "pct": "60.0",
       "cardIds": [
         "Q4934",
         "Q3022141",
         "Q55183",
         "Q92764",
         "Q92743"
+      ],
+      "cards": [
+        {
+          "qid": "Q3022141",
+          "cid": 3022141,
+          "name": "Demis Hassabis",
+          "description": "entrepreneur britannique en intelligence artificielle",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 3,
+          "finishLabel": "Fireworks",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3022141-2bfb4580.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3022141-5fb5c77a.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3022141",
+          "occupations": [
+            "ingénieur",
+            "joueur d’échecs"
+          ],
+          "categories": [
+            "Échecs",
+            "Prix Nobel",
+            "Britanniques"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1976-07-27",
+          "death": null,
+          "gender": "m",
+          "score": 0.78884,
+          "notoriety": 59
+        },
+        {
+          "qid": "Q4934",
+          "cid": 4934,
+          "name": "Larry Page",
+          "description": "informaticien et entrepreneur américain",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q4934-96b146a1.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q4934-47c1e765.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q4934",
+          "occupations": [
+            "entrepreneur",
+            "informaticien"
+          ],
+          "categories": [
+            "Américains",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1973-03-26",
+          "death": null,
+          "gender": "m",
+          "score": 0.75838,
+          "notoriety": 103
+        },
+        {
+          "qid": "Q55183",
+          "cid": 55183,
+          "name": "Susan Wojcicki",
+          "description": "femme d’affaire états-unienne",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q55183-1e63dd09.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q55183-35835b84.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q55183",
+          "occupations": [
+            "femme d’affaires",
+            "manager"
+          ],
+          "categories": [
+            "Américains",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1968-07-05",
+          "death": "2024-08-09",
+          "gender": "f",
+          "score": 0.63264,
+          "notoriety": 60
+        },
+        {
+          "qid": "Q92764",
+          "cid": 92764,
+          "name": "Sergey Brin",
+          "description": "entrepreneur américain d’origine russe",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q92764-c439fff0.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q92764-c34d3a0d.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q92764",
+          "occupations": [
+            "informaticien",
+            "inventeur"
+          ],
+          "categories": [
+            "Américains",
+            "Inventeurs et inventrices",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1973-08-21",
+          "death": null,
+          "gender": "m",
+          "score": 0.7361,
+          "notoriety": 98
+        },
+        {
+          "qid": "Q92743",
+          "cid": 92743,
+          "name": "Vint Cerf",
+          "description": "informaticien américain",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q92743-d66ec3e4.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q92743-079abd0d.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q92743",
+          "occupations": [
+            "informaticien",
+            "ingénieur"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1943-06-23",
+          "death": null,
+          "gender": "m",
+          "score": 0.68506,
+          "notoriety": 57
+        }
       ]
     },
     {
       "id": 15,
       "name": "Keep",
-      "count": 43,
+      "totalCount": 43,
+      "ownedCount": 42,
+      "missingCount": 1,
+      "pct": "97.7",
       "cardIds": [
         "Q5812",
         "Q42786",
@@ -469,6 +8367,1513 @@ window.OMNIDEX_DATA = {
         "Q1651998",
         "Q2977655",
         "Q841843"
+      ],
+      "cards": [
+        {
+          "qid": "Q38337",
+          "cid": 38337,
+          "name": "Alexandre Dumas",
+          "description": "écrivain et dramaturge français, père de l’écrivain et dramaturge homonyme",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 6,
+          "rarityName": "Ace",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q38337-cc527781.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q38337-735a1752.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q38337",
+          "occupations": [
+            "romancier",
+            "dramaturge"
+          ],
+          "categories": [
+            "Théâtre",
+            "Légion d'honneur",
+            "XIXe siècle",
+            "Écrivains"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1802-07-24",
+          "death": "1870-12-05",
+          "gender": "m",
+          "score": 0.89168,
+          "notoriety": 174
+        },
+        {
+          "qid": "Q42786",
+          "cid": 42786,
+          "name": "Audrey Hepburn",
+          "description": "actrice et mannequin britannique",
+          "edition": 1920,
+          "editionLabel": "1920",
+          "rarity": 6,
+          "rarityName": "Ace",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q42786-aa8b8d0f.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q42786-78a03b50.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q42786",
+          "occupations": [
+            "actrice de théâtre",
+            "mannequin"
+          ],
+          "categories": [
+            "Cinéma",
+            "Théâtre",
+            "Danse",
+            "Mannequins",
+            "Oscars",
+            "Grammy Awards",
+            "Britanniques"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1929-05-04",
+          "death": "1993-01-20",
+          "gender": "f",
+          "score": 0.86459,
+          "notoriety": 148
+        },
+        {
+          "qid": "Q173399",
+          "cid": 173399,
+          "name": "Elliot Page",
+          "description": "personnalité canadienne du cinéma",
+          "edition": 1980,
+          "editionLabel": "1980",
+          "rarity": 6,
+          "rarityName": "Ace",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q173399-d03bf9a3.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q173399-fbd2b08e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q173399",
+          "occupations": [
+            "acteur ou actrice de cinéma"
+          ],
+          "categories": [
+            "Cinéma",
+            "Canadiens"
+          ],
+          "countries": [
+            "Canada"
+          ],
+          "birth": "1987-02-21",
+          "death": null,
+          "gender": null,
+          "score": 0.85768,
+          "notoriety": 83
+        },
+        {
+          "qid": "Q106255",
+          "cid": 106255,
+          "name": "Jean-Paul Belmondo",
+          "description": "acteur, producteur et cascadeur français",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 6,
+          "rarityName": "Ace",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q106255-2a981a34.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q106255-93856f5f.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q106255",
+          "occupations": [
+            "producteur de cinéma",
+            "acteur de cinéma"
+          ],
+          "categories": [
+            "Cinéma",
+            "Théâtre",
+            "Acteurs français",
+            "Césars",
+            "Palme d'or",
+            "Légion d'honneur"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1933-04-09",
+          "death": "2021-09-06",
+          "gender": "m",
+          "score": 0.85335,
+          "notoriety": 108
+        },
+        {
+          "qid": "Q26707663",
+          "cid": 26707663,
+          "name": "Lisa",
+          "description": "rappeuse, chanteuse, danseuse et modèle thaïlandaise",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 6,
+          "rarityName": "Ace",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q26707663-0e81dcf3.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q26707663-bb3895fe.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q26707663",
+          "occupations": [
+            "auteur-compositeur-interprète",
+            "danseuse"
+          ],
+          "categories": [
+            "Danse",
+            "Mannequins",
+            "K-pop",
+            "J-pop",
+            "Rap et hip-hop",
+            "Électro et DJ",
+            "Pop",
+            "Guitaristes",
+            "Membres d'un groupe"
+          ],
+          "countries": [
+            "Thaïlande"
+          ],
+          "birth": "1997-03-27",
+          "death": null,
+          "gender": "f",
+          "score": 0.83843,
+          "notoriety": 80
+        },
+        {
+          "qid": "Q5812",
+          "cid": 5812,
+          "name": "Novak Djokovic",
+          "description": "joueur de tennis serbe",
+          "edition": 1980,
+          "editionLabel": "1980",
+          "rarity": 6,
+          "rarityName": "Ace",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q5812-9253d1a9.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q5812-d9319d13.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q5812",
+          "occupations": [
+            "joueur de tennis"
+          ],
+          "categories": [
+            "Tennis",
+            "Jeux olympiques"
+          ],
+          "countries": [
+            "Serbie"
+          ],
+          "birth": "1987-05-22",
+          "death": null,
+          "gender": "m",
+          "score": 0.94068,
+          "notoriety": 152
+        },
+        {
+          "qid": "Q120073678",
+          "cid": 120073678,
+          "name": "Alice Cordier",
+          "description": "militante identitaire française",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q120073678-592437f3.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q120073678-a3948d7b.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q120073678",
+          "occupations": [
+            "militante",
+            "journaliste d’opinion"
+          ],
+          "categories": [
+            "Bretons et Bretonnes",
+            "Journalistes",
+            "Femmes politiques"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1997-08-27",
+          "death": null,
+          "gender": "f",
+          "score": 0.80092,
+          "notoriety": 2
+        },
+        {
+          "qid": "Q153330",
+          "cid": 153330,
+          "name": "Andrew Mountbatten-Windsor",
+          "description": "fils de la reine britannique Élisabeth II",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q153330-b5b90e4d.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q153330-14ead441.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q153330",
+          "occupations": [
+            "pilote d’hélicoptère",
+            "officier de marine"
+          ],
+          "categories": [
+            "Golf",
+            "Britanniques",
+            "Aviateurs et aviatrices"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1960-02-19",
+          "death": null,
+          "gender": "m",
+          "score": 0.83258,
+          "notoriety": 75
+        },
+        {
+          "qid": "Q180453",
+          "cid": 180453,
+          "name": "Dolly Parton",
+          "description": "chanteuse de musique country, parolière et actrice américaine",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q180453-b9dcdf16.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q180453-15e35b50.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q180453",
+          "occupations": [
+            "chanteuse de musique country",
+            "auteur-compositeur-interprète"
+          ],
+          "categories": [
+            "Cinéma",
+            "Hollywood",
+            "Country",
+            "Pop",
+            "Guitaristes",
+            "Membres d'un groupe",
+            "Grammy Awards",
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1946-01-19",
+          "death": "2026-08-25",
+          "gender": "f",
+          "score": 0.82198,
+          "notoriety": 120
+        },
+        {
+          "qid": "Q27655344",
+          "cid": 27655344,
+          "name": "Rosé",
+          "description": "chanteuse, parolière et danseuse coréo-néo-zélandaise",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 5,
+          "rarityName": "Mythique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q27655344-b00bde66.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q27655344-8ff8ee5f.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q27655344",
+          "occupations": [
+            "chanteuse"
+          ],
+          "categories": [
+            "K-pop",
+            "J-pop",
+            "Rap et hip-hop",
+            "Électro et DJ",
+            "Pop",
+            "Guitaristes",
+            "Pianistes",
+            "Membres d'un groupe",
+            "Sud-Coréens"
+          ],
+          "countries": [
+            "Nouvelle-Zélande",
+            "Corée du Sud"
+          ],
+          "birth": "1997-02-11",
+          "death": null,
+          "gender": "f",
+          "score": 0.81889,
+          "notoriety": 86
+        },
+        {
+          "qid": "Q352",
+          "cid": 352,
+          "name": "Adolf Hitler",
+          "description": "dictateur et homme d’État allemand, chef du Parti nazi, Führer et chancelier du Troisième Reich",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q352-abd7c910.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q352-1bc23dca.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q352",
+          "occupations": [
+            "homme politique",
+            "auteur de la Shoah"
+          ],
+          "categories": [
+            "XIXe siècle",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Autriche"
+          ],
+          "birth": "1889-04-20",
+          "death": "1945-04-30",
+          "gender": "m",
+          "score": 0.9005,
+          "notoriety": 326
+        },
+        {
+          "qid": "Q264849",
+          "cid": 264849,
+          "name": "Aileen Wuornos",
+          "description": "tueuse en série américaine",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q264849-1e2cc17a.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q264849-cbf46ee6.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q264849",
+          "occupations": [
+            "prostituée",
+            "récidive"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis",
+            "Jamaïque"
+          ],
+          "birth": "1956-02-29",
+          "death": "2002-10-09",
+          "gender": "f",
+          "score": 0.78686,
+          "notoriety": 43
+        },
+        {
+          "qid": "Q44220",
+          "cid": 44220,
+          "name": "Anders Behring Breivik",
+          "description": "terroriste norvégien néonazi",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q44220-59d08286.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q44220-2bf939d7.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q44220",
+          "occupations": [
+            "opérateur de marchés financiers",
+            "vendeur"
+          ],
+          "categories": [
+            "Entrepreneurs",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Norvège"
+          ],
+          "birth": "1979-02-13",
+          "death": null,
+          "gender": "m",
+          "score": 0.78433,
+          "notoriety": 90
+        },
+        {
+          "qid": "Q3022141",
+          "cid": 3022141,
+          "name": "Demis Hassabis",
+          "description": "entrepreneur britannique en intelligence artificielle",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 3,
+          "finishLabel": "Fireworks",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3022141-2bfb4580.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3022141-5fb5c77a.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3022141",
+          "occupations": [
+            "ingénieur",
+            "joueur d’échecs"
+          ],
+          "categories": [
+            "Échecs",
+            "Prix Nobel",
+            "Britanniques"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1976-07-27",
+          "death": null,
+          "gender": "m",
+          "score": 0.78884,
+          "notoriety": 59
+        },
+        {
+          "qid": "Q531599",
+          "cid": 531599,
+          "name": "Harvey Weinstein",
+          "description": "producteur de cinéma et criminel sexuel américain",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q531599-8ba25799.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q531599-ec07777c.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q531599",
+          "occupations": [
+            "producteur de cinéma",
+            "producteur délégué"
+          ],
+          "categories": [
+            "Cinéma",
+            "Réalisateurs et réalisatrices",
+            "Hollywood",
+            "Oscars",
+            "Légion d'honneur",
+            "Américains",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1952-03-19",
+          "death": null,
+          "gender": "m",
+          "score": 0.82134,
+          "notoriety": 58
+        },
+        {
+          "qid": "Q47906",
+          "cid": 47906,
+          "name": "Hermann Göring",
+          "description": "homme politique nazi et militaire allemand",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q47906-01e5feee.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q47906-cbfc0111.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q47906",
+          "occupations": [
+            "homme politique",
+            "aviateur"
+          ],
+          "categories": [
+            "Ministres",
+            "Allemands",
+            "XIXe siècle",
+            "Aviateurs et aviatrices",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1893-01-12",
+          "death": "1946-10-15",
+          "gender": "m",
+          "score": 0.84396,
+          "notoriety": 111
+        },
+        {
+          "qid": "Q855",
+          "cid": 855,
+          "name": "Joseph Staline",
+          "description": "chef d’État de l’Union des républiques socialistes soviétiques de 1924 à 1953",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q855-8874000c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q855-e72e6133.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q855",
+          "occupations": [
+            "homme politique",
+            "révolutionnaire"
+          ],
+          "categories": [
+            "Ministres",
+            "Russes",
+            "XIXe siècle",
+            "Journalistes",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Géorgie"
+          ],
+          "birth": "1878-12-18",
+          "death": "1953-03-05",
+          "gender": "m",
+          "score": 0.86377,
+          "notoriety": 279
+        },
+        {
+          "qid": "Q48745",
+          "cid": 48745,
+          "name": "Lee Harvey Oswald",
+          "description": "suspect dans l’assassinat du président J.F. Kennedy",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q48745-a5525943.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q48745-5edb5765.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q48745",
+          "occupations": [
+            "ouvrier"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1939-10-18",
+          "death": "1963-11-24",
+          "gender": "m",
+          "score": 0.78122,
+          "notoriety": 75
+        },
+        {
+          "qid": "Q76367",
+          "cid": 76367,
+          "name": "Martin Bormann",
+          "description": "homme politique allemand, chef de la chancellerie du parti nazi",
+          "edition": 1900,
+          "editionLabel": "1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q76367-37b0ed88.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q76367-2b52c4c8.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q76367",
+          "occupations": [
+            "auteur de la Shoah"
+          ],
+          "categories": [
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1900-06-17",
+          "death": "1945-05-02",
+          "gender": "m",
+          "score": 0.80354,
+          "notoriety": 79
+        },
+        {
+          "qid": "Q327009",
+          "cid": 327009,
+          "name": "Maurice Papon",
+          "description": "homme politique et haut fonctionnaire français",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q327009-74bbda4c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q327009-d2d2d95d.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q327009",
+          "occupations": [
+            "homme politique",
+            "fonctionnaire"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1910-09-03",
+          "death": "2007-02-17",
+          "gender": "m",
+          "score": 0.76713,
+          "notoriety": 32
+        },
+        {
+          "qid": "Q3343832",
+          "cid": 3343832,
+          "name": "Norman Thavaud",
+          "description": "humoriste et vidéaste français",
+          "edition": 1980,
+          "editionLabel": "1980",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3343832-729d0660.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3343832-d7fcc757.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3343832",
+          "occupations": [
+            "acteur",
+            "youtubeur"
+          ],
+          "categories": [
+            "Cinéma",
+            "Télévision",
+            "Humoristes",
+            "Acteurs français",
+            "Animateurs et animatrices télé",
+            "YouTubeurs",
+            "Influenceurs"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1987-04-14",
+          "death": null,
+          "gender": "m",
+          "score": 0.78442,
+          "notoriety": 14
+        },
+        {
+          "qid": "Q75866",
+          "cid": 75866,
+          "name": "Rudolf Hess",
+          "description": "homme politique allemand",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 5,
+          "finishLabel": "Holo inversée",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q75866-6a512017.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q75866-70980c69.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q75866",
+          "occupations": [
+            "homme politique",
+            "aviateur"
+          ],
+          "categories": [
+            "Ministres",
+            "XIXe siècle",
+            "Aviateurs et aviatrices",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1894-04-26",
+          "death": "1987-08-17",
+          "gender": "m",
+          "score": 0.77617,
+          "notoriety": 86
+        },
+        {
+          "qid": "Q90588905",
+          "cid": 90588905,
+          "name": "Sardoche",
+          "description": "streameur français",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 4,
+          "rarityName": "Iconique",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q90588905-a691cbf4.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q90588905-20abf8d7.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q90588905",
+          "occupations": [
+            "joueur-animateur en direct"
+          ],
+          "categories": [
+            "Streamers"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1993-06-28",
+          "death": null,
+          "gender": "m",
+          "score": 0.75648,
+          "notoriety": 2
+        },
+        {
+          "qid": "Q156916",
+          "cid": 156916,
+          "name": "François Darlan",
+          "description": "militaire et homme d’État français",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 5,
+          "finishLabel": "Holo inversée",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q156916-12ad8ade.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q156916-d138997e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q156916",
+          "occupations": [
+            "homme politique",
+            "officier de marine"
+          ],
+          "categories": [
+            "Légion d'honneur",
+            "Ministres",
+            "XIXe siècle",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1881-08-07",
+          "death": "1942-12-24",
+          "gender": "m",
+          "score": 0.7278,
+          "notoriety": 43
+        },
+        {
+          "qid": "Q4934",
+          "cid": 4934,
+          "name": "Larry Page",
+          "description": "informaticien et entrepreneur américain",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q4934-96b146a1.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q4934-47c1e765.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q4934",
+          "occupations": [
+            "entrepreneur",
+            "informaticien"
+          ],
+          "categories": [
+            "Américains",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1973-03-26",
+          "death": null,
+          "gender": "m",
+          "score": 0.75838,
+          "notoriety": 103
+        },
+        {
+          "qid": "Q133730",
+          "cid": 133730,
+          "name": "Lars von Trier",
+          "description": "réalisateur danois",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q133730-87a93e9c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q133730-cabe2ec9.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q133730",
+          "occupations": [
+            "réalisateur de cinéma",
+            "scénariste"
+          ],
+          "categories": [
+            "Cinéma",
+            "Réalisateurs et réalisatrices",
+            "Césars",
+            "Palme d'or",
+            "Photographes"
+          ],
+          "countries": [
+            "Danemark"
+          ],
+          "birth": "1956-04-30",
+          "death": null,
+          "gender": "m",
+          "score": 0.75637,
+          "notoriety": 82
+        },
+        {
+          "qid": "Q24050455",
+          "cid": 24050455,
+          "name": "Léo Grasset",
+          "description": "vidéaste français",
+          "edition": 1980,
+          "editionLabel": "1980",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q24050455-70dd5f0d.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q24050455-6663334a.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q24050455",
+          "occupations": [
+            "vulgarisateur scientifique",
+            "youtubeur"
+          ],
+          "categories": [
+            "YouTubeurs",
+            "Influenceurs"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1989-10-01",
+          "death": null,
+          "gender": "m",
+          "score": 0.75792,
+          "notoriety": 2
+        },
+        {
+          "qid": "Q382035",
+          "cid": 382035,
+          "name": "Richard Ramirez",
+          "description": "tueur en série américain",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q382035-15da096e.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q382035-bb06dcf8.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q382035",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1960-02-29",
+          "death": "2013-06-07",
+          "gender": "m",
+          "score": 0.76049,
+          "notoriety": 39
+        },
+        {
+          "qid": "Q57641",
+          "cid": 57641,
+          "name": "Viktor Orbán",
+          "description": "homme d’État hongrois",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q57641-2808766c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q57641-4b42542e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q57641",
+          "occupations": [
+            "homme politique",
+            "juriste"
+          ],
+          "categories": [
+            "Ministres",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Hongrie"
+          ],
+          "birth": "1963-05-31",
+          "death": null,
+          "gender": "m",
+          "score": 0.76512,
+          "notoriety": 117
+        },
+        {
+          "qid": "Q1352339",
+          "cid": 1352339,
+          "name": "Danny Rolling",
+          "description": "tueur en série américain",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1352339-05fe8b96.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1352339-a967ae06.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1352339",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1954-05-26",
+          "death": "2006-10-25",
+          "gender": "m",
+          "score": 0.69509,
+          "notoriety": 16
+        },
+        {
+          "qid": "Q310260",
+          "cid": 310260,
+          "name": "Harold Shipman",
+          "description": "médecin et tueur en série britannique",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q310260-3cf5a443.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q310260-259167eb.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q310260",
+          "occupations": [
+            "médecin",
+            "tueur en série"
+          ],
+          "categories": [
+            "Britanniques",
+            "Médecins"
+          ],
+          "countries": [
+            "Royaume-Uni"
+          ],
+          "birth": "1946-01-14",
+          "death": "2004-01-13",
+          "gender": "m",
+          "score": 0.70946,
+          "notoriety": 37
+        },
+        {
+          "qid": "Q295162",
+          "cid": 295162,
+          "name": "Hirō Onoda",
+          "description": "militaire japonais, « soldat restant » (reddition en 1974)",
+          "edition": 1920,
+          "editionLabel": "1920",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q295162-3922da37.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q295162-be808e40.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q295162",
+          "occupations": [
+            "officier",
+            "autobiographe"
+          ],
+          "categories": [
+            "Japonais"
+          ],
+          "countries": [
+            "Japon"
+          ],
+          "birth": "1922-03-19",
+          "death": "2014-01-16",
+          "gender": "m",
+          "score": 0.67847,
+          "notoriety": 60
+        },
+        {
+          "qid": "Q310775",
+          "cid": 310775,
+          "name": "Jean-Claude Duvalier",
+          "description": "41e président de la république d’Haïti",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q310775-0ac7614e.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q310775-e1506f3b.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q310775",
+          "occupations": [
+            "homme politique"
+          ],
+          "categories": [
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Haïti"
+          ],
+          "birth": "1951-07-03",
+          "death": "2014-10-04",
+          "gender": "m",
+          "score": 0.69013,
+          "notoriety": 54
+        },
+        {
+          "qid": "Q463389",
+          "cid": 463389,
+          "name": "Patricia Krenwinkel",
+          "description": "meurtrière américaine",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q463389-fc4dc61c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q463389-25fa285d.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q463389",
+          "occupations": [
+            "meurtrière",
+            "tueur à la chaîne"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1947-12-03",
+          "death": null,
+          "gender": "f",
+          "score": 0.66764,
+          "notoriety": 20
+        },
+        {
+          "qid": "Q711554",
+          "cid": 711554,
+          "name": "Philippe Barbarin",
+          "description": "prélat catholique français",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q711554-19962a87.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q711554-b4ddaca3.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q711554",
+          "occupations": [
+            "prêtre catholique",
+            "diacre catholique"
+          ],
+          "categories": [
+            "Légion d'honneur"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1950-10-17",
+          "death": null,
+          "gender": "m",
+          "score": 0.70431,
+          "notoriety": 30
+        },
+        {
+          "qid": "Q730962",
+          "cid": 730962,
+          "name": "Robert Hansen",
+          "description": "tueur en série américain",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 10,
+          "finishLabel": "Full Starlight",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q730962-18be5c42.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q730962-3abb8728.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q730962",
+          "occupations": [
+            "boulanger",
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1939-02-15",
+          "death": "2014-08-21",
+          "gender": "m",
+          "score": 0.67128,
+          "notoriety": 24
+        },
+        {
+          "qid": "Q2977655",
+          "cid": 2977655,
+          "name": "Claude Lastennet",
+          "description": "tueur en série français",
+          "edition": 1970,
+          "editionLabel": "1970",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2977655-eb52d630.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2977655-5db64067.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2977655",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Bretons et Bretonnes"
+          ],
+          "countries": [
+            "France"
+          ],
+          "birth": "1971-01-19",
+          "death": "2023-12-19",
+          "gender": "m",
+          "score": 0.63701,
+          "notoriety": 2
+        },
+        {
+          "qid": "Q944611",
+          "cid": 944611,
+          "name": "Dean Corll",
+          "description": "tueur en série américain",
+          "edition": 1930,
+          "editionLabel": "1930",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 10,
+          "finishLabel": "Full Starlight",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q944611-dfb13b8c.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q944611-a798792e.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q944611",
+          "occupations": [
+            "tueur en série",
+            "soldat"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1939-12-24",
+          "death": "1973-08-08",
+          "gender": "m",
+          "score": 0.60936,
+          "notoriety": 24
+        },
+        {
+          "qid": "Q18804",
+          "cid": 18804,
+          "name": "Rebecca Black",
+          "description": "chanteuse américaine",
+          "edition": 1990,
+          "editionLabel": "1990",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q18804-a5f6aedf.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q18804-b548e659.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q18804",
+          "occupations": [
+            "chanteuse",
+            "actrice"
+          ],
+          "categories": [
+            "Cinéma",
+            "Danse",
+            "Mannequins",
+            "Hollywood",
+            "Pop",
+            "Canadiens",
+            "Américains"
+          ],
+          "countries": [
+            "Canada",
+            "États-Unis"
+          ],
+          "birth": "1997-06-21",
+          "death": null,
+          "gender": "f",
+          "score": 0.61458,
+          "notoriety": 48
+        },
+        {
+          "qid": "Q55183",
+          "cid": 55183,
+          "name": "Susan Wojcicki",
+          "description": "femme d’affaire états-unienne",
+          "edition": 1960,
+          "editionLabel": "1960",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q55183-1e63dd09.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q55183-35835b84.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q55183",
+          "occupations": [
+            "femme d’affaires",
+            "manager"
+          ],
+          "categories": [
+            "Américains",
+            "Entrepreneurs"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1968-07-05",
+          "death": "2024-08-09",
+          "gender": "f",
+          "score": 0.63264,
+          "notoriety": 60
+        },
+        {
+          "qid": "Q1651998",
+          "cid": 1651998,
+          "name": "Thomas Silverstein",
+          "description": "",
+          "edition": 1950,
+          "editionLabel": "1950",
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q1651998-1474d5fc.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q1651998-2a88d332.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q1651998",
+          "occupations": [
+            "criminel",
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1952-02-04",
+          "death": "2019-05-11",
+          "gender": "m",
+          "score": 0.60519,
+          "notoriety": 9
+        },
+        {
+          "qid": "Q841843",
+          "cid": 841843,
+          "name": "Lawrence Bittaker",
+          "description": "tueur en série américain",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q841843-b08d5a24.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q841843-b8681b08.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q841843",
+          "occupations": [
+            "tueur en série",
+            "usineur"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1940-09-27",
+          "death": "2019-12-13",
+          "gender": "m",
+          "score": 0.58416,
+          "notoriety": 3
+        },
+        {
+          "qid": "Q153670",
+          "cid": 153670,
+          "name": "Primo Levi",
+          "description": "écrivain et chimiste italien",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Non possédée",
+          "count": 0,
+          "isOwned": false,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q153670-8b235420.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q153670-b00bee84.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q153670",
+          "occupations": [
+            "chimiste",
+            "poète"
+          ],
+          "categories": [
+            "Italiens",
+            "Écrivains",
+            "Poètes",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Italie"
+          ],
+          "birth": "1919-07-31",
+          "death": "1987-04-11",
+          "gender": "m",
+          "score": 0.72313,
+          "notoriety": 92
+        }
       ]
     }
   ],
@@ -489,6 +9894,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793465460000,
       "occupations": [
         "scénariste",
@@ -544,6 +9950,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792861980000,
       "occupations": [
         "romancier",
@@ -596,6 +10003,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792013760000,
       "occupations": [
         "actrice de théâtre",
@@ -651,6 +10059,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996840000,
       "occupations": [
         "acteur ou actrice de cinéma"
@@ -700,6 +10109,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792485960000,
       "occupations": [
         "écologiste"
@@ -746,6 +10156,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996840000,
       "occupations": [
         "producteur de cinéma",
@@ -800,6 +10211,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792245840000,
       "occupations": [
         "auteur-compositeur-interprète",
@@ -857,6 +10269,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996660000,
       "occupations": [
         "joueur de tennis"
@@ -906,6 +10319,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793137200000,
       "occupations": [
         "militante",
@@ -958,6 +10372,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792936980000,
       "occupations": [
         "pilote d’hélicoptère",
@@ -1010,6 +10425,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793137200000,
       "occupations": [
         "journaliste",
@@ -1061,6 +10477,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793050080000,
       "occupations": [
         "chanteuse de musique country",
@@ -1117,6 +10534,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282980000,
       "occupations": [
         "actrice de télévision",
@@ -1169,6 +10587,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996840000,
       "occupations": [
         "poète",
@@ -1220,6 +10639,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "acteur",
@@ -1270,6 +10690,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793266860000,
       "occupations": [
         "acteur",
@@ -1326,6 +10747,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793350200000,
       "occupations": [
         "actrice",
@@ -1376,6 +10798,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792848780000,
       "occupations": [
         "actrice de cinéma",
@@ -1427,6 +10850,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793359260000,
       "occupations": [
         "homme politique",
@@ -1480,6 +10904,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259880000,
       "occupations": [
         "animateur de radio",
@@ -1533,6 +10958,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792246080000,
       "occupations": [
         "chanteuse"
@@ -1590,6 +11016,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792485960000,
       "occupations": [
         "chanteur",
@@ -1638,6 +11065,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792922460000,
       "occupations": [
         "acteur",
@@ -1694,6 +11122,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792013820000,
       "occupations": [
         "homme politique",
@@ -1746,6 +11175,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793126580000,
       "occupations": [
         "prostituée",
@@ -1797,6 +11227,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259880000,
       "occupations": [
         "opérateur de marchés financiers",
@@ -1848,6 +11279,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793479620000,
       "occupations": [
         "footballeur"
@@ -1895,6 +11327,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793004600000,
       "occupations": [
         "actrice de télévision",
@@ -1944,6 +11377,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437140000,
       "occupations": [
         "acteur",
@@ -1997,6 +11431,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792421280000,
       "occupations": [
         "ingénieur",
@@ -2049,6 +11484,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793312940000,
       "occupations": [
         "acteur",
@@ -2102,6 +11538,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "monarque",
@@ -2150,6 +11587,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792767900000,
       "occupations": [
         "producteur de cinéma",
@@ -2206,6 +11644,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793019840000,
       "occupations": [
         "homme politique",
@@ -2260,6 +11699,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792013820000,
       "occupations": [
         "homme politique",
@@ -2314,6 +11754,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792746000000,
       "occupations": [
         "journaliste",
@@ -2365,6 +11806,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792707300000,
       "occupations": [
         "ouvrier"
@@ -2413,6 +11855,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792485960000,
       "occupations": [
         "danseuse",
@@ -2465,6 +11908,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792486020000,
       "occupations": [
         "actrice",
@@ -2517,6 +11961,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792707480000,
       "occupations": [
         "auteur de la Shoah"
@@ -2566,6 +12011,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792605480000,
       "occupations": [
         "homme politique",
@@ -2618,6 +12064,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437140000,
       "occupations": [
         "homme politique",
@@ -2669,6 +12116,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793050140000,
       "occupations": [
         "joueuse de tennis"
@@ -2717,6 +12165,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793345340000,
       "occupations": [
         "acteur",
@@ -2774,6 +12223,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793083020000,
       "occupations": [
         "joueur de football américain"
@@ -2820,6 +12270,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792335300000,
       "occupations": [
         "footballeur"
@@ -2869,6 +12320,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792492260000,
       "occupations": [
         "homme politique",
@@ -2922,6 +12374,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792852680000,
       "occupations": [
         "joueur-animateur en direct"
@@ -2971,6 +12424,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792875240000,
       "occupations": [
         "chanteuse",
@@ -3020,6 +12474,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793112420000,
       "occupations": [
         "actrice de télévision",
@@ -3072,6 +12527,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "romancière"
@@ -3119,6 +12575,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793212500000,
       "occupations": [
         "dramaturge",
@@ -3169,6 +12626,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259940000,
       "occupations": [
         "actrice",
@@ -3217,6 +12675,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792013880000,
       "occupations": [
         "chanteuse",
@@ -3268,6 +12727,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282740000,
       "occupations": [
         "actrice de télévision",
@@ -3321,6 +12781,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "modéliste",
@@ -3369,6 +12830,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792767780000,
       "occupations": [
         "actrice de théâtre",
@@ -3420,6 +12882,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792854660000,
       "occupations": [
         "actrice de théâtre",
@@ -3472,6 +12935,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "influenceuse",
@@ -3524,6 +12988,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996480000,
       "occupations": [
         "actrice"
@@ -3573,6 +13038,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792244160000,
       "occupations": [
         "professeur de français",
@@ -3620,6 +13086,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793371860000,
       "occupations": [
         "athlète",
@@ -3669,6 +13136,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415000000,
       "occupations": [
         "homme d’affaires",
@@ -3718,6 +13186,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792492260000,
       "occupations": [
         "actrice de théâtre",
@@ -3767,6 +13236,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "écrivain",
@@ -3814,6 +13284,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792705080000,
       "occupations": [
         "homme politique",
@@ -3867,6 +13338,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "footballeur",
@@ -3917,6 +13389,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792788420000,
       "occupations": [
         "acteur",
@@ -3968,6 +13441,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416500000,
       "occupations": [
         "homme politique",
@@ -4017,6 +13491,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792054020000,
       "occupations": [
         "actrice"
@@ -4064,6 +13539,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792947480000,
       "occupations": [
         "coureur cycliste",
@@ -4114,6 +13590,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996780000,
       "occupations": [
         "écrivain",
@@ -4164,6 +13641,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793453220000,
       "occupations": [
         "homme politique",
@@ -4214,6 +13692,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793134020000,
       "occupations": [
         "actrice de cinéma",
@@ -4267,6 +13746,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792702020000,
       "occupations": [
         "acteur",
@@ -4317,6 +13797,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792485960000,
       "occupations": [
         "coureur cycliste"
@@ -4365,6 +13846,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792965180000,
       "occupations": [
         "actrice",
@@ -4419,6 +13901,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "actrice",
@@ -4469,6 +13952,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259880000,
       "occupations": [
         "entrepreneur",
@@ -4520,6 +14004,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "réalisateur de cinéma",
@@ -4573,6 +14058,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792495260000,
       "occupations": [
         "vulgarisateur scientifique",
@@ -4624,6 +14110,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792746000000,
       "occupations": [
         "météorologue",
@@ -4673,6 +14160,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793309700000,
       "occupations": [
         "entraîneur de football"
@@ -4724,6 +14212,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099440000,
       "occupations": [
         "aviateur",
@@ -4774,6 +14263,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792025820000,
       "occupations": [
         "romancier",
@@ -4823,6 +14313,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792244280000,
       "occupations": [
         "journaliste",
@@ -4877,6 +14368,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792464480000,
       "occupations": [
         "journaliste sportif",
@@ -4928,6 +14420,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793212500000,
       "occupations": [
         "tueur en série"
@@ -4977,6 +14470,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792550880000,
       "occupations": [
         "réalisateur de cinéma",
@@ -5029,6 +14523,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793168760000,
       "occupations": [
         "joueur de basket-ball"
@@ -5077,6 +14572,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793013180000,
       "occupations": [
         "mondaine"
@@ -5123,6 +14619,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793137200000,
       "occupations": [
         "homme politique",
@@ -5175,6 +14672,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792640460000,
       "occupations": [
         "acteur",
@@ -5226,6 +14724,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "acteur",
@@ -5275,6 +14774,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792705080000,
       "occupations": [
         "imam",
@@ -5322,6 +14822,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792862880000,
       "occupations": [
         "homme politique",
@@ -5372,6 +14873,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793050140000,
       "occupations": [
         "joueur de tennis"
@@ -5419,6 +14921,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169340000,
       "occupations": [
         "acteur",
@@ -5470,6 +14973,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "negative",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099380000,
       "occupations": [
         "footballeur",
@@ -5523,6 +15027,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996600000,
       "occupations": [
         "actrice",
@@ -5573,6 +15078,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169340000,
       "occupations": [
         "auteur-compositeur-interprète",
@@ -5623,6 +15129,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996600000,
       "occupations": [
         "actrice",
@@ -5672,6 +15179,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400760000,
       "occupations": [
         "souverain"
@@ -5720,6 +15228,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "negative",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282980000,
       "occupations": [
         "peintre",
@@ -5768,6 +15277,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792862820000,
       "occupations": [
         "philanthrope",
@@ -5818,6 +15328,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793177400000,
       "occupations": [
         "chanteur",
@@ -5867,6 +15378,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793134080000,
       "occupations": [
         "homme politique",
@@ -5917,6 +15429,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793126580000,
       "occupations": [
         "botaniste",
@@ -5964,6 +15477,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415060000,
       "occupations": [
         "militant politique",
@@ -6013,6 +15527,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "bibliothécaire",
@@ -6062,6 +15577,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "psychologue",
@@ -6112,6 +15628,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793117880000,
       "occupations": [
         "acteur",
@@ -6163,6 +15680,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "journaliste",
@@ -6215,6 +15733,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793215200000,
       "occupations": [
         "officier",
@@ -6264,6 +15783,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792659360000,
       "occupations": [
         "fonctionnaire",
@@ -6311,6 +15831,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416440000,
       "occupations": [
         "scénariste",
@@ -6360,6 +15881,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792936980000,
       "occupations": [
         "terroriste intérieur",
@@ -6405,6 +15927,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169100000,
       "occupations": [
         "actrice",
@@ -6456,6 +15979,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793014260000,
       "occupations": [
         "officier",
@@ -6505,6 +16029,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793026200000,
       "occupations": [
         "homme politique",
@@ -6552,6 +16077,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792875240000,
       "occupations": [
         "chanteur"
@@ -6596,6 +16122,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "negative",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792443240000,
       "occupations": [
         "joueur de basket-ball"
@@ -6645,6 +16172,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "journaliste",
@@ -6696,6 +16224,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792198320000,
       "occupations": [
         "cavalier professionnel"
@@ -6743,6 +16272,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400820000,
       "occupations": [
         "mannequin",
@@ -6792,6 +16322,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "actrice",
@@ -6843,6 +16374,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792464540000,
       "occupations": [
         "coureuse de demi-fond",
@@ -6893,6 +16425,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400760000,
       "occupations": [
         "militant politique",
@@ -6940,6 +16473,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793168820000,
       "occupations": [
         "tueur en série"
@@ -6989,6 +16523,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793117880000,
       "occupations": [
         "journaliste",
@@ -7039,6 +16574,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416500000,
       "occupations": [
         "militaire"
@@ -7085,6 +16621,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996900000,
       "occupations": [
         "acteur",
@@ -7135,6 +16672,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792542540000,
       "occupations": [
         "joueur de basket-ball"
@@ -7185,6 +16723,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099260000,
       "occupations": [
         "journaliste",
@@ -7234,6 +16773,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259940000,
       "occupations": [
         "acteur",
@@ -7285,6 +16825,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169340000,
       "occupations": [
         "actrice",
@@ -7337,6 +16878,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793091480000,
       "occupations": [
         "footballeur"
@@ -7385,6 +16927,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792485960000,
       "occupations": [
         "joueur de basket-ball"
@@ -7432,6 +16975,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416200000,
       "occupations": [
         "journaliste",
@@ -7485,6 +17029,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578060000,
       "occupations": [
         "acteur",
@@ -7537,6 +17082,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793083020000,
       "occupations": [
         "acteur",
@@ -7588,6 +17134,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416260000,
       "occupations": [
         "parolier",
@@ -7640,6 +17187,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "entrepreneur"
@@ -7686,6 +17234,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793104320000,
       "occupations": [
         "médecin",
@@ -7737,6 +17286,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "mannequin",
@@ -7789,6 +17339,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792594080000,
       "occupations": [
         "homme politique",
@@ -7834,6 +17385,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793229060000,
       "occupations": [
         "homme politique",
@@ -7884,6 +17436,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792704660000,
       "occupations": [
         "officier",
@@ -7933,6 +17486,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "negative",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "dessinateur humoristique",
@@ -7985,6 +17539,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400640000,
       "occupations": [
         "romancier",
@@ -8033,6 +17588,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792862880000,
       "occupations": [
         "journaliste",
@@ -8085,6 +17641,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996660000,
       "occupations": [
         "inventeur",
@@ -8138,6 +17695,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792945320000,
       "occupations": [
         "joueur de hockey sur glace",
@@ -8186,6 +17744,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792898160000,
       "occupations": [
         "homme politique"
@@ -8235,6 +17794,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793220840000,
       "occupations": [
         "dramaturge",
@@ -8285,6 +17845,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792815000000,
       "occupations": [
         "biologiste marine",
@@ -8337,6 +17898,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792335300000,
       "occupations": [
         "sprinteur",
@@ -8385,6 +17947,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259940000,
       "occupations": [
         "acteur de télévision",
@@ -8437,6 +18000,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792084680000,
       "occupations": [
         "footballeur"
@@ -8486,6 +18050,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793258340000,
       "occupations": [
         "romancier",
@@ -8535,6 +18100,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792936980000,
       "occupations": [],
       "categories": [],
@@ -8577,6 +18143,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996780000,
       "occupations": [
         "actrice",
@@ -8628,6 +18195,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793117880000,
       "occupations": [
         "philosophe",
@@ -8677,6 +18245,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996420000,
       "occupations": [
         "actrice de théâtre",
@@ -8730,6 +18299,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "negative",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "acteur",
@@ -8781,6 +18351,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793212620000,
       "occupations": [
         "acteur",
@@ -8832,6 +18403,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792542540000,
       "occupations": [
         "joueur de basket-ball"
@@ -8881,6 +18453,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792105380000,
       "occupations": [
         "footballeur"
@@ -8929,6 +18502,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "negative",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996600000,
       "occupations": [
         "footballeur"
@@ -8976,6 +18550,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792314000000,
       "occupations": [
         "acteur",
@@ -9026,6 +18601,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169100000,
       "occupations": [
         "boxeuse",
@@ -9076,6 +18652,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792529460000,
       "occupations": [
         "actrice",
@@ -9124,6 +18701,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416500000,
       "occupations": [
         "professeure",
@@ -9172,6 +18750,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416440000,
       "occupations": [
         "coureur cycliste"
@@ -9219,6 +18798,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996480000,
       "occupations": [
         "musicien",
@@ -9267,6 +18847,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792284480000,
       "occupations": [
         "mannequin",
@@ -9317,6 +18898,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792570740000,
       "occupations": [
         "actrice"
@@ -9365,6 +18947,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792473360000,
       "occupations": [
         "expert en données",
@@ -9415,6 +18998,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "écrivain"
@@ -9461,6 +19045,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099260000,
       "occupations": [
         "épidémiologiste",
@@ -9506,6 +19091,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997080000,
       "occupations": [
         "dirigeant",
@@ -9553,6 +19139,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169400000,
       "occupations": [
         "romancier",
@@ -9602,6 +19189,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416440000,
       "occupations": [
         "acteur de télévision",
@@ -9651,6 +19239,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282860000,
       "occupations": [
         "journaliste"
@@ -9700,6 +19289,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793371860000,
       "occupations": [
         "acteur",
@@ -9749,6 +19339,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792356480000,
       "occupations": [
         "footballeur",
@@ -9798,6 +19389,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169400000,
       "occupations": [
         "joueuse de poker",
@@ -9850,6 +19442,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792663620000,
       "occupations": [
         "marathonien",
@@ -9899,6 +19492,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792815000000,
       "occupations": [
         "sprinteuse"
@@ -9947,6 +19541,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416440000,
       "occupations": [
         "actrice",
@@ -9995,6 +19590,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169400000,
       "occupations": [
         "humoriste",
@@ -10047,6 +19643,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792421280000,
       "occupations": [
         "boxeur",
@@ -10098,6 +19695,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792523280000,
       "occupations": [
         "chanteur",
@@ -10148,6 +19746,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169400000,
       "occupations": [
         "historien"
@@ -10196,6 +19795,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "écrivain",
@@ -10245,6 +19845,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792705080000,
       "occupations": [
         "meurtrière",
@@ -10295,6 +19896,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400640000,
       "occupations": [
         "acteur",
@@ -10345,6 +19947,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283580000,
       "occupations": [
         "chroniqueur de presse",
@@ -10393,6 +19996,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792663620000,
       "occupations": [
         "prêtre catholique",
@@ -10443,6 +20047,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792486020000,
       "occupations": [
         "humoriste",
@@ -10495,6 +20100,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169100000,
       "occupations": [
         "acteur"
@@ -10542,6 +20148,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793013180000,
       "occupations": [
         "acteur de cinéma",
@@ -10592,6 +20199,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "auteur-compositeur-interprète",
@@ -10641,6 +20249,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792437660000,
       "occupations": [
         "boulanger",
@@ -10691,6 +20300,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793285280000,
       "occupations": [
         "acteur de cinéma",
@@ -10742,6 +20352,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792245840000,
       "occupations": [
         "acteur",
@@ -10791,6 +20402,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792681560000,
       "occupations": [
         "scénariste",
@@ -10842,6 +20454,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792848840000,
       "occupations": [
         "chanteuse",
@@ -10892,6 +20505,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792118940000,
       "occupations": [
         "acteur",
@@ -10941,6 +20555,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793479620000,
       "occupations": [
         "actrice de télévision",
@@ -10991,6 +20606,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996420000,
       "occupations": [
         "journaliste",
@@ -11043,6 +20659,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168800000,
       "occupations": [
         "joueur de basket-ball"
@@ -11091,6 +20708,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793344020000,
       "occupations": [
         "actrice de théâtre",
@@ -11142,6 +20760,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169100000,
       "occupations": [
         "actrice",
@@ -11192,6 +20811,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "journaliste",
@@ -11241,6 +20861,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793398560000,
       "occupations": [
         "animateur de télévision",
@@ -11291,6 +20912,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169400000,
       "occupations": [
         "programmeur",
@@ -11341,6 +20963,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282980000,
       "occupations": [
         "acteur",
@@ -11392,6 +21015,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793344020000,
       "occupations": [
         "dessinateur humoristique",
@@ -11442,6 +21066,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792737120000,
       "occupations": [
         "producteur de cinéma",
@@ -11493,6 +21118,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793117880000,
       "occupations": [
         "joueur de basket-ball"
@@ -11541,6 +21167,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793465460000,
       "occupations": [
         "écrivain",
@@ -11592,6 +21219,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792245900000,
       "occupations": [
         "écrivain",
@@ -11644,6 +21272,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "cheffe d’entreprise",
@@ -11692,6 +21321,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169100000,
       "occupations": [
         "joueur de cricket"
@@ -11736,6 +21366,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099380000,
       "occupations": [
         "officier de l’armée de l’air",
@@ -11785,6 +21416,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792615620000,
       "occupations": [
         "acteur",
@@ -11836,6 +21468,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400640000,
       "occupations": [
         "footballeur",
@@ -11890,6 +21523,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792157100000,
       "occupations": [
         "entraîneur de football",
@@ -11941,6 +21575,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792862880000,
       "occupations": [
         "animatrice de télévision",
@@ -11994,6 +21629,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792702020000,
       "occupations": [
         "actrice",
@@ -12045,6 +21681,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996780000,
       "occupations": [
         "géographe",
@@ -12093,6 +21730,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "homme politique",
@@ -12141,6 +21779,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400640000,
       "occupations": [
         "militaire",
@@ -12186,6 +21825,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578000000,
       "occupations": [
         "humoriste",
@@ -12236,6 +21876,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792105320000,
       "occupations": [
         "architecte"
@@ -12283,6 +21924,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259940000,
       "occupations": [
         "producteur de radio",
@@ -12334,6 +21976,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792936980000,
       "occupations": [
         "informaticien",
@@ -12382,6 +22025,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792848840000,
       "occupations": [
         "réalisateur de cinéma",
@@ -12431,6 +22075,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283580000,
       "occupations": [
         "acteur de cinéma",
@@ -12484,6 +22129,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792795440000,
       "occupations": [],
       "categories": [
@@ -12528,6 +22174,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792815000000,
       "occupations": [
         "militante",
@@ -12579,6 +22226,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792936980000,
       "occupations": [
         "aviateur militaire",
@@ -12630,6 +22278,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996600000,
       "occupations": [
         "entrepreneuse",
@@ -12678,6 +22327,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792522560000,
       "occupations": [
         "footballeur"
@@ -12725,6 +22375,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792105380000,
       "occupations": [],
       "categories": [
@@ -12770,6 +22421,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793083020000,
       "occupations": [
         "acteur de télévision",
@@ -12819,6 +22471,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458780000,
       "occupations": [
         "tueur en série",
@@ -12869,6 +22522,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793350200000,
       "occupations": [
         "acteur de doublage",
@@ -12921,6 +22575,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099440000,
       "occupations": [
         "réalisateur artistique",
@@ -12968,6 +22623,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792767780000,
       "occupations": [
         "musicienne",
@@ -13019,6 +22675,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792871880000,
       "occupations": [
         "actrice"
@@ -13065,6 +22722,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996780000,
       "occupations": [
         "cheffe d’entreprise",
@@ -13113,6 +22771,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099320000,
       "occupations": [
         "écrivaine",
@@ -13162,6 +22821,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "enseignante",
@@ -13213,6 +22873,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "écrivain",
@@ -13266,6 +22927,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793117880000,
       "occupations": [
         "officier",
@@ -13314,6 +22976,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792255680000,
       "occupations": [
         "footballeur",
@@ -13362,6 +23025,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793014260000,
       "occupations": [
         "historien",
@@ -13410,6 +23074,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792875240000,
       "occupations": [
         "acteur",
@@ -13459,6 +23124,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792105380000,
       "occupations": [
         "diplomate",
@@ -13507,6 +23173,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "ingénieur électricien"
@@ -13553,6 +23220,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996780000,
       "occupations": [
         "astronome",
@@ -13604,6 +23272,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793398560000,
       "occupations": [
         "compositeur",
@@ -13651,6 +23320,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458780000,
       "occupations": [
         "criminel",
@@ -13700,6 +23370,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793091480000,
       "occupations": [
         "footballeur",
@@ -13750,6 +23421,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578120000,
       "occupations": [
         "écrivaine",
@@ -13799,6 +23471,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792105320000,
       "occupations": [
         "romancière",
@@ -13849,6 +23522,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793083080000,
       "occupations": [
         "actrice de télévision",
@@ -13901,6 +23575,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793350200000,
       "occupations": [
         "réalisateur de cinéma",
@@ -13951,6 +23626,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792594080000,
       "occupations": [
         "informaticien",
@@ -14000,6 +23676,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792640460000,
       "occupations": [
         "diplomate"
@@ -14047,6 +23724,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "aviatrice",
@@ -14097,6 +23775,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458840000,
       "occupations": [
         "tueur en série"
@@ -14145,6 +23824,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996660000,
       "occupations": [
         "philosophe",
@@ -14193,6 +23873,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "homme politique"
@@ -14237,6 +23918,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792848840000,
       "occupations": [
         "acteur de cinéma",
@@ -14286,6 +23968,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996480000,
       "occupations": [
         "joueuse de basket-ball"
@@ -14335,6 +24018,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792615620000,
       "occupations": [
         "acteur",
@@ -14386,6 +24070,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400760000,
       "occupations": [
         "chanteur",
@@ -14437,6 +24122,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "acteur de télévision",
@@ -14488,6 +24174,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792659360000,
       "occupations": [
         "ingénieur",
@@ -14536,6 +24223,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792615500000,
       "occupations": [
         "boxeur"
@@ -14585,6 +24273,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458840000,
       "occupations": [
         "tueur en série"
@@ -14633,6 +24322,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792464480000,
       "occupations": [
         "actrice",
@@ -14683,6 +24373,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793168760000,
       "occupations": [
         "mannequin"
@@ -14730,6 +24421,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "negative",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792945320000,
       "occupations": [
         "homme d’affaires",
@@ -14778,6 +24470,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792314000000,
       "occupations": [
         "chanteuse"
@@ -14824,6 +24517,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792054020000,
       "occupations": [
         "actrice",
@@ -14872,6 +24566,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "fondateur"
@@ -14918,6 +24613,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283280000,
       "occupations": [
         "actrice",
@@ -14968,6 +24664,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793258340000,
       "occupations": [
         "journaliste",
@@ -15017,6 +24714,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793266860000,
       "occupations": [
         "officier",
@@ -15065,6 +24763,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "guitariste",
@@ -15116,6 +24815,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792577940000,
       "occupations": [
         "dirigeant de société",
@@ -15165,6 +24865,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793285280000,
       "occupations": [
         "acteur",
@@ -15216,6 +24917,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792753560000,
       "occupations": [
         "tueur en série"
@@ -15265,6 +24967,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792244220000,
       "occupations": [
         "coureur cycliste"
@@ -15312,6 +25015,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "actrice",
@@ -15362,6 +25066,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996660000,
       "occupations": [
         "acteur",
@@ -15412,6 +25117,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578000000,
       "occupations": [
         "femme politique",
@@ -15461,6 +25167,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793309700000,
       "occupations": [
         "joueur de hockey sur glace"
@@ -15508,6 +25215,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099380000,
       "occupations": [
         "chef d’orchestre",
@@ -15560,6 +25268,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793050080000,
       "occupations": [
         "géologue",
@@ -15607,6 +25316,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996600000,
       "occupations": [
         "sociologue",
@@ -15652,6 +25362,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793126580000,
       "occupations": [
         "réalisateur de cinéma",
@@ -15702,6 +25413,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793350920000,
       "occupations": [
         "tueur en série",
@@ -15752,6 +25464,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793026200000,
       "occupations": [
         "réalisatrice de cinéma",
@@ -15800,6 +25513,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283880000,
       "occupations": [
         "chanteur",
@@ -15854,6 +25568,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793212620000,
       "occupations": [
         "footballeur",
@@ -15901,6 +25616,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "chanteur",
@@ -15952,6 +25668,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996660000,
       "occupations": [],
       "categories": [
@@ -15997,6 +25714,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "chanteuse",
@@ -16050,6 +25768,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793083020000,
       "occupations": [
         "joueur de basket-ball",
@@ -16099,6 +25818,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "chanteur",
@@ -16153,6 +25873,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578060000,
       "occupations": [
         "acteur",
@@ -16203,6 +25924,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283880000,
       "occupations": [
         "journaliste"
@@ -16250,6 +25972,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282860000,
       "occupations": [
         "aviatrice"
@@ -16297,6 +26020,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996600000,
       "occupations": [
         "chanteur",
@@ -16347,6 +26071,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996780000,
       "occupations": [
         "médecin"
@@ -16394,6 +26119,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415000000,
       "occupations": [
         "scénariste",
@@ -16445,6 +26171,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792600020000,
       "occupations": [
         "actrice",
@@ -16495,6 +26222,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "chanteur"
@@ -16545,6 +26273,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792486020000,
       "occupations": [
         "auteur-compositeur-interprète",
@@ -16595,6 +26324,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792284660000,
       "occupations": [
         "entrepreneur",
@@ -16645,6 +26375,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792105380000,
       "occupations": [
         "footballeur",
@@ -16697,6 +26428,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792663620000,
       "occupations": [
         "homme politique",
@@ -16745,6 +26477,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578000000,
       "occupations": [
         "officier",
@@ -16795,6 +26528,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792767780000,
       "occupations": [
         "joueur de tennis"
@@ -16842,6 +26576,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259940000,
       "occupations": [
         "homme politique"
@@ -16890,6 +26625,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792486020000,
       "occupations": [
         "peintre",
@@ -16938,6 +26674,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792198320000,
       "occupations": [
         "écrivaine",
@@ -16985,6 +26722,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282980000,
       "occupations": [
         "scénariste",
@@ -17035,6 +26773,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792857660000,
       "occupations": [
         "écrivain",
@@ -17084,6 +26823,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996900000,
       "occupations": [
         "poète",
@@ -17136,6 +26876,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792871880000,
       "occupations": [
         "actrice de théâtre",
@@ -17186,6 +26927,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793215200000,
       "occupations": [
         "autrice de bande dessinée",
@@ -17235,6 +26977,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282980000,
       "occupations": [
         "actrice",
@@ -17285,6 +27028,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792615500000,
       "occupations": [
         "homme politique"
@@ -17332,6 +27076,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793344020000,
       "occupations": [
         "océanographe",
@@ -17380,6 +27125,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792520880000,
       "occupations": [
         "gardien de camp de concentration"
@@ -17428,6 +27174,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792998000000,
       "occupations": [
         "acteur",
@@ -17480,6 +27227,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792615320000,
       "occupations": [
         "footballeur"
@@ -17527,6 +27275,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "poète",
@@ -17579,6 +27328,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793177400000,
       "occupations": [
         "homme d’affaires"
@@ -17625,6 +27375,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400640000,
       "occupations": [],
       "categories": [],
@@ -17667,6 +27418,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792464540000,
       "occupations": [
         "homme politique",
@@ -17716,6 +27468,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416260000,
       "occupations": [
         "chanteur",
@@ -17768,6 +27521,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099380000,
       "occupations": [
         "chef cuisinier"
@@ -17816,6 +27570,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793371860000,
       "occupations": [
         "officier",
@@ -17866,6 +27621,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792118940000,
       "occupations": [
         "acteur",
@@ -17917,6 +27673,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458840000,
       "occupations": [
         "tueur en série",
@@ -17966,6 +27723,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400640000,
       "occupations": [
         "footballeur",
@@ -18014,6 +27772,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "homme politique",
@@ -18063,6 +27822,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792508580000,
       "occupations": [
         "joueur de basket-ball"
@@ -18111,6 +27871,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792284840000,
       "occupations": [
         "théologien",
@@ -18158,6 +27919,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996660000,
       "occupations": [
         "réalisateur de cinéma",
@@ -18209,6 +27971,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416440000,
       "occupations": [
         "physicien",
@@ -18258,6 +28021,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792284840000,
       "occupations": [
         "homme politique"
@@ -18305,6 +28069,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259940000,
       "occupations": [
         "homme d’affaires",
@@ -18355,6 +28120,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282860000,
       "occupations": [
         "footballeur"
@@ -18401,6 +28167,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996780000,
       "occupations": [
         "acteur"
@@ -18448,6 +28215,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792443240000,
       "occupations": [
         "footballeur"
@@ -18494,6 +28262,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792659360000,
       "occupations": [
         "réalisateur de cinéma",
@@ -18545,6 +28314,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "psychologue",
@@ -18593,6 +28363,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458840000,
       "occupations": [
         "tueur en série"
@@ -18639,6 +28410,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793215200000,
       "occupations": [
         "égyptologue",
@@ -18687,6 +28459,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793310840000,
       "occupations": [
         "homme politique",
@@ -18738,6 +28511,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "negative",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283880000,
       "occupations": [
         "coureur cycliste"
@@ -18785,6 +28559,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792600020000,
       "occupations": [
         "actrice de télévision",
@@ -18835,6 +28610,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996780000,
       "occupations": [
         "chansonnier",
@@ -18887,6 +28663,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792599960000,
       "occupations": [
         "acteur de théâtre",
@@ -18939,6 +28716,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792025820000,
       "occupations": [
         "sociologue",
@@ -18986,6 +28764,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792615500000,
       "occupations": [
         "coureur cycliste"
@@ -19034,6 +28813,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792284840000,
       "occupations": [
         "homme politique",
@@ -19086,6 +28866,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793220840000,
       "occupations": [
         "chanteur",
@@ -19139,6 +28920,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792898160000,
       "occupations": [
         "chanteur",
@@ -19187,6 +28969,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792118940000,
       "occupations": [
         "boxeur"
@@ -19236,6 +29019,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "reine"
@@ -19280,6 +29064,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099440000,
       "occupations": [
         "actrice",
@@ -19329,6 +29114,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793220840000,
       "occupations": [
         "producteur de cinéma",
@@ -19380,6 +29166,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793266860000,
       "occupations": [
         "acteur de théâtre",
@@ -19430,6 +29217,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792025820000,
       "occupations": [
         "metteur en scène",
@@ -19479,6 +29267,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792508580000,
       "occupations": [
         "actrice",
@@ -19530,6 +29319,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "avocat",
@@ -19581,6 +29371,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792681560000,
       "occupations": [
         "homme politique",
@@ -19628,6 +29419,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416500000,
       "occupations": [
         "commentateur sportif"
@@ -19681,6 +29473,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792947480000,
       "occupations": [
         "acteur",
@@ -19732,6 +29525,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283580000,
       "occupations": [
         "joueur de football américain"
@@ -19778,6 +29572,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792857660000,
       "occupations": [
         "militaire",
@@ -19827,6 +29622,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792244220000,
       "occupations": [
         "acteur",
@@ -19875,6 +29671,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458780000,
       "occupations": [
         "meurtrier",
@@ -19924,6 +29721,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792255680000,
       "occupations": [
         "acteur",
@@ -19974,6 +29772,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "explorateur",
@@ -20023,6 +29822,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793137260000,
       "occupations": [
         "actrice",
@@ -20074,6 +29874,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099260000,
       "occupations": [
         "animatrice de conférence",
@@ -20122,6 +29923,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792385220000,
       "occupations": [
         "entraîneur de football",
@@ -20169,6 +29971,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437140000,
       "occupations": [
         "historien",
@@ -20216,6 +30019,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793215200000,
       "occupations": [
         "blogueuse",
@@ -20263,6 +30067,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792615320000,
       "occupations": [
         "acteur",
@@ -20314,6 +30119,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792871940000,
       "occupations": [
         "actrice"
@@ -20362,6 +30168,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996480000,
       "occupations": [
         "chanteur",
@@ -20407,6 +30214,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793083020000,
       "occupations": [
         "footballeur"
@@ -20453,6 +30261,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 2,
+      "isOwned": true,
       "acquiredAt": 1792862880000,
       "occupations": [
         "mondaine",
@@ -20503,6 +30312,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792922460000,
       "occupations": [
         "actrice",
@@ -20561,6 +30371,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793212620000,
       "occupations": [
         "chanteuse",
@@ -20610,6 +30421,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "acteur",
@@ -20660,6 +30472,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792862880000,
       "occupations": [
         "cavalier de saut d’obstacles"
@@ -20707,6 +30520,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400760000,
       "occupations": [
         "scénariste",
@@ -20758,6 +30572,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "footballeuse"
@@ -20806,6 +30621,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793117880000,
       "occupations": [
         "pharmacien",
@@ -20853,6 +30669,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792702020000,
       "occupations": [
         "réalisateur de cinéma",
@@ -20902,6 +30719,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792705080000,
       "occupations": [
         "créateur de bandes dessinées",
@@ -20951,6 +30769,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792284720000,
       "occupations": [
         "actrice",
@@ -21004,6 +30823,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793026200000,
       "occupations": [
         "homme politique",
@@ -21052,6 +30872,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793258340000,
       "occupations": [
         "productrice de cinéma",
@@ -21099,6 +30920,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416080000,
       "occupations": [
         "espionne",
@@ -21144,6 +30966,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792811220000,
       "occupations": [
         "auteur-compositeur-interprète",
@@ -21193,6 +31016,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792550880000,
       "occupations": [
         "mannequin",
@@ -21244,6 +31068,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793004600000,
       "occupations": [
         "acteur",
@@ -21292,6 +31117,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578060000,
       "occupations": [
         "joueur de rugby à XV"
@@ -21338,6 +31164,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792577940000,
       "occupations": [
         "auteur-compositeur-interprète"
@@ -21389,6 +31216,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259940000,
       "occupations": [
         "poète",
@@ -21440,6 +31268,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099380000,
       "occupations": [
         "peintre",
@@ -21489,6 +31318,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792737120000,
       "occupations": [
         "financier",
@@ -21542,6 +31372,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792245900000,
       "occupations": [
         "lanceuse d’alerte",
@@ -21590,6 +31421,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415060000,
       "occupations": [
         "reporter",
@@ -21639,6 +31471,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "negative",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099380000,
       "occupations": [
         "producteur de cinéma",
@@ -21693,6 +31526,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "monarque"
@@ -21739,6 +31573,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415060000,
       "occupations": [
         "militaire"
@@ -21785,6 +31620,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416500000,
       "occupations": [
         "coureur d’ultrafond",
@@ -21832,6 +31668,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793112420000,
       "occupations": [
         "footballeur",
@@ -21879,6 +31716,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458720000,
       "occupations": [
         "tueur en série",
@@ -21926,6 +31764,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "pratiquant d’arts martiaux mixtes",
@@ -21977,6 +31816,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792523280000,
       "occupations": [
         "criminelle"
@@ -22023,6 +31863,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169100000,
       "occupations": [
         "enfant actrice",
@@ -22075,6 +31916,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792105380000,
       "occupations": [
         "anthropologue",
@@ -22125,6 +31967,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415060000,
       "occupations": [
         "joueur de football canadien",
@@ -22173,6 +32016,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416080000,
       "occupations": [
         "écrivaine",
@@ -22223,6 +32067,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792284840000,
       "occupations": [
         "femme au foyer",
@@ -22272,6 +32117,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099320000,
       "occupations": [
         "écrivaine",
@@ -22321,6 +32167,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415000000,
       "occupations": [
         "journaliste",
@@ -22370,6 +32217,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792244220000,
       "occupations": [
         "religieuse"
@@ -22416,6 +32264,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792616940000,
       "occupations": [
         "philosophe",
@@ -22463,6 +32312,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "femme politique",
@@ -22512,6 +32362,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996780000,
       "occupations": [
         "femme politique"
@@ -22562,6 +32413,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259940000,
       "occupations": [
         "pharmacienne"
@@ -22608,6 +32460,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996660000,
       "occupations": [
         "sprinteuse",
@@ -22658,6 +32511,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792157100000,
       "occupations": [
         "joueur de billard américain",
@@ -22705,6 +32559,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792314000000,
       "occupations": [
         "joueur de football américain",
@@ -22754,6 +32609,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458780000,
       "occupations": [
         "tueur en série"
@@ -22802,6 +32658,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792862820000,
       "occupations": [
         "fonctionnaire",
@@ -22849,6 +32706,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458840000,
       "occupations": [
         "tueur en série",
@@ -22899,6 +32757,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400640000,
       "occupations": [
         "artiste"
@@ -22943,6 +32802,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792335300000,
       "occupations": [
         "joueur de basket-ball"
@@ -22992,6 +32852,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996420000,
       "occupations": [
         "coureur cycliste"
@@ -23038,6 +32899,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792577940000,
       "occupations": [],
       "categories": [],
@@ -23080,6 +32942,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169220000,
       "occupations": [
         "acteur",
@@ -23130,6 +32993,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793134020000,
       "occupations": [
         "actrice",
@@ -23181,6 +33045,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792542480000,
       "occupations": [
         "joueur de basket-ball"
@@ -23227,6 +33092,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996660000,
       "occupations": [
         "acteur de télévision",
@@ -23279,6 +33145,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792788420000,
       "occupations": [
         "philosophe",
@@ -23326,6 +33193,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793168760000,
       "occupations": [
         "acteur"
@@ -23374,6 +33242,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416260000,
       "occupations": [
         "joueur de tennis en fauteuil roulant"
@@ -23423,6 +33292,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792244280000,
       "occupations": [
         "compositeur",
@@ -23471,6 +33341,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793134020000,
       "occupations": [
         "scénariste",
@@ -23519,6 +33390,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416560000,
       "occupations": [
         "acteur",
@@ -23568,6 +33440,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792356480000,
       "occupations": [
         "coureur cycliste"
@@ -23616,6 +33489,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792573860000,
       "occupations": [
         "mathématicien",
@@ -23664,6 +33538,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458780000,
       "occupations": [
         "trafiquant de drogue",
@@ -23713,6 +33588,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792848780000,
       "occupations": [
         "romancier",
@@ -23762,6 +33638,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792244280000,
       "occupations": [
         "acteur",
@@ -23812,6 +33689,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "réalisateur de cinéma",
@@ -23862,6 +33740,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283880000,
       "occupations": [
         "joueur de rugby à XV"
@@ -23909,6 +33788,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792871940000,
       "occupations": [
         "actrice",
@@ -23960,6 +33840,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793117880000,
       "occupations": [
         "catcheur"
@@ -24007,6 +33888,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792084680000,
       "occupations": [
         "joueur de basket-ball"
@@ -24055,6 +33937,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792284600000,
       "occupations": [
         "homme politique"
@@ -24101,6 +33984,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793309700000,
       "occupations": [
         "romancière",
@@ -24149,6 +34033,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458780000,
       "occupations": [
         "tueur en série"
@@ -24195,6 +34080,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792464540000,
       "occupations": [
         "catcheuse",
@@ -24245,6 +34131,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792198320000,
       "occupations": [
         "footballeur"
@@ -24291,6 +34178,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "acteur de télévision",
@@ -24343,6 +34231,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792245840000,
       "occupations": [
         "humoriste",
@@ -24392,6 +34281,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792965180000,
       "occupations": [
         "réalisateur de cinéma",
@@ -24443,6 +34333,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792615620000,
       "occupations": [
         "acteur",
@@ -24494,6 +34385,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793112420000,
       "occupations": [
         "animateur de radio",
@@ -24544,6 +34436,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282740000,
       "occupations": [
         "joueur de basket-ball"
@@ -24590,6 +34483,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416440000,
       "occupations": [
         "footballeur"
@@ -24636,6 +34530,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792421280000,
       "occupations": [
         "actrice",
@@ -24686,6 +34581,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259880000,
       "occupations": [
         "homme politique",
@@ -24736,6 +34632,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792856640000,
       "occupations": [
         "peintre",
@@ -24785,6 +34682,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "negative",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099500000,
       "occupations": [
         "prêtre catholique"
@@ -24831,6 +34729,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793091480000,
       "occupations": [
         "chanteur",
@@ -24882,6 +34781,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792054020000,
       "occupations": [
         "chanteur",
@@ -24935,6 +34835,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792815060000,
       "occupations": [
         "joueur de rugby à XV"
@@ -24982,6 +34883,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458840000,
       "occupations": [
         "criminel",
@@ -25031,6 +34933,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792594080000,
       "occupations": [
         "guitariste",
@@ -25081,6 +34984,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283880000,
       "occupations": [
         "prêtre catholique",
@@ -25128,6 +35032,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "correspondant de guerre",
@@ -25178,6 +35083,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "actrice",
@@ -25230,6 +35136,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "chanteuse",
@@ -25282,6 +35189,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792577940000,
       "occupations": [
         "journaliste",
@@ -25335,6 +35243,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792523280000,
       "occupations": [
         "collectionneuse d’œuvres d’art",
@@ -25384,6 +35293,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792245900000,
       "occupations": [
         "artiste de scène",
@@ -25433,6 +35343,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "actrice de télévision",
@@ -25484,6 +35395,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416080000,
       "occupations": [
         "boxeur"
@@ -25532,6 +35444,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458780000,
       "occupations": [
         "criminel",
@@ -25581,6 +35494,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "homme d’affaires"
@@ -25631,6 +35545,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793004600000,
       "occupations": [
         "homme politique",
@@ -25679,6 +35594,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792105320000,
       "occupations": [
         "prêtre catholique",
@@ -25727,6 +35643,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415060000,
       "occupations": [
         "mannequin",
@@ -25776,6 +35693,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792737120000,
       "occupations": [
         "écrivain",
@@ -25827,6 +35745,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792998000000,
       "occupations": [
         "actrice pornographique",
@@ -25878,6 +35797,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792084680000,
       "occupations": [
         "chanteuse",
@@ -25934,6 +35854,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578000000,
       "occupations": [
         "auteur-compositeur-interprète",
@@ -25986,6 +35907,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997080000,
       "occupations": [
         "chef cuisinier",
@@ -26035,6 +35957,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458720000,
       "occupations": [
         "criminel",
@@ -26084,6 +36007,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259940000,
       "occupations": [
         "fonctionnaire",
@@ -26132,6 +36056,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996900000,
       "occupations": [
         "acteur",
@@ -26182,6 +36107,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997080000,
       "occupations": [
         "neurologue",
@@ -26236,6 +36162,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793398560000,
       "occupations": [
         "acteur",
@@ -26286,6 +36213,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168860000,
       "occupations": [
         "acteur",
@@ -26337,6 +36265,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792284780000,
       "occupations": [
         "acteur de cinéma",
@@ -26390,6 +36319,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792486020000,
       "occupations": [
         "scénariste",
@@ -26440,6 +36370,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792464480000,
       "occupations": [
         "astrophysicien",
@@ -26489,6 +36420,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793083080000,
       "occupations": [
         "réalisatrice de cinéma",
@@ -26539,6 +36471,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792577940000,
       "occupations": [
         "acteur",
@@ -26588,6 +36521,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282980000,
       "occupations": [
         "chanteur",
@@ -26640,6 +36574,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792522560000,
       "occupations": [
         "footballeur",
@@ -26688,6 +36623,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792523280000,
       "occupations": [
         "acteur",
@@ -26736,6 +36672,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792385220000,
       "occupations": [
         "nageur"
@@ -26782,6 +36719,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099260000,
       "occupations": [
         "femme politique",
@@ -26830,6 +36768,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792577940000,
       "occupations": [
         "youtubeuse"
@@ -26877,6 +36816,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578060000,
       "occupations": [
         "actrice",
@@ -26928,6 +36868,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578120000,
       "occupations": [
         "homme politique"
@@ -26975,6 +36916,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793050080000,
       "occupations": [
         "aristocrate"
@@ -27019,6 +36961,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793050140000,
       "occupations": [
         "chanteur"
@@ -27063,6 +37006,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793126580000,
       "occupations": [
         "biathlète",
@@ -27111,6 +37055,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "bassiste",
@@ -27161,6 +37106,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282980000,
       "occupations": [
         "journaliste",
@@ -27212,6 +37158,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792947480000,
       "occupations": [
         "actrice",
@@ -27261,6 +37208,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792681560000,
       "occupations": [
         "actrice",
@@ -27310,6 +37258,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "chanteur",
@@ -27357,6 +37306,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578060000,
       "occupations": [
         "éditrice"
@@ -27403,6 +37353,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "joueur de rugby à XV"
@@ -27450,6 +37401,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792448340000,
       "occupations": [
         "femme d’affaires",
@@ -27501,6 +37453,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "actrice de cinéma",
@@ -27550,6 +37503,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282860000,
       "occupations": [
         "humoriste",
@@ -27601,6 +37555,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "negative",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282920000,
       "occupations": [
         "actrice",
@@ -27651,6 +37606,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "joueur de tennis"
@@ -27697,6 +37653,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792862880000,
       "occupations": [
         "actrice",
@@ -27748,6 +37705,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793137260000,
       "occupations": [
         "guitariste",
@@ -27801,6 +37759,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793465460000,
       "occupations": [
         "chanteur",
@@ -27851,6 +37810,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400640000,
       "occupations": [
         "physicien"
@@ -27901,6 +37861,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "monarque"
@@ -27945,6 +37906,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "militant pour les droits LGBT",
@@ -27993,6 +37955,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792640460000,
       "occupations": [
         "criminel",
@@ -28043,6 +38006,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793479620000,
       "occupations": [
         "actrice",
@@ -28090,6 +38054,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792522620000,
       "occupations": [
         "avocat"
@@ -28138,6 +38103,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996600000,
       "occupations": [
         "khan",
@@ -28185,6 +38151,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793285280000,
       "occupations": [
         "claviériste",
@@ -28237,6 +38204,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "chanteuse",
@@ -28282,6 +38250,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792854660000,
       "occupations": [
         "mangaka",
@@ -28332,6 +38301,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458840000,
       "occupations": [
         "tueur en série",
@@ -28382,6 +38352,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792615500000,
       "occupations": [
         "homme politique"
@@ -28430,6 +38401,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996600000,
       "occupations": [
         "metteur en scène",
@@ -28480,6 +38452,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792965180000,
       "occupations": [
         "officier",
@@ -28527,6 +38500,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "femme politique",
@@ -28577,6 +38551,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793177400000,
       "occupations": [
         "philosophe",
@@ -28624,6 +38599,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792284480000,
       "occupations": [
         "footballeur"
@@ -28670,6 +38646,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793083020000,
       "occupations": [
         "joueur de hockey sur glace"
@@ -28718,6 +38695,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792464480000,
       "occupations": [
         "guitariste",
@@ -28767,6 +38745,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792577940000,
       "occupations": [
         "youtubeur",
@@ -28815,6 +38794,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283880000,
       "occupations": [
         "femme d’affaires",
@@ -28863,6 +38843,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792685160000,
       "occupations": [
         "scénariste",
@@ -28915,6 +38896,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792615500000,
       "occupations": [
         "officier de l’armée de l’air",
@@ -28964,6 +38946,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792013820000,
       "occupations": [
         "militaire"
@@ -29013,6 +38996,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996480000,
       "occupations": [
         "footballeur"
@@ -29062,6 +39046,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793050140000,
       "occupations": [
         "joueur de tennis"
@@ -29109,6 +39094,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792577880000,
       "occupations": [
         "athlète",
@@ -29158,6 +39144,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792573860000,
       "occupations": [
         "homme d’affaires"
@@ -29205,6 +39192,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282740000,
       "occupations": [
         "footballeur"
@@ -29251,6 +39239,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792530000000,
       "occupations": [
         "homme politique",
@@ -29302,6 +39291,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792492260000,
       "occupations": [
         "entomologiste"
@@ -29348,6 +39338,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792848780000,
       "occupations": [
         "homme d’affaires",
@@ -29396,6 +39387,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792284480000,
       "occupations": [
         "joueur de tennis"
@@ -29444,6 +39436,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168680000,
       "occupations": [
         "homme politique",
@@ -29491,6 +39484,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792875240000,
       "occupations": [
         "écrivain",
@@ -29541,6 +39535,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168740000,
       "occupations": [
         "footballeur"
@@ -29585,6 +39580,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792815000000,
       "occupations": [
         "consultant",
@@ -29630,6 +39626,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168800000,
       "occupations": [
         "footballeur"
@@ -29674,6 +39671,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "acteur",
@@ -29724,6 +39722,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416260000,
       "occupations": [
         "chanteur",
@@ -29775,6 +39774,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793026200000,
       "occupations": [
         "homme d’affaires"
@@ -29823,6 +39823,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "trompettiste de jazz",
@@ -29871,6 +39872,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168860000,
       "occupations": [
         "chanteur",
@@ -29919,6 +39921,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792245900000,
       "occupations": [
         "homme politique",
@@ -29966,6 +39969,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400760000,
       "occupations": [
         "homme politique"
@@ -30015,6 +40019,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792524300000,
       "occupations": [
         "réalisateur de cinéma",
@@ -30065,6 +40070,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458900000,
       "occupations": [
         "tueur en série"
@@ -30113,6 +40119,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792508580000,
       "occupations": [
         "joueur de football américain"
@@ -30159,6 +40166,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792815060000,
       "occupations": [
         "humoriste",
@@ -30208,6 +40216,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792848840000,
       "occupations": [
         "juge"
@@ -30255,6 +40264,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168980000,
       "occupations": [
         "acteur"
@@ -30303,6 +40313,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168920000,
       "occupations": [
         "meurtrier",
@@ -30348,6 +40359,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415000000,
       "occupations": [
         "poète",
@@ -30397,6 +40409,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "footballeur",
@@ -30442,6 +40455,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793258340000,
       "occupations": [
         "chef militaire"
@@ -30486,6 +40500,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792857660000,
       "occupations": [
         "homme politique",
@@ -30533,6 +40548,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "negative",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168860000,
       "occupations": [
         "joueur de rugby à XV"
@@ -30580,6 +40596,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "mondaine",
@@ -30629,6 +40646,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "officier",
@@ -30676,6 +40694,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169220000,
       "occupations": [
         "disc jockey",
@@ -30724,6 +40743,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415960000,
       "occupations": [
         "chanteuse",
@@ -30776,6 +40796,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793479620000,
       "occupations": [
         "actrice",
@@ -30826,6 +40847,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168980000,
       "occupations": [
         "actrice",
@@ -30878,6 +40900,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792857660000,
       "occupations": [
         "homme politique",
@@ -30928,6 +40951,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168740000,
       "occupations": [
         "footballeur"
@@ -30976,6 +41000,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792615320000,
       "occupations": [
         "footballeur"
@@ -31024,6 +41049,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793117880000,
       "occupations": [
         "présentateur météo"
@@ -31073,6 +41099,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "footballeur"
@@ -31119,6 +41146,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792615620000,
       "occupations": [
         "pâtissier"
@@ -31166,6 +41194,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168620000,
       "occupations": [
         "actrice"
@@ -31214,6 +41243,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "chanteuse",
@@ -31266,6 +41296,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [],
       "categories": [
@@ -31311,6 +41342,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "acteur",
@@ -31360,6 +41392,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168800000,
       "occupations": [
         "footballeur"
@@ -31408,6 +41441,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792947480000,
       "occupations": [
         "médecin légiste",
@@ -31455,6 +41489,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793117880000,
       "occupations": [
         "homme politique"
@@ -31505,6 +41540,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996600000,
       "occupations": [
         "chef d’entreprise",
@@ -31553,6 +41589,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792767780000,
       "occupations": [
         "compositeur",
@@ -31604,6 +41641,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415060000,
       "occupations": [
         "écrivain",
@@ -31655,6 +41693,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "militaire",
@@ -31703,6 +41742,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168800000,
       "occupations": [
         "réalisateur artistique",
@@ -31752,6 +41792,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259940000,
       "occupations": [
         "journaliste",
@@ -31800,6 +41841,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169040000,
       "occupations": [
         "acteur",
@@ -31849,6 +41891,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792573860000,
       "occupations": [
         "entraîneur de football"
@@ -31894,6 +41937,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996480000,
       "occupations": [
         "rappeur",
@@ -31947,6 +41991,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282860000,
       "occupations": [
         "avocat"
@@ -31993,6 +42038,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168680000,
       "occupations": [
         "footballeur"
@@ -32039,6 +42085,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416500000,
       "occupations": [
         "homme politique"
@@ -32083,6 +42130,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259940000,
       "occupations": [
         "homme politique",
@@ -32134,6 +42182,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168980000,
       "occupations": [
         "joueur de rugby à XV"
@@ -32181,6 +42230,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "joueur de rugby à XV"
@@ -32228,6 +42278,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099320000,
       "occupations": [
         "actrice",
@@ -32277,6 +42328,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792922460000,
       "occupations": [
         "entrepreneur"
@@ -32324,6 +42376,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793350200000,
       "occupations": [
         "journaliste"
@@ -32371,6 +42424,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793285280000,
       "occupations": [
         "officier",
@@ -32419,6 +42473,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283340000,
       "occupations": [
         "historien de l’art"
@@ -32463,6 +42518,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168740000,
       "occupations": [
         "chanteuse"
@@ -32507,6 +42563,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793050080000,
       "occupations": [
         "joueur de hockey sur glace"
@@ -32556,6 +42613,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792615320000,
       "occupations": [
         "footballeur"
@@ -32602,6 +42660,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "acteur",
@@ -32651,6 +42710,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792871880000,
       "occupations": [
         "footballeur",
@@ -32699,6 +42759,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283340000,
       "occupations": [
         "homme d’affaires",
@@ -32748,6 +42809,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793309700000,
       "occupations": [
         "prêtre catholique",
@@ -32793,6 +42855,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "batteuse",
@@ -32844,6 +42907,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415900000,
       "occupations": [
         "ingénieur"
@@ -32891,6 +42955,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "footballeur",
@@ -32938,6 +43003,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793229060000,
       "occupations": [
         "entrepreneur"
@@ -32985,6 +43051,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "aristocrate"
@@ -33031,6 +43098,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099380000,
       "occupations": [
         "militaire",
@@ -33080,6 +43148,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168680000,
       "occupations": [
         "footballeur"
@@ -33127,6 +43196,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792492260000,
       "occupations": [
         "souverain"
@@ -33173,6 +43243,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793112420000,
       "occupations": [
         "aristocrate"
@@ -33219,6 +43290,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793013480000,
       "occupations": [
         "entrepreneur"
@@ -33265,6 +43337,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400640000,
       "occupations": [
         "humoriste",
@@ -33316,6 +43389,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793344020000,
       "occupations": [
         "actrice de théâtre",
@@ -33365,6 +43439,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282740000,
       "occupations": [
         "auteur-compositeur",
@@ -33415,6 +43490,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168800000,
       "occupations": [
         "scénariste",
@@ -33466,6 +43542,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168920000,
       "occupations": [
         "bassiste",
@@ -33516,6 +43593,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792464540000,
       "occupations": [
         "producteur de cinéma",
@@ -33565,6 +43643,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792659360000,
       "occupations": [
         "géohistorien",
@@ -33612,6 +43691,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792573860000,
       "occupations": [
         "homme politique",
@@ -33659,6 +43739,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "journaliste",
@@ -33709,6 +43790,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792681560000,
       "occupations": [
         "femme politique"
@@ -33758,6 +43840,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792025820000,
       "occupations": [
         "danseuse classique",
@@ -33809,6 +43892,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793134020000,
       "occupations": [
         "fonctionnaire",
@@ -33858,6 +43942,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792965300000,
       "occupations": [
         "homme d’affaires",
@@ -33907,6 +43992,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282740000,
       "occupations": [
         "chef d’entreprise",
@@ -33954,6 +44040,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792542540000,
       "occupations": [
         "arbitre de rugby à XV"
@@ -33998,6 +44085,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168740000,
       "occupations": [
         "joueur de tennis"
@@ -34046,6 +44134,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283580000,
       "occupations": [
         "politologue",
@@ -34094,6 +44183,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282680000,
       "occupations": [
         "actrice"
@@ -34142,6 +44232,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168680000,
       "occupations": [
         "réalisateur de cinéma",
@@ -34191,6 +44282,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "journaliste"
@@ -34239,6 +44331,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283580000,
       "occupations": [
         "philosophe",
@@ -34286,6 +44379,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792421280000,
       "occupations": [
         "footballeur",
@@ -34335,6 +44429,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793465460000,
       "occupations": [
         "femme politique",
@@ -34387,6 +44482,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168860000,
       "occupations": [],
       "categories": [
@@ -34432,6 +44528,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792105320000,
       "occupations": [
         "danseuse",
@@ -34484,6 +44581,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168860000,
       "occupations": [
         "acteur",
@@ -34533,6 +44631,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792862880000,
       "occupations": [
         "actrice de théâtre",
@@ -34583,6 +44682,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "joueur de basket-ball"
@@ -34631,6 +44731,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "mannequin",
@@ -34678,6 +44779,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "chanteur",
@@ -34729,6 +44831,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793014260000,
       "occupations": [
         "créateur de bandes dessinées",
@@ -34777,6 +44880,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792550880000,
       "occupations": [
         "acteur",
@@ -34827,6 +44931,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792157100000,
       "occupations": [
         "actrice",
@@ -34877,6 +44982,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415060000,
       "occupations": [
         "actrice"
@@ -34925,6 +45031,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793398560000,
       "occupations": [
         "musicien"
@@ -34974,6 +45081,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282680000,
       "occupations": [
         "footballeur"
@@ -35022,6 +45130,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996780000,
       "occupations": [
         "skieur alpin",
@@ -35070,6 +45179,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458900000,
       "occupations": [
         "tueur en série"
@@ -35119,6 +45229,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099380000,
       "occupations": [
         "avocat",
@@ -35169,6 +45280,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282680000,
       "occupations": [
         "footballeur"
@@ -35217,6 +45329,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "journaliste",
@@ -35267,6 +45380,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793117880000,
       "occupations": [
         "actrice",
@@ -35315,6 +45429,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793457360000,
       "occupations": [
         "acteur de cinéma",
@@ -35365,6 +45480,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792523280000,
       "occupations": [
         "homme politique"
@@ -35411,6 +45527,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169040000,
       "occupations": [
         "acteur",
@@ -35459,6 +45576,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099320000,
       "occupations": [
         "pianiste",
@@ -35509,6 +45627,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415000000,
       "occupations": [
         "femme politique",
@@ -35560,6 +45679,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168800000,
       "occupations": [
         "footballeur"
@@ -35607,6 +45727,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283280000,
       "occupations": [
         "femme politique"
@@ -35657,6 +45778,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792767780000,
       "occupations": [
         "actrice de cinéma"
@@ -35705,6 +45827,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792314000000,
       "occupations": [
         "réalisatrice de cinéma",
@@ -35755,6 +45878,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282740000,
       "occupations": [
         "flûtiste classique",
@@ -35804,6 +45928,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282740000,
       "occupations": [
         "marchand d’art",
@@ -35851,6 +45976,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792335300000,
       "occupations": [
         "footballeur"
@@ -35900,6 +46026,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793126580000,
       "occupations": [
         "professeur d’université",
@@ -35947,6 +46074,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793365800000,
       "occupations": [
         "joueur de tennis"
@@ -35995,6 +46123,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792421280000,
       "occupations": [
         "créateur de bandes dessinées"
@@ -36042,6 +46171,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099260000,
       "occupations": [
         "homme politique",
@@ -36093,6 +46223,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793126580000,
       "occupations": [
         "femme politique"
@@ -36143,6 +46274,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996900000,
       "occupations": [
         "femme politique",
@@ -36192,6 +46324,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792965300000,
       "occupations": [
         "producteur de cinéma",
@@ -36241,6 +46374,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "homme politique",
@@ -36288,6 +46422,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792443240000,
       "occupations": [
         "céiste"
@@ -36334,6 +46469,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099260000,
       "occupations": [
         "footballeur"
@@ -36381,6 +46517,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793177400000,
       "occupations": [
         "anthropologue",
@@ -36427,6 +46564,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168740000,
       "occupations": [
         "artiste lyrique"
@@ -36473,6 +46611,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792947480000,
       "occupations": [
         "écrivaine",
@@ -36523,6 +46662,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "physicien",
@@ -36572,6 +46712,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168980000,
       "occupations": [
         "entraîneur de basket-ball"
@@ -36619,6 +46760,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282980000,
       "occupations": [
         "musicien"
@@ -36666,6 +46808,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "homme politique",
@@ -36714,6 +46857,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168980000,
       "occupations": [
         "journaliste",
@@ -36766,6 +46910,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "industriel"
@@ -36814,6 +46959,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793004600000,
       "occupations": [
         "homme politique",
@@ -36865,6 +47011,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "journaliste",
@@ -36919,6 +47066,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793117880000,
       "occupations": [
         "officier"
@@ -36966,6 +47114,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "aristocrate"
@@ -37012,6 +47161,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "negative",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283280000,
       "occupations": [
         "femme politique"
@@ -37061,6 +47211,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792523280000,
       "occupations": [
         "agent du Secret Service"
@@ -37108,6 +47259,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283340000,
       "occupations": [
         "immunologiste"
@@ -37155,6 +47307,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168800000,
       "occupations": [
         "joueur de baseball"
@@ -37203,6 +47356,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283280000,
       "occupations": [
         "métallurgiste",
@@ -37248,6 +47402,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792244220000,
       "occupations": [
         "homme politique",
@@ -37295,6 +47450,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793168760000,
       "occupations": [
         "chanteuse",
@@ -37345,6 +47501,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168920000,
       "occupations": [
         "scénariste",
@@ -37394,6 +47551,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793220840000,
       "occupations": [
         "homme politique"
@@ -37440,6 +47598,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792854660000,
       "occupations": [
         "réalisateur artistique",
@@ -37491,6 +47650,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792998000000,
       "occupations": [
         "coureur cycliste"
@@ -37538,6 +47698,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793344020000,
       "occupations": [
         "peintre",
@@ -37586,6 +47747,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415960000,
       "occupations": [
         "acteur",
@@ -37638,6 +47800,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "soldat",
@@ -37687,6 +47850,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792245900000,
       "occupations": [
         "homme politique",
@@ -37734,6 +47898,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437140000,
       "occupations": [
         "entrepreneur"
@@ -37781,6 +47946,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793350920000,
       "occupations": [
         "tortionnaire",
@@ -37828,6 +47994,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792105380000,
       "occupations": [
         "acteur"
@@ -37875,6 +48042,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792737120000,
       "occupations": [
         "acteur"
@@ -37923,6 +48091,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792965300000,
       "occupations": [
         "animateur de télévision"
@@ -37973,6 +48142,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792105320000,
       "occupations": [
         "réalisateur de cinéma",
@@ -38021,6 +48191,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793083020000,
       "occupations": [
         "ostréiculteur",
@@ -38070,6 +48241,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168860000,
       "occupations": [
         "producteur de cinéma",
@@ -38119,6 +48291,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168620000,
       "occupations": [
         "femme politique",
@@ -38169,6 +48342,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169100000,
       "occupations": [
         "homme politique"
@@ -38215,6 +48389,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792945320000,
       "occupations": [
         "handballeur",
@@ -38264,6 +48439,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "footballeur",
@@ -38312,6 +48488,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792815060000,
       "occupations": [
         "homme politique",
@@ -38363,6 +48540,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793083020000,
       "occupations": [
         "auteur comique",
@@ -38417,6 +48595,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793212620000,
       "occupations": [
         "danseur sur glace",
@@ -38469,6 +48648,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283340000,
       "occupations": [
         "acteur",
@@ -38520,6 +48700,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792025820000,
       "occupations": [
         "acteur",
@@ -38569,6 +48750,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578060000,
       "occupations": [
         "acteur"
@@ -38617,6 +48799,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792713600000,
       "occupations": [
         "homme politique",
@@ -38666,6 +48849,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792965300000,
       "occupations": [
         "actrice",
@@ -38715,6 +48899,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996780000,
       "occupations": [
         "diplomate",
@@ -38762,6 +48947,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282740000,
       "occupations": [
         "vétérinaire",
@@ -38814,6 +49000,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792524300000,
       "occupations": [
         "homme politique",
@@ -38864,6 +49051,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "homme politique",
@@ -38914,6 +49102,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "architecte"
@@ -38962,6 +49151,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415900000,
       "occupations": [
         "aventurière",
@@ -39010,6 +49200,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "homme politique",
@@ -39059,6 +49250,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "homme politique",
@@ -39108,6 +49300,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793117880000,
       "occupations": [
         "footballeur"
@@ -39152,6 +49345,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792244160000,
       "occupations": [
         "acteur",
@@ -39204,6 +49398,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792314000000,
       "occupations": [
         "footballeur",
@@ -39253,6 +49448,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "skieur alpin"
@@ -39300,6 +49496,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996780000,
       "occupations": [
         "auteur-compositeur-interprète"
@@ -39347,6 +49544,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792164420000,
       "occupations": [
         "enseignante-chercheuse",
@@ -39395,6 +49593,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416500000,
       "occupations": [
         "footballeur",
@@ -39446,6 +49645,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792891380000,
       "occupations": [
         "footballeur",
@@ -39493,6 +49693,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168980000,
       "occupations": [
         "chanteur",
@@ -39547,6 +49748,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168920000,
       "occupations": [
         "homme politique"
@@ -39591,6 +49793,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "styliste"
@@ -39635,6 +49838,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "écrivain",
@@ -39683,6 +49887,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792640460000,
       "occupations": [
         "musicien",
@@ -39730,6 +49935,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792848840000,
       "occupations": [
         "footballeur"
@@ -39777,6 +49983,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168980000,
       "occupations": [
         "réalisateur de cinéma",
@@ -39827,6 +50034,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792486020000,
       "occupations": [
         "entraîneur de football"
@@ -39871,6 +50079,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996600000,
       "occupations": [
         "clerc",
@@ -39918,6 +50127,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996780000,
       "occupations": [
         "officier de marine",
@@ -39968,6 +50178,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793137260000,
       "occupations": [
         "acteur",
@@ -40019,6 +50230,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400640000,
       "occupations": [
         "guitariste"
@@ -40068,6 +50280,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792875240000,
       "occupations": [
         "boxeur",
@@ -40119,6 +50332,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793212620000,
       "occupations": [
         "footballeur"
@@ -40166,6 +50380,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "coureur cycliste",
@@ -40214,6 +50429,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793371860000,
       "occupations": [
         "actrice",
@@ -40266,6 +50482,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792890420000,
       "occupations": [
         "footballeur",
@@ -40313,6 +50530,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282860000,
       "occupations": [
         "nouvelliste",
@@ -40363,6 +50581,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "homme politique",
@@ -40411,6 +50630,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "homme politique"
@@ -40457,6 +50677,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996660000,
       "occupations": [
         "philosophe",
@@ -40507,6 +50728,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "mime",
@@ -40556,6 +50778,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282740000,
       "occupations": [
         "musicien"
@@ -40602,6 +50825,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "judoka"
@@ -40651,6 +50875,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415000000,
       "occupations": [
         "homme politique",
@@ -40700,6 +50925,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792965300000,
       "occupations": [
         "homme politique",
@@ -40748,6 +50974,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099260000,
       "occupations": [
         "auteur-compositeur-interprète",
@@ -40795,6 +51022,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793013480000,
       "occupations": [
         "aviateur"
@@ -40842,6 +51070,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "homme politique"
@@ -40888,6 +51117,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792356480000,
       "occupations": [
         "scénariste",
@@ -40937,6 +51167,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578060000,
       "occupations": [
         "actrice",
@@ -40987,6 +51218,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168680000,
       "occupations": [
         "footballeur"
@@ -41031,6 +51263,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "footballeur",
@@ -41082,6 +51315,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283340000,
       "occupations": [
         "acteur de cinéma",
@@ -41132,6 +51366,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283340000,
       "occupations": [
         "entrepreneur",
@@ -41182,6 +51417,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416200000,
       "occupations": [
         "tortionnaire",
@@ -41230,6 +51466,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283340000,
       "occupations": [
         "humoriste",
@@ -41279,6 +51516,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "musicien",
@@ -41330,6 +51568,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793026200000,
       "occupations": [
         "réalisateur de cinéma",
@@ -41378,6 +51617,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792529460000,
       "occupations": [
         "rédacteur de discours",
@@ -41430,6 +51670,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168920000,
       "occupations": [
         "guitariste",
@@ -41479,6 +51720,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283340000,
       "occupations": [
         "producteur de cinéma",
@@ -41528,6 +51770,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792801500000,
       "occupations": [
         "coureur cycliste"
@@ -41575,6 +51818,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792054020000,
       "occupations": [
         "joueur de hockey sur glace"
@@ -41624,6 +51868,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168740000,
       "occupations": [
         "acteur",
@@ -41672,6 +51917,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792385220000,
       "occupations": [
         "footballeur"
@@ -41719,6 +51965,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "prêtre catholique de rite romain",
@@ -41766,6 +52013,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282980000,
       "occupations": [
         "anthropologue",
@@ -41815,6 +52063,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792524300000,
       "occupations": [
         "chef religieux"
@@ -41859,6 +52108,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282980000,
       "occupations": [
         "footballeur"
@@ -41903,6 +52153,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "actrice de théâtre",
@@ -41954,6 +52205,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793479620000,
       "occupations": [
         "snowboardeuse"
@@ -42002,6 +52254,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996480000,
       "occupations": [
         "footballeur"
@@ -42048,6 +52301,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168920000,
       "occupations": [
         "journaliste",
@@ -42097,6 +52351,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416500000,
       "occupations": [
         "joueuse de tennis"
@@ -42144,6 +52399,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169040000,
       "occupations": [
         "joueur de rugby à XV"
@@ -42191,6 +52447,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792508580000,
       "occupations": [
         "réalisateur de cinéma"
@@ -42239,6 +52496,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "footballeur",
@@ -42288,6 +52546,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282680000,
       "occupations": [
         "acteur",
@@ -42341,6 +52600,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792118940000,
       "occupations": [
         "acteur",
@@ -42391,6 +52651,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793220840000,
       "occupations": [
         "guitariste",
@@ -42442,6 +52703,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996900000,
       "occupations": [
         "femme politique"
@@ -42490,6 +52752,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578060000,
       "occupations": [
         "scénariste",
@@ -42541,6 +52804,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283340000,
       "occupations": [
         "chanteur"
@@ -42587,6 +52851,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168680000,
       "occupations": [
         "footballeur"
@@ -42631,6 +52896,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "joueur de hockey sur glace",
@@ -42681,6 +52947,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793465460000,
       "occupations": [
         "biologiste",
@@ -42726,6 +52993,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793266860000,
       "occupations": [
         "homme d’affaires",
@@ -42773,6 +53041,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "réalisateur de cinéma",
@@ -42822,6 +53091,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792702020000,
       "occupations": [
         "footballeur",
@@ -42871,6 +53141,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792520880000,
       "occupations": [
         "officier"
@@ -42920,6 +53191,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169220000,
       "occupations": [
         "footballeur"
@@ -42971,6 +53243,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792753560000,
       "occupations": [
         "tueur en série",
@@ -43021,6 +53294,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792244160000,
       "occupations": [
         "rejoneadora",
@@ -43068,6 +53342,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415840000,
       "occupations": [
         "joueur de tennis"
@@ -43115,6 +53390,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416380000,
       "occupations": [
         "homme politique",
@@ -43164,6 +53440,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792356480000,
       "occupations": [
         "ingénieure",
@@ -43213,6 +53490,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792523280000,
       "occupations": [],
       "categories": [
@@ -43258,6 +53536,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415900000,
       "occupations": [
         "homme politique",
@@ -43306,6 +53585,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793083020000,
       "occupations": [
         "économiste",
@@ -43354,6 +53634,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "femme d’affaires"
@@ -43402,6 +53683,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "femme politique"
@@ -43449,6 +53731,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168680000,
       "occupations": [
         "chef d’entreprise"
@@ -43496,6 +53779,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792594080000,
       "occupations": [
         "chanteuse",
@@ -43548,6 +53832,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792492260000,
       "occupations": [
         "militaire",
@@ -43596,6 +53881,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793013480000,
       "occupations": [
         "officier"
@@ -43643,6 +53929,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416440000,
       "occupations": [
         "homme politique",
@@ -43695,6 +53982,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "aristocrate"
@@ -43741,6 +54029,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996600000,
       "occupations": [
         "homme politique"
@@ -43789,6 +54078,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792084680000,
       "occupations": [
         "joueur de rugby à XV"
@@ -43836,6 +54126,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996600000,
       "occupations": [
         "femme politique",
@@ -43883,6 +54174,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168860000,
       "occupations": [
         "boxeuse",
@@ -43933,6 +54225,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792105380000,
       "occupations": [
         "actrice de théâtre",
@@ -43983,6 +54276,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792244280000,
       "occupations": [
         "consultant",
@@ -44031,6 +54325,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792815000000,
       "occupations": [
         "musicien",
@@ -44080,6 +54375,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792464480000,
       "occupations": [
         "footballeur"
@@ -44128,6 +54424,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997080000,
       "occupations": [
         "femme politique",
@@ -44176,6 +54473,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "peintre",
@@ -44223,6 +54521,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169100000,
       "occupations": [
         "homme politique",
@@ -44273,6 +54572,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282980000,
       "occupations": [
         "homme politique",
@@ -44320,6 +54620,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792890420000,
       "occupations": [
         "footballeur",
@@ -44367,6 +54668,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458900000,
       "occupations": [
         "tueur en série",
@@ -44418,6 +54720,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792164960000,
       "occupations": [
         "chanteuse"
@@ -44465,6 +54768,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283340000,
       "occupations": [
         "philosophe",
@@ -44512,6 +54816,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437140000,
       "occupations": [
         "écrivain",
@@ -44563,6 +54868,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792105380000,
       "occupations": [
         "juriste",
@@ -44610,6 +54916,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792936980000,
       "occupations": [
         "aviateur",
@@ -44659,6 +54966,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792244220000,
       "occupations": [
         "homme politique",
@@ -44709,6 +55017,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793398560000,
       "occupations": [
         "footballeur",
@@ -44754,6 +55063,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "collectionneuse d’œuvres d’art",
@@ -44802,6 +55112,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099440000,
       "occupations": [
         "actrice de genre",
@@ -44853,6 +55164,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792284480000,
       "occupations": [
         "assistante spéciale du président des États-Unis"
@@ -44899,6 +55211,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "actrice de cinéma",
@@ -44949,6 +55262,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792464480000,
       "occupations": [
         "peintre",
@@ -45000,6 +55314,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792702020000,
       "occupations": [
         "femme politique",
@@ -45045,6 +55360,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "chorégraphe",
@@ -45095,6 +55411,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792965180000,
       "occupations": [
         "femme politique",
@@ -45145,6 +55462,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168620000,
       "occupations": [
         "actrice"
@@ -45193,6 +55511,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "aristocrate"
@@ -45237,6 +55556,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792284840000,
       "occupations": [
         "sportive",
@@ -45286,6 +55606,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283280000,
       "occupations": [
         "femme politique"
@@ -45332,6 +55653,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793309700000,
       "occupations": [
         "animateur de télévision",
@@ -45384,6 +55706,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "footballeur"
@@ -45431,6 +55754,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282680000,
       "occupations": [
         "joueur de rugby à XV",
@@ -45478,6 +55802,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793112420000,
       "occupations": [
         "joueur de hockey sur glace"
@@ -45525,6 +55850,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259940000,
       "occupations": [
         "militaire"
@@ -45569,6 +55895,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793285280000,
       "occupations": [
         "acteur"
@@ -45616,6 +55943,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168920000,
       "occupations": [
         "femme politique"
@@ -45663,6 +55991,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259940000,
       "occupations": [
         "mangaka",
@@ -45712,6 +56041,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792084680000,
       "occupations": [
         "footballeur"
@@ -45760,6 +56090,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168920000,
       "occupations": [
         "copilote de rallye"
@@ -45806,6 +56137,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792848780000,
       "occupations": [
         "footballeur"
@@ -45853,6 +56185,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996780000,
       "occupations": [
         "scénariste",
@@ -45904,6 +56237,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792862880000,
       "occupations": [
         "journaliste",
@@ -45953,6 +56287,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792198320000,
       "occupations": [
         "écrivaine"
@@ -45999,6 +56334,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792998000000,
       "occupations": [
         "joueur de baseball professionnel"
@@ -46045,6 +56381,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168980000,
       "occupations": [
         "footballeur"
@@ -46093,6 +56430,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416440000,
       "occupations": [
         "acteur"
@@ -46141,6 +56479,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400640000,
       "occupations": [
         "sociologue",
@@ -46186,6 +56525,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792659360000,
       "occupations": [
         "footballeur",
@@ -46235,6 +56575,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415060000,
       "occupations": [
         "auteur-compositeur-interprète",
@@ -46284,6 +56625,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282740000,
       "occupations": [
         "homme politique"
@@ -46331,6 +56673,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792486020000,
       "occupations": [
         "femme politique",
@@ -46382,6 +56725,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "footballeur"
@@ -46426,6 +56770,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099380000,
       "occupations": [
         "footballeur"
@@ -46473,6 +56818,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792105320000,
       "occupations": [
         "homme politique"
@@ -46519,6 +56865,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099380000,
       "occupations": [
         "footballeur"
@@ -46565,6 +56912,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282980000,
       "occupations": [],
       "categories": [],
@@ -46607,6 +56955,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792263840000,
       "occupations": [
         "drag queen"
@@ -46653,6 +57002,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792890420000,
       "occupations": [
         "footballeur",
@@ -46700,6 +57050,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "femme politique"
@@ -46748,6 +57099,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792464480000,
       "occupations": [
         "femme politique",
@@ -46796,6 +57148,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168980000,
       "occupations": [
         "animatrice de télévision"
@@ -46845,6 +57198,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793437200000,
       "occupations": [
         "homme politique"
@@ -46891,6 +57245,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169040000,
       "occupations": [
         "compositeur",
@@ -46940,6 +57295,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792255680000,
       "occupations": [
         "auteur-compositeur-interprète",
@@ -46991,6 +57347,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578120000,
       "occupations": [
         "journaliste",
@@ -47043,6 +57400,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282740000,
       "occupations": [
         "coureur cycliste",
@@ -47091,6 +57449,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "producteur de cinéma",
@@ -47141,6 +57500,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283280000,
       "occupations": [
         "joueur de Scrabble"
@@ -47185,6 +57545,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793258340000,
       "occupations": [
         "actrice",
@@ -47235,6 +57596,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168740000,
       "occupations": [
         "footballeur"
@@ -47281,6 +57643,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415900000,
       "occupations": [
         "officier"
@@ -47328,6 +57691,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792255680000,
       "occupations": [
         "acteur de théâtre",
@@ -47377,6 +57741,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792663620000,
       "occupations": [
         "parapsychologue"
@@ -47424,6 +57789,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792936980000,
       "occupations": [
         "banquier",
@@ -47473,6 +57839,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400640000,
       "occupations": [
         "joueur de football américain",
@@ -47523,6 +57890,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168980000,
       "occupations": [
         "acteur",
@@ -47574,6 +57942,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415840000,
       "occupations": [
         "footballeur"
@@ -47621,6 +57990,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168860000,
       "occupations": [
         "actrice de cinéma"
@@ -47667,6 +58037,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578060000,
       "occupations": [
         "femme politique"
@@ -47713,6 +58084,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283280000,
       "occupations": [
         "écrivain",
@@ -47762,6 +58134,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792965180000,
       "occupations": [
         "musicien de jazz",
@@ -47811,6 +58184,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792788420000,
       "occupations": [
         "joueur de rugby à XV",
@@ -47859,6 +58233,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792502880000,
       "occupations": [
         "femme politique"
@@ -47907,6 +58282,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099260000,
       "occupations": [
         "officier",
@@ -47957,6 +58333,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792518960000,
       "occupations": [
         "homme politique",
@@ -48007,6 +58384,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793137140000,
       "occupations": [
         "officier"
@@ -48054,6 +58432,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168800000,
       "occupations": [
         "footballeur"
@@ -48101,6 +58480,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "acteur",
@@ -48150,6 +58530,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168740000,
       "occupations": [
         "footballeur"
@@ -48196,6 +58577,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793137260000,
       "occupations": [
         "moine",
@@ -48243,6 +58625,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168980000,
       "occupations": [
         "acteur",
@@ -48294,6 +58677,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792244280000,
       "occupations": [
         "acteur de théâtre",
@@ -48344,6 +58728,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168980000,
       "occupations": [
         "acteur",
@@ -48394,6 +58779,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "homme politique"
@@ -48443,6 +58829,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792898160000,
       "occupations": [
         "homme politique"
@@ -48490,6 +58877,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "manager",
@@ -48540,6 +58928,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "écrivain",
@@ -48588,6 +58977,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168680000,
       "occupations": [
         "étoile",
@@ -48635,6 +59025,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792118940000,
       "occupations": [],
       "categories": [
@@ -48679,6 +59070,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282680000,
       "occupations": [
         "footballeur"
@@ -48727,6 +59119,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "écrivaine"
@@ -48775,6 +59168,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792169040000,
       "occupations": [
         "acteur",
@@ -48824,6 +59218,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792862880000,
       "occupations": [
         "footballeur"
@@ -48870,6 +59265,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283340000,
       "occupations": [
         "acteur",
@@ -48919,6 +59315,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792578120000,
       "occupations": [
         "monarque"
@@ -48963,6 +59360,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283340000,
       "occupations": [
         "homme d’affaires"
@@ -49010,6 +59408,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "footballeur"
@@ -49055,6 +59454,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792550880000,
       "occupations": [
         "éditeur"
@@ -49099,6 +59499,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "scénariste",
@@ -49147,6 +59548,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792737120000,
       "occupations": [
         "diplomate"
@@ -49193,6 +59595,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168800000,
       "occupations": [
         "snowboardeur"
@@ -49241,6 +59644,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283340000,
       "occupations": [
         "journaliste",
@@ -49291,6 +59695,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400640000,
       "occupations": [
         "footballeur"
@@ -49341,6 +59746,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793134020000,
       "occupations": [
         "producteur de cinéma",
@@ -49390,6 +59796,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792244220000,
       "occupations": [
         "souverain"
@@ -49437,6 +59844,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "chef de tribu",
@@ -49486,6 +59894,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792244220000,
       "occupations": [
         "joueur de basket-ball"
@@ -49533,6 +59942,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792458720000,
       "occupations": [
         "tueur en série",
@@ -49583,6 +59993,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792945320000,
       "occupations": [
         "acteur",
@@ -49633,6 +60044,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416140000,
       "occupations": [
         "acteur",
@@ -49685,6 +60097,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792898160000,
       "occupations": [
         "écrivain",
@@ -49733,6 +60146,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283340000,
       "occupations": [
         "infirmière",
@@ -49780,6 +60194,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996720000,
       "occupations": [
         "footballeur"
@@ -49830,6 +60245,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792681560000,
       "occupations": [
         "chanteur",
@@ -49881,6 +60297,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168740000,
       "occupations": [
         "footballeur"
@@ -49928,6 +60345,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996660000,
       "occupations": [
         "réalisateur artistique",
@@ -49975,6 +60393,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "acteur de cinéma",
@@ -50027,6 +60446,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792594080000,
       "occupations": [
         "batteur",
@@ -50075,6 +60495,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168680000,
       "occupations": [
         "acteur",
@@ -50124,6 +60545,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793083020000,
       "occupations": [
         "moine"
@@ -50171,6 +60593,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793371860000,
       "occupations": [
         "ingénieur aéronautique",
@@ -50218,6 +60641,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283280000,
       "occupations": [
         "footballeur"
@@ -50265,6 +60689,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282740000,
       "occupations": [
         "musicien",
@@ -50313,6 +60738,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "reverse",
       "finishEffect": "classic",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792099440000,
       "occupations": [
         "acteur",
@@ -50362,6 +60788,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792486020000,
       "occupations": [
         "acteur",
@@ -50411,6 +60838,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416260000,
       "occupations": [
         "militante pour les droits de la personne humaine",
@@ -50460,6 +60888,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793091480000,
       "occupations": [
         "footballeur"
@@ -50508,6 +60937,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415060000,
       "occupations": [
         "acteur",
@@ -50558,6 +60988,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "femme politique",
@@ -50608,6 +61039,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168680000,
       "occupations": [
         "joueur de basket-ball"
@@ -50655,6 +61087,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793013480000,
       "occupations": [
         "homme politique",
@@ -50704,6 +61137,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793050080000,
       "occupations": [
         "militant",
@@ -50752,6 +61186,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996420000,
       "occupations": [
         "homme politique"
@@ -50799,6 +61234,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "linguiste",
@@ -50846,6 +61282,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792965960000,
       "occupations": [
         "homme politique",
@@ -50894,6 +61331,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792464540000,
       "occupations": [
         "footballeur"
@@ -50941,6 +61379,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792164420000,
       "occupations": [
         "homme politique",
@@ -50989,6 +61428,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792385220000,
       "occupations": [
         "footballeur"
@@ -51035,6 +61475,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282680000,
       "occupations": [
         "acteur de cinéma",
@@ -51085,6 +61526,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283520000,
       "occupations": [
         "écrivain",
@@ -51133,6 +61575,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792198320000,
       "occupations": [
         "joueur de hockey sur glace"
@@ -51181,6 +61624,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400700000,
       "occupations": [
         "acteur",
@@ -51230,6 +61674,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792165080000,
       "occupations": [
         "actrice de cinéma",
@@ -51279,6 +61724,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792282860000,
       "occupations": [
         "réalisateur de cinéma",
@@ -51329,6 +61775,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792856640000,
       "occupations": [
         "militaire",
@@ -51377,6 +61824,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168980000,
       "occupations": [
         "animatrice de télévision",
@@ -51427,6 +61875,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793014260000,
       "occupations": [
         "acteur",
@@ -51480,6 +61929,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792492320000,
       "occupations": [
         "actrice",
@@ -51530,6 +61980,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792615620000,
       "occupations": [
         "fonctionnaire"
@@ -51577,6 +62028,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 2,
+      "isOwned": true,
       "acquiredAt": 1793091480000,
       "occupations": [
         "actrice",
@@ -51628,6 +62080,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792335300000,
       "occupations": [
         "footballeur"
@@ -51676,6 +62129,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792746000000,
       "occupations": [
         "acteur",
@@ -51726,6 +62180,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793177400000,
       "occupations": [
         "écrivain",
@@ -51775,6 +62230,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168620000,
       "occupations": [
         "actrice",
@@ -51826,6 +62282,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793083080000,
       "occupations": [
         "footballeur",
@@ -51877,6 +62334,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283340000,
       "occupations": [
         "acteur de cinéma",
@@ -51927,6 +62385,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400760000,
       "occupations": [
         "homme politique",
@@ -51974,6 +62433,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793416440000,
       "occupations": [
         "pilote de course automobile",
@@ -52023,6 +62483,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "femme politique"
@@ -52068,6 +62529,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168980000,
       "occupations": [
         "actrice",
@@ -52117,6 +62579,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792746000000,
       "occupations": [
         "fonctionnaire",
@@ -52164,6 +62627,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792054020000,
       "occupations": [
         "musicien",
@@ -52216,6 +62680,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792443240000,
       "occupations": [
         "actrice de cinéma",
@@ -52265,6 +62730,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793415840000,
       "occupations": [
         "footballeur"
@@ -52311,6 +62777,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792502880000,
       "occupations": [
         "femme politique"
@@ -52358,6 +62825,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996600000,
       "occupations": [
         "participante de concours de beauté",
@@ -52406,6 +62874,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168920000,
       "occupations": [
         "footballeur",
@@ -52454,6 +62923,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168800000,
       "occupations": [
         "footballeur",
@@ -52501,6 +62971,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "acteur",
@@ -52551,6 +63022,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792259940000,
       "occupations": [
         "femme politique"
@@ -52598,6 +63070,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "joueur de football américain"
@@ -52644,6 +63117,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793350200000,
       "occupations": [
         "réalisateur de cinéma",
@@ -52693,6 +63167,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792640460000,
       "occupations": [
         "chef d’entreprise",
@@ -52741,6 +63216,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793013480000,
       "occupations": [
         "policier"
@@ -52788,6 +63264,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792449840000,
       "occupations": [
         "tortionnaire"
@@ -52837,6 +63314,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793284260000,
       "occupations": [
         "acteur de cinéma",
@@ -52888,6 +63366,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792788420000,
       "occupations": [
         "mannequin",
@@ -52936,6 +63415,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791997020000,
       "occupations": [
         "militaire",
@@ -52986,6 +63466,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283460000,
       "occupations": [
         "joueur de basket-ball",
@@ -53035,6 +63516,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168740000,
       "occupations": [
         "footballeur"
@@ -53082,6 +63564,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168680000,
       "occupations": [
         "footballeur"
@@ -53126,6 +63609,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168920000,
       "occupations": [
         "skipper",
@@ -53173,6 +63657,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283400000,
       "occupations": [
         "footballeur",
@@ -53220,6 +63705,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168800000,
       "occupations": [
         "coureur cycliste",
@@ -53267,6 +63753,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "normale",
       "finishEffect": "starlight",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792283280000,
       "occupations": [
         "homme d’affaires"
@@ -53314,6 +63801,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996420000,
       "occupations": [
         "homme politique"
@@ -53361,6 +63849,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792168800000,
       "occupations": [
         "joueur de rugby à XV"
@@ -53408,6 +63897,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "full",
       "finishEffect": "fireworks",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792400640000,
       "occupations": [
         "acteur",
@@ -53458,6 +63948,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792245840000,
       "occupations": [
         "patineur artistique"
@@ -53506,6 +63997,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1793266860000,
       "occupations": [
         "homme politique",
@@ -53554,6 +64046,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1792862880000,
       "occupations": [
         "musicien ou musicienne",
@@ -53601,6 +64094,7 @@ window.OMNIDEX_DATA = {
       "finishZone": "none",
       "finishEffect": "none",
       "count": 1,
+      "isOwned": true,
       "acquiredAt": 1791996960000,
       "occupations": [
         "mannequin",

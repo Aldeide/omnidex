@@ -51,6 +51,7 @@ const collected = {
   tables: [],
   market: null,
   friends: [],
+  home: null,
   messages: []
 };
 
@@ -84,8 +85,9 @@ ws.onmessage = (event) => {
       ws.send(be({ type: 'binders', rid: ++rid, since: 0 }));
       ws.send(be({ type: 'findPlayers', rid: ++rid, text: 'Aldeide' }));
 
-      // Planifie la finalisation 3.5 secondes après welcome
       scheduleFinish();
+    } else if (msg.type === 'home') {
+      collected.home = msg;
     } else if (msg.type === 'players') {
       const aldeide = msg.players?.find(p => p.pseudo.toLowerCase() === 'aldeide');
       if (aldeide) {
@@ -169,7 +171,6 @@ async function processData() {
   // Cartes
   let entries = collected.cards;
   if (!entries) {
-    // Chercher dans messages
     for (const m of collected.messages) {
       if (m.type === 'cards' && m.entries) {
         entries = m.entries;
@@ -184,26 +185,10 @@ async function processData() {
     process.exit(1);
   }
 
-  // Binders
-  const binders = [];
-  const cardToBinders = {};
-  const seenBinderIds = new Set();
-  for (const b of collected.binders) {
-    if (!b || seenBinderIds.has(b.id)) continue;
-    seenBinderIds.add(b.id);
-    const bName = (b.name || '').replace('Pdophiles', 'Pédophiles').replace('Tueurs en Srie', 'Tueurs en Série');
-    const bCards = b.cards || [];
-    binders.push({
-      id: b.id,
-      name: bName,
-      count: bCards.length,
-      cardIds: bCards.map(cid => `Q${cid}`)
-    });
-    for (const cid of bCards) {
-      const qid = `Q${cid}`;
-      if (!cardToBinders[qid]) cardToBinders[qid] = [];
-      cardToBinders[qid].push(bName);
-    }
+  // Set of owned card IDs
+  const ownedCidsMap = new Map();
+  for (const entry of entries) {
+    ownedCidsMap.set(entry.card, entry);
   }
 
   // Trade tables
@@ -216,7 +201,88 @@ async function processData() {
     }
   }
 
-  // Compiler la collection
+  // Binders with owned AND missing cards
+  const binders = [];
+  const cardToBinders = {};
+  const seenBinderIds = new Set();
+
+  for (const b of collected.binders) {
+    if (!b || seenBinderIds.has(b.id)) continue;
+    seenBinderIds.add(b.id);
+    const bName = (b.name || '').replace('Pdophiles', 'Pédophiles').replace('Tueurs en Srie', 'Tueurs en Série');
+    const bCards = b.cards || [];
+
+    const binderCardDetails = [];
+    let ownedInBinder = 0;
+    let missingInBinder = 0;
+
+    for (const cid of bCards) {
+      const qid = `Q${cid}`;
+      const isOwned = ownedCidsMap.has(cid);
+      const entry = ownedCidsMap.get(cid);
+      const cat = catCards[qid] || {};
+
+      if (isOwned) {
+        ownedInBinder++;
+        if (!cardToBinders[qid]) cardToBinders[qid] = [];
+        cardToBinders[qid].push(bName);
+      } else {
+        missingInBinder++;
+      }
+
+      const rarityId = cat.rarity ?? 0;
+      const rarityName = cat.rarityName || raritiesList[rarityId] || 'Inconnue';
+      const finishId = entry ? (entry.finish || 0) : 0;
+      const finishInfo = finishesMap[finishId] || { label: finishId === 0 ? 'Standard' : `Finition #${finishId}` };
+
+      binderCardDetails.push({
+        qid,
+        cid,
+        name: cat.name || `Carte #${cid}`,
+        description: cat.description || '',
+        edition: cat.edition || 0,
+        editionLabel: cat.editionLabel || String(cat.edition || 0),
+        rarity: rarityId,
+        rarityName,
+        finishId,
+        finishLabel: isOwned ? (finishInfo.label || 'Standard') : 'Non possédée',
+        count: isOwned ? (entry.count || 1) : 0,
+        isOwned,
+        isKept: bName === 'Keep',
+        vignetteUrl: cat.vignetteUrl || `https://omnidex.cards/vignettes/${qid}.webp`,
+        imageUrl: cat.imageUrl || `https://omnidex.cards/cartes/${qid}.avif`,
+        wikidataUrl: `https://www.wikidata.org/wiki/${qid}`,
+        occupations: cat.occupations || [],
+        categories: cat.categories || [],
+        countries: cat.countries || [],
+        birth: cat.birth,
+        death: cat.death,
+        gender: cat.gender,
+        score: cat.score || 0,
+        notoriety: cat.notoriety || 0
+      });
+    }
+
+    // Sort binder cards: owned first, then rarity desc, then name
+    binderCardDetails.sort((a, b) => {
+      if (a.isOwned !== b.isOwned) return a.isOwned ? -1 : 1;
+      if (b.rarity !== a.rarity) return b.rarity - a.rarity;
+      return a.name.localeCompare(b.name, 'fr');
+    });
+
+    binders.push({
+      id: b.id,
+      name: bName,
+      totalCount: bCards.length,
+      ownedCount: ownedInBinder,
+      missingCount: missingInBinder,
+      pct: bCards.length > 0 ? ((ownedInBinder / bCards.length) * 100).toFixed(1) : 0,
+      cardIds: bCards.map(cid => `Q${cid}`),
+      cards: binderCardDetails
+    });
+  }
+
+  // Compiler la collection des cartes possédées
   const collectionCards = [];
   let totalCopies = 0;
   const rarityCounts = {};
@@ -284,6 +350,7 @@ async function processData() {
       finishZone: finishInfo.zone || 'none',
       finishEffect: finishInfo.effect || 'none',
       count,
+      isOwned: true,
       acquiredAt,
       occupations: cat.occupations || [],
       categories: cat.categories || [],
@@ -309,11 +376,15 @@ async function processData() {
   // Tri par rareté décroissante, puis nom alphabétique
   collectionCards.sort((a, b) => b.rarity - a.rarity || a.name.localeCompare(b.name, 'fr'));
 
+  // Avatar URL resolution (Donald Trump #22686 with valid hash)
+  const trumpCat = catCards['Q22686'] || {};
+  const validAvatarUrl = trumpCat.vignetteUrl || 'https://omnidex.cards/vignettes/Q22686-783472d2.webp';
+
   const dataset = {
     profile: {
       pseudo: 'Aldeide',
       account: collected.account || 39,
-      avatarUrl: 'https://omnidex.cards/vignettes/Q22686.webp',
+      avatarUrl: validAvatarUrl,
       totalUnique: distinctQids.size,
       totalCopies,
       shards: collected.shards || 0,
@@ -375,7 +446,10 @@ async function processData() {
   console.log(`Cartes uniques : ${distinctQids.size}`);
   console.log(`Exemplaires totaux : ${totalCopies}`);
   console.log(`Éclats de cartes : ${collected.shards}`);
-  console.log(`Classeurs : ${binders.length}`);
+  console.log(`Classeurs enrichis : ${binders.length}`);
+  for (const b of binders) {
+    console.log(`  - ${b.name}: ${b.ownedCount} / ${b.totalCount} possédées (${b.missingCount} manquantes, ${b.pct}%)`);
+  }
   console.log('\nFichiers générés avec succès :');
   console.log('  -> collection_data.js');
   console.log('  -> aldeide_cards.json');
