@@ -3,31 +3,31 @@
     "pseudo": "Aldeide",
     "account": 39,
     "avatarUrl": "https://omnidex.cards/vignettes/Q22686-783472d2.webp",
-    "totalUnique": 1099,
-    "totalCopies": 1101,
-    "shards": 15550,
+    "totalUnique": 1154,
+    "totalCopies": 1156,
+    "shards": 18088,
     "privacy": "tous",
-    "friendsCount": 22
+    "friendsCount": 24
   },
   "stats": {
     "rarityCounts": {
-      "Méconnue": 507,
-      "Connue": 358,
-      "Célèbre": 139,
-      "Star": 46,
-      "Iconique": 28,
-      "Mythique": 15,
-      "Ace": 8
+      "Méconnue": 527,
+      "Connue": 373,
+      "Célèbre": 145,
+      "Star": 49,
+      "Iconique": 35,
+      "Mythique": 17,
+      "Ace": 10
     },
     "finishCounts": {
-      "Sans finition": 962,
+      "Sans finition": 1009,
       "Holo": 17,
-      "Starlight inversée": 14,
-      "Full Holo": 12,
-      "Fireworks inversée": 10,
+      "Starlight inversée": 15,
+      "Full Holo": 14,
+      "Fireworks inversée": 12,
       "Starlight": 23,
-      "Holo inversée": 18,
-      "Full Fireworks": 10,
+      "Holo inversée": 20,
+      "Full Fireworks": 11,
       "Full Négative": 5,
       "Full Starlight": 11,
       "Négative inversée": 3,
@@ -35,17 +35,17 @@
       "Négative": 5
     },
     "editionCounts": {
-      "0": 118,
-      "1900": 26,
-      "1910": 28,
-      "1920": 35,
-      "1930": 42,
-      "1940": 83,
-      "1950": 157,
-      "1960": 155,
-      "1970": 157,
-      "1980": 154,
-      "1990": 97,
+      "0": 123,
+      "1900": 30,
+      "1910": 38,
+      "1920": 36,
+      "1930": 47,
+      "1940": 84,
+      "1950": 166,
+      "1960": 158,
+      "1970": 164,
+      "1980": 157,
+      "1990": 104,
       "2000": 49
     },
     "editionsMetadata": [
@@ -139,10 +139,10 @@
     {
       "id": 2,
       "name": "Nazis and Friends",
-      "totalCount": 25,
-      "ownedCount": 16,
-      "missingCount": 9,
-      "pct": "64.0",
+      "totalCount": 28,
+      "ownedCount": 20,
+      "missingCount": 8,
+      "pct": "71.4",
       "cardIds": [
         "Q70546",
         "Q352",
@@ -168,7 +168,10 @@
         "Q76367",
         "Q156916",
         "Q120073678",
-        "Q57641"
+        "Q57641",
+        "Q61185",
+        "Q3270981",
+        "Q93583"
       ],
       "cards": [
         {
@@ -507,6 +510,48 @@
           }
         },
         {
+          "qid": "Q57202",
+          "cid": 57202,
+          "name": "Magda Goebbels",
+          "description": "personnalité politique allemande, épouse de Joseph Goebbels",
+          "edition": 1900,
+          "editionLabel": "1900",
+          "number": 197,
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q57202-410e6828.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q57202-4c60d01d.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q57202",
+          "occupations": [
+            "femme politique",
+            "propagandiste"
+          ],
+          "categories": [
+            "Allemands",
+            "Femmes politiques",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1901-11-11",
+          "death": "1945-05-01",
+          "gender": "f",
+          "birthplace": "Berlin",
+          "score": 0.70127,
+          "notoriety": 52,
+          "face": {
+            "x": 0.4431,
+            "y": 0.3059,
+            "d": 0.6588
+          }
+        },
+        {
           "qid": "Q57889",
           "cid": 57889,
           "name": "Franz Ziereis",
@@ -543,6 +588,47 @@
             "x": 0.5216,
             "y": 0.2706,
             "d": 0.6863
+          }
+        },
+        {
+          "qid": "Q3270981",
+          "cid": 3270981,
+          "name": "Léon Gaultier",
+          "description": "collaborateur français",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "number": 642,
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3270981-3e613fcd.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3270981-db175c59.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3270981",
+          "occupations": [
+            "militaire"
+          ],
+          "categories": [
+            "Allemands",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "France",
+            "Allemagne"
+          ],
+          "birth": "1915-02-01",
+          "death": "1997-07-18",
+          "gender": "m",
+          "birthplace": "Bourges",
+          "score": 0.64963,
+          "notoriety": 5,
+          "face": {
+            "x": 0.5294,
+            "y": 0.2941,
+            "d": 0.6549
           }
         },
         {
@@ -627,6 +713,87 @@
             "x": 0.5098,
             "y": 0.2824,
             "d": 0.6863
+          }
+        },
+        {
+          "qid": "Q93583",
+          "cid": 93583,
+          "name": "Gustav Wagner",
+          "description": "criminel nazi",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "number": 188,
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q93583-3e9c773e.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q93583-84d7f0e8.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q93583",
+          "occupations": [
+            "officier",
+            "sous-officier"
+          ],
+          "categories": [
+            "Brésiliens",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Brésil"
+          ],
+          "birth": "1911-07-18",
+          "death": "1980-10-03",
+          "gender": "m",
+          "birthplace": "Vienne",
+          "score": 0.54484,
+          "notoriety": 27,
+          "face": {
+            "x": 0.5059,
+            "y": 0.3804,
+            "d": 0.9333
+          }
+        },
+        {
+          "qid": "Q61185",
+          "cid": 61185,
+          "name": "Kurt Franz",
+          "description": "militaire allemand",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "number": 501,
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q61185-dfd31c43.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q61185-c711fa37.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q61185",
+          "occupations": [
+            "cuisinier",
+            "gardien de camp de concentration"
+          ],
+          "categories": [
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1914-01-17",
+          "death": "1998-07-04",
+          "gender": "m",
+          "birthplace": "Düsseldorf",
+          "score": 0.54567,
+          "notoriety": 20,
+          "face": {
+            "x": 0.5216,
+            "y": 0.3882,
+            "d": 0.9098
           }
         },
         {
@@ -1169,48 +1336,6 @@
             "x": 0.498,
             "y": 0.3843,
             "d": 0.8902
-          }
-        },
-        {
-          "qid": "Q57202",
-          "cid": 57202,
-          "name": "Magda Goebbels",
-          "description": "personnalité politique allemande, épouse de Joseph Goebbels",
-          "edition": 1900,
-          "editionLabel": "1900",
-          "number": 197,
-          "rarity": 2,
-          "rarityName": "Célèbre",
-          "finishId": 0,
-          "finishLabel": "Non possédée",
-          "count": 0,
-          "isOwned": false,
-          "isKept": false,
-          "vignetteUrl": "https://omnidex.cards/vignettes/Q57202-410e6828.webp",
-          "imageUrl": "https://omnidex.cards/cartes/Q57202-4c60d01d.avif",
-          "wikidataUrl": "https://www.wikidata.org/wiki/Q57202",
-          "occupations": [
-            "femme politique",
-            "propagandiste"
-          ],
-          "categories": [
-            "Allemands",
-            "Femmes politiques",
-            "Membres d'un parti"
-          ],
-          "countries": [
-            "Allemagne"
-          ],
-          "birth": "1901-11-11",
-          "death": "1945-05-01",
-          "gender": "f",
-          "birthplace": "Berlin",
-          "score": 0.70127,
-          "notoriety": 52,
-          "face": {
-            "x": 0.4431,
-            "y": 0.3059,
-            "d": 0.6588
           }
         }
       ]
@@ -4771,9 +4896,9 @@
       "id": 7,
       "name": "Tueurs en Série",
       "totalCount": 66,
-      "ownedCount": 31,
-      "missingCount": 35,
-      "pct": "47.0",
+      "ownedCount": 33,
+      "missingCount": 33,
+      "pct": "50.0",
       "cardIds": [
         "Q192218",
         "Q548992",
@@ -4926,6 +5051,48 @@
           }
         },
         {
+          "qid": "Q360680",
+          "cid": 360680,
+          "name": "H. H. Holmes",
+          "description": "tueur en série américain",
+          "edition": 0,
+          "editionLabel": "avant 1900",
+          "number": 5385,
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q360680-8f2a9665.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q360680-bdc0845f.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q360680",
+          "occupations": [
+            "tueur en série",
+            "escroc"
+          ],
+          "categories": [
+            "Américains",
+            "XIXe siècle",
+            "Médecins"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1861-05-16",
+          "death": "1896-05-07",
+          "gender": "m",
+          "birthplace": "Gilmanton",
+          "score": 0.74636,
+          "notoriety": 38,
+          "face": {
+            "x": 0.451,
+            "y": 0.3098,
+            "d": 0.7529
+          }
+        },
+        {
           "qid": "Q382035",
           "cid": 382035,
           "name": "Richard Ramirez",
@@ -4962,6 +5129,45 @@
             "x": 0.5098,
             "y": 0.2824,
             "d": 0.6706
+          }
+        },
+        {
+          "qid": "Q2658592",
+          "cid": 2658592,
+          "name": "Rodney Alcala",
+          "description": "tueur en série américain",
+          "edition": 1940,
+          "editionLabel": "1940",
+          "number": 1120,
+          "rarity": 3,
+          "rarityName": "Star",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": false,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q2658592-a93e7eb2.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q2658592-c26551ce.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q2658592",
+          "occupations": [
+            "tueur en série"
+          ],
+          "categories": [
+            "Américains"
+          ],
+          "countries": [
+            "États-Unis"
+          ],
+          "birth": "1943-08-23",
+          "death": "2021-07-24",
+          "gender": "m",
+          "birthplace": "San Antonio",
+          "score": 0.73953,
+          "notoriety": 25,
+          "face": {
+            "x": 0.4039,
+            "y": 0.2863,
+            "d": 0.7294
           }
         },
         {
@@ -6711,48 +6917,6 @@
           }
         },
         {
-          "qid": "Q360680",
-          "cid": 360680,
-          "name": "H. H. Holmes",
-          "description": "tueur en série américain",
-          "edition": 0,
-          "editionLabel": "avant 1900",
-          "number": 5385,
-          "rarity": 3,
-          "rarityName": "Star",
-          "finishId": 0,
-          "finishLabel": "Non possédée",
-          "count": 0,
-          "isOwned": false,
-          "isKept": false,
-          "vignetteUrl": "https://omnidex.cards/vignettes/Q360680-8f2a9665.webp",
-          "imageUrl": "https://omnidex.cards/cartes/Q360680-bdc0845f.avif",
-          "wikidataUrl": "https://www.wikidata.org/wiki/Q360680",
-          "occupations": [
-            "tueur en série",
-            "escroc"
-          ],
-          "categories": [
-            "Américains",
-            "XIXe siècle",
-            "Médecins"
-          ],
-          "countries": [
-            "États-Unis"
-          ],
-          "birth": "1861-05-16",
-          "death": "1896-05-07",
-          "gender": "m",
-          "birthplace": "Gilmanton",
-          "score": 0.74636,
-          "notoriety": 38,
-          "face": {
-            "x": 0.451,
-            "y": 0.3098,
-            "d": 0.7529
-          }
-        },
-        {
           "qid": "Q2825730",
           "cid": 2825730,
           "name": "Patrice Alègre",
@@ -6787,45 +6951,6 @@
             "x": 0.4941,
             "y": 0.3843,
             "d": 0.9922
-          }
-        },
-        {
-          "qid": "Q2658592",
-          "cid": 2658592,
-          "name": "Rodney Alcala",
-          "description": "tueur en série américain",
-          "edition": 1940,
-          "editionLabel": "1940",
-          "number": 1120,
-          "rarity": 3,
-          "rarityName": "Star",
-          "finishId": 0,
-          "finishLabel": "Non possédée",
-          "count": 0,
-          "isOwned": false,
-          "isKept": false,
-          "vignetteUrl": "https://omnidex.cards/vignettes/Q2658592-a93e7eb2.webp",
-          "imageUrl": "https://omnidex.cards/cartes/Q2658592-c26551ce.avif",
-          "wikidataUrl": "https://www.wikidata.org/wiki/Q2658592",
-          "occupations": [
-            "tueur en série"
-          ],
-          "categories": [
-            "Américains"
-          ],
-          "countries": [
-            "États-Unis"
-          ],
-          "birth": "1943-08-23",
-          "death": "2021-07-24",
-          "gender": "m",
-          "birthplace": "San Antonio",
-          "score": 0.73953,
-          "notoriety": 25,
-          "face": {
-            "x": 0.4039,
-            "y": 0.2863,
-            "d": 0.7294
           }
         },
         {
@@ -9922,10 +10047,10 @@
     {
       "id": 15,
       "name": "Keep",
-      "totalCount": 43,
-      "ownedCount": 42,
+      "totalCount": 47,
+      "ownedCount": 46,
       "missingCount": 1,
-      "pct": "97.7",
+      "pct": "97.9",
       "cardIds": [
         "Q5812",
         "Q42786",
@@ -9969,7 +10094,11 @@
         "Q944611",
         "Q1651998",
         "Q2977655",
-        "Q841843"
+        "Q841843",
+        "Q61185",
+        "Q3270981",
+        "Q93583",
+        "Q57202"
       ],
       "cards": [
         {
@@ -11369,6 +11498,48 @@
           }
         },
         {
+          "qid": "Q57202",
+          "cid": 57202,
+          "name": "Magda Goebbels",
+          "description": "personnalité politique allemande, épouse de Joseph Goebbels",
+          "edition": 1900,
+          "editionLabel": "1900",
+          "number": 197,
+          "rarity": 2,
+          "rarityName": "Célèbre",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q57202-410e6828.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q57202-4c60d01d.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q57202",
+          "occupations": [
+            "femme politique",
+            "propagandiste"
+          ],
+          "categories": [
+            "Allemands",
+            "Femmes politiques",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1901-11-11",
+          "death": "1945-05-01",
+          "gender": "f",
+          "birthplace": "Berlin",
+          "score": 0.70127,
+          "notoriety": 52,
+          "face": {
+            "x": 0.4431,
+            "y": 0.3059,
+            "d": 0.6588
+          }
+        },
+        {
           "qid": "Q463389",
           "cid": 463389,
           "name": "Patricia Krenwinkel",
@@ -11568,6 +11739,47 @@
           }
         },
         {
+          "qid": "Q3270981",
+          "cid": 3270981,
+          "name": "Léon Gaultier",
+          "description": "collaborateur français",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "number": 642,
+          "rarity": 1,
+          "rarityName": "Connue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q3270981-3e613fcd.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q3270981-db175c59.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q3270981",
+          "occupations": [
+            "militaire"
+          ],
+          "categories": [
+            "Allemands",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "France",
+            "Allemagne"
+          ],
+          "birth": "1915-02-01",
+          "death": "1997-07-18",
+          "gender": "m",
+          "birthplace": "Bourges",
+          "score": 0.64963,
+          "notoriety": 5,
+          "face": {
+            "x": 0.5294,
+            "y": 0.2941,
+            "d": 0.6549
+          }
+        },
+        {
           "qid": "Q18804",
           "cid": 18804,
           "name": "Rebecca Black",
@@ -11693,6 +11905,87 @@
             "x": 0.5059,
             "y": 0.3765,
             "d": 0.8627
+          }
+        },
+        {
+          "qid": "Q93583",
+          "cid": 93583,
+          "name": "Gustav Wagner",
+          "description": "criminel nazi",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "number": 188,
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q93583-3e9c773e.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q93583-84d7f0e8.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q93583",
+          "occupations": [
+            "officier",
+            "sous-officier"
+          ],
+          "categories": [
+            "Brésiliens",
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Brésil"
+          ],
+          "birth": "1911-07-18",
+          "death": "1980-10-03",
+          "gender": "m",
+          "birthplace": "Vienne",
+          "score": 0.54484,
+          "notoriety": 27,
+          "face": {
+            "x": 0.5059,
+            "y": 0.3804,
+            "d": 0.9333
+          }
+        },
+        {
+          "qid": "Q61185",
+          "cid": 61185,
+          "name": "Kurt Franz",
+          "description": "militaire allemand",
+          "edition": 1910,
+          "editionLabel": "1910",
+          "number": 501,
+          "rarity": 0,
+          "rarityName": "Méconnue",
+          "finishId": 0,
+          "finishLabel": "Sans finition",
+          "count": 1,
+          "isOwned": true,
+          "isKept": true,
+          "vignetteUrl": "https://omnidex.cards/vignettes/Q61185-dfd31c43.webp",
+          "imageUrl": "https://omnidex.cards/cartes/Q61185-c711fa37.avif",
+          "wikidataUrl": "https://www.wikidata.org/wiki/Q61185",
+          "occupations": [
+            "cuisinier",
+            "gardien de camp de concentration"
+          ],
+          "categories": [
+            "Membres d'un parti"
+          ],
+          "countries": [
+            "Allemagne"
+          ],
+          "birth": "1914-01-17",
+          "death": "1998-07-04",
+          "gender": "m",
+          "birthplace": "Düsseldorf",
+          "score": 0.54567,
+          "notoriety": 20,
+          "face": {
+            "x": 0.5216,
+            "y": 0.3882,
+            "d": 0.9098
           }
         },
         {
@@ -12045,6 +12338,60 @@
       }
     },
     {
+      "qid": "Q312661",
+      "cid": 312661,
+      "name": "Jamel Debbouze",
+      "description": "acteur et producteur franco-marocain",
+      "edition": 1970,
+      "editionLabel": "1970",
+      "number": 3411,
+      "rarity": 6,
+      "rarityName": "Ace",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532000000,
+      "occupations": [
+        "humoriste",
+        "artiste de cabaret"
+      ],
+      "categories": [
+        "Cinéma",
+        "Télévision",
+        "Humoristes",
+        "Acteurs français",
+        "Animateurs et animatrices télé",
+        "Parisiens et Parisiennes"
+      ],
+      "countries": [
+        "France",
+        "Maroc"
+      ],
+      "birth": "1975-06-18",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Paris",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q312661-32af52b9.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q312661-c34b3ea3.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q312661",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.87189,
+      "notoriety": 41,
+      "face": {
+        "x": 0.5255,
+        "y": 0.2706,
+        "d": 0.702
+      }
+    },
+    {
       "qid": "Q106255",
       "cid": 106255,
       "name": "Jean-Paul Belmondo",
@@ -12208,6 +12555,58 @@
       }
     },
     {
+      "qid": "Q178166",
+      "cid": 178166,
+      "name": "Vin Diesel",
+      "description": "acteur, réalisateur, scénariste et producteur américain",
+      "edition": 1960,
+      "editionLabel": "1960",
+      "number": 4158,
+      "rarity": 6,
+      "rarityName": "Ace",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532060000,
+      "occupations": [
+        "acteur de cinéma",
+        "réalisateur de cinéma"
+      ],
+      "categories": [
+        "Cinéma",
+        "Doublage",
+        "Réalisateurs et réalisatrices",
+        "Hollywood",
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1967-07-18",
+      "death": null,
+      "gender": "m",
+      "birthplace": "comté d’Alameda",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q178166-8f05335f.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q178166-8b949da8.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q178166",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.85508,
+      "notoriety": 106,
+      "face": {
+        "x": 0.5765,
+        "y": 0.3294,
+        "d": 0.8157
+      }
+    },
+    {
       "qid": "Q120073678",
       "cid": 120073678,
       "name": "Alice Cordier",
@@ -12363,6 +12762,59 @@
         "x": 0.5176,
         "y": 0.2824,
         "d": 0.749
+      }
+    },
+    {
+      "qid": "Q1086377",
+      "cid": 1086377,
+      "name": "Christophe Maé",
+      "description": "chanteur français",
+      "edition": 1970,
+      "editionLabel": "1970",
+      "number": 3620,
+      "rarity": 5,
+      "rarityName": "Mythique",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532000000,
+      "occupations": [
+        "chanteur",
+        "auteur-compositeur-interprète"
+      ],
+      "categories": [
+        "Pop",
+        "Chanson française",
+        "Guitaristes",
+        "Tennis",
+        "Victoires de la musique",
+        "Poètes"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1975-10-16",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Carpentras",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q1086377-436da041.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q1086377-13d23634.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q1086377",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.84419,
+      "notoriety": 18,
+      "face": {
+        "x": 0.5765,
+        "y": 0.3176,
+        "d": 0.8471
       }
     },
     {
@@ -12576,6 +13028,57 @@
         "x": 0.5569,
         "y": 0.349,
         "d": 0.8863
+      }
+    },
+    {
+      "qid": "Q981203",
+      "cid": 981203,
+      "name": "Jean-Pierre Bacri",
+      "description": "acteur et scénariste français",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 540,
+      "rarity": 5,
+      "rarityName": "Mythique",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532060000,
+      "occupations": [
+        "scénariste",
+        "acteur"
+      ],
+      "categories": [
+        "Cinéma",
+        "Théâtre",
+        "Acteurs français",
+        "Césars"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1951-05-24",
+      "death": "2021-01-18",
+      "gender": "m",
+      "birthplace": "Bou Ismaïl",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q981203-85dff34d.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q981203-421cc6d0.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q981203",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.82888,
+      "notoriety": 30,
+      "face": {
+        "x": 0.5882,
+        "y": 0.2745,
+        "d": 0.7098
       }
     },
     {
@@ -13373,6 +13876,57 @@
       }
     },
     {
+      "qid": "Q3037222",
+      "cid": 3037222,
+      "name": "Dorothée Pousséo",
+      "description": "comédienne et directrice artistique française",
+      "edition": 1970,
+      "editionLabel": "1970",
+      "number": 5666,
+      "rarity": 4,
+      "rarityName": "Iconique",
+      "finishId": 5,
+      "finishLabel": "Holo inversée",
+      "finishCode": "reverse-classic",
+      "finishZone": "reverse",
+      "finishEffect": "classic",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532000000,
+      "occupations": [
+        "actrice",
+        "actrice de doublage"
+      ],
+      "categories": [
+        "Cinéma",
+        "Doublage",
+        "Actrices françaises",
+        "Parisiens et Parisiennes"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1979-02-15",
+      "death": null,
+      "gender": "f",
+      "birthplace": "8e arrondissement de Paris",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q3037222-2a671c6c.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q3037222-f83e77bd.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q3037222",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.80155,
+      "notoriety": 9,
+      "face": {
+        "x": 0.5451,
+        "y": 0.2706,
+        "d": 0.7098
+      }
+    },
+    {
       "qid": "Q726142",
       "cid": 726142,
       "name": "Giancarlo Esposito",
@@ -13424,6 +13978,54 @@
         "x": 0.502,
         "y": 0.3765,
         "d": 1
+      }
+    },
+    {
+      "qid": "Q337681",
+      "cid": 337681,
+      "name": "Grigor Dimitrov",
+      "description": "joueur de tennis bulgare",
+      "edition": 1990,
+      "editionLabel": "1990",
+      "number": 843,
+      "rarity": 4,
+      "rarityName": "Iconique",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793566500000,
+      "occupations": [
+        "joueur de tennis"
+      ],
+      "categories": [
+        "Tennis",
+        "Jeux olympiques"
+      ],
+      "countries": [
+        "Bulgarie"
+      ],
+      "birth": "1991-05-16",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Haskovo",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q337681-b5d05296.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q337681-a521a570.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q337681",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.7668,
+      "notoriety": 44,
+      "face": {
+        "x": 0.5686,
+        "y": 0.3608,
+        "d": 0.8667
       }
     },
     {
@@ -13900,6 +14502,56 @@
       }
     },
     {
+      "qid": "Q1151944",
+      "cid": 1151944,
+      "name": "Mary-Kate Olsen",
+      "description": "actrice, créatrice de mode, productrice et femme d’affaires américaine",
+      "edition": 1980,
+      "editionLabel": "1980",
+      "number": 3998,
+      "rarity": 4,
+      "rarityName": "Iconique",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793566980000,
+      "occupations": [
+        "actrice",
+        "entrepreneuse"
+      ],
+      "categories": [
+        "Cinéma",
+        "Hollywood",
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1986-06-13",
+      "death": null,
+      "gender": "f",
+      "birthplace": "Sherman Oaks",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q1151944-2f71e957.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q1151944-4840a519.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q1151944",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.80334,
+      "notoriety": 40,
+      "face": {
+        "x": 0.4471,
+        "y": 0.3373,
+        "d": 0.7686
+      }
+    },
+    {
       "qid": "Q327009",
       "cid": 327009,
       "name": "Maurice Papon",
@@ -14002,6 +14654,58 @@
         "x": 0.502,
         "y": 0.2588,
         "d": 0.6706
+      }
+    },
+    {
+      "qid": "Q83733",
+      "cid": 83733,
+      "name": "Milo Ventimiglia",
+      "description": "acteur américain",
+      "edition": 1970,
+      "editionLabel": "1970",
+      "number": 4639,
+      "rarity": 4,
+      "rarityName": "Iconique",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532000000,
+      "occupations": [
+        "acteur de télévision",
+        "acteur de cinéma"
+      ],
+      "categories": [
+        "Cinéma",
+        "Télévision",
+        "Réalisateurs et réalisatrices",
+        "Hollywood",
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1977-07-08",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Anaheim",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q83733-378030c5.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q83733-c8341724.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q83733",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.7935,
+      "notoriety": 53,
+      "face": {
+        "x": 0.5059,
+        "y": 0.2706,
+        "d": 0.6667
       }
     },
     {
@@ -14112,6 +14816,56 @@
       }
     },
     {
+      "qid": "Q467754",
+      "cid": 467754,
+      "name": "Paco Rabanne",
+      "description": "grand couturier et parfumeur franco-espagnol",
+      "edition": 1930,
+      "editionLabel": "1930",
+      "number": 877,
+      "rarity": 4,
+      "rarityName": "Iconique",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793604600000,
+      "occupations": [
+        "modéliste",
+        "homme d’affaires"
+      ],
+      "categories": [
+        "Légion d'honneur",
+        "Espagnols"
+      ],
+      "countries": [
+        "Espagne",
+        "France"
+      ],
+      "birth": "1934-02-18",
+      "death": "2023-02-03",
+      "gender": "m",
+      "birthplace": "Pasaia",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q467754-acbd4cc9.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q467754-da8dc98d.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q467754",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.78714,
+      "notoriety": 44,
+      "face": {
+        "x": 0.5333,
+        "y": 0.349,
+        "d": 0.9333
+      }
+    },
+    {
       "qid": "Q19667998",
       "cid": 19667998,
       "name": "Patrick Mahomes",
@@ -14206,6 +14960,61 @@
         "x": 0.4627,
         "y": 0.2784,
         "d": 0.6392
+      }
+    },
+    {
+      "qid": "Q7172014",
+      "cid": 7172014,
+      "name": "Pete Hegseth",
+      "description": "homme politique américain",
+      "edition": 1980,
+      "editionLabel": "1980",
+      "number": 283,
+      "rarity": 4,
+      "rarityName": "Iconique",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793607600000,
+      "occupations": [
+        "homme politique",
+        "animateur de télévision"
+      ],
+      "categories": [
+        "Cinéma",
+        "Télévision",
+        "Hollywood",
+        "Animateurs et animatrices télé",
+        "Basket",
+        "Ministres",
+        "Américains",
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1980-06-06",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Minneapolis",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q7172014-67de9bf1.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q7172014-078c972e.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q7172014",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.81185,
+      "notoriety": 57,
+      "face": {
+        "x": 0.5176,
+        "y": 0.2784,
+        "d": 0.7412
       }
     },
     {
@@ -14464,6 +15273,102 @@
       }
     },
     {
+      "qid": "Q58441717",
+      "cid": 58441717,
+      "name": "Virginie Grimaldi",
+      "description": "romancière française",
+      "edition": 1970,
+      "editionLabel": "1970",
+      "number": 4614,
+      "rarity": 4,
+      "rarityName": "Iconique",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532000000,
+      "occupations": [
+        "écrivaine",
+        "romancière"
+      ],
+      "categories": [
+        "Écrivains"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1977-06-17",
+      "death": null,
+      "gender": "f",
+      "birthplace": "Bordeaux",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q58441717-14219e9c.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q58441717-0929fa52.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q58441717",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.79796,
+      "notoriety": 8,
+      "face": {
+        "x": 0.5608,
+        "y": 0.3059,
+        "d": 0.8118
+      }
+    },
+    {
+      "qid": "Q116210232",
+      "cid": 116210232,
+      "name": "Abraham Wapler",
+      "description": "acteur français",
+      "edition": 1990,
+      "editionLabel": "1990",
+      "number": 4214,
+      "rarity": 3,
+      "rarityName": "Star",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793566500000,
+      "occupations": [
+        "acteur"
+      ],
+      "categories": [
+        "Cinéma",
+        "Acteurs français"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1997-04-24",
+      "death": null,
+      "gender": "m",
+      "birthplace": null,
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q116210232-9599bd84.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q116210232-575f8524.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q116210232",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.71387,
+      "notoriety": 1,
+      "face": {
+        "x": 0.549,
+        "y": 0.3882,
+        "d": 0.9059
+      }
+    },
+    {
       "qid": "Q7841",
       "cid": 7841,
       "name": "Alfred Jarry",
@@ -14613,6 +15518,63 @@
         "x": 0.498,
         "y": 0.3451,
         "d": 0.7373
+      }
+    },
+    {
+      "qid": "Q72984",
+      "cid": 72984,
+      "name": "Bing Crosby",
+      "description": "acteur et chanteur américain",
+      "edition": 1900,
+      "editionLabel": "1900",
+      "number": 364,
+      "rarity": 3,
+      "rarityName": "Star",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532060000,
+      "occupations": [
+        "chanteur",
+        "acteur"
+      ],
+      "categories": [
+        "Cinéma",
+        "Télévision",
+        "Hollywood",
+        "Animateurs et animatrices télé",
+        "Jazz",
+        "Country",
+        "Pop",
+        "Oscars",
+        "Grammy Awards",
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1903-05-03",
+      "death": "1977-10-14",
+      "gender": "m",
+      "birthplace": "Tacoma",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q72984-be6ce073.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q72984-70bc70ae.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q72984",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.7219,
+      "notoriety": 123,
+      "face": {
+        "x": 0.5373,
+        "y": 0.2745,
+        "d": 0.6471
       }
     },
     {
@@ -14768,59 +15730,6 @@
         "x": 0.4353,
         "y": 0.2824,
         "d": 0.7176
-      }
-    },
-    {
-      "qid": "Q451776",
-      "cid": 451776,
-      "name": "Catherine Frot",
-      "description": "actrice française",
-      "edition": 1950,
-      "editionLabel": "1950",
-      "number": 2639,
-      "rarity": 3,
-      "rarityName": "Star",
-      "finishId": 0,
-      "finishLabel": "Sans finition",
-      "finishCode": "none",
-      "finishZone": "none",
-      "finishEffect": "none",
-      "count": 1,
-      "isOwned": true,
-      "acquiredAt": 1792854660000,
-      "occupations": [
-        "actrice de théâtre",
-        "actrice de cinéma"
-      ],
-      "categories": [
-        "Cinéma",
-        "Théâtre",
-        "Actrices françaises",
-        "Césars",
-        "Légion d'honneur",
-        "Parisiens et Parisiennes"
-      ],
-      "countries": [
-        "France"
-      ],
-      "birth": "1956-05-01",
-      "death": null,
-      "gender": "f",
-      "birthplace": "Paris",
-      "vignetteUrl": "https://omnidex.cards/vignettes/Q451776-370e078b.webp",
-      "imageUrl": "https://omnidex.cards/cartes/Q451776-30b49ee3.avif",
-      "wikidataUrl": "https://www.wikidata.org/wiki/Q451776",
-      "binders": [],
-      "mark": "Collection",
-      "isDouble": false,
-      "isKept": false,
-      "isOnTable": false,
-      "score": 0.75739,
-      "notoriety": 32,
-      "face": {
-        "x": 0.5176,
-        "y": 0.2706,
-        "d": 0.6392
       }
     },
     {
@@ -15533,6 +16442,58 @@
       }
     },
     {
+      "qid": "Q360680",
+      "cid": 360680,
+      "name": "H. H. Holmes",
+      "description": "tueur en série américain",
+      "edition": 0,
+      "editionLabel": "avant 1900",
+      "number": 5385,
+      "rarity": 3,
+      "rarityName": "Star",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793601060000,
+      "occupations": [
+        "tueur en série",
+        "escroc"
+      ],
+      "categories": [
+        "Américains",
+        "XIXe siècle",
+        "Médecins"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1861-05-16",
+      "death": "1896-05-07",
+      "gender": "m",
+      "birthplace": "Gilmanton",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q360680-8f2a9665.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q360680-bdc0845f.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q360680",
+      "binders": [
+        "Tueurs en Série"
+      ],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.74636,
+      "notoriety": 38,
+      "face": {
+        "x": 0.451,
+        "y": 0.3098,
+        "d": 0.7529
+      }
+    },
+    {
       "qid": "Q5896998",
       "cid": 5896998,
       "name": "Hiba Abouk",
@@ -15731,60 +16692,6 @@
         "x": 0.5098,
         "y": 0.3333,
         "d": 0.8902
-      }
-    },
-    {
-      "qid": "Q272946",
-      "cid": 272946,
-      "name": "Joan Cusack",
-      "description": "actrice américaine",
-      "edition": 1960,
-      "editionLabel": "1960",
-      "number": 1469,
-      "rarity": 3,
-      "rarityName": "Star",
-      "finishId": 0,
-      "finishLabel": "Sans finition",
-      "finishCode": "none",
-      "finishZone": "none",
-      "finishEffect": "none",
-      "count": 1,
-      "isOwned": true,
-      "acquiredAt": 1793134020000,
-      "occupations": [
-        "actrice de cinéma",
-        "actrice de télévision"
-      ],
-      "categories": [
-        "Cinéma",
-        "Télévision",
-        "Humoristes",
-        "Doublage",
-        "Hollywood",
-        "Emmy Awards",
-        "Américains"
-      ],
-      "countries": [
-        "États-Unis"
-      ],
-      "birth": "1962-10-11",
-      "death": null,
-      "gender": "f",
-      "birthplace": "New York",
-      "vignetteUrl": "https://omnidex.cards/vignettes/Q272946-1523b3e3.webp",
-      "imageUrl": "https://omnidex.cards/cartes/Q272946-74b01ec7.avif",
-      "wikidataUrl": "https://www.wikidata.org/wiki/Q272946",
-      "binders": [],
-      "mark": "Collection",
-      "isDouble": false,
-      "isKept": false,
-      "isOnTable": false,
-      "score": 0.75151,
-      "notoriety": 59,
-      "face": {
-        "x": 0.5098,
-        "y": 0.3647,
-        "d": 0.9255
       }
     },
     {
@@ -16562,6 +17469,55 @@
       }
     },
     {
+      "qid": "Q2658592",
+      "cid": 2658592,
+      "name": "Rodney Alcala",
+      "description": "tueur en série américain",
+      "edition": 1940,
+      "editionLabel": "1940",
+      "number": 1120,
+      "rarity": 3,
+      "rarityName": "Star",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793621520000,
+      "occupations": [
+        "tueur en série"
+      ],
+      "categories": [
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1943-08-23",
+      "death": "2021-07-24",
+      "gender": "m",
+      "birthplace": "San Antonio",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q2658592-a93e7eb2.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q2658592-c26551ce.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q2658592",
+      "binders": [
+        "Tueurs en Série"
+      ],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.73953,
+      "notoriety": 25,
+      "face": {
+        "x": 0.4039,
+        "y": 0.2863,
+        "d": 0.7294
+      }
+    },
+    {
       "qid": "Q193648",
       "cid": 193648,
       "name": "Tony Scott",
@@ -16661,6 +17617,58 @@
         "x": 0.4745,
         "y": 0.2627,
         "d": 0.651
+      }
+    },
+    {
+      "qid": "Q352730",
+      "cid": 352730,
+      "name": "Treat Williams",
+      "description": "acteur, producteur et réalisateur américain",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 762,
+      "rarity": 3,
+      "rarityName": "Star",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793633100000,
+      "occupations": [
+        "acteur de télévision",
+        "acteur de cinéma"
+      ],
+      "categories": [
+        "Cinéma",
+        "Télévision",
+        "Théâtre",
+        "Hollywood",
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1951-12-01",
+      "death": "2023-06-12",
+      "gender": "m",
+      "birthplace": "Stamford",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q352730-dc3f2b19.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q352730-aabf3059.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q352730",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.75136,
+      "notoriety": 45,
+      "face": {
+        "x": 0.4745,
+        "y": 0.3255,
+        "d": 0.8706
       }
     },
     {
@@ -17467,6 +18475,54 @@
         "x": 0.5137,
         "y": 0.3059,
         "d": 0.8157
+      }
+    },
+    {
+      "qid": "Q2850979",
+      "cid": 2850979,
+      "name": "Anne Benoît",
+      "description": "actrice française",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 3844,
+      "rarity": 2,
+      "rarityName": "Célèbre",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793544480000,
+      "occupations": [
+        "actrice"
+      ],
+      "categories": [
+        "Cinéma",
+        "Actrices françaises"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1959",
+      "death": null,
+      "gender": "f",
+      "birthplace": null,
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q2850979-bb972d65.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q2850979-15ccf724.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q2850979",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.66933,
+      "notoriety": 8,
+      "face": {
+        "x": 0.4667,
+        "y": 0.3765,
+        "d": 0.8745
       }
     },
     {
@@ -18917,6 +19973,56 @@
       }
     },
     {
+      "qid": "Q462480",
+      "cid": 462480,
+      "name": "Elisa Longo Borghini",
+      "description": "cycliste italienne",
+      "edition": 1990,
+      "editionLabel": "1990",
+      "number": 1165,
+      "rarity": 2,
+      "rarityName": "Célèbre",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532120000,
+      "occupations": [
+        "coureuse cycliste"
+      ],
+      "categories": [
+        "Cyclisme",
+        "Jeux olympiques",
+        "Italiens",
+        "Sportives"
+      ],
+      "countries": [
+        "Italie"
+      ],
+      "birth": "1991-12-10",
+      "death": null,
+      "gender": "f",
+      "birthplace": "Verbania",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q462480-1be88b56.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q462480-5296ce33.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q462480",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.66228,
+      "notoriety": 26,
+      "face": {
+        "x": 0.5686,
+        "y": 0.3255,
+        "d": 0.8392
+      }
+    },
+    {
       "qid": "Q240605",
       "cid": 240605,
       "name": "Emily Bergl",
@@ -19118,6 +20224,56 @@
         "x": 0.4157,
         "y": 0.2706,
         "d": 0.6824
+      }
+    },
+    {
+      "qid": "Q3074013",
+      "cid": 3074013,
+      "name": "Florence Parly",
+      "description": "dirigeante d’entreprise et femme politique française",
+      "edition": 1960,
+      "editionLabel": "1960",
+      "number": 1766,
+      "rarity": 2,
+      "rarityName": "Célèbre",
+      "finishId": 11,
+      "finishLabel": "Full Fireworks",
+      "finishCode": "full-fireworks",
+      "finishZone": "full",
+      "finishEffect": "fireworks",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532120000,
+      "occupations": [
+        "femme politique"
+      ],
+      "categories": [
+        "Légion d'honneur",
+        "Ministres",
+        "Femmes politiques",
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1963-05-08",
+      "death": null,
+      "gender": "f",
+      "birthplace": "Boulogne-Billancourt",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q3074013-b2311fdb.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q3074013-723c3a66.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q3074013",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.6878,
+      "notoriety": 29,
+      "face": {
+        "x": 0.5216,
+        "y": 0.2706,
+        "d": 0.7176
       }
     },
     {
@@ -20545,6 +21701,56 @@
       }
     },
     {
+      "qid": "Q296313",
+      "cid": 296313,
+      "name": "Kim Philby",
+      "description": "agent double britannique, au service de l’Union soviétique (1912-1988)",
+      "edition": 1910,
+      "editionLabel": "1910",
+      "number": 239,
+      "rarity": 2,
+      "rarityName": "Célèbre",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793531940000,
+      "occupations": [
+        "espion",
+        "journaliste"
+      ],
+      "categories": [
+        "Britanniques",
+        "Journalistes",
+        "Écrivains"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "birth": "1912-01-01",
+      "death": "1988-05-11",
+      "gender": "m",
+      "birthplace": "Ambala",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q296313-43aa4402.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q296313-a32e9c3f.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q296313",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.69305,
+      "notoriety": 47,
+      "face": {
+        "x": 0.5216,
+        "y": 0.2745,
+        "d": 0.6431
+      }
+    },
+    {
       "qid": "Q276091",
       "cid": 276091,
       "name": "Koke Resurrección",
@@ -21137,6 +22343,59 @@
       }
     },
     {
+      "qid": "Q57202",
+      "cid": 57202,
+      "name": "Magda Goebbels",
+      "description": "personnalité politique allemande, épouse de Joseph Goebbels",
+      "edition": 1900,
+      "editionLabel": "1900",
+      "number": 197,
+      "rarity": 2,
+      "rarityName": "Célèbre",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793621580000,
+      "occupations": [
+        "femme politique",
+        "propagandiste"
+      ],
+      "categories": [
+        "Allemands",
+        "Femmes politiques",
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "birth": "1901-11-11",
+      "death": "1945-05-01",
+      "gender": "f",
+      "birthplace": "Berlin",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q57202-410e6828.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q57202-4c60d01d.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q57202",
+      "binders": [
+        "Nazis and Friends",
+        "Keep"
+      ],
+      "mark": "À garder",
+      "isDouble": false,
+      "isKept": true,
+      "isOnTable": false,
+      "score": 0.70127,
+      "notoriety": 52,
+      "face": {
+        "x": 0.4431,
+        "y": 0.3059,
+        "d": 0.6588
+      }
+    },
+    {
       "qid": "Q99982193",
       "cid": 99982193,
       "name": "Martin Blachier",
@@ -21228,6 +22487,58 @@
         "x": 0.4667,
         "y": 0.3529,
         "d": 0.9373
+      }
+    },
+    {
+      "qid": "Q241510",
+      "cid": 241510,
+      "name": "Michael Biehn",
+      "description": "acteur américain",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 2755,
+      "rarity": 2,
+      "rarityName": "Célèbre",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793544480000,
+      "occupations": [
+        "acteur de cinéma",
+        "acteur"
+      ],
+      "categories": [
+        "Cinéma",
+        "Télévision",
+        "Mannequins",
+        "Hollywood",
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1956-07-31",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Anniston",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q241510-0053dc4c.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q241510-1735e3a2.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q241510",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.69802,
+      "notoriety": 52,
+      "face": {
+        "x": 0.4745,
+        "y": 0.2627,
+        "d": 0.702
       }
     },
     {
@@ -21531,6 +22842,55 @@
         "x": 0.4941,
         "y": 0.3098,
         "d": 0.8235
+      }
+    },
+    {
+      "qid": "Q314691",
+      "cid": 314691,
+      "name": "Mohamed Boudiaf",
+      "description": "homme d’État algérien",
+      "edition": 1910,
+      "editionLabel": "1910",
+      "number": 1119,
+      "rarity": 2,
+      "rarityName": "Célèbre",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793610360000,
+      "occupations": [
+        "homme politique",
+        "écrivain"
+      ],
+      "categories": [
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "France",
+        "Algérie"
+      ],
+      "birth": "1919-06-23",
+      "death": "1992-06-29",
+      "gender": "m",
+      "birthplace": "Ouled Madhi",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q314691-3e38854d.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q314691-c77cb2f4.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q314691",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.70467,
+      "notoriety": 39,
+      "face": {
+        "x": 0.5098,
+        "y": 0.3765,
+        "d": 0.9098
       }
     },
     {
@@ -22543,57 +23903,6 @@
         "x": 0.4275,
         "y": 0.2745,
         "d": 0.7333
-      }
-    },
-    {
-      "qid": "Q431350",
-      "cid": 431350,
-      "name": "Rose",
-      "description": "chanteuse française",
-      "edition": 1970,
-      "editionLabel": "1970",
-      "number": 5182,
-      "rarity": 2,
-      "rarityName": "Célèbre",
-      "finishId": 0,
-      "finishLabel": "Sans finition",
-      "finishCode": "none",
-      "finishZone": "none",
-      "finishEffect": "none",
-      "count": 1,
-      "isOwned": true,
-      "acquiredAt": 1792848840000,
-      "occupations": [
-        "chanteuse",
-        "compositrice"
-      ],
-      "categories": [
-        "Pop",
-        "Chanson française",
-        "Chanteuses françaises",
-        "Guitaristes"
-      ],
-      "countries": [
-        "France"
-      ],
-      "birth": "1978-05-24",
-      "death": null,
-      "gender": "f",
-      "birthplace": "Nice",
-      "vignetteUrl": "https://omnidex.cards/vignettes/Q431350-a8feb93e.webp",
-      "imageUrl": "https://omnidex.cards/cartes/Q431350-629c002c.avif",
-      "wikidataUrl": "https://www.wikidata.org/wiki/Q431350",
-      "binders": [],
-      "mark": "Collection",
-      "isDouble": false,
-      "isKept": false,
-      "isOnTable": false,
-      "score": 0.71785,
-      "notoriety": 11,
-      "face": {
-        "x": 0.4941,
-        "y": 0.2863,
-        "d": 0.7686
       }
     },
     {
@@ -25461,6 +26770,53 @@
       }
     },
     {
+      "qid": "Q18164454",
+      "cid": 18164454,
+      "name": "Arthur Guinness II",
+      "description": "",
+      "edition": 0,
+      "editionLabel": "avant 1900",
+      "number": 3398,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532060000,
+      "occupations": [
+        "banquier",
+        "homme politique"
+      ],
+      "categories": [
+        "Siècle des Lumières",
+        "Entrepreneurs"
+      ],
+      "countries": [],
+      "birth": "1768",
+      "death": "1855",
+      "gender": "m",
+      "birthplace": "Dublin",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q18164454-5c591ccc.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q18164454-e81bce3b.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q18164454",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.62957,
+      "notoriety": 6,
+      "face": {
+        "x": 0.5412,
+        "y": 0.2627,
+        "d": 0.6706
+      }
+    },
+    {
       "qid": "Q388320",
       "cid": 388320,
       "name": "Avishai Cohen",
@@ -26412,6 +27768,105 @@
       }
     },
     {
+      "qid": "Q46994895",
+      "cid": 46994895,
+      "name": "Cam Reddish",
+      "description": "joueur de basket-ball américain",
+      "edition": 1990,
+      "editionLabel": "1990",
+      "number": 5408,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793566500000,
+      "occupations": [
+        "joueur de basket-ball"
+      ],
+      "categories": [
+        "Basket",
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1999-09-01",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Norristown",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q46994895-ae21f1ae.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q46994895-ba0da3ec.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q46994895",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.6365,
+      "notoriety": 19,
+      "face": {
+        "x": 0.5647,
+        "y": 0.2824,
+        "d": 0.7569
+      }
+    },
+    {
+      "qid": "Q2935051",
+      "cid": 2935051,
+      "name": "Camille Raymond",
+      "description": "actrice française",
+      "edition": 1970,
+      "editionLabel": "1970",
+      "number": 4296,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 9,
+      "finishLabel": "Full Holo",
+      "finishCode": "full-classic",
+      "finishZone": "full",
+      "finishEffect": "classic",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793566980000,
+      "occupations": [
+        "actrice",
+        "actrice de cinéma"
+      ],
+      "categories": [
+        "Cinéma",
+        "Actrices françaises",
+        "Chanson française",
+        "Chanteuses françaises"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1976-12-08",
+      "death": null,
+      "gender": "f",
+      "birthplace": "Champigny-sur-Marne",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q2935051-74a50e32.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q2935051-3d9e161d.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q2935051",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.64502,
+      "notoriety": 4,
+      "face": {
+        "x": 0.4431,
+        "y": 0.3765,
+        "d": 0.8745
+      }
+    },
+    {
       "qid": "Q1043255",
       "cid": 1043255,
       "name": "Carlos Takam",
@@ -26508,6 +27963,56 @@
         "x": 0.5098,
         "y": 0.3804,
         "d": 0.9843
+      }
+    },
+    {
+      "qid": "Q2941967",
+      "cid": 2941967,
+      "name": "Catherine Langeais",
+      "description": "actrice française",
+      "edition": 1920,
+      "editionLabel": "1920",
+      "number": 615,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532120000,
+      "occupations": [
+        "speakerine",
+        "actrice"
+      ],
+      "categories": [
+        "Cinéma",
+        "Actrices françaises",
+        "Légion d'honneur"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1923-08-09",
+      "death": "1998-04-23",
+      "gender": "f",
+      "birthplace": "Valence",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q2941967-6c78daf9.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q2941967-489adba7.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q2941967",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.65453,
+      "notoriety": 6,
+      "face": {
+        "x": 0.4196,
+        "y": 0.3176,
+        "d": 0.8431
       }
     },
     {
@@ -26949,58 +28454,6 @@
         "x": 0.5098,
         "y": 0.2745,
         "d": 0.6118
-      }
-    },
-    {
-      "qid": "Q266544",
-      "cid": 266544,
-      "name": "Chuck Schuldiner",
-      "description": "guitariste et chanteur américain",
-      "edition": 1960,
-      "editionLabel": "1960",
-      "number": 4072,
-      "rarity": 1,
-      "rarityName": "Connue",
-      "finishId": 0,
-      "finishLabel": "Sans finition",
-      "finishCode": "none",
-      "finishZone": "none",
-      "finishEffect": "none",
-      "count": 1,
-      "isOwned": true,
-      "acquiredAt": 1793437200000,
-      "occupations": [
-        "guitariste",
-        "chanteur"
-      ],
-      "categories": [
-        "Rock",
-        "Metal",
-        "Guitaristes",
-        "Membres d'un groupe",
-        "Américains"
-      ],
-      "countries": [
-        "États-Unis"
-      ],
-      "birth": "1967-05-13",
-      "death": "2001-12-13",
-      "gender": "m",
-      "birthplace": "New York",
-      "vignetteUrl": "https://omnidex.cards/vignettes/Q266544-f79eba85.webp",
-      "imageUrl": "https://omnidex.cards/cartes/Q266544-4e3de4fd.avif",
-      "wikidataUrl": "https://www.wikidata.org/wiki/Q266544",
-      "binders": [],
-      "mark": "Collection",
-      "isDouble": false,
-      "isKept": false,
-      "isOnTable": false,
-      "score": 0.60883,
-      "notoriety": 42,
-      "face": {
-        "x": 0.5451,
-        "y": 0.2549,
-        "d": 0.6784
       }
     },
     {
@@ -28260,6 +29713,57 @@
       }
     },
     {
+      "qid": "Q1284283",
+      "cid": 1284283,
+      "name": "Edgard Pisani",
+      "description": "homme politique français",
+      "edition": 1910,
+      "editionLabel": "1910",
+      "number": 1015,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793610360000,
+      "occupations": [
+        "homme politique",
+        "fonctionnaire"
+      ],
+      "categories": [
+        "Légion d'honneur",
+        "Ministres",
+        "Députés européens",
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1918-10-09",
+      "death": "2016-06-20",
+      "gender": "m",
+      "birthplace": "Tunis",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q1284283-8137ef85.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q1284283-f8afedad.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q1284283",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.62653,
+      "notoriety": 16,
+      "face": {
+        "x": 0.5216,
+        "y": 0.3255,
+        "d": 0.8667
+      }
+    },
+    {
       "qid": "Q78971",
       "cid": 78971,
       "name": "Eduard Bloch",
@@ -29464,6 +30968,59 @@
       }
     },
     {
+      "qid": "Q3102972",
+      "cid": 3102972,
+      "name": "Georges Kiejman",
+      "description": "avocat et homme politique français",
+      "edition": 1930,
+      "editionLabel": "1930",
+      "number": 561,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793604600000,
+      "occupations": [
+        "homme politique",
+        "avocat"
+      ],
+      "categories": [
+        "Cinéma",
+        "Acteurs français",
+        "Légion d'honneur",
+        "Parisiens et Parisiennes",
+        "Avocats",
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1932-08-12",
+      "death": "2023-05-09",
+      "gender": "m",
+      "birthplace": "4e arrondissement de Paris",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q3102972-0671c212.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q3102972-325a5959.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q3102972",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.65285,
+      "notoriety": 5,
+      "face": {
+        "x": 0.4824,
+        "y": 0.2667,
+        "d": 0.6549
+      }
+    },
+    {
       "qid": "Q2271556",
       "cid": 2271556,
       "name": "Georges Perros",
@@ -30057,6 +31614,57 @@
         "x": 0.4863,
         "y": 0.2745,
         "d": 0.6392
+      }
+    },
+    {
+      "qid": "Q533788",
+      "cid": 533788,
+      "name": "Heather McComb",
+      "description": "actrice américaine",
+      "edition": 1970,
+      "editionLabel": "1970",
+      "number": 4457,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532120000,
+      "occupations": [
+        "actrice",
+        "actrice de télévision"
+      ],
+      "categories": [
+        "Cinéma",
+        "Télévision",
+        "Hollywood",
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1977-03-02",
+      "death": null,
+      "gender": "f",
+      "birthplace": "canton de Barnegat",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q533788-6f54ae3a.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q533788-6b3960f8.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q533788",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.66002,
+      "notoriety": 16,
+      "face": {
+        "x": 0.5373,
+        "y": 0.3608,
+        "d": 0.8039
       }
     },
     {
@@ -31055,60 +32663,6 @@
       }
     },
     {
-      "qid": "Q2638818",
-      "cid": 2638818,
-      "name": "Jean-Jacques Burnel",
-      "description": "auteur-compositeur et producteur franco-britannique",
-      "edition": 1950,
-      "editionLabel": "1950",
-      "number": 854,
-      "rarity": 1,
-      "rarityName": "Connue",
-      "finishId": 0,
-      "finishLabel": "Sans finition",
-      "finishCode": "none",
-      "finishZone": "none",
-      "finishEffect": "none",
-      "count": 1,
-      "isOwned": true,
-      "acquiredAt": 1793220840000,
-      "occupations": [
-        "chanteur",
-        "bassiste"
-      ],
-      "categories": [
-        "Rock",
-        "Punk",
-        "Chanson française",
-        "Guitaristes",
-        "Membres d'un groupe",
-        "Britanniques"
-      ],
-      "countries": [
-        "France",
-        "Royaume-Uni"
-      ],
-      "birth": "1952-02-21",
-      "death": null,
-      "gender": "m",
-      "birthplace": "Notting Hill",
-      "vignetteUrl": "https://omnidex.cards/vignettes/Q2638818-89d96920.webp",
-      "imageUrl": "https://omnidex.cards/cartes/Q2638818-318a7f8a.avif",
-      "wikidataUrl": "https://www.wikidata.org/wiki/Q2638818",
-      "binders": [],
-      "mark": "Collection",
-      "isDouble": false,
-      "isKept": false,
-      "isOnTable": false,
-      "score": 0.63552,
-      "notoriety": 16,
-      "face": {
-        "x": 0.4392,
-        "y": 0.2745,
-        "d": 0.7255
-      }
-    },
-    {
       "qid": "Q3166323",
       "cid": 3166323,
       "name": "Jean-Jacques Lafon",
@@ -31403,6 +32957,54 @@
         "x": 0.4235,
         "y": 0.2784,
         "d": 0.7412
+      }
+    },
+    {
+      "qid": "Q114867",
+      "cid": 114867,
+      "name": "Jerome Bruner",
+      "description": "psychologue et professeur d’université américain",
+      "edition": 1910,
+      "editionLabel": "1910",
+      "number": 702,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793610360000,
+      "occupations": [
+        "psychologue",
+        "professeur d’université"
+      ],
+      "categories": [
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1915-10-01",
+      "death": "2016-06-05",
+      "gender": "m",
+      "birthplace": "New York",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q114867-e859a689.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q114867-eafa2548.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q114867",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.63526,
+      "notoriety": 44,
+      "face": {
+        "x": 0.5843,
+        "y": 0.3137,
+        "d": 0.8353
       }
     },
     {
@@ -33457,6 +35059,58 @@
       }
     },
     {
+      "qid": "Q3270981",
+      "cid": 3270981,
+      "name": "Léon Gaultier",
+      "description": "collaborateur français",
+      "edition": 1910,
+      "editionLabel": "1910",
+      "number": 642,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793531940000,
+      "occupations": [
+        "militaire"
+      ],
+      "categories": [
+        "Allemands",
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "France",
+        "Allemagne"
+      ],
+      "birth": "1915-02-01",
+      "death": "1997-07-18",
+      "gender": "m",
+      "birthplace": "Bourges",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q3270981-3e613fcd.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q3270981-db175c59.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q3270981",
+      "binders": [
+        "Nazis and Friends",
+        "Keep"
+      ],
+      "mark": "À garder",
+      "isDouble": false,
+      "isKept": true,
+      "isOnTable": false,
+      "score": 0.64963,
+      "notoriety": 5,
+      "face": {
+        "x": 0.5294,
+        "y": 0.2941,
+        "d": 0.6549
+      }
+    },
+    {
       "qid": "Q2756381",
       "cid": 2756381,
       "name": "Léon Lhermitte",
@@ -34501,6 +36155,57 @@
       }
     },
     {
+      "qid": "Q717539",
+      "cid": 717539,
+      "name": "Marie-Georges Picquart",
+      "description": "général et homme politique français",
+      "edition": 0,
+      "editionLabel": "avant 1900",
+      "number": 5116,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532060000,
+      "occupations": [
+        "homme politique",
+        "pianiste"
+      ],
+      "categories": [
+        "Pianistes",
+        "Légion d'honneur",
+        "Ministres",
+        "XIXe siècle"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1854-09-06",
+      "death": "1914-01-18",
+      "gender": "m",
+      "birthplace": "Strasbourg",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q717539-cffa4257.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q717539-874b9a12.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q717539",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.65777,
+      "notoriety": 30,
+      "face": {
+        "x": 0.5059,
+        "y": 0.2706,
+        "d": 0.6235
+      }
+    },
+    {
       "qid": "Q63965965",
       "cid": 63965965,
       "name": "Marie-Pierre Vedrenne",
@@ -34745,6 +36450,58 @@
         "x": 0.4588,
         "y": 0.2549,
         "d": 0.6627
+      }
+    },
+    {
+      "qid": "Q343463",
+      "cid": 343463,
+      "name": "Mark Williams",
+      "description": "acteur britannique",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 4177,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793633100000,
+      "occupations": [
+        "humoriste",
+        "scénariste"
+      ],
+      "categories": [
+        "Cinéma",
+        "Télévision",
+        "Humoristes",
+        "Théâtre",
+        "Britanniques"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "birth": "1959-08-22",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Bromsgrove",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q343463-766c2bf2.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q343463-77f6114f.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q343463",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.63989,
+      "notoriety": 32,
+      "face": {
+        "x": 0.5255,
+        "y": 0.3529,
+        "d": 0.9451
       }
     },
     {
@@ -35281,6 +37038,54 @@
       }
     },
     {
+      "qid": "Q765838",
+      "cid": 765838,
+      "name": "Melvin Purvis",
+      "description": "avocat américain",
+      "edition": 1900,
+      "editionLabel": "1900",
+      "number": 420,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532120000,
+      "occupations": [
+        "avocat"
+      ],
+      "categories": [
+        "Américains",
+        "Avocats"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1903-10-24",
+      "death": "1960-02-29",
+      "gender": "m",
+      "birthplace": "Timmonsville",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q765838-c4d59fec.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q765838-0d1fc5e3.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q765838",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.60785,
+      "notoriety": 17,
+      "face": {
+        "x": 0.4392,
+        "y": 0.349,
+        "d": 0.8745
+      }
+    },
+    {
       "qid": "Q316955",
       "cid": 316955,
       "name": "Michael Dorn",
@@ -35675,6 +37480,59 @@
         "x": 0.502,
         "y": 0.3765,
         "d": 1
+      }
+    },
+    {
+      "qid": "Q57642",
+      "cid": 57642,
+      "name": "Michael Schenker",
+      "description": "musicien rock allemand",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 2092,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793633100000,
+      "occupations": [
+        "guitariste",
+        "compositeur"
+      ],
+      "categories": [
+        "Rock",
+        "Metal",
+        "Pop",
+        "Guitaristes",
+        "Membres d'un groupe",
+        "Allemands"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "birth": "1955-01-10",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Sarstedt",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q57642-99416ba9.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q57642-d7ec0c43.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q57642",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.63473,
+      "notoriety": 30,
+      "face": {
+        "x": 0.502,
+        "y": 0.2902,
+        "d": 0.6588
       }
     },
     {
@@ -36625,6 +38483,55 @@
       }
     },
     {
+      "qid": "Q562410",
+      "cid": 562410,
+      "name": "Nizar Baraka",
+      "description": "homme politique marocain",
+      "edition": 1960,
+      "editionLabel": "1960",
+      "number": 2248,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532120000,
+      "occupations": [
+        "homme politique",
+        "économiste"
+      ],
+      "categories": [
+        "Ministres",
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "Maroc"
+      ],
+      "birth": "1964-02-06",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Rabat",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q562410-a0615cca.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q562410-a752780f.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q562410",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.60653,
+      "notoriety": 9,
+      "face": {
+        "x": 0.4588,
+        "y": 0.2667,
+        "d": 0.6784
+      }
+    },
+    {
       "qid": "Q122943752",
       "cid": 122943752,
       "name": "Noa Essengue",
@@ -36770,6 +38677,58 @@
       }
     },
     {
+      "qid": "Q536635",
+      "cid": 536635,
+      "name": "Odette Joyeux",
+      "description": "actrice française",
+      "edition": 1910,
+      "editionLabel": "1910",
+      "number": 621,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793531940000,
+      "occupations": [
+        "scénariste",
+        "actrice de cinéma"
+      ],
+      "categories": [
+        "Cinéma",
+        "Danse",
+        "Actrices françaises",
+        "Légion d'honneur",
+        "Parisiens et Parisiennes"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1914-12-05",
+      "death": "2000-08-26",
+      "gender": "f",
+      "birthplace": "14e arrondissement de Paris",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q536635-cf86d7a1.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q536635-99565ed8.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q536635",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.65711,
+      "notoriety": 18,
+      "face": {
+        "x": 0.498,
+        "y": 0.2706,
+        "d": 0.6314
+      }
+    },
+    {
       "qid": "Q84441",
       "cid": 84441,
       "name": "Odilo Globocnik",
@@ -36818,6 +38777,54 @@
         "x": 0.4627,
         "y": 0.3451,
         "d": 0.9255
+      }
+    },
+    {
+      "qid": "Q13359795",
+      "cid": 13359795,
+      "name": "Oleksandra Chevtchenko",
+      "description": "militante féministe ukrainienne",
+      "edition": 1980,
+      "editionLabel": "1980",
+      "number": 5144,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793566980000,
+      "occupations": [
+        "militante pour les droits de la personne humaine",
+        "militante pour les droits des femmes"
+      ],
+      "categories": [
+        "Femmes politiques"
+      ],
+      "countries": [
+        "Ukraine"
+      ],
+      "birth": "1988-04-24",
+      "death": null,
+      "gender": "f",
+      "birthplace": "Khmelnytskyï",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q13359795-966f4197.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q13359795-f7f5fca7.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q13359795",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.6251,
+      "notoriety": 23,
+      "face": {
+        "x": 0.5765,
+        "y": 0.3843,
+        "d": 0.851
       }
     },
     {
@@ -37832,6 +39839,56 @@
       }
     },
     {
+      "qid": "Q966176",
+      "cid": 966176,
+      "name": "Pierre Rosenberg",
+      "description": "historien de l’art français",
+      "edition": 1930,
+      "editionLabel": "1930",
+      "number": 1307,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 7,
+      "finishLabel": "Fireworks inversée",
+      "finishCode": "reverse-fireworks",
+      "finishZone": "reverse",
+      "finishEffect": "fireworks",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793604600000,
+      "occupations": [
+        "historien de l’art",
+        "commissaire d’exposition"
+      ],
+      "categories": [
+        "Légion d'honneur",
+        "Académie française",
+        "Parisiens et Parisiennes"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1936-04-13",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Paris",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q966176-dd998b3e.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q966176-c22ee54b.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q966176",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.65517,
+      "notoriety": 15,
+      "face": {
+        "x": 0.502,
+        "y": 0.2784,
+        "d": 0.6392
+      }
+    },
+    {
       "qid": "Q1383000",
       "cid": 1383000,
       "name": "Poppy Delevingne",
@@ -38133,10 +40190,10 @@
       "imageUrl": "https://omnidex.cards/cartes/Q3455759-287e9dcf.avif",
       "wikidataUrl": "https://www.wikidata.org/wiki/Q3455759",
       "binders": [],
-      "mark": "Collection",
+      "mark": "Sur la table",
       "isDouble": false,
       "isKept": false,
-      "isOnTable": false,
+      "isOnTable": true,
       "score": 0.62632,
       "notoriety": 5,
       "face": {
@@ -39894,13 +41951,13 @@
       }
     },
     {
-      "qid": "Q678041",
-      "cid": 678041,
-      "name": "Taylor York",
-      "description": "guitariste américain",
-      "edition": 1980,
-      "editionLabel": "1980",
-      "number": 6172,
+      "qid": "Q617641",
+      "cid": 617641,
+      "name": "Ted McGinley",
+      "description": "acteur américain",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 3582,
       "rarity": 1,
       "rarityName": "Connue",
       "finishId": 0,
@@ -39910,41 +41967,39 @@
       "finishEffect": "none",
       "count": 1,
       "isOwned": true,
-      "acquiredAt": 1793137260000,
+      "acquiredAt": 1793544480000,
       "occupations": [
-        "guitariste",
-        "compositeur"
+        "acteur",
+        "surfeur"
       ],
       "categories": [
-        "Rock",
-        "Punk",
-        "Pop",
-        "Guitaristes",
-        "Membres d'un groupe",
-        "Grammy Awards",
+        "Cinéma",
+        "Télévision",
+        "Doublage",
+        "Hollywood",
         "Américains"
       ],
       "countries": [
         "États-Unis"
       ],
-      "birth": "1989-12-17",
+      "birth": "1958-05-30",
       "death": null,
       "gender": "m",
-      "birthplace": "Nashville",
-      "vignetteUrl": "https://omnidex.cards/vignettes/Q678041-09423adc.webp",
-      "imageUrl": "https://omnidex.cards/cartes/Q678041-adf1cf61.avif",
-      "wikidataUrl": "https://www.wikidata.org/wiki/Q678041",
+      "birthplace": "Newport Beach",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q617641-6a81384b.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q617641-612e59ae.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q617641",
       "binders": [],
       "mark": "Collection",
       "isDouble": false,
       "isKept": false,
       "isOnTable": false,
-      "score": 0.62703,
-      "notoriety": 18,
+      "score": 0.61589,
+      "notoriety": 29,
       "face": {
-        "x": 0.4941,
-        "y": 0.2745,
-        "d": 0.6863
+        "x": 0.4902,
+        "y": 0.2667,
+        "d": 0.7176
       }
     },
     {
@@ -42355,6 +44410,56 @@
       }
     },
     {
+      "qid": "Q213828",
+      "cid": 213828,
+      "name": "Alessandro Costacurta",
+      "description": "joueur et entraîneur de football italien",
+      "edition": 1960,
+      "editionLabel": "1960",
+      "number": 3476,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532060000,
+      "occupations": [
+        "footballeur",
+        "entraîneur de football"
+      ],
+      "categories": [
+        "Basket",
+        "Coupe du monde de football",
+        "Italiens"
+      ],
+      "countries": [
+        "Italie"
+      ],
+      "birth": "1966-04-24",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Jerago con Orago",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q213828-71aa19ac.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q213828-f7d13789.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q213828",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.59813,
+      "notoriety": 51,
+      "face": {
+        "x": 0.4902,
+        "y": 0.3686,
+        "d": 0.851
+      }
+    },
+    {
       "qid": "Q125307531",
       "cid": 125307531,
       "name": "Alex Ramirès",
@@ -42880,6 +44985,53 @@
         "x": 0.5608,
         "y": 0.2941,
         "d": 0.7882
+      }
+    },
+    {
+      "qid": "Q470528",
+      "cid": 470528,
+      "name": "Amha Sélassié",
+      "description": "dernier empereur d’Éthiopie",
+      "edition": 1910,
+      "editionLabel": "1910",
+      "number": 783,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793610360000,
+      "occupations": [
+        "souverain"
+      ],
+      "categories": [
+        "Légion d'honneur"
+      ],
+      "countries": [
+        "Éthiopie"
+      ],
+      "birth": "1916-07-27",
+      "death": "1997-01-17",
+      "gender": "m",
+      "birthplace": "Harar",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q470528-1e6fd04d.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q470528-3c5666f4.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q470528",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.59672,
+      "notoriety": 23,
+      "face": {
+        "x": 0.502,
+        "y": 0.2706,
+        "d": 0.6784
       }
     },
     {
@@ -44123,6 +46275,57 @@
         "x": 0.4706,
         "y": 0.3529,
         "d": 0.9412
+      }
+    },
+    {
+      "qid": "Q300300",
+      "cid": 300300,
+      "name": "AZ",
+      "description": "rappeur américain",
+      "edition": 1970,
+      "editionLabel": "1970",
+      "number": 1385,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793566980000,
+      "occupations": [
+        "rappeur",
+        "auteur-compositeur"
+      ],
+      "categories": [
+        "Rap et hip-hop",
+        "Pianistes",
+        "Membres d'un groupe",
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1972-03-09",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Bedford Stuyvesant",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q300300-65d35369.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q300300-4a7065a6.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q300300",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.5961,
+      "notoriety": 23,
+      "face": {
+        "x": 0.5059,
+        "y": 0.2667,
+        "d": 0.7137
       }
     },
     {
@@ -47618,6 +49821,58 @@
       }
     },
     {
+      "qid": "Q1244995",
+      "cid": 1244995,
+      "name": "Dorian Harewood",
+      "description": "acteur américain",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 259,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 6,
+      "finishLabel": "Starlight inversée",
+      "finishCode": "reverse-starlight",
+      "finishZone": "reverse",
+      "finishEffect": "starlight",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793544480000,
+      "occupations": [
+        "acteur",
+        "acteur de doublage"
+      ],
+      "categories": [
+        "Cinéma",
+        "Télévision",
+        "Doublage",
+        "Hollywood",
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1950-08-06",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Dayton",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q1244995-2ab2f71c.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q1244995-83e5284b.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q1244995",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.55142,
+      "notoriety": 20,
+      "face": {
+        "x": 0.4824,
+        "y": 0.2902,
+        "d": 0.7725
+      }
+    },
+    {
       "qid": "Q3039407",
       "cid": 3039407,
       "name": "Drew Powell",
@@ -50135,6 +52390,60 @@
       }
     },
     {
+      "qid": "Q687895",
+      "cid": 687895,
+      "name": "Gérard Janvion",
+      "description": "footballeur français",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 1490,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 7,
+      "finishLabel": "Fireworks inversée",
+      "finishCode": "reverse-fireworks",
+      "finishZone": "reverse",
+      "finishEffect": "fireworks",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793544480000,
+      "occupations": [
+        "footballeur",
+        "entraîneur de football"
+      ],
+      "categories": [
+        "Équipe de France de football",
+        "Équipes de France (tous sports)",
+        "Paris Saint-Germain",
+        "AS Saint-Étienne",
+        "Ligue 1",
+        "Coupe du monde de football",
+        "Nés en outre-mer"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1953-08-21",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Fort-de-France",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q687895-becfb5da.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q687895-41256d6b.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q687895",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.57895,
+      "notoriety": 25,
+      "face": {
+        "x": 0.3804,
+        "y": 0.3059,
+        "d": 0.6902
+      }
+    },
+    {
       "qid": "Q66759",
       "cid": 66759,
       "name": "Gerda Steinhoff",
@@ -50526,6 +52835,59 @@
       }
     },
     {
+      "qid": "Q710180",
+      "cid": 710180,
+      "name": "Grant Heslov",
+      "description": "acteur américain",
+      "edition": 1960,
+      "editionLabel": "1960",
+      "number": 1776,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532120000,
+      "occupations": [
+        "scénariste",
+        "réalisateur de cinéma"
+      ],
+      "categories": [
+        "Cinéma",
+        "Télévision",
+        "Réalisateurs et réalisatrices",
+        "Hollywood",
+        "Oscars",
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1963-05-15",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Los Angeles",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q710180-530a6cf8.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q710180-0f42bfd0.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q710180",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.56965,
+      "notoriety": 29,
+      "face": {
+        "x": 0.5373,
+        "y": 0.3569,
+        "d": 0.9255
+      }
+    },
+    {
       "qid": "Q5607720",
       "cid": 5607720,
       "name": "Gretchen Whitmer",
@@ -50772,6 +53134,58 @@
         "x": 0.5176,
         "y": 0.2706,
         "d": 0.6588
+      }
+    },
+    {
+      "qid": "Q93583",
+      "cid": 93583,
+      "name": "Gustav Wagner",
+      "description": "criminel nazi",
+      "edition": 1910,
+      "editionLabel": "1910",
+      "number": 188,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793610360000,
+      "occupations": [
+        "officier",
+        "sous-officier"
+      ],
+      "categories": [
+        "Brésiliens",
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "Brésil"
+      ],
+      "birth": "1911-07-18",
+      "death": "1980-10-03",
+      "gender": "m",
+      "birthplace": "Vienne",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q93583-3e9c773e.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q93583-84d7f0e8.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q93583",
+      "binders": [
+        "Nazis and Friends",
+        "Keep"
+      ],
+      "mark": "À garder",
+      "isDouble": false,
+      "isKept": true,
+      "isOnTable": false,
+      "score": 0.54484,
+      "notoriety": 27,
+      "face": {
+        "x": 0.5059,
+        "y": 0.3804,
+        "d": 0.9333
       }
     },
     {
@@ -53257,6 +55671,106 @@
       }
     },
     {
+      "qid": "Q3170208",
+      "cid": 3170208,
+      "name": "Jean-Yves Tadié",
+      "description": "écrivain et biographe français",
+      "edition": 1930,
+      "editionLabel": "1930",
+      "number": 1404,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793604600000,
+      "occupations": [
+        "écrivain",
+        "professeur d’université"
+      ],
+      "categories": [
+        "Écrivains"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1936-09-07",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Boulogne-Billancourt",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q3170208-1e2e250c.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q3170208-69c44ae9.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q3170208",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.59345,
+      "notoriety": 9,
+      "face": {
+        "x": 0.5098,
+        "y": 0.3725,
+        "d": 0.9608
+      }
+    },
+    {
+      "qid": "Q558844",
+      "cid": 558844,
+      "name": "Jeff Chandler",
+      "description": "acteur américain (1918-1961)",
+      "edition": 1910,
+      "editionLabel": "1910",
+      "number": 1038,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793531940000,
+      "occupations": [
+        "acteur",
+        "acteur de cinéma"
+      ],
+      "categories": [
+        "Cinéma",
+        "Télévision",
+        "Théâtre",
+        "Hollywood",
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1918-12-15",
+      "death": "1961-06-17",
+      "gender": "m",
+      "birthplace": "Brooklyn",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q558844-f4b23057.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q558844-13191679.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q558844",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.57245,
+      "notoriety": 31,
+      "face": {
+        "x": 0.5765,
+        "y": 0.3176,
+        "d": 0.8431
+      }
+    },
+    {
       "qid": "Q89792108",
       "cid": 89792108,
       "name": "Jeffrey Skiles",
@@ -53800,6 +56314,55 @@
         "x": 0.4588,
         "y": 0.2706,
         "d": 0.6275
+      }
+    },
+    {
+      "qid": "Q1378237",
+      "cid": 1378237,
+      "name": "John Tortorella",
+      "description": "hockeyeur sur glace et entraîneur américain",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 3616,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532120000,
+      "occupations": [
+        "joueur de hockey sur glace",
+        "entraîneur de hockey sur glace"
+      ],
+      "categories": [
+        "Sports d'hiver",
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1958-06-24",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Boston",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q1378237-ae0e0cda.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q1378237-6261ae2e.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q1378237",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.54008,
+      "notoriety": 15,
+      "face": {
+        "x": 0.4431,
+        "y": 0.2784,
+        "d": 0.651
       }
     },
     {
@@ -54886,58 +57449,6 @@
       }
     },
     {
-      "qid": "Q355397",
-      "cid": 355397,
-      "name": "K. K. Downing",
-      "description": "musicien britannique",
-      "edition": 1950,
-      "editionLabel": "1950",
-      "number": 723,
-      "rarity": 0,
-      "rarityName": "Méconnue",
-      "finishId": 0,
-      "finishLabel": "Sans finition",
-      "finishCode": "none",
-      "finishZone": "none",
-      "finishEffect": "none",
-      "count": 1,
-      "isOwned": true,
-      "acquiredAt": 1793220840000,
-      "occupations": [
-        "guitariste",
-        "auteur-compositeur"
-      ],
-      "categories": [
-        "Rock",
-        "Metal",
-        "Guitaristes",
-        "Membres d'un groupe",
-        "Britanniques"
-      ],
-      "countries": [
-        "Royaume-Uni"
-      ],
-      "birth": "1951-10-27",
-      "death": null,
-      "gender": "m",
-      "birthplace": "West Bromwich",
-      "vignetteUrl": "https://omnidex.cards/vignettes/Q355397-e5baf05a.webp",
-      "imageUrl": "https://omnidex.cards/cartes/Q355397-60a91fa9.avif",
-      "wikidataUrl": "https://www.wikidata.org/wiki/Q355397",
-      "binders": [],
-      "mark": "Collection",
-      "isDouble": false,
-      "isKept": false,
-      "isOnTable": false,
-      "score": 0.57895,
-      "notoriety": 33,
-      "face": {
-        "x": 0.4863,
-        "y": 0.2824,
-        "d": 0.7176
-      }
-    },
-    {
       "qid": "Q99670641",
       "cid": 99670641,
       "name": "Karine Lebon",
@@ -55376,6 +57887,57 @@
       }
     },
     {
+      "qid": "Q61185",
+      "cid": 61185,
+      "name": "Kurt Franz",
+      "description": "militaire allemand",
+      "edition": 1910,
+      "editionLabel": "1910",
+      "number": 501,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793531940000,
+      "occupations": [
+        "cuisinier",
+        "gardien de camp de concentration"
+      ],
+      "categories": [
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "Allemagne"
+      ],
+      "birth": "1914-01-17",
+      "death": "1998-07-04",
+      "gender": "m",
+      "birthplace": "Düsseldorf",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q61185-dfd31c43.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q61185-c711fa37.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q61185",
+      "binders": [
+        "Nazis and Friends",
+        "Keep"
+      ],
+      "mark": "À garder",
+      "isDouble": false,
+      "isKept": true,
+      "isOnTable": false,
+      "score": 0.54567,
+      "notoriety": 20,
+      "face": {
+        "x": 0.5216,
+        "y": 0.3882,
+        "d": 0.9098
+      }
+    },
+    {
       "qid": "Q76544",
       "cid": 76544,
       "name": "Kurt Student",
@@ -55423,6 +57985,55 @@
         "x": 0.5373,
         "y": 0.2745,
         "d": 0.7373
+      }
+    },
+    {
+      "qid": "Q41505182",
+      "cid": 41505182,
+      "name": "Lahav Shani",
+      "description": "chef d’orchestre et pianiste israélien",
+      "edition": 1980,
+      "editionLabel": "1980",
+      "number": 5595,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793566980000,
+      "occupations": [
+        "chef d’orchestre",
+        "pianiste classique"
+      ],
+      "categories": [
+        "Musique classique",
+        "Pianistes"
+      ],
+      "countries": [
+        "Israël"
+      ],
+      "birth": "1989-01-07",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Tel Aviv",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q41505182-ee7f4275.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q41505182-d3d42ddd.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q41505182",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.55326,
+      "notoriety": 14,
+      "face": {
+        "x": 0.5725,
+        "y": 0.2941,
+        "d": 0.7843
       }
     },
     {
@@ -56217,6 +58828,55 @@
       }
     },
     {
+      "qid": "Q8056",
+      "cid": 8056,
+      "name": "Louis-Antoine de Pardaillan de Gondrin",
+      "description": "aristocrate français",
+      "edition": 0,
+      "editionLabel": "avant 1900",
+      "number": 2545,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532120000,
+      "occupations": [
+        "aristocrate",
+        "militaire"
+      ],
+      "categories": [
+        "Parisiens et Parisiennes",
+        "Renaissance et Grand Siècle"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1665-09-05",
+      "death": "1736-11-02",
+      "gender": "m",
+      "birthplace": "Paris",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q8056-670f13d2.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q8056-d3aeb53c.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q8056",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.58919,
+      "notoriety": 12,
+      "face": {
+        "x": 0.4745,
+        "y": 0.2745,
+        "d": 0.7137
+      }
+    },
+    {
       "qid": "Q962762",
       "cid": 962762,
       "name": "Louise d’Orléans",
@@ -56659,6 +59319,55 @@
       }
     },
     {
+      "qid": "Q82943286",
+      "cid": 82943286,
+      "name": "Madeleine Clemenceau-Jacquemaire",
+      "description": "romancière, biographe et traductrice française",
+      "edition": 0,
+      "editionLabel": "avant 1900",
+      "number": 5788,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 9,
+      "finishLabel": "Full Holo",
+      "finishCode": "full-classic",
+      "finishZone": "full",
+      "finishEffect": "classic",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532120000,
+      "occupations": [
+        "écrivaine",
+        "romancière"
+      ],
+      "categories": [
+        "XIXe siècle",
+        "Écrivains"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1870-06-02",
+      "death": "1949-02-08",
+      "gender": "f",
+      "birthplace": "La Réorthe",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q82943286-8e7d6581.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q82943286-654fec98.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q82943286",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.5604,
+      "notoriety": 2,
+      "face": {
+        "x": 0.498,
+        "y": 0.2745,
+        "d": 0.6431
+      }
+    },
+    {
       "qid": "Q4935873",
       "cid": 4935873,
       "name": "Magdalena Andersson",
@@ -56804,6 +59513,53 @@
         "x": 0.4667,
         "y": 0.3216,
         "d": 0.851
+      }
+    },
+    {
+      "qid": "Q981909",
+      "cid": 981909,
+      "name": "Mahmoud Al-Khatib",
+      "description": "footballeur égyptien, président du Al Ahly SC",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 2013,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793633100000,
+      "occupations": [
+        "footballeur"
+      ],
+      "categories": [
+        "Jeux olympiques"
+      ],
+      "countries": [
+        "Égypte"
+      ],
+      "birth": "1954-10-30",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Dakahleya",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q981909-163f1421.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q981909-d51ab795.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q981909",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.49766,
+      "notoriety": 19,
+      "face": {
+        "x": 0.4784,
+        "y": 0.2863,
+        "d": 0.6314
       }
     },
     {
@@ -58662,6 +61418,54 @@
         "x": 0.6039,
         "y": 0.2902,
         "d": 0.7725
+      }
+    },
+    {
+      "qid": "Q452521",
+      "cid": 452521,
+      "name": "Michel Aglietta",
+      "description": "économiste français",
+      "edition": 1930,
+      "editionLabel": "1930",
+      "number": 1732,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793604600000,
+      "occupations": [
+        "économiste",
+        "professeur d’université"
+      ],
+      "categories": [
+        "Légion d'honneur"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1938-02-18",
+      "death": "2025-04-24",
+      "gender": "m",
+      "birthplace": "Chambéry",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q452521-ae459dcd.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q452521-3d6fbb9c.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q452521",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.59124,
+      "notoriety": 17,
+      "face": {
+        "x": 0.498,
+        "y": 0.2902,
+        "d": 0.7765
       }
     },
     {
@@ -61161,6 +63965,51 @@
       }
     },
     {
+      "qid": "Q20810726",
+      "cid": 20810726,
+      "name": "Patson Daka",
+      "description": "footballeur zambien",
+      "edition": 1990,
+      "editionLabel": "1990",
+      "number": 4991,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793566500000,
+      "occupations": [
+        "footballeur"
+      ],
+      "categories": [],
+      "countries": [
+        "Zambie"
+      ],
+      "birth": "1998-10-09",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Zambie",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q20810726-f0d20f5c.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q20810726-5130ce8b.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q20810726",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.55729,
+      "notoriety": 37,
+      "face": {
+        "x": 0.4902,
+        "y": 0.3882,
+        "d": 0.8863
+      }
+    },
+    {
       "qid": "Q714222",
       "cid": 714222,
       "name": "Paul Bearer",
@@ -63421,6 +66270,54 @@
       }
     },
     {
+      "qid": "Q264924",
+      "cid": 264924,
+      "name": "Sada Abe",
+      "description": "ancienne geisha, prostituée et criminelle japonaise",
+      "edition": 1900,
+      "editionLabel": "1900",
+      "number": 589,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 5,
+      "finishLabel": "Holo inversée",
+      "finishCode": "reverse-classic",
+      "finishZone": "reverse",
+      "finishEffect": "classic",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793601060000,
+      "occupations": [
+        "geisha",
+        "criminelle"
+      ],
+      "categories": [
+        "Japonais"
+      ],
+      "countries": [
+        "Japon"
+      ],
+      "birth": "1905-05-28",
+      "death": null,
+      "gender": "f",
+      "birthplace": "Kanda",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q264924-e1069f48.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q264924-fb354e3a.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q264924",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.58321,
+      "notoriety": 29,
+      "face": {
+        "x": 0.4078,
+        "y": 0.3059,
+        "d": 0.8157
+      }
+    },
+    {
       "qid": "Q123987",
       "cid": 123987,
       "name": "Sadruddin Aga Khan",
@@ -63759,6 +66656,57 @@
         "x": 0.5529,
         "y": 0.3216,
         "d": 0.851
+      }
+    },
+    {
+      "qid": "Q188502",
+      "cid": 188502,
+      "name": "Sebastian Coe",
+      "description": "athlète et homme politique britannique",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 2817,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793633100000,
+      "occupations": [
+        "homme politique",
+        "coureur de demi-fond"
+      ],
+      "categories": [
+        "Athlétisme",
+        "Jeux olympiques",
+        "Britanniques",
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "birth": "1956-09-29",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Londres",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q188502-91115988.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q188502-aa4f47c7.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q188502",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.58089,
+      "notoriety": 61,
+      "face": {
+        "x": 0.4902,
+        "y": 0.3843,
+        "d": 0.7529
       }
     },
     {
@@ -64661,6 +67609,54 @@
         "x": 0.5804,
         "y": 0.3137,
         "d": 0.8392
+      }
+    },
+    {
+      "qid": "Q28748037",
+      "cid": 28748037,
+      "name": "Stephy Mavididi",
+      "description": "footballeur anglais",
+      "edition": 1990,
+      "editionLabel": "1990",
+      "number": 4802,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793566500000,
+      "occupations": [
+        "footballeur"
+      ],
+      "categories": [
+        "Juventus",
+        "Britanniques"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "birth": "1998-05-31",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Derby",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q28748037-ce735181.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q28748037-7e57881e.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q28748037",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.55244,
+      "notoriety": 22,
+      "face": {
+        "x": 0.4902,
+        "y": 0.2745,
+        "d": 0.702
       }
     },
     {
@@ -66473,6 +69469,58 @@
         "x": 0.451,
         "y": 0.298,
         "d": 0.6706
+      }
+    },
+    {
+      "qid": "Q7696122",
+      "cid": 7696122,
+      "name": "Zico",
+      "description": "musicien sud-coréen",
+      "edition": 1990,
+      "editionLabel": "1990",
+      "number": 1662,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793532060000,
+      "occupations": [
+        "réalisateur artistique",
+        "auteur-compositeur"
+      ],
+      "categories": [
+        "K-pop",
+        "Rap et hip-hop",
+        "Pianistes",
+        "Membres d'un groupe",
+        "Sud-Coréens"
+      ],
+      "countries": [
+        "Corée du Sud"
+      ],
+      "birth": "1992-09-14",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Mapo-gu",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q7696122-fce1113c.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q7696122-bcde948e.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q7696122",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.58794,
+      "notoriety": 22,
+      "face": {
+        "x": 0.5216,
+        "y": 0.2784,
+        "d": 0.6588
       }
     },
     {
