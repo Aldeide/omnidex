@@ -3,30 +3,30 @@
     "pseudo": "Aldeide",
     "account": 39,
     "avatarUrl": "https://omnidex.cards/vignettes/Q22686-783472d2.webp",
-    "totalUnique": 1225,
-    "totalCopies": 1228,
-    "shards": 33983,
+    "totalUnique": 1238,
+    "totalCopies": 1243,
+    "shards": 34219,
     "privacy": "tous",
     "friendsCount": 27
   },
   "stats": {
     "rarityCounts": {
-      "Méconnue": 555,
-      "Connue": 400,
-      "Célèbre": 158,
+      "Méconnue": 561,
+      "Connue": 406,
+      "Célèbre": 161,
       "Star": 50,
       "Iconique": 37,
       "Mythique": 17,
       "Ace": 11
     },
     "finishCounts": {
-      "Sans finition": 1080,
+      "Sans finition": 1093,
       "Holo": 19,
       "Starlight inversée": 14,
       "Full Holo": 12,
       "Fireworks inversée": 13,
-      "Full Négative": 6,
-      "Holo inversée": 20,
+      "Full Négative": 7,
+      "Holo inversée": 21,
       "Starlight": 21,
       "Full Fireworks": 10,
       "Full Starlight": 12,
@@ -35,17 +35,17 @@
       "Négative": 5
     },
     "editionCounts": {
-      "0": 131,
+      "0": 137,
       "1900": 40,
       "1910": 52,
       "1920": 44,
       "1930": 50,
-      "1940": 86,
-      "1950": 189,
+      "1940": 87,
+      "1950": 193,
       "1960": 157,
       "1970": 166,
-      "1980": 157,
-      "1990": 107,
+      "1980": 156,
+      "1990": 112,
       "2000": 49
     },
     "editionsMetadata": [
@@ -15045,6 +15045,56 @@
       }
     },
     {
+      "qid": "Q210669",
+      "cid": 210669,
+      "name": "Ken Follett",
+      "description": "écrivain britannique",
+      "edition": 1940,
+      "editionLabel": "1940",
+      "number": 3544,
+      "rarity": 5,
+      "rarityName": "Mythique",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793932560000,
+      "occupations": [
+        "écrivain",
+        "romancier"
+      ],
+      "categories": [
+        "Britanniques",
+        "Écrivains"
+      ],
+      "countries": [
+        "France",
+        "Royaume-Uni"
+      ],
+      "birth": "1949-06-05",
+      "death": null,
+      "gender": "m",
+      "birthplace": null,
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q210669-ca6b867a.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q210669-d4a791c6.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q210669",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.8315,
+      "notoriety": 56,
+      "face": {
+        "x": 0.502,
+        "y": 0.3804,
+        "d": 0.9137
+      }
+    },
+    {
       "qid": "Q103946",
       "cid": 103946,
       "name": "Kiefer Sutherland",
@@ -15150,58 +15200,6 @@
         "x": 0.502,
         "y": 0.2706,
         "d": 0.6431
-      }
-    },
-    {
-      "qid": "Q229528",
-      "cid": 229528,
-      "name": "Michelle Trachtenberg",
-      "description": "actrice américaine",
-      "edition": 1980,
-      "editionLabel": "1980",
-      "number": 3585,
-      "rarity": 5,
-      "rarityName": "Mythique",
-      "finishId": 0,
-      "finishLabel": "Sans finition",
-      "finishCode": "none",
-      "finishZone": "none",
-      "finishEffect": "none",
-      "count": 1,
-      "isOwned": true,
-      "acquiredAt": 1792848780000,
-      "occupations": [
-        "actrice de cinéma",
-        "actrice de télévision"
-      ],
-      "categories": [
-        "Cinéma",
-        "Télévision",
-        "Doublage",
-        "Hollywood",
-        "Américains"
-      ],
-      "countries": [
-        "États-Unis"
-      ],
-      "birth": "1985-10-11",
-      "death": "2025-02-26",
-      "gender": "f",
-      "birthplace": "New York",
-      "vignetteUrl": "https://omnidex.cards/vignettes/Q229528-3030c3ad.webp",
-      "imageUrl": "https://omnidex.cards/cartes/Q229528-a17f3195.avif",
-      "wikidataUrl": "https://www.wikidata.org/wiki/Q229528",
-      "binders": [],
-      "mark": "Collection",
-      "isDouble": false,
-      "isKept": false,
-      "isOnTable": false,
-      "score": 0.84572,
-      "notoriety": 60,
-      "face": {
-        "x": 0.5412,
-        "y": 0.2784,
-        "d": 0.7451
       }
     },
     {
@@ -19079,57 +19077,6 @@
       }
     },
     {
-      "qid": "Q242155",
-      "cid": 242155,
-      "name": "Lana Parrilla",
-      "description": "actrice américaine",
-      "edition": 1970,
-      "editionLabel": "1970",
-      "number": 4651,
-      "rarity": 3,
-      "rarityName": "Star",
-      "finishId": 0,
-      "finishLabel": "Sans finition",
-      "finishCode": "none",
-      "finishZone": "none",
-      "finishEffect": "none",
-      "count": 1,
-      "isOwned": true,
-      "acquiredAt": 1791997020000,
-      "occupations": [
-        "actrice",
-        "actrice de télévision"
-      ],
-      "categories": [
-        "Cinéma",
-        "Télévision",
-        "Hollywood",
-        "Américains"
-      ],
-      "countries": [
-        "États-Unis"
-      ],
-      "birth": "1977-07-15",
-      "death": null,
-      "gender": "f",
-      "birthplace": "Brooklyn",
-      "vignetteUrl": "https://omnidex.cards/vignettes/Q242155-40a95b12.webp",
-      "imageUrl": "https://omnidex.cards/cartes/Q242155-78749c4f.avif",
-      "wikidataUrl": "https://www.wikidata.org/wiki/Q242155",
-      "binders": [],
-      "mark": "Collection",
-      "isDouble": false,
-      "isKept": false,
-      "isOnTable": false,
-      "score": 0.72376,
-      "notoriety": 41,
-      "face": {
-        "x": 0.5059,
-        "y": 0.2667,
-        "d": 0.6353
-      }
-    },
-    {
       "qid": "Q4934",
       "cid": 4934,
       "name": "Larry Page",
@@ -19542,6 +19489,56 @@
       "face": {
         "x": 0.502,
         "y": 0.2588,
+        "d": 0.6314
+      }
+    },
+    {
+      "qid": "Q106287381",
+      "cid": 106287381,
+      "name": "Philippe Baptiste",
+      "description": "ingénieur, chercheur et homme politique français",
+      "edition": 1970,
+      "editionLabel": "1970",
+      "number": 1425,
+      "rarity": 3,
+      "rarityName": "Star",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793932560000,
+      "occupations": [
+        "ingénieur",
+        "chercheur"
+      ],
+      "categories": [
+        "Légion d'honneur",
+        "Ministres",
+        "Parisiens et Parisiennes"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1972-03-28",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Paris",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q106287381-766375af.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q106287381-828acb50.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q106287381",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.73821,
+      "notoriety": 6,
+      "face": {
+        "x": 0.4784,
+        "y": 0.2706,
         "d": 0.6314
       }
     },
@@ -20848,6 +20845,56 @@
         "x": 0.5333,
         "y": 0.2627,
         "d": 0.6784
+      }
+    },
+    {
+      "qid": "Q7084843",
+      "cid": 7084843,
+      "name": "Antonio Giovinazzi",
+      "description": "pilote automobile italien",
+      "edition": 1990,
+      "editionLabel": "1990",
+      "number": 2331,
+      "rarity": 2,
+      "rarityName": "Célèbre",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793932500000,
+      "occupations": [
+        "pilote de course automobile",
+        "pilote de Formule 1"
+      ],
+      "categories": [
+        "Sports mécaniques",
+        "Formule 1",
+        "Italiens"
+      ],
+      "countries": [
+        "Italie"
+      ],
+      "birth": "1993-12-14",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Martina Franca",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q7084843-e36d641f.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q7084843-85b9ef00.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q7084843",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.66065,
+      "notoriety": 45,
+      "face": {
+        "x": 0.502,
+        "y": 0.2902,
+        "d": 0.6157
       }
     },
     {
@@ -23107,6 +23154,57 @@
         "x": 0.5255,
         "y": 0.2745,
         "d": 0.6392
+      }
+    },
+    {
+      "qid": "Q160847",
+      "cid": 160847,
+      "name": "Hideki Tōjō",
+      "description": "militaire et homme d’État japonais",
+      "edition": 0,
+      "editionLabel": "avant 1900",
+      "number": 6606,
+      "rarity": 2,
+      "rarityName": "Célèbre",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793932500000,
+      "occupations": [
+        "homme politique",
+        "diplomate"
+      ],
+      "categories": [
+        "Ministres",
+        "Japonais",
+        "XIXe siècle",
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "Japon"
+      ],
+      "birth": "1884-12-30",
+      "death": "1948-12-23",
+      "gender": "m",
+      "birthplace": "arrondissement de Kōjimachi",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q160847-f9e7dea8.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q160847-577592dc.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q160847",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.6701,
+      "notoriety": 87,
+      "face": {
+        "x": 0.4941,
+        "y": 0.2627,
+        "d": 0.6275
       }
     },
     {
@@ -26129,6 +26227,55 @@
         "x": 0.5294,
         "y": 0.3686,
         "d": 0.8196
+      }
+    },
+    {
+      "qid": "Q131112",
+      "cid": 131112,
+      "name": "Paul Krugman",
+      "description": "économiste américain",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 1289,
+      "rarity": 2,
+      "rarityName": "Célèbre",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793881800000,
+      "occupations": [
+        "chroniqueur de presse",
+        "économiste"
+      ],
+      "categories": [
+        "Américains",
+        "Journalistes"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1953-02-28",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Albany",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q131112-485c9bf1.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q131112-eff42e4f.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q131112",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.69967,
+      "notoriety": 87,
+      "face": {
+        "x": 0.4627,
+        "y": 0.3373,
+        "d": 0.9059
       }
     },
     {
@@ -29451,6 +29598,57 @@
       }
     },
     {
+      "qid": "Q591515",
+      "cid": 591515,
+      "name": "Anton Lesser",
+      "description": "acteur britannique",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 849,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793881800000,
+      "occupations": [
+        "acteur",
+        "acteur de théâtre"
+      ],
+      "categories": [
+        "Cinéma",
+        "Télévision",
+        "Théâtre",
+        "Britanniques"
+      ],
+      "countries": [
+        "Royaume-Uni"
+      ],
+      "birth": "1952-02-14",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Birmingham",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q591515-c6798a2e.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q591515-ba776561.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q591515",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.64067,
+      "notoriety": 26,
+      "face": {
+        "x": 0.4471,
+        "y": 0.3686,
+        "d": 0.8941
+      }
+    },
+    {
       "qid": "Q167281",
       "cid": 167281,
       "name": "Antonio Di Natale",
@@ -30691,6 +30889,56 @@
       }
     },
     {
+      "qid": "Q73585320",
+      "cid": 73585320,
+      "name": "Brittany O’Grady",
+      "description": "actrice américaine",
+      "edition": 1990,
+      "editionLabel": "1990",
+      "number": 3461,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793932500000,
+      "occupations": [
+        "actrice"
+      ],
+      "categories": [
+        "Cinéma",
+        "Hollywood",
+        "Pop",
+        "Américains"
+      ],
+      "countries": [
+        "États-Unis"
+      ],
+      "birth": "1996",
+      "death": null,
+      "gender": "f",
+      "birthplace": "comté d’Arlington",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q73585320-decd12b1.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q73585320-a9c66502.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q73585320",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.63417,
+      "notoriety": 17,
+      "face": {
+        "x": 0.5451,
+        "y": 0.2745,
+        "d": 0.7294
+      }
+    },
+    {
       "qid": "Q2926654",
       "cid": 2926654,
       "name": "Bruno Bonnell",
@@ -31879,6 +32127,107 @@
       }
     },
     {
+      "qid": "Q40482",
+      "cid": 40482,
+      "name": "Constantin Rokossovski",
+      "description": "maréchal de l’Union soviétique, puis ministre de la Défense de Pologne",
+      "edition": 0,
+      "editionLabel": "avant 1900",
+      "number": 6957,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793932560000,
+      "occupations": [
+        "officier"
+      ],
+      "categories": [
+        "Légion d'honneur",
+        "Ministres",
+        "Russes",
+        "XIXe siècle",
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "Pologne",
+        "Biélorussie"
+      ],
+      "birth": "1889-09-03",
+      "death": "1968-08-03",
+      "gender": "m",
+      "birthplace": "Telekhany",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q40482-f45cef5a.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q40482-77b35f7a.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q40482",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.60725,
+      "notoriety": 67,
+      "face": {
+        "x": 0.451,
+        "y": 0.2588,
+        "d": 0.6314
+      }
+    },
+    {
+      "qid": "Q41608",
+      "cid": 41608,
+      "name": "Constantin VII Porphyrogénète",
+      "description": "empereur byzantin de 913 à 959",
+      "edition": 0,
+      "editionLabel": "avant 1900",
+      "number": 772,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793932500000,
+      "occupations": [
+        "écrivain",
+        "historien"
+      ],
+      "categories": [
+        "Empereurs romains",
+        "Moyen Âge"
+      ],
+      "countries": [
+        "Turquie"
+      ],
+      "birth": "0905-05-18",
+      "death": "0959-11-09",
+      "gender": "m",
+      "birthplace": "Constantinople",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q41608-e2fad7ba.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q41608-ff486afa.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q41608",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.60959,
+      "notoriety": 69,
+      "face": {
+        "x": 0.502,
+        "y": 0.3647,
+        "d": 0.702
+      }
+    },
+    {
       "qid": "Q523170",
       "cid": 523170,
       "name": "Cristobal Huet",
@@ -32427,6 +32776,55 @@
         "x": 0.5176,
         "y": 0.2706,
         "d": 0.7216
+      }
+    },
+    {
+      "qid": "Q3027038",
+      "cid": 3027038,
+      "name": "Didier Guillaume",
+      "description": "homme politique français, ministre d’État de Monaco",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 4039,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 12,
+      "finishLabel": "Full Négative",
+      "finishCode": "full-negative",
+      "finishZone": "full",
+      "finishEffect": "negative",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793881800000,
+      "occupations": [
+        "homme politique"
+      ],
+      "categories": [
+        "Légion d'honneur",
+        "Ministres",
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1959-05-11",
+      "death": "2025-01-17",
+      "gender": "m",
+      "birthplace": "Bourg-de-Péage",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q3027038-1bdfe0b4.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q3027038-129899e6.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q3027038",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.64485,
+      "notoriety": 26,
+      "face": {
+        "x": 0.4431,
+        "y": 0.3647,
+        "d": 0.8863
       }
     },
     {
@@ -40024,6 +40422,59 @@
       }
     },
     {
+      "qid": "Q521645",
+      "cid": 521645,
+      "name": "Marthe Richard",
+      "description": "prostituée, aviatrice, espionne et femme politique française",
+      "edition": 0,
+      "editionLabel": "avant 1900",
+      "number": 6932,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 5,
+      "finishLabel": "Holo inversée",
+      "finishCode": "reverse-classic",
+      "finishZone": "reverse",
+      "finishEffect": "classic",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793932500000,
+      "occupations": [
+        "aviatrice",
+        "femme politique"
+      ],
+      "categories": [
+        "Légion d'honneur",
+        "Britanniques",
+        "XIXe siècle",
+        "Aviateurs et aviatrices",
+        "Femmes politiques"
+      ],
+      "countries": [
+        "France",
+        "Royaume-Uni"
+      ],
+      "birth": "1889-04-15",
+      "death": "1982-02-09",
+      "gender": "f",
+      "birthplace": "Blâmont",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q521645-16c86a78.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q521645-ab08f331.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q521645",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.62783,
+      "notoriety": 15,
+      "face": {
+        "x": 0.5137,
+        "y": 0.2706,
+        "d": 0.702
+      }
+    },
+    {
       "qid": "Q3295411",
       "cid": 3295411,
       "name": "Martin Dumollard",
@@ -41943,58 +42394,6 @@
         "x": 0.5373,
         "y": 0.4078,
         "d": 0.9216
-      }
-    },
-    {
-      "qid": "Q336206",
-      "cid": 336206,
-      "name": "Nick Park",
-      "description": "",
-      "edition": 1950,
-      "editionLabel": "1950",
-      "number": 3816,
-      "rarity": 1,
-      "rarityName": "Connue",
-      "finishId": 0,
-      "finishLabel": "Sans finition",
-      "finishCode": "none",
-      "finishZone": "none",
-      "finishEffect": "none",
-      "count": 1,
-      "isOwned": true,
-      "acquiredAt": 1792965180000,
-      "occupations": [
-        "réalisateur de cinéma",
-        "producteur de cinéma"
-      ],
-      "categories": [
-        "Cinéma",
-        "Réalisateurs et réalisatrices",
-        "Oscars",
-        "Britanniques",
-        "Photographes"
-      ],
-      "countries": [
-        "Royaume-Uni"
-      ],
-      "birth": "1958-12-06",
-      "death": null,
-      "gender": "m",
-      "birthplace": null,
-      "vignetteUrl": "https://omnidex.cards/vignettes/Q336206-13a74f1a.webp",
-      "imageUrl": "https://omnidex.cards/cartes/Q336206-6c17730a.avif",
-      "wikidataUrl": "https://www.wikidata.org/wiki/Q336206",
-      "binders": [],
-      "mark": "Collection",
-      "isDouble": false,
-      "isKept": false,
-      "isOnTable": false,
-      "score": 0.6015,
-      "notoriety": 37,
-      "face": {
-        "x": 0.5608,
-        "y": 0.3294,
-        "d": 0.8784
       }
     },
     {
@@ -45080,6 +45479,56 @@
         "x": 0.4392,
         "y": 0.3333,
         "d": 0.8824
+      }
+    },
+    {
+      "qid": "Q217198",
+      "cid": 217198,
+      "name": "Sergueï Kariakine",
+      "description": "joueur d’échecs russe",
+      "edition": 1990,
+      "editionLabel": "1990",
+      "number": 28,
+      "rarity": 1,
+      "rarityName": "Connue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793932500000,
+      "occupations": [
+        "joueur d’échecs"
+      ],
+      "categories": [
+        "Échecs",
+        "Russes",
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "Russie",
+        "Ukraine"
+      ],
+      "birth": "1990-01-12",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Simferopol",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q217198-6914cae4.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q217198-16479447.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q217198",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.64393,
+      "notoriety": 64,
+      "face": {
+        "x": 0.549,
+        "y": 0.298,
+        "d": 0.7922
       }
     },
     {
@@ -49412,6 +49861,54 @@
         "x": 0.4078,
         "y": 0.2863,
         "d": 0.7647
+      }
+    },
+    {
+      "qid": "Q788903",
+      "cid": 788903,
+      "name": "András Baka",
+      "description": "homme politique hongrois",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 1177,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793881800000,
+      "occupations": [
+        "homme politique",
+        "juriste"
+      ],
+      "categories": [
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "Hongrie"
+      ],
+      "birth": "1952-12-11",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Budapest",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q788903-2e0ccb78.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q788903-684a6186.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q788903",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.06237,
+      "notoriety": 37,
+      "face": {
+        "x": 0.4549,
+        "y": 0.3294,
+        "d": 0.7176
       }
     },
     {
@@ -59023,6 +59520,56 @@
       }
     },
     {
+      "qid": "Q511483",
+      "cid": 511483,
+      "name": "Isotta Ingrid Rossellini",
+      "description": "écrivaine italienne",
+      "edition": 1950,
+      "editionLabel": "1950",
+      "number": 993,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793881800000,
+      "occupations": [
+        "écrivaine",
+        "professeure d’université"
+      ],
+      "categories": [
+        "Italiens",
+        "Journalistes",
+        "Écrivains"
+      ],
+      "countries": [
+        "Italie"
+      ],
+      "birth": "1952-06-18",
+      "death": null,
+      "gender": "f",
+      "birthplace": "Rome",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q511483-0ebed546.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q511483-d532c9e4.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q511483",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.58056,
+      "notoriety": 6,
+      "face": {
+        "x": 0.5333,
+        "y": 0.3725,
+        "d": 0.9333
+      }
+    },
+    {
       "qid": "Q317004",
       "cid": 317004,
       "name": "Iván de la Peña",
@@ -62870,6 +63417,54 @@
       }
     },
     {
+      "qid": "Q313806",
+      "cid": 313806,
+      "name": "Kōkaku",
+      "description": "empereur du Japon de 1779 à 1817",
+      "edition": 0,
+      "editionLabel": "avant 1900",
+      "number": 3461,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793932500000,
+      "occupations": [
+        "souverain"
+      ],
+      "categories": [
+        "Japonais",
+        "Siècle des Lumières"
+      ],
+      "countries": [
+        "Japon"
+      ],
+      "birth": "1771-09-23",
+      "death": "1840-12-11",
+      "gender": "m",
+      "birthplace": "Kyoto",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q313806-ee59f034.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q313806-11ce731b.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q313806",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.56087,
+      "notoriety": 47,
+      "face": {
+        "x": 0.5333,
+        "y": 0.3059,
+        "d": 0.8157
+      }
+    },
+    {
       "qid": "Q61185",
       "cid": 61185,
       "name": "Kurt Franz",
@@ -63458,6 +64053,51 @@
         "x": 0.4549,
         "y": 0.3843,
         "d": 0.9098
+      }
+    },
+    {
+      "qid": "Q66095792",
+      "cid": 66095792,
+      "name": "Lilian Brassier",
+      "description": "footballeur français",
+      "edition": 1990,
+      "editionLabel": "1990",
+      "number": 5471,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793932500000,
+      "occupations": [
+        "footballeur"
+      ],
+      "categories": [],
+      "countries": [
+        "France"
+      ],
+      "birth": "1999-11-02",
+      "death": null,
+      "gender": "m",
+      "birthplace": "Argenteuil",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q66095792-e91cac24.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q66095792-1f76a0d2.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q66095792",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.5542,
+      "notoriety": 12,
+      "face": {
+        "x": 0.5059,
+        "y": 0.2863,
+        "d": 0.7686
       }
     },
     {
@@ -69817,6 +70457,54 @@
       }
     },
     {
+      "qid": "Q2274693",
+      "cid": 2274693,
+      "name": "Pierre Cot",
+      "description": "homme politique français",
+      "edition": 0,
+      "editionLabel": "avant 1900",
+      "number": 7469,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793932500000,
+      "occupations": [
+        "homme politique"
+      ],
+      "categories": [
+        "XIXe siècle",
+        "Membres d'un parti"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1895-11-20",
+      "death": "1977-08-21",
+      "gender": "m",
+      "birthplace": "Grenoble",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q2274693-2b6bbdcf.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q2274693-f538b8f2.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q2274693",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.58584,
+      "notoriety": 12,
+      "face": {
+        "x": 0.6,
+        "y": 0.3333,
+        "d": 0.8
+      }
+    },
+    {
       "qid": "Q3384626",
       "cid": 3384626,
       "name": "Pierre Danon",
@@ -71291,6 +71979,54 @@
         "x": 0.5294,
         "y": 0.3804,
         "d": 0.9373
+      }
+    },
+    {
+      "qid": "Q3441018",
+      "cid": 3441018,
+      "name": "Romane Bernies",
+      "description": "joueuse de basket-ball française",
+      "edition": 1990,
+      "editionLabel": "1990",
+      "number": 2104,
+      "rarity": 0,
+      "rarityName": "Méconnue",
+      "finishId": 0,
+      "finishLabel": "Sans finition",
+      "finishCode": "none",
+      "finishZone": "none",
+      "finishEffect": "none",
+      "count": 1,
+      "isOwned": true,
+      "acquiredAt": 1793932500000,
+      "occupations": [
+        "joueuse de basket-ball"
+      ],
+      "categories": [
+        "Basket",
+        "Sportives"
+      ],
+      "countries": [
+        "France"
+      ],
+      "birth": "1993-06-27",
+      "death": null,
+      "gender": "f",
+      "birthplace": "Agen",
+      "vignetteUrl": "https://omnidex.cards/vignettes/Q3441018-5a92222d.webp",
+      "imageUrl": "https://omnidex.cards/cartes/Q3441018-f72009eb.avif",
+      "wikidataUrl": "https://www.wikidata.org/wiki/Q3441018",
+      "binders": [],
+      "mark": "Collection",
+      "isDouble": false,
+      "isKept": false,
+      "isOnTable": false,
+      "score": 0.57255,
+      "notoriety": 12,
+      "face": {
+        "x": 0.4667,
+        "y": 0.2706,
+        "d": 0.6235
       }
     },
     {
